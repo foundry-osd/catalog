@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-03-20T03:44:48Z" category="DriverPack">
-  <Source catalogType="SupportArticle" catalogSha256="d1faf5386ea2ec2cce3245b21bad81d89da3f6a1ef70d4ada1ee3e142f75dc86" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
-  <CatalogMetadata firstPublishedDate="2020-09-01" articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" lastPublishedDate="2025-12-12" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-03-22T16:33:01Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="9237a1e9ade49046f3e5b31c8effecec22c54ddf862e74f9ce91f9203ff94f36" />
+  <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
       <id>49039|Surface3_4GLTE-ATT_Win10_18362_1902003_0.msi</id>
@@ -90,7 +90,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1341702144</sizeBytes>
-      <datePublished>2025-08-07</datePublished>
+      <datePublished>2025-08-06</datePublished>
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview</supportedOperatingSystems>
     </Item>
     <Item>
@@ -375,7 +375,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>517767168</sizeBytes>
-      <datePublished>2026-03-19</datePublished>
+      <datePublished>2026-03-18</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -689,7 +689,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1165570048</sizeBytes>
-      <datePublished>2026-03-19</datePublished>
+      <datePublished>2026-03-18</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -988,7 +988,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>937521152</sizeBytes>
-      <datePublished>2024-10-03</datePublished>
+      <datePublished>2024-10-02</datePublished>
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -1003,7 +1003,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>937529344</sizeBytes>
-      <datePublished>2024-10-03</datePublished>
+      <datePublished>2024-10-02</datePublished>
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
     </Item>
     <Item>

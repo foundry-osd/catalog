@@ -114,6 +114,93 @@ function Get-HtmlMetaContent {
     return $null
 }
 
+function Resolve-AbsoluteUriOrNull {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$BaseUri,
+
+        [Parameter()]
+        [AllowNull()]
+        [string]$RelativeOrAbsoluteUri
+    )
+
+    if (-not $RelativeOrAbsoluteUri) {
+        return $null
+    }
+
+    try {
+        return [System.Uri]::new([System.Uri]$BaseUri, $RelativeOrAbsoluteUri).AbsoluteUri
+    }
+    catch {
+        return $null
+    }
+}
+
+function Get-WebResponseFinalUri {
+    param(
+        [Parameter(Mandatory = $true)]
+        [object]$Response,
+
+        [Parameter(Mandatory = $true)]
+        [string]$FallbackUri
+    )
+
+    try {
+        $requestUri = $Response.BaseResponse.RequestMessage.RequestUri.AbsoluteUri
+        if ($requestUri) {
+            return $requestUri
+        }
+    }
+    catch {
+    }
+
+    return $FallbackUri
+}
+
+function Get-WebLinkHrefOrNull {
+    param(
+        [Parameter()]
+        [AllowNull()]
+        [object]$Link
+    )
+
+    if ($null -eq $Link) {
+        return $null
+    }
+
+    $hrefProperty = $Link.PSObject.Properties['href']
+    if ($hrefProperty -and [string]$hrefProperty.Value) {
+        return [string]$hrefProperty.Value
+    }
+
+    $hrefProperty = $Link.PSObject.Properties['Href']
+    if ($hrefProperty -and [string]$hrefProperty.Value) {
+        return [string]$hrefProperty.Value
+    }
+
+    if ($Link -is [string]) {
+        return [string]$Link
+    }
+
+    return $null
+}
+
+function Normalize-SurfaceSupportArticleUri {
+    param(
+        [Parameter()]
+        [AllowNull()]
+        [string]$Uri
+    )
+
+    if (-not $Uri) {
+        return $null
+    }
+
+    return (
+        $Uri -replace '(?i)(download-drivers-and-firmware-for-)laptop-studio(?:\.md)?(?=$|[?#])', '${1}surface-laptop-studio'
+    )
+}
+
 function Get-DriverPackItemModel {
     param(
         [Parameter()]
@@ -141,6 +228,92 @@ function Get-DriverPackItemModel {
     }
 
     return $clean
+}
+
+function Get-MicrosoftDownloadCenterLinks {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Html,
+
+        [Parameter()]
+        [AllowNull()]
+        [object[]]$Links
+    )
+
+    $packageIds = @()
+    foreach ($link in @($Links)) {
+        $href = Get-WebLinkHrefOrNull -Link $link
+        if ($href -and ($href -match '(?i)^https://www\.microsoft\.com/(?:[a-z]{2}-[a-z]{2}/)?download/details\.aspx\?[^"#\s>]*\bid=(\d+)')) {
+            $packageIds += $Matches[1]
+        }
+    }
+
+    $packageIdMatches = [regex]::Matches(
+        $Html,
+        'https://www\.microsoft\.com/(?:[a-z]{2}-[a-z]{2}/)?download/details\.aspx\?[^"\s<>#]*?\bid=(\d+)',
+        [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
+    )
+
+    $packageIds += @($packageIdMatches | ForEach-Object { $_.Groups[1].Value })
+    return @(
+        $packageIds |
+            Where-Object { $_ } |
+            Sort-Object -Unique |
+            ForEach-Object { 'https://www.microsoft.com/download/details.aspx?id={0}' -f $_ }
+    )
+}
+
+function Get-SurfaceSupportChildPageLinks {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$BaseUri,
+
+        [Parameter(Mandatory = $true)]
+        [string]$Html,
+
+        [Parameter()]
+        [AllowNull()]
+        [object[]]$Links
+    )
+
+    $childPageLinks = @()
+    foreach ($link in @($Links)) {
+        $href = Get-WebLinkHrefOrNull -Link $link
+        if (-not $href) {
+            continue
+        }
+
+        $href = Normalize-SurfaceSupportArticleUri -Uri $href
+
+        if ($href -match '^download-drivers-and-firmware-for-' -or
+            $href -match '/surface/drivers-firmware/download-drivers-and-firmware-for-') {
+            $absoluteHref = Resolve-AbsoluteUriOrNull -BaseUri $BaseUri -RelativeOrAbsoluteUri $href
+            if ($absoluteHref) {
+                $childPageLinks += $absoluteHref
+            }
+        }
+    }
+
+    $childPageMatches = [regex]::Matches(
+        $Html,
+        '(?i)(?:href="|https://support\.microsoft\.com/en-us/surface/drivers-firmware/)(download-drivers-and-firmware-for-[^"#?<>]+|https://support\.microsoft\.com/en-us/surface/drivers-firmware/download-drivers-and-firmware-for-[^"\s<>#?]+)'
+    )
+
+    foreach ($match in $childPageMatches) {
+        $candidate = if ($match.Groups.Count -gt 1) { $match.Groups[1].Value } else { $match.Value }
+        $candidate = Normalize-SurfaceSupportArticleUri -Uri $candidate
+        $absoluteHref = Resolve-AbsoluteUriOrNull -BaseUri $BaseUri -RelativeOrAbsoluteUri $candidate
+        if ($absoluteHref) {
+            $childPageLinks += $absoluteHref
+        }
+    }
+
+    $currentArticleUri = Resolve-AbsoluteUriOrNull -BaseUri $BaseUri -RelativeOrAbsoluteUri $BaseUri
+    return @(
+        $childPageLinks |
+            Where-Object { $_ -and ($_ -ne $currentArticleUri) } |
+            Sort-Object -Unique
+    )
 }
 
 function ConvertTo-Int64OrNull {
@@ -300,18 +473,29 @@ function Get-SurfaceDriverPackItems {
     )
 
     $articleResponse = Invoke-WebRequestWithRetry -Uri $ArticleUri -OperationName 'Surface support article request'
+    $articleRequestUri = Get-WebResponseFinalUri -Response $articleResponse -FallbackUri $ArticleUri
     $articleHtml = $articleResponse.Content
+    $downloadCenterLinks = Get-MicrosoftDownloadCenterLinks -Html $articleHtml -Links $articleResponse.Links
 
-    $downloadCenterMatches = [regex]::Matches(
-        $articleHtml,
-        'https://www\.microsoft\.com/(?:[a-z]{2}-[a-z]{2}/)?download/details\.aspx\?id=(\d+)',
-        [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
-    )
+    if (@($downloadCenterLinks).Count -eq 0) {
+        $childPageLinks = Get-SurfaceSupportChildPageLinks -BaseUri $articleRequestUri -Html $articleHtml -Links $articleResponse.Links
+        foreach ($childPageLink in $childPageLinks) {
+            try {
+                $childPageResponse = Invoke-WebRequestWithRetry -Uri $childPageLink -OperationName 'Surface support child article request'
+            }
+            catch {
+                Write-Warning ("Skipping Surface support child article due to repeated request failure: {0}. Error: {1}" -f $childPageLink, $_.Exception.Message)
+                continue
+            }
 
-    $downloadCenterLinks = @($downloadCenterMatches | ForEach-Object { $_.Value } | Sort-Object -Unique)
+            $downloadCenterLinks += Get-MicrosoftDownloadCenterLinks -Html $childPageResponse.Content -Links $childPageResponse.Links
+        }
 
-    if ($downloadCenterLinks.Count -eq 0) {
-        throw ("No Microsoft Download Center links were extracted from Surface support article '{0}'." -f $ArticleUri)
+        $downloadCenterLinks = @($downloadCenterLinks | Sort-Object -Unique)
+    }
+
+    if (@($downloadCenterLinks).Count -eq 0) {
+        throw ("No Microsoft Download Center links were extracted from Surface support article '{0}' or its child articles." -f $ArticleUri)
     }
 
     $items = @()
