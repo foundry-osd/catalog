@@ -5,7 +5,7 @@
   <xs:annotation>
     <xs:documentation>
       Foundry Unified DriverPack Catalog Schema
-      Normalized schema for all manufacturer driver packs (Dell, HP, Lenovo, Microsoft)
+      Normalized schema for all manufacturer driver packs (Dell, HP, Lenovo, Microsoft, Intel)
     </xs:documentation>
   </xs:annotation>
 
@@ -71,6 +71,8 @@
     <xs:attribute name="sizeBytes" type="xs:long" use="optional"/>
     <xs:attribute name="format" type="FormatType" use="required"/>
     <xs:attribute name="type" type="DriverPackTypeEnum" use="required"/>
+    <xs:attribute name="packageRole" type="PackageRoleType" use="optional" default="BaseDriverPack"/>
+    <xs:attribute name="driverFamily" type="DriverFamilyType" use="optional"/>
     <xs:attribute name="releaseDate" type="xs:date" use="optional"/>
     <xs:attribute name="legacy" type="xs:boolean" use="optional" default="false"/>
   </xs:complexType>
@@ -105,6 +107,7 @@
       <xs:enumeration value="HP"/>
       <xs:enumeration value="Lenovo"/>
       <xs:enumeration value="Microsoft"/>
+      <xs:enumeration value="Intel"/>
     </xs:restriction>
   </xs:simpleType>
 
@@ -129,6 +132,19 @@
       <xs:enumeration value="x86"/>
       <xs:enumeration value="x64"/>
       <xs:enumeration value="arm64"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PackageRoleType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BaseDriverPack"/>
+      <xs:enumeration value="WifiSupplement"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="DriverFamilyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="IntelWireless"/>
     </xs:restriction>
   </xs:simpleType>
 
