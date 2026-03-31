@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IntelCatalog generatedAtUtc="2026-03-31T20:14:09Z" itemCount="1">
-  <Metadata catalogUrl="https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html" description="Intel wireless driver-only ZIP catalog for WinRE Wi-Fi supplementation." usedFallback="false" usedExisting="false" />
+<IntelCatalog generatedAtUtc="2026-03-31T20:30:31Z" itemCount="1">
+  <Metadata catalogUrl="https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html" description="Intel wireless driver-only ZIP catalog for WinRE Wi-Fi supplementation." usedFallback="false" usedExisting="true" />
   <Items>
     <Item>
       <id>intel-wireless-winre-x64</id>
