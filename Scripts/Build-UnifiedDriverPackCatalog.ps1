@@ -54,6 +54,10 @@ $ManufacturerConfigs = @{
         DriverPackPath = Join-Path -Path $CacheDirectory -ChildPath 'DriverPack' -AdditionalChildPath @('Surface', 'DriverPack_Surface.xml')
         CatalogUrl = 'https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120'
     }
+    Intel = @{
+        WinPEPath = Join-Path -Path $CacheDirectory -ChildPath 'WinPE' -AdditionalChildPath @('Intel', 'WinPE_Intel.xml')
+        CatalogUrl = 'https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html'
+    }
 }
 
 #endregion Configuration
@@ -414,6 +418,8 @@ function Normalize-DriverPackItems {
                 sizeBytes = ConvertTo-Int64OrNull -Value $item.sizeBytes
                 format = $format
                 type = [string]$item.type
+                packageRole = if ($item.PSObject.Properties.Name -contains 'packageRole' -and [string]$item.packageRole) { [string]$item.packageRole } else { 'BaseDriverPack' }
+                driverFamily = if ($item.PSObject.Properties.Name -contains 'driverFamily' -and [string]$item.driverFamily) { [string]$item.driverFamily } else { $null }
                 releaseDate = ConvertTo-IsoDateOrNull -Value ([string]$item.releaseDate)
                 legacy = $item.legacy
                 models = @($item.models)
@@ -912,6 +918,46 @@ function Import-MicrosoftDriverPacks {
     return $items
 }
 
+function Import-IntelDriverPacks {
+    param([string]$WinPEPath)
+
+    $items = @()
+
+    if (-not (Test-Path -Path $WinPEPath)) {
+        return $items
+    }
+
+    [xml]$xml = Get-Content -Path $WinPEPath -Raw
+    foreach ($item in $xml.IntelCatalog.Items.Item) {
+        $items += [pscustomobject]([ordered]@{
+                id = [string]$item.id
+                packageId = if ([string]$item.packageId) { [string]$item.packageId } else { [string]$item.id }
+                manufacturer = 'Intel'
+                name = [string]$item.name
+                version = if ([string]$item.version) { [string]$item.version } else { $null }
+                fileName = [string]$item.fileName
+                downloadUrl = [string]$item.downloadUrl
+                sizeBytes = ConvertTo-Int64OrNull -Value (Get-XmlElementText -Node $item -ElementName 'sizeBytes')
+                format = if ([string]$item.format) { [string]$item.format } else { 'zip' }
+                type = 'WinPE'
+                packageRole = if ([string]$item.packageRole) { [string]$item.packageRole } else { 'WifiSupplement' }
+                driverFamily = if ([string]$item.driverFamily) { [string]$item.driverFamily } else { 'IntelWireless' }
+                releaseDate = [string]$item.releaseDate
+                legacy = $null
+                models = @()
+                osName = if ([string]$item.osName) { [string]$item.osName } else { 'WinPE' }
+                osReleaseId = if ([string]$item.osReleaseId) { [string]$item.osReleaseId } else { '11' }
+                osBuild = $null
+                osArchitecture = Normalize-OsArchitecture -Architecture ([string]$item.osArchitecture) -Default 'x64'
+                hashMD5 = $null
+                hashSHA256 = if ([string]$item.hashSHA256) { [string]$item.hashSHA256 } else { $null }
+                hashCRC = $null
+            })
+    }
+
+    return $items
+}
+
 #endregion Import Functions
 
 #region XML Generation
@@ -945,7 +991,7 @@ function Write-UnifiedDriverPackXml {
 
         $writer.WriteStartElement('Metadata')
         $writer.WriteAttributeString('name', "Foundry Unified $Category Catalog")
-        $writer.WriteAttributeString('description', "Normalized $Category catalog containing driver packs from Dell, HP, Lenovo, and Microsoft")
+        $writer.WriteAttributeString('description', "Normalized $Category catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel")
         $writer.WriteEndElement()
 
         $writer.WriteStartElement('Sources')
@@ -1003,6 +1049,12 @@ function Write-DriverPackElement {
     }
     $Writer.WriteAttributeString('format', $DriverPack.format)
     $Writer.WriteAttributeString('type', $DriverPack.type)
+    if ($DriverPack.packageRole) {
+        $Writer.WriteAttributeString('packageRole', $DriverPack.packageRole)
+    }
+    if ($DriverPack.driverFamily) {
+        $Writer.WriteAttributeString('driverFamily', $DriverPack.driverFamily)
+    }
     if ($DriverPack.releaseDate) {
         $Writer.WriteAttributeString('releaseDate', $DriverPack.releaseDate)
     }
@@ -1069,7 +1121,10 @@ $lenovoPacks = Import-LenovoDriverPacks -DriverPackPath $ManufacturerConfigs.Len
 Write-Verbose "Importing Microsoft driver packs..."
 $microsoftPacks = Import-MicrosoftDriverPacks -DriverPackPath $ManufacturerConfigs.Microsoft.DriverPackPath
 
-$allPacks = Normalize-DriverPackItems -Items (@($dellPacks) + @($hpPacks) + @($lenovoPacks) + @($microsoftPacks))
+Write-Verbose "Importing Intel WinPE wireless supplement packs..."
+$intelPacks = Import-IntelDriverPacks -WinPEPath $ManufacturerConfigs.Intel.WinPEPath
+
+$allPacks = Normalize-DriverPackItems -Items (@($dellPacks) + @($hpPacks) + @($lenovoPacks) + @($microsoftPacks) + @($intelPacks))
 
 # Separate DriverPack and WinPE
 $driverPackItems = @($allPacks | Where-Object { $_.type -eq 'Win' })
@@ -1086,6 +1141,7 @@ $hpDriverPackItems = @($driverPackItems | Where-Object { $_.manufacturer -eq 'HP
 $hpWinPEItems = @($winPEItems | Where-Object { $_.manufacturer -eq 'HP' })
 $lenovoDriverPackItems = @($driverPackItems | Where-Object { $_.manufacturer -eq 'Lenovo' })
 $microsoftDriverPackItems = @($driverPackItems | Where-Object { $_.manufacturer -eq 'Microsoft' })
+$intelWinPEItems = @($winPEItems | Where-Object { $_.manufacturer -eq 'Intel' })
 
 $dellDriverPackCount = $dellDriverPackItems.Count
 $dellWinPECount = $dellWinPEItems.Count
@@ -1093,6 +1149,7 @@ $hpDriverPackCount = $hpDriverPackItems.Count
 $hpWinPECount = $hpWinPEItems.Count
 $lenovoDriverPackCount = $lenovoDriverPackItems.Count
 $microsoftDriverPackCount = $microsoftDriverPackItems.Count
+$intelWinPECount = $intelWinPEItems.Count
 
 $driverPackSources = @{
     Dell = @{
@@ -1146,6 +1203,12 @@ $winPESources = @{
         LastUpdated = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
         ItemCount = 0
     }
+    Intel = @{
+        Url = $ManufacturerConfigs.Intel.CatalogUrl
+        Version = $null
+        LastUpdated = Get-LastUpdatedUtcFromItems -Items $intelWinPEItems
+        ItemCount = $intelWinPECount
+    }
 }
 
 # Create output directories
@@ -1189,6 +1252,7 @@ $result = [pscustomobject]([ordered]@{
         HPWinPECount = $hpWinPECount
         LenovoDriverPackCount = $lenovoDriverPackCount
         MicrosoftDriverPackCount = $microsoftDriverPackCount
+        IntelWinPECount = $intelWinPECount
         DurationSeconds = $durationSeconds
     })
 

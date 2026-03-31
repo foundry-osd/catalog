@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IntelCatalog generatedAtUtc="2026-03-31T20:14:09Z" itemCount="1">
+  <Metadata catalogUrl="https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html" description="Intel wireless driver-only ZIP catalog for WinRE Wi-Fi supplementation." usedFallback="false" usedExisting="false" />
+  <Items>
+    <Item>
+      <id>intel-wireless-winre-x64</id>
+      <packageId>intel-wireless-winre-x64</packageId>
+      <name>Intel Wireless Wi-Fi Drivers for IT Administrators</name>
+      <version>24.30.1</version>
+      <fileName>WiFi-24.30.1-Driver64-Win10-Win11.zip</fileName>
+      <downloadUrl>https://downloadmirror.intel.com/915923/WiFi-24.30.1-Driver64-Win10-Win11.zip</downloadUrl>
+      <format>zip</format>
+      <packageRole>WifiSupplement</packageRole>
+      <driverFamily>IntelWireless</driverFamily>
+      <releaseDate>2026-03-24</releaseDate>
+      <osName>WinPE</osName>
+      <osReleaseId>11</osReleaseId>
+      <osArchitecture>x64</osArchitecture>
+      <hashSHA256>A09AF2CC6E6305E395A553C4CDE4264F554DC7DF29EEF34DBBDE53025464EF8E</hashSHA256>
+    </Item>
+  </Items>
+</IntelCatalog>
