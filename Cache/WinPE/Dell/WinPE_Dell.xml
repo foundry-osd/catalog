@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DellCatalog schemaVersion="1" generatedAtUtc="2026-04-01T04:01:02Z" category="WinPE">
-  <Source catalogXmlSha256="2d2cc2fbf7438d804571892aea7949a314bacc535c4b2524bddd6afc2e27dc23" catalogCabSha256="e697ef5979b969620a2b1167b761d01c75f02514505f915649bd56ecf7dc2cd5" name="Dell Driver Pack Catalog" catalogXmlFile="DriverPackCatalog.xml" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" />
-  <CatalogMetadata baseLocationAccessProtocols="HTTP FTP" schemaVersion="2.3" version="2026.03.02" baseLocation="downloads.dell.com" dateTime="2026-03-10T11:30:25" />
+<DellCatalog schemaVersion="1" generatedAtUtc="2026-04-02T03:53:43Z" category="WinPE">
+  <Source catalogXmlFile="DriverPackCatalog.xml" catalogCabSha256="e8e2077f3acf32118ad3fecb5560d42754dba8d8acb457b7be2889eaa35eb3d8" name="Dell Driver Pack Catalog" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" catalogXmlSha256="665437809ec488036df38eccd7366d1468868fa551919e5e9fc2b3611da7b787" />
+  <CatalogMetadata version="2026.03.04" schemaVersion="2.3" dateTime="2026-03-31T12:01:05" baseLocationAccessProtocols="HTTP FTP" baseLocation="downloads.dell.com" />
   <Items>
-    <Item>
-      <releaseId>0VJ7T</releaseId>
-      <type>WinPE</type>
-      <name>WinPE10.0-Drivers-A38-0VJ7T.cab</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>cab</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A38</dellVersion>
-      <dateTime>2025-12-19T05:12:43</dateTime>
-      <hashMD5>FC37E3069C8C628385945BE3D78BD8B6</hashMD5>
-      <hashSHA1>3249D5F62913CCD5C8358A5C098797E0088345A7</hashSHA1>
-      <hashSHA256>08E3886BE4F606E8249779F8D1592BCA234FEC7C0C7E752CA6B7866B31D21AD8</hashSHA256>
-      <sizeBytes>139610032</sizeBytes>
-      <path>FOLDER14002063M/1/WinPE10.0-Drivers-A38-0VJ7T.cab</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14002063M/1/WinPE10.0-Drivers-A38-0VJ7T.cab</downloadUrl>
-      <SupportedSystems />
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="winpe10x" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-        <OperatingSystem osCode="winpe10x" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
     <Item>
       <releaseId>2F5W2</releaseId>
       <type>WinPE</type>
@@ -57,9 +31,9 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
-      <releaseId>2V5TD</releaseId>
+      <releaseId>524P6</releaseId>
       <type>WinPE</type>
-      <name>WinPE11.0-Drivers-A08-2V5TD.cab</name>
+      <name>WinPE10.0-Drivers-A38-0VJ7T.cab</name>
       <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
 1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
 2) Create a system-level optimized deployment sequence
@@ -68,17 +42,18 @@
       <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
       <format>cab</format>
       <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A08</dellVersion>
-      <dateTime>2025-12-19T05:13:37</dateTime>
-      <hashMD5>03997A6A0A66962F1AE39DD5935728D5</hashMD5>
-      <hashSHA1>E4A9C5423D36CFFCF712DF39AC5DF9F3F891B0CC</hashSHA1>
-      <hashSHA256>B1216F4B758B0B7377D805C0B256B1D8A412B2D4FB1E3C39C8B7F36004BEF1C1</hashSHA256>
-      <sizeBytes>29028403</sizeBytes>
-      <path>FOLDER14002062M/1/WinPE11.0-Drivers-A08-2V5TD.cab</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14002062M/1/WinPE11.0-Drivers-A08-2V5TD.cab</downloadUrl>
+      <dellVersion>A39</dellVersion>
+      <dateTime>2026-03-31T05:12:43</dateTime>
+      <hashMD5>13d1360debfc2e539bc8e04d9daa0c97</hashMD5>
+      <hashSHA1>fdf134852f1448b29f84efffcebdd1623961823e</hashSHA1>
+      <hashSHA256>8b4f308a2ec886f7421b5f9a2ca97f25c89af1fb6aa7631bb42bbc52531ab924</hashSHA256>
+      <sizeBytes>141010161</sizeBytes>
+      <path>FOLDER14364021M/1/WinPE10.0-Drivers-A39-524P6.cab</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14364021M/1/WinPE10.0-Drivers-A39-524P6.cab</downloadUrl>
       <SupportedSystems />
       <SupportedOperatingSystems>
-        <OperatingSystem osCode="winpe11x" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+        <OperatingSystem osCode="winpe10x" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+        <OperatingSystem osCode="winpe10x" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -133,6 +108,31 @@
       <SupportedOperatingSystems>
         <OperatingSystem osCode="winpe3x" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
         <OperatingSystem osCode="winpe3x" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>RV5X6</releaseId>
+      <type>WinPE</type>
+      <name>WinPE11.0-Drivers-A08-2V5TD.cab</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>cab</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A09</dellVersion>
+      <dateTime>2026-03-31T05:13:37</dateTime>
+      <hashMD5>6236fe86066aa0dea14358dfd95869f4</hashMD5>
+      <hashSHA1>867043ae076ff9bfd9d2b4c0fe321962e855d33d</hashSHA1>
+      <hashSHA256>542ad63ecabd48ad8aeb59e2c29ec38012459bc209086f5ceae7a27178fa4291</hashSHA256>
+      <sizeBytes>33323695</sizeBytes>
+      <path>FOLDER14306791M/1/WinPE11.0-Drivers-A09-RV5X6.cab</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14306791M/1/WinPE11.0-Drivers-A09-RV5X6.cab</downloadUrl>
+      <SupportedSystems />
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="winpe11x" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
   </Items>
