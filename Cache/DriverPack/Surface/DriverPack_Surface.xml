@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-04-06T03:59:28Z" category="DriverPack">
-  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="51831a9162f11c6c960fc623eb70a500e28d70f9f75ac53336b8a4c2cb3af36c" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-04-07T03:56:01Z" category="DriverPack">
+  <Source catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" catalogSha256="5bc18319eae50ef6cfe44819f70886d075230191cf95d57936b7ad8368344b9a" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -663,18 +663,18 @@
       <supportedOperatingSystems>Windows 10 Windows 8.1 Windows 10 Tech Preview</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105947|SurfacePro10forBusiness_Win11_22631_26.013.37121.0.msi</id>
+      <id>105947|SurfacePro10forBusiness_Win11_22631_26.032.16435.0.msi</id>
       <model>Surface Pro 10 for Business</model>
       <downloadTitle>Surface Pro 10 for Business Drivers and Firmware</downloadTitle>
       <packageId>105947</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105947</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.013.37121.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.013.37121.0.msi</msiUrl>
-      <fileName>SurfacePro10forBusiness_Win11_22631_26.013.37121.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.032.16435.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.032.16435.0.msi</msiUrl>
+      <fileName>SurfacePro10forBusiness_Win11_22631_26.032.16435.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1072959488</sizeBytes>
-      <datePublished>2026-02-23</datePublished>
+      <sizeBytes>1073065984</sizeBytes>
+      <datePublished>2026-04-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -723,18 +723,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108199|SurfacePro_12in_1st_Edition_Win11_26100_26.014.41836.0.msi</id>
+      <id>108199|SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</id>
       <model>Surface Pro 12-inch 1st Edition</model>
       <downloadTitle>Surface Pro 12-inch 1st Edition Drivers and Firmware</downloadTitle>
       <packageId>108199</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108199</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.014.41836.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.014.41836.0.msi</msiUrl>
-      <fileName>SurfacePro_12in_1st_Edition_Win11_26100_26.014.41836.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</msiUrl>
+      <fileName>SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>510488576</sizeBytes>
-      <datePublished>2026-02-27</datePublished>
+      <sizeBytes>516075520</sizeBytes>
+      <datePublished>2026-04-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
