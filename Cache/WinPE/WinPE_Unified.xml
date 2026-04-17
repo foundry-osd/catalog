@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-04-16T05:21:55Z" totalItems="16" category="WinPE">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-04-17T05:22:56Z" totalItems="16" category="WinPE">
   <Metadata name="Foundry Unified WinPE Catalog" description="Normalized WinPE catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-03-31T00:00:00Z" itemCount="9" />
@@ -7,15 +7,15 @@
     <Source manufacturer="Intel" catalogUrl="https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html" lastUpdated="2026-03-24T00:00:00Z" itemCount="1" />
   </Sources>
   <DriverPacks>
-    <DriverPack id="524P6|x86" packageId="524P6" manufacturer="Dell" name="WinPE10.0-Drivers-A38-0VJ7T.cab" version="A39" fileName="WinPE10.0-Drivers-A38-0VJ7T.cab" downloadUrl="https://downloads.dell.com/FOLDER14364021M/1/WinPE10.0-Drivers-A39-524P6.cab" sizeBytes="141010161" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-03-31">
+    <DriverPack id="524P6|x86" packageId="524P6" manufacturer="Dell" name="WinPE10.0-Drivers-A39-524P6.cab" version="A39" fileName="WinPE10.0-Drivers-A39-524P6.cab" downloadUrl="https://downloads.dell.com/FOLDER14364021M/1/WinPE10.0-Drivers-A39-524P6.cab" sizeBytes="141010161" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-03-31">
       <OsInfo name="WinPE" releaseId="10" architecture="x86" />
       <Hashes md5="13d1360debfc2e539bc8e04d9daa0c97" sha256="8b4f308a2ec886f7421b5f9a2ca97f25c89af1fb6aa7631bb42bbc52531ab924" />
     </DriverPack>
-    <DriverPack id="524P6|x64" packageId="524P6" manufacturer="Dell" name="WinPE10.0-Drivers-A38-0VJ7T.cab" version="A39" fileName="WinPE10.0-Drivers-A38-0VJ7T.cab" downloadUrl="https://downloads.dell.com/FOLDER14364021M/1/WinPE10.0-Drivers-A39-524P6.cab" sizeBytes="141010161" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-03-31">
+    <DriverPack id="524P6|x64" packageId="524P6" manufacturer="Dell" name="WinPE10.0-Drivers-A39-524P6.cab" version="A39" fileName="WinPE10.0-Drivers-A39-524P6.cab" downloadUrl="https://downloads.dell.com/FOLDER14364021M/1/WinPE10.0-Drivers-A39-524P6.cab" sizeBytes="141010161" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-03-31">
       <OsInfo name="WinPE" releaseId="10" architecture="x64" />
       <Hashes md5="13d1360debfc2e539bc8e04d9daa0c97" sha256="8b4f308a2ec886f7421b5f9a2ca97f25c89af1fb6aa7631bb42bbc52531ab924" />
     </DriverPack>
-    <DriverPack id="RV5X6" packageId="RV5X6" manufacturer="Dell" name="WinPE11.0-Drivers-A08-2V5TD.cab" version="A09" fileName="WinPE11.0-Drivers-A08-2V5TD.cab" downloadUrl="https://downloads.dell.com/FOLDER14306791M/1/WinPE11.0-Drivers-A09-RV5X6.cab" sizeBytes="33323695" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-03-31">
+    <DriverPack id="RV5X6" packageId="RV5X6" manufacturer="Dell" name="WinPE11.0-Drivers-A09-RV5X6.cab" version="A09" fileName="WinPE11.0-Drivers-A09-RV5X6.cab" downloadUrl="https://downloads.dell.com/FOLDER14306791M/1/WinPE11.0-Drivers-A09-RV5X6.cab" sizeBytes="33323695" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-03-31">
       <OsInfo name="WinPE" releaseId="11" architecture="x64" />
       <Hashes md5="6236fe86066aa0dea14358dfd95869f4" sha256="542ad63ecabd48ad8aeb59e2c29ec38012459bc209086f5ceae7a27178fa4291" />
     </DriverPack>
