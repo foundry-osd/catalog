@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-04-21T05:17:31Z" category="DriverPack">
-  <Source name="Microsoft Surface Drivers and Firmware" catalogSha256="fa854c5dd7e0e6a9ee20b67d8bc3a52831ac3c33c4b3f82095eae37b5c844368" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-04-22T05:15:31Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" catalogSha256="7798820ac285e5741381e32ee520e0bf0966b6c4e2541b5ab8fc19771148ade3" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -304,18 +304,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105609|SurfaceGo4_Win11_22631_25.124.44069.0.msi</id>
+      <id>105609|SurfaceGo4_Win11_22631_26.034.42835.0.msi</id>
       <model>Surface Go 4</model>
       <downloadTitle>Surface Go 4 Drivers and Firmware</downloadTitle>
       <packageId>105609</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105609</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_25.124.44069.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_25.124.44069.0.msi</msiUrl>
-      <fileName>SurfaceGo4_Win11_22631_25.124.44069.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_26.034.42835.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_26.034.42835.0.msi</msiUrl>
+      <fileName>SurfaceGo4_Win11_22631_26.034.42835.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>929280000</sizeBytes>
-      <datePublished>2026-02-05</datePublished>
+      <sizeBytes>929366016</sizeBytes>
+      <datePublished>2026-04-21</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
