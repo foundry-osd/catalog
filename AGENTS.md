@@ -56,7 +56,7 @@ Worktree / branch / PR rules:
 - Delete merged feature branches and clean up worktrees after PR merge
 
 Subagent rules:
-- Use subagents only when the user explicitly allows or requests them
+- Use subagents when the user explicitly asks for them or when parallel read-only analysis materially helps the task
 - Use subagents only for read-only code exploration and analysis
 - Do not use subagents to modify files
 - The main agent is responsible for all code edits, commits, pushes, and pull requests
