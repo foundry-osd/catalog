@@ -12,6 +12,12 @@ Repository scope:
 - It is not a .NET, WPF, or WinUI application repository
 - Keep changes focused on catalog generators, schemas, helpers, workflow files, or generated cache outputs directly related to the task
 
+Cleanup rules:
+- After an implementation, check whether replaced code, unused files, obsolete helpers, dead configuration, or outdated documentation became unnecessary
+- Remove obsolete code only when it is clearly made redundant by the current change and is within the task scope
+- Do not remove legacy or compatibility behavior unless the task explicitly replaces it or the catalog contract no longer needs it
+- Do not delete generated cache outputs unless the generator change intentionally removes those outputs
+
 PowerShell rules:
 - Use PowerShell 7-compatible code
 - Use `[CmdletBinding()]`, validated parameters, `Set-StrictMode -Version Latest`, and `$ErrorActionPreference = 'Stop'` in scripts
