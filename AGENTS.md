@@ -43,6 +43,7 @@ Validation rules:
 
 Git rules:
 - Follow Conventional Commits for all commit messages
+- Prefer Conventional Commit scopes when the change has a clear area, for example `feat(winpe): ...`, `fix(catalog): ...`, or `docs(readme): ...`
 - Write commit messages in English
 - Keep commits atomic and focused
 - Do not mix unrelated catalog, schema, workflow, and generated-output changes
