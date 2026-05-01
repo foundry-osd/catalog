@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-04-30T05:48:07Z" category="DriverPack">
-  <Source name="Lenovo DriverPack Catalog V2" catalogSha256="fc4f8e160dd12f37c58ab0bfce1051bd92e37b0de43831f61f665790dc8e0a43" catalogType="DriverPackCatalogXml" uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" />
-  <CatalogMetadata catalogVersion="1.0" modelCount="474" />
+<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-05-01T05:57:53Z" category="DriverPack">
+  <Source catalogSha256="44989cdd6efdb0627bb00eafb1cdaf92b32866ec2ac42dabaed5db349f27d012" name="Lenovo DriverPack Catalog V2" uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" catalogType="DriverPackCatalogXml" />
+  <CatalogMetadata modelCount="477" catalogVersion="1.0" />
   <Items>
     <Item>
       <id>ThinkCentre M625Q|win10|1809|tc_m625q_w1064_1809_20190305.exe</id>
@@ -43,17 +43,17 @@
       <md5>ab109654cb7805cdc50a847680dae950</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M630E|win10|1903|tc_m630e_w1064_1909_201912.exe</id>
+      <id>ThinkCentre M630E|win10|1903|tc_M630E_w1064_1903_201911.exe</id>
       <model>ThinkCentre M630E</model>
       <machineTypes>10YM,10YN,10YQ,10YR</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win10</os>
       <osVersion>1903</osVersion>
       <releaseDate>2020-08-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m630e_w1064_1909_201912.exe</downloadUrl>
-      <fileName>tc_m630e_w1064_1909_201912.exe</fileName>
-      <crc>c15150265207011f99f6fdbd74e921b7b0c04405b6efa2f219d6c04a21bb2967</crc>
-      <md5>b7e862412e050b9cdf8c02a9e37fc553</md5>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_M630E_w1064_1903_201911.exe</downloadUrl>
+      <fileName>tc_M630E_w1064_1903_201911.exe</fileName>
+      <crc>844d57ca1c4c8cddce02aa0be5df2943d89688ce78621aa97f52ae8fa9966276</crc>
+      <md5>7bee095a3aae7b18b6ea2259303be6f7</md5>
     </Item>
     <Item>
       <id>ThinkCentre M630E|win10|2004|tc_m630E_w1064_2004_202006.exe</id>
@@ -212,30 +212,30 @@
       <md5>dd063de10b6b9b23ef9c39746e75aedf</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70A Gen 6|win11|24H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</id>
+      <id>ThinkCentre M70A Gen 6|win11|24H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</id>
       <model>ThinkCentre M70A Gen 6</model>
       <machineTypes>13AY,13B0,13B1,13B2</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2025-12-08</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</downloadUrl>
-      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</fileName>
-      <crc>bb16678819f507faea9d1ef188ed56a05ce67f8b253180288b99e739cc98acca</crc>
-      <md5>17ff67804457e5f4dff225f89648fe27</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</downloadUrl>
+      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</fileName>
+      <crc>7c536e9c4091bb04a1a88a706e505ff4c74ddce566b9d06429d78c4d76c15172</crc>
+      <md5>b1fcb88eaf1e56b14eb0a276ee6426a6</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70A Gen 6|win11|25H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</id>
+      <id>ThinkCentre M70A Gen 6|win11|25H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</id>
       <model>ThinkCentre M70A Gen 6</model>
       <machineTypes>13AY,13B0,13B1,13B2</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2025-12-08</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</downloadUrl>
-      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</fileName>
-      <crc>bb16678819f507faea9d1ef188ed56a05ce67f8b253180288b99e739cc98acca</crc>
-      <md5>17ff67804457e5f4dff225f89648fe27</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</downloadUrl>
+      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</fileName>
+      <crc>7c536e9c4091bb04a1a88a706e505ff4c74ddce566b9d06429d78c4d76c15172</crc>
+      <md5>b1fcb88eaf1e56b14eb0a276ee6426a6</md5>
     </Item>
     <Item>
       <id>ThinkCentre M70C|win10|1903|tc_m70c-m730e-k70_v50s_w1064_2004_202006.exe</id>
@@ -693,30 +693,56 @@
       <md5>aa44f0a7a1a9bbc312e303f8d2310fff</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70Q Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M70Q Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M70Q Gen 6</model>
       <machineTypes>13A4,13A5,13A6,13A7,13BJ,13E8,13HA,13HB,13HC,13HD,13HE,13HF,13HG,13HH,13HK,13HL</machineTypes>
       <machineTypeCount>16</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70Q Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M70Q Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M70Q Gen 6</model>
       <machineTypes>13A4,13A5,13A6,13A7,13BJ,13E8,13HA,13HB,13HC,13HD,13HE,13HF,13HG,13HH,13HK,13HL</machineTypes>
       <machineTypeCount>16</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
+    </Item>
+    <Item>
+      <id>ThinkCentre M70Q Gen 6 Type 13HX|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
+      <model>ThinkCentre M70Q Gen 6 Type 13HX</model>
+      <machineTypes>13HA,13HB,13HC,13HD,13HE,13HF,13HG,13HH,13HK,13HL</machineTypes>
+      <machineTypeCount>10</machineTypeCount>
+      <os>win11</os>
+      <osVersion>24H2</osVersion>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
+    </Item>
+    <Item>
+      <id>ThinkCentre M70Q Gen 6 Type 13HX|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
+      <model>ThinkCentre M70Q Gen 6 Type 13HX</model>
+      <machineTypes>13HA,13HB,13HC,13HD,13HE,13HF,13HG,13HH,13HK,13HL</machineTypes>
+      <machineTypeCount>10</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
       <id>ThinkCentre M70Q Type 11e8|win10|1809|tc_m70tsq_win1064_1809_1903_1909_202007.exe</id>
@@ -1161,30 +1187,30 @@
       <md5>aa44f0a7a1a9bbc312e303f8d2310fff</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70S Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M70S Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M70S Gen 6</model>
       <machineTypes>12YJ,12YK,12YN,12YQ,13BQ,13BR,13DT,13EM</machineTypes>
       <machineTypeCount>8</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70S Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M70S Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M70S Gen 6</model>
       <machineTypes>12YJ,12YK,12YN,12YQ,13BQ,13BR,13DT,13EM</machineTypes>
       <machineTypeCount>8</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
       <id>ThinkCentre M70T|win10|1809|tc_m70tsq_win1064_1809_1903_1909_202007.exe</id>
@@ -1499,30 +1525,30 @@
       <md5>aa44f0a7a1a9bbc312e303f8d2310fff</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70T Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M70T Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M70T Gen 6</model>
       <machineTypes>12YG,12YH,12YL,12YM</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M70T Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M70T Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M70T Gen 6</model>
       <machineTypes>12YG,12YH,12YL,12YM</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
       <id>ThinkCentre M710Q|win10|1803|tc_m910-m910q-m710q-m710-m910x_w1064_201806.exe</id>
@@ -4359,30 +4385,30 @@
       <md5>fb9bbcf3a72cadf978f6ef128ef62d85</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90A Gen 6|win11|24H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</id>
+      <id>ThinkCentre M90A Gen 6|win11|24H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</id>
       <model>ThinkCentre M90A Gen 6</model>
       <machineTypes>13AT,13AU,13AV,13AW</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2025-12-08</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</downloadUrl>
-      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</fileName>
-      <crc>bb16678819f507faea9d1ef188ed56a05ce67f8b253180288b99e739cc98acca</crc>
-      <md5>17ff67804457e5f4dff225f89648fe27</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</downloadUrl>
+      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</fileName>
+      <crc>7c536e9c4091bb04a1a88a706e505ff4c74ddce566b9d06429d78c4d76c15172</crc>
+      <md5>b1fcb88eaf1e56b14eb0a276ee6426a6</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90A Gen 6|win11|25H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</id>
+      <id>ThinkCentre M90A Gen 6|win11|25H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</id>
       <model>ThinkCentre M90A Gen 6</model>
       <machineTypes>13AT,13AU,13AV,13AW</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2025-12-08</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</downloadUrl>
-      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</fileName>
-      <crc>bb16678819f507faea9d1ef188ed56a05ce67f8b253180288b99e739cc98acca</crc>
-      <md5>17ff67804457e5f4dff225f89648fe27</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</downloadUrl>
+      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</fileName>
+      <crc>7c536e9c4091bb04a1a88a706e505ff4c74ddce566b9d06429d78c4d76c15172</crc>
+      <md5>b1fcb88eaf1e56b14eb0a276ee6426a6</md5>
     </Item>
     <Item>
       <id>ThinkCentre M90A PRO Gen 4|win10|22H2|tc_m90a_pro_gen4_w1064_22h2_202310.exe</id>
@@ -4424,30 +4450,30 @@
       <md5>9a7a31a536dd5e023fdbdaedb6505709</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90A PRO Gen 6|win11|24H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</id>
+      <id>ThinkCentre M90A PRO Gen 6|win11|24H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</id>
       <model>ThinkCentre M90A PRO Gen 6</model>
       <machineTypes>13AM,13AN,13AQ,13AR</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2025-12-08</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</downloadUrl>
-      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</fileName>
-      <crc>bb16678819f507faea9d1ef188ed56a05ce67f8b253180288b99e739cc98acca</crc>
-      <md5>17ff67804457e5f4dff225f89648fe27</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</downloadUrl>
+      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</fileName>
+      <crc>7c536e9c4091bb04a1a88a706e505ff4c74ddce566b9d06429d78c4d76c15172</crc>
+      <md5>b1fcb88eaf1e56b14eb0a276ee6426a6</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90A PRO Gen 6|win11|25H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</id>
+      <id>ThinkCentre M90A PRO Gen 6|win11|25H2|tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</id>
       <model>ThinkCentre M90A PRO Gen 6</model>
       <machineTypes>13AM,13AN,13AQ,13AR</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2025-12-08</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</downloadUrl>
-      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202511.exe</fileName>
-      <crc>bb16678819f507faea9d1ef188ed56a05ce67f8b253180288b99e739cc98acca</crc>
-      <md5>17ff67804457e5f4dff225f89648fe27</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</downloadUrl>
+      <fileName>tc_m90a_gen6-m90a_pro_gen6-m70a_gen6_w11_24_25_202603.exe</fileName>
+      <crc>7c536e9c4091bb04a1a88a706e505ff4c74ddce566b9d06429d78c4d76c15172</crc>
+      <md5>b1fcb88eaf1e56b14eb0a276ee6426a6</md5>
     </Item>
     <Item>
       <id>ThinkCentre M90N 1|win10|1709|tc_m90n-1_w1064_1709_202103.exe</id>
@@ -5061,30 +5087,30 @@
       <md5>aa44f0a7a1a9bbc312e303f8d2310fff</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90Q Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M90Q Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M90Q Gen 6</model>
       <machineTypes>13AC,13AD,13AE,13AF,13AG,13AH,13AJ,13AK,13BM,13E9</machineTypes>
       <machineTypeCount>10</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90Q Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M90Q Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M90Q Gen 6</model>
       <machineTypes>13AC,13AD,13AE,13AF,13AG,13AH,13AJ,13AK,13BM,13E9</machineTypes>
       <machineTypeCount>10</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
       <id>ThinkCentre M90S|win10|1809|tc_m80tsq_90tsq_win1064_1809_1903_1909_202007.exe</id>
@@ -5399,30 +5425,30 @@
       <md5>aa44f0a7a1a9bbc312e303f8d2310fff</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90S Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M90S Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M90S Gen 6</model>
       <machineTypes>12YT,12YU,12YX,12YY</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90S Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M90S Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M90S Gen 6</model>
       <machineTypes>12YT,12YU,12YX,12YY</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
       <id>ThinkCentre M90T|win10|1809|tc_m80tsq_90tsq_win1064_1809_1903_1909_202007.exe</id>
@@ -5737,30 +5763,30 @@
       <md5>aa44f0a7a1a9bbc312e303f8d2310fff</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90T Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M90T Gen 6|win11|24H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M90T Gen 6</model>
       <machineTypes>12YR,12YS,12YV,12YW</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M90T Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</id>
+      <id>ThinkCentre M90T Gen 6|win11|25H2|tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</id>
       <model>ThinkCentre M90T Gen 6</model>
       <machineTypes>12YR,12YS,12YV,12YW</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</downloadUrl>
-      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202601.exe</fileName>
-      <crc>98fb5d92c97171f3225947d2260f9832455905445c09a882e7ef1c13723dd920</crc>
-      <md5>c655ee2b3efabbac9ce1b3f742c78c95</md5>
+      <releaseDate>2026-04-30</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</downloadUrl>
+      <fileName>tc_m70tsq_gen6-m90tsq_gen6-n50t_gen6-n_ultra_gen2_w11_24_25_202604.exe</fileName>
+      <crc>531a9074177f47380b7e3c57fb305753d28c2580c4fbebc7ec5be27c08c27a2d</crc>
+      <md5>f3d213d237fb0877761cd73cbf45ccfd</md5>
     </Item>
     <Item>
       <id>ThinkCentre M910Q|win10|1803|tc_m910-m910q-m710q-m710-m910x_w1064_201806.exe</id>
@@ -6424,6 +6450,19 @@
       <fileName>tc_m920z_w1064_2004_20h2_202203.exe</fileName>
       <crc>1b1e4beedd44033777c61db1045f9aa6dab52712ba2cef51c34c961efc9c51bc</crc>
       <md5>ae470562966892a09283f9c745f36dc2</md5>
+    </Item>
+    <Item>
+      <id>ThinkCentre X AIO|win11|25H2|tc_x_w11_25_202604.exe</id>
+      <model>ThinkCentre X AIO</model>
+      <machineTypes>13H4,13H5</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-15</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_x_w11_25_202604.exe</downloadUrl>
+      <fileName>tc_x_w11_25_202604.exe</fileName>
+      <crc>85c35a86ee19d869e598209ce4a966cdd07d6252245383d8480063c09ba715f4</crc>
+      <md5>5faffd051fd10639704412ea65289f38</md5>
     </Item>
     <Item>
       <id>ThinkCentre X TOWER|win11|25H2|tc_xt_w11_25_202603.exe</id>
@@ -7856,69 +7895,82 @@
       <md5>c370e3a3ddd809d154f290cd5138828a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E14 Gen 6 Type 21M3 21M4|win11|23H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</id>
+      <id>ThinkPad E14 Gen 6 Type 21M3 21M4|win11|23H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</id>
       <model>ThinkPad E14 Gen 6 Type 21M3 21M4</model>
       <machineTypes>21M3,21M4</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-01-28</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</downloadUrl>
-      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</fileName>
-      <crc>6ee5a910f516ef035b3d492bdf7e1708647720d7097f2466d192dad6cdd39818</crc>
-      <md5>4e10ebb82ce47855dfb0ed85e7b41e87</md5>
+      <releaseDate>2026-04-15</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</fileName>
+      <crc>d7e950aa1772152b3cc008fb251b1c39b16ae0c2eda8b3c14d3e54dfe30939b8</crc>
+      <md5>bc3579a28ec0794334bcb366abffd68c</md5>
     </Item>
     <Item>
-      <id>ThinkPad E14 Gen 6 Type 21M3 21M4|win11|24H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</id>
+      <id>ThinkPad E14 Gen 6 Type 21M3 21M4|win11|24H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</id>
       <model>ThinkPad E14 Gen 6 Type 21M3 21M4</model>
       <machineTypes>21M3,21M4</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-01-28</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</downloadUrl>
-      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</fileName>
-      <crc>6ee5a910f516ef035b3d492bdf7e1708647720d7097f2466d192dad6cdd39818</crc>
-      <md5>4e10ebb82ce47855dfb0ed85e7b41e87</md5>
+      <releaseDate>2026-04-15</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</fileName>
+      <crc>d7e950aa1772152b3cc008fb251b1c39b16ae0c2eda8b3c14d3e54dfe30939b8</crc>
+      <md5>bc3579a28ec0794334bcb366abffd68c</md5>
     </Item>
     <Item>
-      <id>ThinkPad E14 Gen 6 Type 21M7 21M8|win11|23H2|tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</id>
+      <id>ThinkPad E14 Gen 6 Type 21M3 21M4|win11|25H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</id>
+      <model>ThinkPad E14 Gen 6 Type 21M3 21M4</model>
+      <machineTypes>21M3,21M4</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-15</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</fileName>
+      <crc>d7e950aa1772152b3cc008fb251b1c39b16ae0c2eda8b3c14d3e54dfe30939b8</crc>
+      <md5>bc3579a28ec0794334bcb366abffd68c</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad E14 Gen 6 Type 21M7 21M8|win11|23H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</id>
       <model>ThinkPad E14 Gen 6 Type 21M7 21M8</model>
       <machineTypes>21M7,21M8</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-02-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</downloadUrl>
-      <fileName>tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</fileName>
-      <crc>8fabf9f3be79deb6e6a2dc11fdba132681599bb65391e9d480097b556d4be4f2</crc>
-      <md5>4cf490179e677c70219b40c4513a3224</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</fileName>
+      <crc>10577222a2bd0f62dc4a888fa447f1f8e8d9687fd763b0860442754c1c96c437</crc>
+      <md5>051dcff66b8e384a7358e1683809d76a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E14 Gen 6 Type 21M7 21M8|win11|24H2|tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</id>
+      <id>ThinkPad E14 Gen 6 Type 21M7 21M8|win11|24H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</id>
       <model>ThinkPad E14 Gen 6 Type 21M7 21M8</model>
       <machineTypes>21M7,21M8</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</downloadUrl>
-      <fileName>tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</fileName>
-      <crc>8fabf9f3be79deb6e6a2dc11fdba132681599bb65391e9d480097b556d4be4f2</crc>
-      <md5>4cf490179e677c70219b40c4513a3224</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</fileName>
+      <crc>10577222a2bd0f62dc4a888fa447f1f8e8d9687fd763b0860442754c1c96c437</crc>
+      <md5>051dcff66b8e384a7358e1683809d76a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E14 Gen 6 Type 21M7 21M8|win11|25H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202601.exe</id>
+      <id>ThinkPad E14 Gen 6 Type 21M7 21M8|win11|25H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202604.exe</id>
       <model>ThinkPad E14 Gen 6 Type 21M7 21M8</model>
       <machineTypes>21M7,21M8</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202601.exe</downloadUrl>
-      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202601.exe</fileName>
-      <crc>535d07338aedcefc174a80efe724a06d48d7a9c8fdd0fd264d38a809eee41d19</crc>
-      <md5>62a8a91756e50cf4d8b410ec6c2e6d88</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202604.exe</fileName>
+      <crc>4d3613b36633222baabdc8869f9fb11916c3eed56129614075736cfe726f56d8</crc>
+      <md5>8ae3c3a1c1e8d5f19f63662394a9018e</md5>
     </Item>
     <Item>
       <id>ThinkPad E14 Gen 7 Type 21SX 21SY|win11|24H2|tp_e14_g7_e16_g3_l14p_g6_mt21sx-sy-sr-ss-ua_w11_24h2_25h2_202512.exe</id>
@@ -7979,24 +8031,24 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-26</releaseDate>
+      <releaseDate>2026-04-29</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_24h2_202602.exe</downloadUrl>
       <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_24h2_202602.exe</fileName>
       <crc>fbbe5f56605c4b3ebbeab442f5a3980760927de1cb7fc0ffc1215ea4d8cea943</crc>
       <md5>4fd590e810b569d389aed4933dcfda7a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E14 Gen 7 Type 21T9 21TA|win11|25H2|tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</id>
+      <id>ThinkPad E14 Gen 7 Type 21T9 21TA|win11|25H2|tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</id>
       <model>ThinkPad E14 Gen 7 Type 21T9 21TA</model>
       <machineTypes>21T9,21TA</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-26</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</downloadUrl>
-      <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</fileName>
-      <crc>b1781d25e9f388c2aa9bedd61eb4eda96d0e161b88dae5a213a69778a1997d0b</crc>
-      <md5>c80c0831727c7b7d31cb77b51c841d2b</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</fileName>
+      <crc>1ed208253af92057f156b48697f109465623ff9a543b86526aaef461f20098fe</crc>
+      <md5>641791f53bc960a0fd128e9182773b14</md5>
     </Item>
     <Item>
       <id>ThinkPad E14 Gen 7 Type 21U2 21U3|win11|24H2|tp_e14_g7_mt21u2_u3_e16_g3_l14p_g6_mt22ay_b0_b1_w11_24h2_25h2_202512.exe</id>
@@ -8935,69 +8987,82 @@
       <md5>c370e3a3ddd809d154f290cd5138828a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E16 Gen 2 Type 21M5 21M6|win11|23H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</id>
+      <id>ThinkPad E16 Gen 2 Type 21M5 21M6|win11|23H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</id>
       <model>ThinkPad E16 Gen 2 Type 21M5 21M6</model>
       <machineTypes>21M5,21M6</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-01-28</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</downloadUrl>
-      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</fileName>
-      <crc>6ee5a910f516ef035b3d492bdf7e1708647720d7097f2466d192dad6cdd39818</crc>
-      <md5>4e10ebb82ce47855dfb0ed85e7b41e87</md5>
+      <releaseDate>2026-04-15</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</fileName>
+      <crc>d7e950aa1772152b3cc008fb251b1c39b16ae0c2eda8b3c14d3e54dfe30939b8</crc>
+      <md5>bc3579a28ec0794334bcb366abffd68c</md5>
     </Item>
     <Item>
-      <id>ThinkPad E16 Gen 2 Type 21M5 21M6|win11|24H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</id>
+      <id>ThinkPad E16 Gen 2 Type 21M5 21M6|win11|24H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</id>
       <model>ThinkPad E16 Gen 2 Type 21M5 21M6</model>
       <machineTypes>21M5,21M6</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-01-28</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</downloadUrl>
-      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_202601.exe</fileName>
-      <crc>6ee5a910f516ef035b3d492bdf7e1708647720d7097f2466d192dad6cdd39818</crc>
-      <md5>4e10ebb82ce47855dfb0ed85e7b41e87</md5>
+      <releaseDate>2026-04-15</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</fileName>
+      <crc>d7e950aa1772152b3cc008fb251b1c39b16ae0c2eda8b3c14d3e54dfe30939b8</crc>
+      <md5>bc3579a28ec0794334bcb366abffd68c</md5>
     </Item>
     <Item>
-      <id>ThinkPad E16 Gen 2 Type 21MA 21MB|win11|23H2|tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</id>
+      <id>ThinkPad E16 Gen 2 Type 21M5 21M6|win11|25H2|tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</id>
+      <model>ThinkPad E16 Gen 2 Type 21M5 21M6</model>
+      <machineTypes>21M5,21M6</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-15</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_e14-gen6_e16-gen2_mt21m3-21m4-21m5-21m6_w11_23h2_24h2_25h2_202603.exe</fileName>
+      <crc>d7e950aa1772152b3cc008fb251b1c39b16ae0c2eda8b3c14d3e54dfe30939b8</crc>
+      <md5>bc3579a28ec0794334bcb366abffd68c</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad E16 Gen 2 Type 21MA 21MB|win11|23H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</id>
       <model>ThinkPad E16 Gen 2 Type 21MA 21MB</model>
       <machineTypes>21MA,21MB</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-02-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</downloadUrl>
-      <fileName>tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</fileName>
-      <crc>8fabf9f3be79deb6e6a2dc11fdba132681599bb65391e9d480097b556d4be4f2</crc>
-      <md5>4cf490179e677c70219b40c4513a3224</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</fileName>
+      <crc>10577222a2bd0f62dc4a888fa447f1f8e8d9687fd763b0860442754c1c96c437</crc>
+      <md5>051dcff66b8e384a7358e1683809d76a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E16 Gen 2 Type 21MA 21MB|win11|24H2|tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</id>
+      <id>ThinkPad E16 Gen 2 Type 21MA 21MB|win11|24H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</id>
       <model>ThinkPad E16 Gen 2 Type 21MA 21MB</model>
       <machineTypes>21MA,21MB</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</downloadUrl>
-      <fileName>tp_e14_r14_g6_e16_g2_mt21m7-m8-m9-ma-mb_w11_23h2_24h2_202506.exe</fileName>
-      <crc>8fabf9f3be79deb6e6a2dc11fdba132681599bb65391e9d480097b556d4be4f2</crc>
-      <md5>4cf490179e677c70219b40c4513a3224</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_23h2_24h2_202604.exe</fileName>
+      <crc>10577222a2bd0f62dc4a888fa447f1f8e8d9687fd763b0860442754c1c96c437</crc>
+      <md5>051dcff66b8e384a7358e1683809d76a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E16 Gen 2 Type 21MA 21MB|win11|25H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202601.exe</id>
+      <id>ThinkPad E16 Gen 2 Type 21MA 21MB|win11|25H2|tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202604.exe</id>
       <model>ThinkPad E16 Gen 2 Type 21MA 21MB</model>
       <machineTypes>21MA,21MB</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202601.exe</downloadUrl>
-      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202601.exe</fileName>
-      <crc>535d07338aedcefc174a80efe724a06d48d7a9c8fdd0fd264d38a809eee41d19</crc>
-      <md5>62a8a91756e50cf4d8b410ec6c2e6d88</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_r14_g6_e16_g2_mt21m7_m8_m9_ma_mb_w11_25h2_202604.exe</fileName>
+      <crc>4d3613b36633222baabdc8869f9fb11916c3eed56129614075736cfe726f56d8</crc>
+      <md5>8ae3c3a1c1e8d5f19f63662394a9018e</md5>
     </Item>
     <Item>
       <id>ThinkPad E16 Gen 3 Type 21SR 21SS|win11|24H2|tp_e14_g7_e16_g3_l14p_g6_mt21sx-sy-sr-ss-ua_w11_24h2_25h2_202512.exe</id>
@@ -9058,24 +9123,50 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-26</releaseDate>
+      <releaseDate>2026-04-29</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_24h2_202602.exe</downloadUrl>
       <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_24h2_202602.exe</fileName>
       <crc>fbbe5f56605c4b3ebbeab442f5a3980760927de1cb7fc0ffc1215ea4d8cea943</crc>
       <md5>4fd590e810b569d389aed4933dcfda7a</md5>
     </Item>
     <Item>
-      <id>ThinkPad E16 Gen 3 Type 21TF 21TG|win11|25H2|tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</id>
+      <id>ThinkPad E16 Gen 3 Type 21TF 21TG|win11|25H2|tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</id>
       <model>ThinkPad E16 Gen 3 Type 21TF 21TG</model>
       <machineTypes>21TF,21TG</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-26</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</downloadUrl>
-      <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</fileName>
-      <crc>b1781d25e9f388c2aa9bedd61eb4eda96d0e161b88dae5a213a69778a1997d0b</crc>
-      <md5>c80c0831727c7b7d31cb77b51c841d2b</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</fileName>
+      <crc>1ed208253af92057f156b48697f109465623ff9a543b86526aaef461f20098fe</crc>
+      <md5>641791f53bc960a0fd128e9182773b14</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad E16 Gen 3 Type 22AY 22B0|win11|24H2|tp_e14_g7_mt21u2_u3_e16_g3_l14p_g6_mt22ay_b0_b1_w11_24h2_25h2_202512.exe</id>
+      <model>ThinkPad E16 Gen 3 Type 22AY 22B0</model>
+      <machineTypes>22AY,22B0</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>24H2</osVersion>
+      <releaseDate>2026-01-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_mt21u2_u3_e16_g3_l14p_g6_mt22ay_b0_b1_w11_24h2_25h2_202512.exe</downloadUrl>
+      <fileName>tp_e14_g7_mt21u2_u3_e16_g3_l14p_g6_mt22ay_b0_b1_w11_24h2_25h2_202512.exe</fileName>
+      <crc>49e8f98b11b15929da0e7cf04c40da0c5cbe72c987ed3060dd94fbf4f5ba2e24</crc>
+      <md5>344cb02cdb34292fc199171a5ad5d25c</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad E16 Gen 3 Type 22AY 22B0|win11|25H2|tp_e14_g7_mt21u2_u3_e16_g3_l14p_g6_mt22ay_b0_b1_w11_24h2_25h2_202512.exe</id>
+      <model>ThinkPad E16 Gen 3 Type 22AY 22B0</model>
+      <machineTypes>22AY,22B0</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-01-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_mt21u2_u3_e16_g3_l14p_g6_mt22ay_b0_b1_w11_24h2_25h2_202512.exe</downloadUrl>
+      <fileName>tp_e14_g7_mt21u2_u3_e16_g3_l14p_g6_mt22ay_b0_b1_w11_24h2_25h2_202512.exe</fileName>
+      <crc>49e8f98b11b15929da0e7cf04c40da0c5cbe72c987ed3060dd94fbf4f5ba2e24</crc>
+      <md5>344cb02cdb34292fc199171a5ad5d25c</md5>
     </Item>
     <Item>
       <id>ThinkPad L13 2 IN 1 Gen 5 Type 21LM 21LN|win10|21H2|tp_l13-gen-5_s2-gen-9_l13-2-in-1-gen-5_intel_w10_21h2_202601.exe</id>
@@ -11970,24 +12061,24 @@
       <machineTypeCount>1</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-26</releaseDate>
+      <releaseDate>2026-04-29</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_24h2_202602.exe</downloadUrl>
       <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_24h2_202602.exe</fileName>
       <crc>fbbe5f56605c4b3ebbeab442f5a3980760927de1cb7fc0ffc1215ea4d8cea943</crc>
       <md5>4fd590e810b569d389aed4933dcfda7a</md5>
     </Item>
     <Item>
-      <id>ThinkPad L14P Gen 6 Type 21UB|win11|25H2|tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</id>
+      <id>ThinkPad L14P Gen 6 Type 21UB|win11|25H2|tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</id>
       <model>ThinkPad L14P Gen 6 Type 21UB</model>
       <machineTypes>21UB</machineTypes>
       <machineTypeCount>1</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-26</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</downloadUrl>
-      <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202602.exe</fileName>
-      <crc>b1781d25e9f388c2aa9bedd61eb4eda96d0e161b88dae5a213a69778a1997d0b</crc>
-      <md5>c80c0831727c7b7d31cb77b51c841d2b</md5>
+      <releaseDate>2026-04-29</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</downloadUrl>
+      <fileName>tp_e14_g7_e16_g3_l14p_g6_mt21t9-ta-tf-tg-ub_w11_25h2_202604.exe</fileName>
+      <crc>1ed208253af92057f156b48697f109465623ff9a543b86526aaef461f20098fe</crc>
+      <md5>641791f53bc960a0fd128e9182773b14</md5>
     </Item>
     <Item>
       <id>ThinkPad L15 Gen 2 Type 20X3 20X4|win10|1903|tp_l14gen2_mt20x1-20x2-l15gen2_mt20x3-20x4_w1064_1903_202211.exe</id>
@@ -14824,17 +14915,17 @@
       <md5>352190018973ea7b8324babe601d67bb</md5>
     </Item>
     <Item>
-      <id>ThinkPad P1 Gen 3 Type 20TH 20TJ|win11|21H2|tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_22_202308.exe</id>
+      <id>ThinkPad P1 Gen 3 Type 20TH 20TJ|win11|21H2|tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_21_202110.exe</id>
       <model>ThinkPad P1 Gen 3 Type 20TH 20TJ</model>
       <machineTypes>20TH,20TJ</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>21H2</osVersion>
       <releaseDate>2023-10-30</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_22_202308.exe</downloadUrl>
-      <fileName>tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_22_202308.exe</fileName>
-      <crc>85140688139533441c5646b7fff6a355e25ea6106618eae19e0d15b8a6e04189</crc>
-      <md5>3f1338dbb3dc4eab1f08aa2df0ca5203</md5>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_21_202110.exe</downloadUrl>
+      <fileName>tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_21_202110.exe</fileName>
+      <crc>992f65b1ae36499653ff2449384e52b34e5050c4a1ae6764a3ef378a6173e36e</crc>
+      <md5>a5ea694610abf5dc80126bf4f76b0214</md5>
     </Item>
     <Item>
       <id>ThinkPad P1 Gen 4 Type 20Y3 20Y4|win10|1909|tp_x1extreme_mt20y5-20y6-p1_mt20y3-20y4_w1064_1909_202108.exe</id>
@@ -15994,30 +16085,30 @@
       <md5>afd85461cfd6ff0b7fea57df02dc0c90</md5>
     </Item>
     <Item>
-      <id>ThinkPad P14S Gen 5 Type 21G2 21G3|win10|21H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202602.exe</id>
+      <id>ThinkPad P14S Gen 5 Type 21G2 21G3|win10|21H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202604.exe</id>
       <model>ThinkPad P14S Gen 5 Type 21G2 21G3</model>
       <machineTypes>21G2,21G3</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202602.exe</downloadUrl>
-      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202602.exe</fileName>
-      <crc>652610b0b8fcffc8934ff342c7dd41c8622acd1e3a6f57e4f704356942436d21</crc>
-      <md5>3318c02bc85fc47cca344f785bc8f6a3</md5>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202604.exe</fileName>
+      <crc>55651e9ec1b536fa5ff12fddb75a27d53ff856b41fbeb53d04d573fb516fdbe1</crc>
+      <md5>8d064ef7b72116e417af38ec9d7452a1</md5>
     </Item>
     <Item>
-      <id>ThinkPad P14S Gen 5 Type 21G2 21G3|win10|22H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202602.exe</id>
+      <id>ThinkPad P14S Gen 5 Type 21G2 21G3|win10|22H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202604.exe</id>
       <model>ThinkPad P14S Gen 5 Type 21G2 21G3</model>
       <machineTypes>21G2,21G3</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202602.exe</downloadUrl>
-      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202602.exe</fileName>
-      <crc>e123b7bd5fc44752cf4eab18ae96791b5d640946129cec94a542a9b790402155</crc>
-      <md5>4a996e5cc64fdc2be96cd0710c4ca4d7</md5>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202604.exe</fileName>
+      <crc>858d6757bb2f942806297b0321639f9607035de0b45fad186dfc94474bc3eb58</crc>
+      <md5>895a7943c1224ce42ecf10f126bae332</md5>
     </Item>
     <Item>
       <id>ThinkPad P14S Gen 5 Type 21G2 21G3|win11|22H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_22h2_sccm_202407.exe</id>
@@ -16026,7 +16117,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_22h2_sccm_202407.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_22h2_sccm_202407.exe</fileName>
       <crc>10a2ff57b9c78797d906870015939d5489b349934ad9f607d01f9b44285eacf9</crc>
@@ -16039,7 +16130,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_23h2_202512.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_23h2_202512.exe</fileName>
       <crc>a634fe94aa2af87f395529631b9a31c22c25dcdaee5f42ed7453626f730884a0</crc>
@@ -16052,7 +16143,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_24h2_202602.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_24h2_202602.exe</fileName>
       <crc>d8c0637dba1a78907cfcd60b3d2f63fe8a94de1aa3c1265e79c746af0bcd91cc</crc>
@@ -16065,7 +16156,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_25h2_202602.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_25h2_202602.exe</fileName>
       <crc>e75accacc164ff1994fb0af38209c2084936df3487549e77ac2b7e56aba9ec48</crc>
@@ -16078,7 +16169,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</fileName>
       <crc>6bb49938603d862bbf1468a05a5c5ffecb43f16823b72d1692d4fbab1a2e7abd</crc>
@@ -16091,7 +16182,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</fileName>
       <crc>6bb49938603d862bbf1468a05a5c5ffecb43f16823b72d1692d4fbab1a2e7abd</crc>
@@ -16104,7 +16195,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</fileName>
       <crc>fbeb5557c83dbbbcedd1b9484fb5cf0c4c37747a0fde1ddbf909fb843c769e00</crc>
@@ -16117,7 +16208,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</fileName>
       <crc>fbeb5557c83dbbbcedd1b9484fb5cf0c4c37747a0fde1ddbf909fb843c769e00</crc>
@@ -16130,11 +16221,24 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</fileName>
       <crc>fbeb5557c83dbbbcedd1b9484fb5cf0c4c37747a0fde1ddbf909fb843c769e00</crc>
       <md5>61113eb4c71d90754c91ea1fc64ac33e</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad P14S Gen 5 Type 21ME 21MF|win11|25H2|tp_t14-p14s_gen_5a_w11_24h2_25h2_202603.exe</id>
+      <model>ThinkPad P14S Gen 5 Type 21ME 21MF</model>
+      <machineTypes>21ME,21MF</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-23</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_t14-p14s_gen_5a_w11_24h2_25h2_202603.exe</fileName>
+      <crc>d3a0bddc8020feca7734e84213d556e4596915d4cef5f517a9e417e5f39c10f7</crc>
+      <md5>8226ebd52fd1dca4dbcdcadecc7ebf1c</md5>
     </Item>
     <Item>
       <id>ThinkPad P14S Gen 6 Type 21QL 21QM|win11|23H2|tp_t14p14sgen6_t16p16sgen4_amd_win11_23h2_202506.exe</id>
@@ -16182,24 +16286,37 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_23h2_202602.exe</downloadUrl>
       <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_23h2_202602.exe</fileName>
       <crc>26ff4bf93a7ea84131e2334c0551aec23ec49764b079a6a758ea7c75b0a1fa23</crc>
       <md5>436bb4ba8262a838db9734d4d0e94590</md5>
     </Item>
     <Item>
-      <id>ThinkPad P14S Gen 6 Type 21QT 21QU|win11|24H2|tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202602.exe</id>
+      <id>ThinkPad P14S Gen 6 Type 21QT 21QU|win11|24H2|tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202604.exe</id>
       <model>ThinkPad P14S Gen 6 Type 21QT 21QU</model>
       <machineTypes>21QT,21QU</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202602.exe</downloadUrl>
-      <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202602.exe</fileName>
-      <crc>cd366124a23ae828767b8fd55adc8d7240a09b03a9a29d15d863153a52084e2c</crc>
-      <md5>a753af29a1de0b05aa8607f30c4994f3</md5>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202604.exe</fileName>
+      <crc>b0c1e2abb7269789eacb45cf520dac57007dacdfa277b837a32948a558f8a10e</crc>
+      <md5>c87133a6c41ae7c66cbb4d9a0cffa81c</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad P14S Gen 6 Type 21QT 21QU|win11|25H2|tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_25h2_202604.exe</id>
+      <model>ThinkPad P14S Gen 6 Type 21QT 21QU</model>
+      <machineTypes>21QT,21QU</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_25h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_25h2_202604.exe</fileName>
+      <crc>ccc376c2fa8e24c8514562880940656364aafd498ffc9b52dad6f9b772449835</crc>
+      <md5>c21f153ab1e5621e67c4c41f1591e808</md5>
     </Item>
     <Item>
       <id>ThinkPad P14S Gen 6 Type 21RV 21RW|win11|23H2|tp_t14p14sgen6_t16p16sgen4_amd_win11_23h2_202506.exe</id>
@@ -18035,30 +18152,30 @@
       <md5>afd85461cfd6ff0b7fea57df02dc0c90</md5>
     </Item>
     <Item>
-      <id>ThinkPad P16S Gen 3 Type 21KS 21KT|win10|21H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202602.exe</id>
+      <id>ThinkPad P16S Gen 3 Type 21KS 21KT|win10|21H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202604.exe</id>
       <model>ThinkPad P16S Gen 3 Type 21KS 21KT</model>
       <machineTypes>21KS,21KT</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202602.exe</downloadUrl>
-      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202602.exe</fileName>
-      <crc>652610b0b8fcffc8934ff342c7dd41c8622acd1e3a6f57e4f704356942436d21</crc>
-      <md5>3318c02bc85fc47cca344f785bc8f6a3</md5>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_21h2_202604.exe</fileName>
+      <crc>55651e9ec1b536fa5ff12fddb75a27d53ff856b41fbeb53d04d573fb516fdbe1</crc>
+      <md5>8d064ef7b72116e417af38ec9d7452a1</md5>
     </Item>
     <Item>
-      <id>ThinkPad P16S Gen 3 Type 21KS 21KT|win10|22H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202602.exe</id>
+      <id>ThinkPad P16S Gen 3 Type 21KS 21KT|win10|22H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202604.exe</id>
       <model>ThinkPad P16S Gen 3 Type 21KS 21KT</model>
       <machineTypes>21KS,21KT</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202602.exe</downloadUrl>
-      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202602.exe</fileName>
-      <crc>e123b7bd5fc44752cf4eab18ae96791b5d640946129cec94a542a9b790402155</crc>
-      <md5>4a996e5cc64fdc2be96cd0710c4ca4d7</md5>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w10_22h2_202604.exe</fileName>
+      <crc>858d6757bb2f942806297b0321639f9607035de0b45fad186dfc94474bc3eb58</crc>
+      <md5>895a7943c1224ce42ecf10f126bae332</md5>
     </Item>
     <Item>
       <id>ThinkPad P16S Gen 3 Type 21KS 21KT|win11|22H2|tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_22h2_sccm_202407.exe</id>
@@ -18067,7 +18184,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_22h2_sccm_202407.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_22h2_sccm_202407.exe</fileName>
       <crc>10a2ff57b9c78797d906870015939d5489b349934ad9f607d01f9b44285eacf9</crc>
@@ -18080,7 +18197,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_23h2_202512.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_23h2_202512.exe</fileName>
       <crc>a634fe94aa2af87f395529631b9a31c22c25dcdaee5f42ed7453626f730884a0</crc>
@@ -18093,7 +18210,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_24h2_202602.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_24h2_202602.exe</fileName>
       <crc>d8c0637dba1a78907cfcd60b3d2f63fe8a94de1aa3c1265e79c746af0bcd91cc</crc>
@@ -18106,7 +18223,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_25h2_202602.exe</downloadUrl>
       <fileName>tp_p14sg5_p16sg3_mt21g2_mt21g3_mt21ks_mt21kt_w11_25h2_202602.exe</fileName>
       <crc>e75accacc164ff1994fb0af38209c2084936df3487549e77ac2b7e56aba9ec48</crc>
@@ -18158,24 +18275,37 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_23h2_202602.exe</downloadUrl>
       <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_23h2_202602.exe</fileName>
       <crc>26ff4bf93a7ea84131e2334c0551aec23ec49764b079a6a758ea7c75b0a1fa23</crc>
       <md5>436bb4ba8262a838db9734d4d0e94590</md5>
     </Item>
     <Item>
-      <id>ThinkPad P16S Gen 4 Type 21QV 21QW|win11|24H2|tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202602.exe</id>
+      <id>ThinkPad P16S Gen 4 Type 21QV 21QW|win11|24H2|tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202604.exe</id>
       <model>ThinkPad P16S Gen 4 Type 21QV 21QW</model>
       <machineTypes>21QV,21QW</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-25</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202602.exe</downloadUrl>
-      <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202602.exe</fileName>
-      <crc>cd366124a23ae828767b8fd55adc8d7240a09b03a9a29d15d863153a52084e2c</crc>
-      <md5>a753af29a1de0b05aa8607f30c4994f3</md5>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_24h2_202604.exe</fileName>
+      <crc>b0c1e2abb7269789eacb45cf520dac57007dacdfa277b837a32948a558f8a10e</crc>
+      <md5>c87133a6c41ae7c66cbb4d9a0cffa81c</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad P16S Gen 4 Type 21QV 21QW|win11|25H2|tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_25h2_202604.exe</id>
+      <model>ThinkPad P16S Gen 4 Type 21QV 21QW</model>
+      <machineTypes>21QV,21QW</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-28</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_25h2_202604.exe</downloadUrl>
+      <fileName>tp_p14sg6_p16sg4_mt21qv_mt21qw_mt21qt_mt21qu_w11_25h2_202604.exe</fileName>
+      <crc>ccc376c2fa8e24c8514562880940656364aafd498ffc9b52dad6f9b772449835</crc>
+      <md5>c21f153ab1e5621e67c4c41f1591e808</md5>
     </Item>
     <Item>
       <id>ThinkPad P16S Gen 4 Type 21RX 21RY|win11|23H2|tp_t14p14sgen6_t16p16sgen4_amd_win11_23h2_202506.exe</id>
@@ -21096,7 +21226,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</fileName>
       <crc>6bb49938603d862bbf1468a05a5c5ffecb43f16823b72d1692d4fbab1a2e7abd</crc>
@@ -21109,7 +21239,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w1064_21h2_22h2_202603.exe</fileName>
       <crc>6bb49938603d862bbf1468a05a5c5ffecb43f16823b72d1692d4fbab1a2e7abd</crc>
@@ -21122,7 +21252,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</fileName>
       <crc>fbeb5557c83dbbbcedd1b9484fb5cf0c4c37747a0fde1ddbf909fb843c769e00</crc>
@@ -21135,7 +21265,7 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</fileName>
       <crc>fbeb5557c83dbbbcedd1b9484fb5cf0c4c37747a0fde1ddbf909fb843c769e00</crc>
@@ -21148,11 +21278,24 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-04-02</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</downloadUrl>
       <fileName>tp_t14-p14s_gen_5a_w11_22_23_24_202601.exe</fileName>
       <crc>fbeb5557c83dbbbcedd1b9484fb5cf0c4c37747a0fde1ddbf909fb843c769e00</crc>
       <md5>61113eb4c71d90754c91ea1fc64ac33e</md5>
+    </Item>
+    <Item>
+      <id>ThinkPad T14 Gen 5 Type 21MC 21MD|win11|25H2|tp_t14-p14s_gen_5a_w11_24h2_25h2_202603.exe</id>
+      <model>ThinkPad T14 Gen 5 Type 21MC 21MD</model>
+      <machineTypes>21MC,21MD</machineTypes>
+      <machineTypeCount>2</machineTypeCount>
+      <os>win11</os>
+      <osVersion>25H2</osVersion>
+      <releaseDate>2026-04-23</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t14-p14s_gen_5a_w11_24h2_25h2_202603.exe</downloadUrl>
+      <fileName>tp_t14-p14s_gen_5a_w11_24h2_25h2_202603.exe</fileName>
+      <crc>d3a0bddc8020feca7734e84213d556e4596915d4cef5f517a9e417e5f39c10f7</crc>
+      <md5>8226ebd52fd1dca4dbcdcadecc7ebf1c</md5>
     </Item>
     <Item>
       <id>ThinkPad T14 Gen 5 Type 21ML 21MM|win10|21H2|tp_t14_gen5_mt21ml-21mm-t16_gen3_mt21mn-21mq_w1064_21h2_202602.exe</id>
@@ -25900,17 +26043,17 @@
       <md5>256cf4aa10ee96c17134cb20bd786568</md5>
     </Item>
     <Item>
-      <id>ThinkPad T490 Type 20RY 20RX|win10|1809|tp_t490_20ry_20rx_w1064_1809_201909.exe</id>
+      <id>ThinkPad T490 Type 20RY 20RX|win10|1809|tp_t490_t590_p43s_p53s_w1064_1809_202003.exe</id>
       <model>ThinkPad T490 Type 20RY 20RX</model>
       <machineTypes>20RX,20RY</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>1809</osVersion>
-      <releaseDate>2019-11-06</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t490_20ry_20rx_w1064_1809_201909.exe</downloadUrl>
-      <fileName>tp_t490_20ry_20rx_w1064_1809_201909.exe</fileName>
-      <crc>e101023a275c39b7319cc946a62a4333123d8baa72ff6d4756d2f5d064ebf149</crc>
-      <md5>93e0991cd0f786ed39f167d5c8619c2a</md5>
+      <releaseDate>2024-02-06</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t490_t590_p43s_p53s_w1064_1809_202003.exe</downloadUrl>
+      <fileName>tp_t490_t590_p43s_p53s_w1064_1809_202003.exe</fileName>
+      <crc>cc8730bbd1944f0366c9465b9bf333e685caa92c6065876c66795f8bda56cb34</crc>
+      <md5>19b2ece7ac4bc82c652dee7ed300b275</md5>
     </Item>
     <Item>
       <id>ThinkPad T490 Type 20RY 20RX|win10|1903|tp_t490_20ry_20rx_w1064_1903_201909.exe</id>
@@ -27414,37 +27557,37 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-02-17</releaseDate>
+      <releaseDate>2026-04-10</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_23_202512.exe</downloadUrl>
       <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_23_202512.exe</fileName>
       <crc>bc8ac58e4101bd43ca003ef520be105be02ec2f740f6965604310c44f775766a</crc>
       <md5>fec1020d926672beac2834df75c05f46</md5>
     </Item>
     <Item>
-      <id>ThinkPad X1 2 IN 1 Gen 10 Type 21NU 21NV|win11|24H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202602.exe</id>
+      <id>ThinkPad X1 2 IN 1 Gen 10 Type 21NU 21NV|win11|24H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202604.exe</id>
       <model>ThinkPad X1 2 IN 1 Gen 10 Type 21NU 21NV</model>
       <machineTypes>21NU,21NV</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-17</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202602.exe</downloadUrl>
-      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202602.exe</fileName>
-      <crc>20131e03ae328f98b9a88a82bd880e7447995342dbc00efc202d4ca60a7d189a</crc>
-      <md5>dd7af2a7a70ee66381650c4fdefb0f6e</md5>
+      <releaseDate>2026-04-10</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202604.exe</downloadUrl>
+      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202604.exe</fileName>
+      <crc>ceed670ab22f206f2c5934f00f3580711c41bfec6fea89ce4f68ade03d98dbd1</crc>
+      <md5>53b260f698193774572ba368e9da7ea7</md5>
     </Item>
     <Item>
-      <id>ThinkPad X1 2 IN 1 Gen 10 Type 21NU 21NV|win11|25H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202602.exe</id>
+      <id>ThinkPad X1 2 IN 1 Gen 10 Type 21NU 21NV|win11|25H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202604.exe</id>
       <model>ThinkPad X1 2 IN 1 Gen 10 Type 21NU 21NV</model>
       <machineTypes>21NU,21NV</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-17</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202602.exe</downloadUrl>
-      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202602.exe</fileName>
-      <crc>5e8e71d1ce51a5e6ccdd7879158a3bec30fc57f9478a5f576518a7bd12ab2987</crc>
-      <md5>cb990f70ddf28af4770c3c877275902a</md5>
+      <releaseDate>2026-04-10</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202604.exe</downloadUrl>
+      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202604.exe</fileName>
+      <crc>30321df0257e2ffa0fda90a30593111f594ca178eec58614093201edebc458d4</crc>
+      <md5>70bdb4c19e5bd2f1c8f95085c958736e</md5>
     </Item>
     <Item>
       <id>ThinkPad X1 2 IN 1 Gen 10 Type 21Q0 21Q1|win11|23H2|tp_x1_carbon_gen13_mt21nx_mt21ny_x1_2-in-1_gen10_mt21q0_mt21q1_w11_23h2_202512.exe</id>
@@ -27856,37 +27999,37 @@
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-02-17</releaseDate>
+      <releaseDate>2026-04-10</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_23_202512.exe</downloadUrl>
       <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_23_202512.exe</fileName>
       <crc>bc8ac58e4101bd43ca003ef520be105be02ec2f740f6965604310c44f775766a</crc>
       <md5>fec1020d926672beac2834df75c05f46</md5>
     </Item>
     <Item>
-      <id>ThinkPad X1 Carbon 13TH Gen Type 21NS 21NT|win11|24H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202602.exe</id>
+      <id>ThinkPad X1 Carbon 13TH Gen Type 21NS 21NT|win11|24H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202604.exe</id>
       <model>ThinkPad X1 Carbon 13TH Gen Type 21NS 21NT</model>
       <machineTypes>21NS,21NT</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-17</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202602.exe</downloadUrl>
-      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202602.exe</fileName>
-      <crc>20131e03ae328f98b9a88a82bd880e7447995342dbc00efc202d4ca60a7d189a</crc>
-      <md5>dd7af2a7a70ee66381650c4fdefb0f6e</md5>
+      <releaseDate>2026-04-10</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202604.exe</downloadUrl>
+      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_24_202604.exe</fileName>
+      <crc>ceed670ab22f206f2c5934f00f3580711c41bfec6fea89ce4f68ade03d98dbd1</crc>
+      <md5>53b260f698193774572ba368e9da7ea7</md5>
     </Item>
     <Item>
-      <id>ThinkPad X1 Carbon 13TH Gen Type 21NS 21NT|win11|25H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202602.exe</id>
+      <id>ThinkPad X1 Carbon 13TH Gen Type 21NS 21NT|win11|25H2|tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202604.exe</id>
       <model>ThinkPad X1 Carbon 13TH Gen Type 21NS 21NT</model>
       <machineTypes>21NS,21NT</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-17</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202602.exe</downloadUrl>
-      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202602.exe</fileName>
-      <crc>5e8e71d1ce51a5e6ccdd7879158a3bec30fc57f9478a5f576518a7bd12ab2987</crc>
-      <md5>cb990f70ddf28af4770c3c877275902a</md5>
+      <releaseDate>2026-04-10</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202604.exe</downloadUrl>
+      <fileName>tp_x1carbon_mt21ns-21nt-x1_2-in-1_mt21nu-21nv_w11_25_202604.exe</fileName>
+      <crc>30321df0257e2ffa0fda90a30593111f594ca178eec58614093201edebc458d4</crc>
+      <md5>70bdb4c19e5bd2f1c8f95085c958736e</md5>
     </Item>
     <Item>
       <id>ThinkPad X1 Carbon 13TH Gen Type 21NX 21NY|win11|23H2|tp_x1_carbon_gen13_mt21nx_mt21ny_x1_2-in-1_gen10_mt21q0_mt21q1_w11_23h2_202512.exe</id>
@@ -29202,17 +29345,17 @@
       <md5>352190018973ea7b8324babe601d67bb</md5>
     </Item>
     <Item>
-      <id>ThinkPad X1 EXTREME 3rd Gen Type 20TK 20TL|win11|21H2|tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_22_202308.exe</id>
+      <id>ThinkPad X1 EXTREME 3rd Gen Type 20TK 20TL|win11|21H2|tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_21_202110.exe</id>
       <model>ThinkPad X1 EXTREME 3rd Gen Type 20TK 20TL</model>
       <machineTypes>20TK,20TL</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>21H2</osVersion>
       <releaseDate>2023-10-30</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_22_202308.exe</downloadUrl>
-      <fileName>tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_22_202308.exe</fileName>
-      <crc>85140688139533441c5646b7fff6a355e25ea6106618eae19e0d15b8a6e04189</crc>
-      <md5>3f1338dbb3dc4eab1f08aa2df0ca5203</md5>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_21_202110.exe</downloadUrl>
+      <fileName>tp_x1extreme_mt20tk-20tl-p1_mt20th-20tj_w11_21_202110.exe</fileName>
+      <crc>992f65b1ae36499653ff2449384e52b34e5050c4a1ae6764a3ef378a6173e36e</crc>
+      <md5>a5ea694610abf5dc80126bf4f76b0214</md5>
     </Item>
     <Item>
       <id>ThinkPad X1 EXTREME 4th Gen Type 20Y5 20Y6|win10|1909|tp_x1extreme_mt20y5-20y6-p1_mt20y3-20y4_w1064_1909_202108.exe</id>
@@ -34662,8 +34805,8 @@
       <md5>1f5cee87080c5b27787bd0ecb91e431f</md5>
     </Item>
     <Item>
-      <id>ThinkPad X9 14 Gen 1 Type 21QA 21QB|win11|23H2|tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe</id>
-      <model>ThinkPad X9 14 Gen 1 Type 21QA 21QB</model>
+      <id>ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|23H2|tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe</id>
+      <model>ThinkPad X9-14 Gen 1 Type 21QA 21QB</model>
       <machineTypes>21QA,21QB</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
@@ -34675,8 +34818,8 @@
       <md5>d5a108cc948af00568134083c7f5fc83</md5>
     </Item>
     <Item>
-      <id>ThinkPad X9 14 Gen 1 Type 21QA 21QB|win11|24H2|tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202602.exe</id>
-      <model>ThinkPad X9 14 Gen 1 Type 21QA 21QB</model>
+      <id>ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|24H2|tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202602.exe</id>
+      <model>ThinkPad X9-14 Gen 1 Type 21QA 21QB</model>
       <machineTypes>21QA,21QB</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
@@ -34688,8 +34831,8 @@
       <md5>9627e1aa0c6c298ce2ee52fafc4d4fef</md5>
     </Item>
     <Item>
-      <id>ThinkPad X9 14 Gen 1 Type 21QA 21QB|win11|25H2|tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202602.exe</id>
-      <model>ThinkPad X9 14 Gen 1 Type 21QA 21QB</model>
+      <id>ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|25H2|tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202602.exe</id>
+      <model>ThinkPad X9-14 Gen 1 Type 21QA 21QB</model>
       <machineTypes>21QA,21QB</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
@@ -34701,56 +34844,56 @@
       <md5>79dabe19e27c89573ab873b0d7943de8</md5>
     </Item>
     <Item>
-      <id>ThinkPad X9 15 Gen 1 Type 21Q6 21Q7|win11|24H2|tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe</id>
-      <model>ThinkPad X9 15 Gen 1 Type 21Q6 21Q7</model>
+      <id>ThinkPad X9-15 Gen 1 Type 21Q6 21Q7|win11|24H2|tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe</id>
+      <model>ThinkPad X9-15 Gen 1 Type 21Q6 21Q7</model>
       <machineTypes>21Q6,21Q7</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-18</releaseDate>
+      <releaseDate>2026-04-21</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe</downloadUrl>
       <fileName>tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe</fileName>
       <crc>5edfd83aa5bc96f3a4f52b53fdc55721a00c3375a07d76933ea8067631360b92</crc>
       <md5>ba3cb8af0e56455095983049a6782287</md5>
     </Item>
     <Item>
-      <id>ThinkPad X9 15 Gen 1 Type 21Q6 21Q7|win11|25H2|tp_x9-15_Gen1_mt21q6-21q7_w11_25h2_202601.exe</id>
-      <model>ThinkPad X9 15 Gen 1 Type 21Q6 21Q7</model>
+      <id>ThinkPad X9-15 Gen 1 Type 21Q6 21Q7|win11|25H2|tp_x9-15_gen1_mt21q6-21q7_w11_25h2_202603.exe</id>
+      <model>ThinkPad X9-15 Gen 1 Type 21Q6 21Q7</model>
       <machineTypes>21Q6,21Q7</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-18</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x9-15_Gen1_mt21q6-21q7_w11_25h2_202601.exe</downloadUrl>
-      <fileName>tp_x9-15_Gen1_mt21q6-21q7_w11_25h2_202601.exe</fileName>
-      <crc>ce7e090bcf979c929bdc4745317cbdbc4b32b17b1a7166a9dbd3eb88c0fa2d11</crc>
-      <md5>ddbcc99b1e4888979757bc315d13abf0</md5>
+      <releaseDate>2026-04-21</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x9-15_gen1_mt21q6-21q7_w11_25h2_202603.exe</downloadUrl>
+      <fileName>tp_x9-15_gen1_mt21q6-21q7_w11_25h2_202603.exe</fileName>
+      <crc>b2bb1797004ccee5570531fb29dc3d95ac72348fc32e61a6ceb6e39518085fe0</crc>
+      <md5>d5f5bc121d5b388343e561a4ba45b142</md5>
     </Item>
     <Item>
-      <id>ThinkPad X9-15P Gen 1 Type 21VV 21VW|win11|24H2|tp_x9-15p_Gen1_mt21vw-21vv_w11_24h2_202602.exe</id>
+      <id>ThinkPad X9-15P Gen 1 Type 21VV 21VW|win11|24H2|tp_x9-15p_gen1_mt21vw-21vv_w11_24h2_25h2_20260407.exe</id>
       <model>ThinkPad X9-15P Gen 1 Type 21VV 21VW</model>
       <machineTypes>21VV,21VW</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x9-15p_Gen1_mt21vw-21vv_w11_24h2_202602.exe</downloadUrl>
-      <fileName>tp_x9-15p_Gen1_mt21vw-21vv_w11_24h2_202602.exe</fileName>
-      <crc>51728f01dbefe98b213d48071e8d5195628604af1fb58d6804c338e78f043039</crc>
-      <md5>7b5deaf8db3a38579447c2e6434349ca</md5>
+      <releaseDate>2026-04-21</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x9-15p_gen1_mt21vw-21vv_w11_24h2_25h2_20260407.exe</downloadUrl>
+      <fileName>tp_x9-15p_gen1_mt21vw-21vv_w11_24h2_25h2_20260407.exe</fileName>
+      <crc>80cdf4aceb54dff42997a25f2a92c56d53d8e72b0bd54cea60d14f85309cadd9</crc>
+      <md5>137b165e623f61470c6592ee4d055d21</md5>
     </Item>
     <Item>
-      <id>ThinkPad X9-15P Gen 1 Type 21VV 21VW|win11|25H2|tp_x9-15p_gen1_mt21vw-21vv_w11_25h2_202603.exe</id>
+      <id>ThinkPad X9-15P Gen 1 Type 21VV 21VW|win11|25H2|tp_x9-15p_gen1_mt21vw-21vv_w11_24h2_25h2_20260407.exe</id>
       <model>ThinkPad X9-15P Gen 1 Type 21VV 21VW</model>
       <machineTypes>21VV,21VW</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-16</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x9-15p_gen1_mt21vw-21vv_w11_25h2_202603.exe</downloadUrl>
-      <fileName>tp_x9-15p_gen1_mt21vw-21vv_w11_25h2_202603.exe</fileName>
-      <crc>55071390c89acd4c3966224fef4bb73c0f506a8e7a8abf632e80385300e94da0</crc>
-      <md5>aedd3a36c8b444dde43d586d72ad4e12</md5>
+      <releaseDate>2026-04-21</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_x9-15p_gen1_mt21vw-21vv_w11_24h2_25h2_20260407.exe</downloadUrl>
+      <fileName>tp_x9-15p_gen1_mt21vw-21vv_w11_24h2_25h2_20260407.exe</fileName>
+      <crc>80cdf4aceb54dff42997a25f2a92c56d53d8e72b0bd54cea60d14f85309cadd9</crc>
+      <md5>137b165e623f61470c6592ee4d055d21</md5>
     </Item>
     <Item>
       <id>ThinkPad Yoga 11e|win10|*|tp_thinkpad11e-yoga11e_w1064_201706.exe</id>
@@ -35078,17 +35221,17 @@
       <md5>07de9b25f8e4c52ebb562e580f468f97</md5>
     </Item>
     <Item>
-      <id>ThinkPad Yoga 14|win10|*|tp_s3_yoga_14_w1064_201706.exe</id>
+      <id>ThinkPad Yoga 14|win10|*|tp_s3-yoga14-yoga460-yogap40_w1064_201906.exe</id>
       <model>ThinkPad Yoga 14</model>
       <machineTypes>20DM,20DN</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>*</osVersion>
-      <releaseDate>2020-03-05</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_s3_yoga_14_w1064_201706.exe</downloadUrl>
-      <fileName>tp_s3_yoga_14_w1064_201706.exe</fileName>
-      <crc>a37459aaed608215edadceb3a4fac27baf137cef344e0eff2e7b5a064029ff9b</crc>
-      <md5>413e47e4fb9fe7fa93c3eb58b3c6cf3e</md5>
+      <releaseDate>2020-04-06</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_s3-yoga14-yoga460-yogap40_w1064_201906.exe</downloadUrl>
+      <fileName>tp_s3-yoga14-yoga460-yogap40_w1064_201906.exe</fileName>
+      <crc>c2463d3a60f04ee3ec53d6dce8c22190057d0bafa630d8717f4500060e9384c6</crc>
+      <md5>6fac6a224b9dc42af0ee7f6427871aaa</md5>
     </Item>
     <Item>
       <id>ThinkPad Yoga 14|win10|1909|tp_s3-yoga14-yoga460-yogap40_w1064_1909_202003.exe</id>
@@ -35325,17 +35468,17 @@
       <md5>d2356b1662f1177f39123dc1ca0b09d3</md5>
     </Item>
     <Item>
-      <id>ThinkPad Yoga 460|win10|*|yoga14-yoga460_w1064_20150915.exe</id>
+      <id>ThinkPad Yoga 460|win10|*|tp_s3-yoga14-yoga460-yogap40_w1064_201906.exe</id>
       <model>ThinkPad Yoga 460</model>
       <machineTypes>20EL,20EM</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>*</osVersion>
-      <releaseDate>2016-05-20</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/yoga14-yoga460_w1064_20150915.exe</downloadUrl>
-      <fileName>yoga14-yoga460_w1064_20150915.exe</fileName>
-      <crc>2329809c964d4d062978c0fbd7aab7c0f66e37df0a62ac37438a648a918d08d9</crc>
-      <md5>5d06ea488b9b3cb5d04c2a053296e912</md5>
+      <releaseDate>2020-04-06</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_s3-yoga14-yoga460-yogap40_w1064_201906.exe</downloadUrl>
+      <fileName>tp_s3-yoga14-yoga460-yogap40_w1064_201906.exe</fileName>
+      <crc>c2463d3a60f04ee3ec53d6dce8c22190057d0bafa630d8717f4500060e9384c6</crc>
+      <md5>6fac6a224b9dc42af0ee7f6427871aaa</md5>
     </Item>
     <Item>
       <id>ThinkPad Yoga 460|win10|1909|tp_s3-yoga14-yoga460-yogap40_w1064_1909_202003.exe</id>
@@ -35981,11 +36124,11 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p3_ultra_g2_w1164_25h2_202601.exe</downloadUrl>
       <fileName>ts_p3_ultra_g2_w1164_25h2_202601.exe</fileName>
-      <crc>df5d67691a8b6c0336b3043c8db1f10e77797eba78d6dc6ff4e88a298a04355c</crc>
-      <md5>1ed2ce853a8d42014735e0148d5440b0</md5>
+      <crc>a9ba3a2f10bbd11df3a0160be31b5bc166b511c7f0252ac02b584f84f289e995</crc>
+      <md5>9fd5818defb035f4607d1979c75bd4b4</md5>
     </Item>
     <Item>
       <id>ThinkStation P3 ULTRA SFF Gen 2|win11|25H2|ts_p3_ultra_g2_w1164_25h2_202601.exe</id>
@@ -35994,11 +36137,11 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-23</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p3_ultra_g2_w1164_25h2_202601.exe</downloadUrl>
       <fileName>ts_p3_ultra_g2_w1164_25h2_202601.exe</fileName>
-      <crc>df5d67691a8b6c0336b3043c8db1f10e77797eba78d6dc6ff4e88a298a04355c</crc>
-      <md5>1ed2ce853a8d42014735e0148d5440b0</md5>
+      <crc>a9ba3a2f10bbd11df3a0160be31b5bc166b511c7f0252ac02b584f84f289e995</crc>
+      <md5>9fd5818defb035f4607d1979c75bd4b4</md5>
     </Item>
     <Item>
       <id>ThinkStation P320|win10|1803|ts_p320_w1064_201808.exe</id>
@@ -36878,24 +37021,24 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win10</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1064_21h2_202410.exe</downloadUrl>
       <fileName>ts_p7_intel_p5_w1064_21h2_202410.exe</fileName>
       <crc>5b7dc0710e38b9f669e0c431f0c8262acae6fa4f3dc89d62370c15036b02f974</crc>
       <md5>8bff2abacc5fe36ae7438e5c2ed42303</md5>
     </Item>
     <Item>
-      <id>ThinkStation P5|win10|22H2|ts_p7_intel_p5_w1064_22h2_202501.exe</id>
+      <id>ThinkStation P5|win10|22H2|ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</id>
       <model>ThinkStation P5</model>
       <machineTypes>30G9,30GA,30GB,30GF</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win10</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1064_22h2_202501.exe</downloadUrl>
-      <fileName>ts_p7_intel_p5_w1064_22h2_202501.exe</fileName>
-      <crc>8d7dae5adeb9403c879c747a64aa400760280d2f2ddab6dec60f2d8e7c0ad12a</crc>
-      <md5>fdab0d74a0f4bf745fb19167ca7ceacc</md5>
+      <releaseDate>2026-04-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</downloadUrl>
+      <fileName>ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</fileName>
+      <crc>1c94f72019f4db7c88d44ba8f8cf9113f46eb6ab605cb8f8226d12464271ce2c</crc>
+      <md5>f1cad6109fac878690596ce569d03748</md5>
     </Item>
     <Item>
       <id>ThinkStation P5|win11|21H2|ts_p5_w1164_21h2_202401.exe</id>
@@ -36904,7 +37047,7 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_w1164_21h2_202401.exe</downloadUrl>
       <fileName>ts_p5_w1164_21h2_202401.exe</fileName>
       <crc>5ed18b94eaf0536085f86f252f20d54d7b501cc2a8f8eab972ee7b8cb6f79aeb</crc>
@@ -36917,24 +37060,24 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1164_22h2_or_later_202505.exe</downloadUrl>
       <fileName>ts_p7_intel_p5_w1164_22h2_or_later_202505.exe</fileName>
       <crc>89fd50d586f1b271011821d1f1f494e44c453d34adf54fb55e16bf2922acebc0</crc>
       <md5>b0dde9aaad9f3e3f814b19659e863a4a</md5>
     </Item>
     <Item>
-      <id>ThinkStation P5|win11|24H2|ts_p7_intel_p5_w1164_24h2_202501.exe</id>
+      <id>ThinkStation P5|win11|24H2|ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</id>
       <model>ThinkStation P5</model>
       <machineTypes>30G9,30GA,30GB,30GF</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1164_24h2_202501.exe</downloadUrl>
-      <fileName>ts_p7_intel_p5_w1164_24h2_202501.exe</fileName>
-      <crc>6559448b7c4ee0c2caa4823a3c181cc7768d8b5a08e610d5b11ef79f4ba535f9</crc>
-      <md5>b793e0364c033f0ae56797f6301403c7</md5>
+      <releaseDate>2026-04-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</downloadUrl>
+      <fileName>ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</fileName>
+      <crc>070a4bd71fcfafa954140d49d42d8541b4037013e50190114d76e2f1619a0d27</crc>
+      <md5>eaf889c089f37e92482a2f992cda82d1</md5>
     </Item>
     <Item>
       <id>ThinkStation P5|win11|25H2|ts_p7_intel_p5_w1164_25h2_202512.exe</id>
@@ -36943,7 +37086,7 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1164_25h2_202512.exe</downloadUrl>
       <fileName>ts_p7_intel_p5_w1164_25h2_202512.exe</fileName>
       <crc>6d4248c2bc5baf5b7b9c13cf3bf60c98acb7635e2daf93e067be4d3f7caccf1b</crc>
@@ -36956,7 +37099,7 @@
       <machineTypeCount>3</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-03-31</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_gen2_w11_25h2_202601.exe</downloadUrl>
       <fileName>ts_p5_gen2_w11_25h2_202601.exe</fileName>
       <crc>56a82121c802369791f4a1b0ed563aa76451281658807aa93e3da1b58007a888</crc>
@@ -36969,7 +37112,7 @@
       <machineTypeCount>3</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-03-31</releaseDate>
+      <releaseDate>2026-04-28</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_gen2_w11_25h2_202601.exe</downloadUrl>
       <fileName>ts_p5_gen2_w11_25h2_202601.exe</fileName>
       <crc>56a82121c802369791f4a1b0ed563aa76451281658807aa93e3da1b58007a888</crc>
@@ -37359,24 +37502,24 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win10</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1064_21h2_202410.exe</downloadUrl>
       <fileName>ts_p7_intel_p5_w1064_21h2_202410.exe</fileName>
       <crc>5b7dc0710e38b9f669e0c431f0c8262acae6fa4f3dc89d62370c15036b02f974</crc>
       <md5>8bff2abacc5fe36ae7438e5c2ed42303</md5>
     </Item>
     <Item>
-      <id>ThinkStation P7|win10|22H2|ts_p7_intel_p5_w1064_22h2_202501.exe</id>
+      <id>ThinkStation P7|win10|22H2|ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</id>
       <model>ThinkStation P7</model>
       <machineTypes>30F2,30F3,30F4,30F7</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win10</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1064_22h2_202501.exe</downloadUrl>
-      <fileName>ts_p7_intel_p5_w1064_22h2_202501.exe</fileName>
-      <crc>8d7dae5adeb9403c879c747a64aa400760280d2f2ddab6dec60f2d8e7c0ad12a</crc>
-      <md5>fdab0d74a0f4bf745fb19167ca7ceacc</md5>
+      <releaseDate>2026-04-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</downloadUrl>
+      <fileName>ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</fileName>
+      <crc>1c94f72019f4db7c88d44ba8f8cf9113f46eb6ab605cb8f8226d12464271ce2c</crc>
+      <md5>f1cad6109fac878690596ce569d03748</md5>
     </Item>
     <Item>
       <id>ThinkStation P7|win11|21H2|ts_p7_intel_w1164_21h2_202401.exe</id>
@@ -37385,7 +37528,7 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_w1164_21h2_202401.exe</downloadUrl>
       <fileName>ts_p7_intel_w1164_21h2_202401.exe</fileName>
       <crc>8ec037bdffb4819eb4e794c7840e49b8c136f100b9fd7821c5f0965bdac4cf83</crc>
@@ -37398,24 +37541,24 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1164_22h2_or_later_202505.exe</downloadUrl>
       <fileName>ts_p7_intel_p5_w1164_22h2_or_later_202505.exe</fileName>
       <crc>89fd50d586f1b271011821d1f1f494e44c453d34adf54fb55e16bf2922acebc0</crc>
       <md5>b0dde9aaad9f3e3f814b19659e863a4a</md5>
     </Item>
     <Item>
-      <id>ThinkStation P7|win11|24H2|ts_p7_intel_p5_w1164_24h2_202501.exe</id>
+      <id>ThinkStation P7|win11|24H2|ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</id>
       <model>ThinkStation P7</model>
       <machineTypes>30F2,30F3,30F4,30F7</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1164_24h2_202501.exe</downloadUrl>
-      <fileName>ts_p7_intel_p5_w1164_24h2_202501.exe</fileName>
-      <crc>6559448b7c4ee0c2caa4823a3c181cc7768d8b5a08e610d5b11ef79f4ba535f9</crc>
-      <md5>b793e0364c033f0ae56797f6301403c7</md5>
+      <releaseDate>2026-04-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</downloadUrl>
+      <fileName>ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</fileName>
+      <crc>070a4bd71fcfafa954140d49d42d8541b4037013e50190114d76e2f1619a0d27</crc>
+      <md5>eaf889c089f37e92482a2f992cda82d1</md5>
     </Item>
     <Item>
       <id>ThinkStation P7|win11|25H2|ts_p7_intel_p5_w1164_25h2_202512.exe</id>
@@ -37424,7 +37567,7 @@
       <machineTypeCount>4</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_w1164_25h2_202512.exe</downloadUrl>
       <fileName>ts_p7_intel_p5_w1164_25h2_202512.exe</fileName>
       <crc>6d4248c2bc5baf5b7b9c13cf3bf60c98acb7635e2daf93e067be4d3f7caccf1b</crc>
@@ -37801,24 +37944,24 @@
       <machineTypeCount>5</machineTypeCount>
       <os>win10</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_px_w1064_21h2_202410.exe</downloadUrl>
       <fileName>ts_px_w1064_21h2_202410.exe</fileName>
       <crc>472caeacd9e0f73d5ca632c960089d90af13245061f889079c6a2363ecde439f</crc>
       <md5>e1836f4c80eb950c151c06a098ad67cf</md5>
     </Item>
     <Item>
-      <id>ThinkStation PX|win10|22H2|ts_px_w1064_22h2_202501.exe</id>
+      <id>ThinkStation PX|win10|22H2|ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</id>
       <model>ThinkStation PX</model>
       <machineTypes>30EU,30EV,30EW,30EY,30H3</machineTypes>
       <machineTypeCount>5</machineTypeCount>
       <os>win10</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_px_w1064_22h2_202501.exe</downloadUrl>
-      <fileName>ts_px_w1064_22h2_202501.exe</fileName>
-      <crc>b988720dc93f78ea413850574f6beaee75b24990d345250cfa5d3adfeb475eb1</crc>
-      <md5>cbbc05e1699a9b5f1bd6f5d1a32c73bd</md5>
+      <releaseDate>2026-04-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</downloadUrl>
+      <fileName>ts_p7_intel_p5_intel_px_w1064_22h2_202603.exe</fileName>
+      <crc>1c94f72019f4db7c88d44ba8f8cf9113f46eb6ab605cb8f8226d12464271ce2c</crc>
+      <md5>f1cad6109fac878690596ce569d03748</md5>
     </Item>
     <Item>
       <id>ThinkStation PX|win11|21H2|ts_px_w1164_21h2_202405.exe</id>
@@ -37827,7 +37970,7 @@
       <machineTypeCount>5</machineTypeCount>
       <os>win11</os>
       <osVersion>21H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_px_w1164_21h2_202405.exe</downloadUrl>
       <fileName>ts_px_w1164_21h2_202405.exe</fileName>
       <crc>46ff427a50506390e24067277dcde95ee75fd40cdcf87e02a7c3e02fd32e6cf0</crc>
@@ -37840,7 +37983,7 @@
       <machineTypeCount>5</machineTypeCount>
       <os>win11</os>
       <osVersion>22H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_px_w1164_22h2_or_later_202504.exe</downloadUrl>
       <fileName>ts_px_w1164_22h2_or_later_202504.exe</fileName>
       <crc>1eef6bc39025c3f3d38315c6744b1544cb263a90a35dcb63610784e667f6a6c1</crc>
@@ -37853,24 +37996,24 @@
       <machineTypeCount>5</machineTypeCount>
       <os>win11</os>
       <osVersion>23H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_px_w1164_22h2_or_later_202504.exe</downloadUrl>
       <fileName>ts_px_w1164_22h2_or_later_202504.exe</fileName>
       <crc>1eef6bc39025c3f3d38315c6744b1544cb263a90a35dcb63610784e667f6a6c1</crc>
       <md5>fbcfeaa8d345aa73ffe260b769377400</md5>
     </Item>
     <Item>
-      <id>ThinkStation PX|win11|24H2|ts_px_w1164_24h2_202501.exe</id>
+      <id>ThinkStation PX|win11|24H2|ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</id>
       <model>ThinkStation PX</model>
       <machineTypes>30EU,30EV,30EW,30EY,30H3</machineTypes>
       <machineTypeCount>5</machineTypeCount>
       <os>win11</os>
       <osVersion>24H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_px_w1164_24h2_202501.exe</downloadUrl>
-      <fileName>ts_px_w1164_24h2_202501.exe</fileName>
-      <crc>9cd7c169c349d2d8cacb115835bd8236b655d483828f46b3aeb46633e186d2a5</crc>
-      <md5>c2c570fe2cb389bf34a5e644072823b3</md5>
+      <releaseDate>2026-04-20</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</downloadUrl>
+      <fileName>ts_p7_intel_p5_intel_px_w1164_24h2_202603.exe</fileName>
+      <crc>070a4bd71fcfafa954140d49d42d8541b4037013e50190114d76e2f1619a0d27</crc>
+      <md5>eaf889c089f37e92482a2f992cda82d1</md5>
     </Item>
     <Item>
       <id>ThinkStation PX|win11|25H2|ts_px_w1164_25h2_202512.exe</id>
@@ -37879,7 +38022,7 @@
       <machineTypeCount>5</machineTypeCount>
       <os>win11</os>
       <osVersion>25H2</osVersion>
-      <releaseDate>2026-02-03</releaseDate>
+      <releaseDate>2026-04-20</releaseDate>
       <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_px_w1164_25h2_202512.exe</downloadUrl>
       <fileName>ts_px_w1164_25h2_202512.exe</fileName>
       <crc>2c71f8310ba419446e85729970dcee3acb7597fe0ffb04f258cebb965733eda3</crc>
