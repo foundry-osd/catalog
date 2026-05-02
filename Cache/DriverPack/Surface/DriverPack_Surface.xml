@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-01T05:57:57Z" category="DriverPack">
-  <Source catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="e271395fc91ec4e5cfeb08bbf7e46425c261ce7f67c81044d6f6c108530b2a2f" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-02T05:27:45Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="40c571cafb06bc0e49d8c95d774a4d01254355dd56c94df37c417229c033cf01" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -364,18 +364,18 @@
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108198|SurfaceLaptop_13in_1st_Edition_Win11_26100_26.021.14257.0.msi</id>
+      <id>108198|SurfaceLaptop_13in_1st_Edition_Win11_26100_26.040.4285.0.msi</id>
       <model>Surface Laptop 13-inch 1st Edition</model>
       <downloadTitle>Surface Laptop 13-inch 1st Edition Drivers and Firmware</downloadTitle>
       <packageId>108198</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108198</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/924f1449-b531-4e66-9fc5-870b6eb30b5e/SurfaceLaptop_13in_1st_Edition_Win11_26100_26.021.14257.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/924f1449-b531-4e66-9fc5-870b6eb30b5e/SurfaceLaptop_13in_1st_Edition_Win11_26100_26.021.14257.0.msi</msiUrl>
-      <fileName>SurfaceLaptop_13in_1st_Edition_Win11_26100_26.021.14257.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/924f1449-b531-4e66-9fc5-870b6eb30b5e/SurfaceLaptop_13in_1st_Edition_Win11_26100_26.040.4285.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/924f1449-b531-4e66-9fc5-870b6eb30b5e/SurfaceLaptop_13in_1st_Edition_Win11_26100_26.040.4285.0.msi</msiUrl>
+      <fileName>SurfaceLaptop_13in_1st_Edition_Win11_26100_26.040.4285.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>517767168</sizeBytes>
-      <datePublished>2026-03-19</datePublished>
+      <sizeBytes>517885952</sizeBytes>
+      <datePublished>2026-05-01</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -529,18 +529,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>106120|SurfaceLaptop7_ARM_Win11_26100_26.011.9344.0.msi</id>
+      <id>106120|SurfaceLaptop7_ARM_Win11_26100_26.033.32430.0.msi</id>
       <model>Surface Laptop 7th Edition</model>
       <downloadTitle>Surface Laptop 7th Edition</downloadTitle>
       <packageId>106120</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=106120</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b7ca2c3f-d320-4795-be0f-529a0117abb4/SurfaceLaptop7_ARM_Win11_26100_26.011.9344.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b7ca2c3f-d320-4795-be0f-529a0117abb4/SurfaceLaptop7_ARM_Win11_26100_26.011.9344.0.msi</msiUrl>
-      <fileName>SurfaceLaptop7_ARM_Win11_26100_26.011.9344.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/b7ca2c3f-d320-4795-be0f-529a0117abb4/SurfaceLaptop7_ARM_Win11_26100_26.033.32430.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/b7ca2c3f-d320-4795-be0f-529a0117abb4/SurfaceLaptop7_ARM_Win11_26100_26.033.32430.0.msi</msiUrl>
+      <fileName>SurfaceLaptop7_ARM_Win11_26100_26.033.32430.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>508891136</sizeBytes>
-      <datePublished>2026-02-27</datePublished>
+      <sizeBytes>523743232</sizeBytes>
+      <datePublished>2026-05-01</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -723,18 +723,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108199|SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</id>
+      <id>108199|SurfacePro_12in_1st_Edition_Win11_26100_26.041.14362.0.msi</id>
       <model>Surface Pro 12-inch 1st Edition</model>
       <downloadTitle>Surface Pro 12-inch 1st Edition Drivers and Firmware</downloadTitle>
       <packageId>108199</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108199</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</msiUrl>
-      <fileName>SurfacePro_12in_1st_Edition_Win11_26100_26.021.14296.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.041.14362.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.041.14362.0.msi</msiUrl>
+      <fileName>SurfacePro_12in_1st_Edition_Win11_26100_26.041.14362.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>516075520</sizeBytes>
-      <datePublished>2026-04-06</datePublished>
+      <sizeBytes>516128768</sizeBytes>
+      <datePublished>2026-05-01</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>

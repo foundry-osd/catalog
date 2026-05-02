@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-05-01T05:59:55Z" totalItems="16" category="WinPE">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-05-02T05:29:09Z" totalItems="17" category="WinPE">
   <Metadata name="Foundry Unified WinPE Catalog" description="Normalized WinPE catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-03-31T00:00:00Z" itemCount="9" />
-    <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2025-12-17T00:00:00Z" itemCount="6" />
+    <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-04-30T00:00:00Z" itemCount="7" />
     <Source manufacturer="Intel" catalogUrl="https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html" lastUpdated="2026-03-24T00:00:00Z" itemCount="1" />
   </Sources>
   <DriverPacks>
@@ -19,12 +19,12 @@
       <OsInfo name="WinPE" releaseId="11" architecture="x64" />
       <Hashes md5="6236fe86066aa0dea14358dfd95869f4" sha256="542ad63ecabd48ad8aeb59e2c29ec38012459bc209086f5ceae7a27178fa4291" />
     </DriverPack>
-    <DriverPack id="MJ53D|x86" packageId="MJ53D" manufacturer="Dell" name="WinPE3.0-Drivers-A23-MJ53D.CAB" version="A23" fileName="WinPE3.0-Drivers-A23-MJ53D.CAB" downloadUrl="https://downloads.dell.com/FOLDER05323227M/1/WinPE3.0-Drivers-A23-MJ53D.CAB" sizeBytes="179684132" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2018-11-21">
-      <OsInfo name="WinPE" releaseId="3" architecture="x86" />
-      <Hashes md5="87FC2363BF818266A20964E0AB64C993" sha256="9B289DD44259A8E3F8A67BE22FCC5A00F9CB36F723D990228258E8D4573A9085" />
-    </DriverPack>
     <DriverPack id="MJ53D|x64" packageId="MJ53D" manufacturer="Dell" name="WinPE3.0-Drivers-A23-MJ53D.CAB" version="A23" fileName="WinPE3.0-Drivers-A23-MJ53D.CAB" downloadUrl="https://downloads.dell.com/FOLDER05323227M/1/WinPE3.0-Drivers-A23-MJ53D.CAB" sizeBytes="179684132" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2018-11-21">
       <OsInfo name="WinPE" releaseId="3" architecture="x64" />
+      <Hashes md5="87FC2363BF818266A20964E0AB64C993" sha256="9B289DD44259A8E3F8A67BE22FCC5A00F9CB36F723D990228258E8D4573A9085" />
+    </DriverPack>
+    <DriverPack id="MJ53D|x86" packageId="MJ53D" manufacturer="Dell" name="WinPE3.0-Drivers-A23-MJ53D.CAB" version="A23" fileName="WinPE3.0-Drivers-A23-MJ53D.CAB" downloadUrl="https://downloads.dell.com/FOLDER05323227M/1/WinPE3.0-Drivers-A23-MJ53D.CAB" sizeBytes="179684132" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2018-11-21">
+      <OsInfo name="WinPE" releaseId="3" architecture="x86" />
       <Hashes md5="87FC2363BF818266A20964E0AB64C993" sha256="9B289DD44259A8E3F8A67BE22FCC5A00F9CB36F723D990228258E8D4573A9085" />
     </DriverPack>
     <DriverPack id="F1YJC|x86" packageId="F1YJC" manufacturer="Dell" name="WinPE4.0-Drivers-A06-F1YJC.CAB" version="A06" fileName="WinPE4.0-Drivers-A06-F1YJC.CAB" downloadUrl="https://downloads.dell.com/FOLDER03048988M/1/WinPE4.0-Drivers-A06-F1YJC.CAB" sizeBytes="14122848" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2015-06-02">
@@ -50,6 +50,9 @@
       <OsInfo name="WinPE" releaseId="10/11" architecture="x64" />
     </DriverPack>
     <DriverPack id="sp165773" packageId="sp165773" manufacturer="HP" name="sp165773" version="3.20" fileName="sp165773.exe" downloadUrl="https://ftp.ext.hp.com/pub/softpaq/sp165501-166000/sp165773.exe" format="exe" type="WinPE" packageRole="BaseDriverPack" releaseDate="2025-12-17">
+      <OsInfo name="WinPE" releaseId="10/11" architecture="x64" />
+    </DriverPack>
+    <DriverPack id="sp172442" packageId="sp172442" manufacturer="HP" name="sp172442" version="3.30" fileName="sp172442.exe" downloadUrl="https://ftp.ext.hp.com/pub/softpaq/sp172001-172500/sp172442.exe" format="exe" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-04-30">
       <OsInfo name="WinPE" releaseId="10/11" architecture="x64" />
     </DriverPack>
     <DriverPack id="sp64529" packageId="sp64529" manufacturer="HP" name="sp64529" version="1.01" fileName="sp64529.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp64501-65000/sp64529.exe" format="exe" type="WinPE" packageRole="BaseDriverPack" releaseDate="2013-12-04">
