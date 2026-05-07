@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-06T05:46:38Z" category="DriverPack">
-  <Source name="Microsoft Surface Drivers and Firmware" catalogSha256="f2f0762e1e19916b56010c065e2abfe87adceaddb341914b2120c3f5759a5c2e" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-07T05:50:17Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" catalogSha256="41ff63e6c62111f2b6a51f1e4c8581f3b04ca632e2f82c52718cd25808a4e0cc" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -544,18 +544,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108014|SurfaceLaptop7withIntel_Win11_22631_26.022.24632.0.msi</id>
+      <id>108014|SurfaceLaptop7withIntel_Win11_22631_26.041.13628.0.msi</id>
       <model>Surface Laptop 7th Edition with Intel</model>
       <downloadTitle>Surface Laptop 7th Edition with Intel Drivers and Firmware</downloadTitle>
       <packageId>108014</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108014</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.022.24632.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.022.24632.0.msi</msiUrl>
-      <fileName>SurfaceLaptop7withIntel_Win11_22631_26.022.24632.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.041.13628.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.041.13628.0.msi</msiUrl>
+      <fileName>SurfaceLaptop7withIntel_Win11_22631_26.041.13628.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>972955648</sizeBytes>
-      <datePublished>2026-03-18</datePublished>
+      <sizeBytes>973783040</sizeBytes>
+      <datePublished>2026-05-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -604,18 +604,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105608|SurfaceLaptopGo3_Win11_22631_26.011.6467.0.msi</id>
+      <id>105608|SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</id>
       <model>Surface Laptop Go 3</model>
       <downloadTitle>Surface Laptop Go 3 Drivers and Firmware</downloadTitle>
       <packageId>105608</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105608</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.011.6467.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.011.6467.0.msi</msiUrl>
-      <fileName>SurfaceLaptopGo3_Win11_22631_26.011.6467.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</msiUrl>
+      <fileName>SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>843608064</sizeBytes>
-      <datePublished>2026-02-05</datePublished>
+      <sizeBytes>843624448</sizeBytes>
+      <datePublished>2026-05-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>

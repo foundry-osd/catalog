@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-05-06T05:46:39Z" category="DriverPack">
-  <Source catalogSha256="44989cdd6efdb0627bb00eafb1cdaf92b32866ec2ac42dabaed5db349f27d012" uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" name="Lenovo DriverPack Catalog V2" catalogType="DriverPackCatalogXml" />
+<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-05-07T05:50:20Z" category="DriverPack">
+  <Source name="Lenovo DriverPack Catalog V2" uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" catalogSha256="5fcc9dcf67e75872957e22e36cc2e4e8c4680ea2c410c30ffb0abb24c439a763" catalogType="DriverPackCatalogXml" />
   <CatalogMetadata modelCount="477" catalogVersion="1.0" />
   <Items>
     <Item>
@@ -43,17 +43,17 @@
       <md5>ab109654cb7805cdc50a847680dae950</md5>
     </Item>
     <Item>
-      <id>ThinkCentre M630E|win10|1903|tc_M630E_w1064_1903_201911.exe</id>
+      <id>ThinkCentre M630E|win10|1903|tc_m630e_w1064_1909_201912.exe</id>
       <model>ThinkCentre M630E</model>
       <machineTypes>10YM,10YN,10YQ,10YR</machineTypes>
       <machineTypeCount>4</machineTypeCount>
       <os>win10</os>
       <osVersion>1903</osVersion>
       <releaseDate>2020-08-12</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_M630E_w1064_1903_201911.exe</downloadUrl>
-      <fileName>tc_M630E_w1064_1903_201911.exe</fileName>
-      <crc>844d57ca1c4c8cddce02aa0be5df2943d89688ce78621aa97f52ae8fa9966276</crc>
-      <md5>7bee095a3aae7b18b6ea2259303be6f7</md5>
+      <downloadUrl>https://download.lenovo.com/pccbbs/thinkcentre_drivers/tc_m630e_w1064_1909_201912.exe</downloadUrl>
+      <fileName>tc_m630e_w1064_1909_201912.exe</fileName>
+      <crc>c15150265207011f99f6fdbd74e921b7b0c04405b6efa2f219d6c04a21bb2967</crc>
+      <md5>b7e862412e050b9cdf8c02a9e37fc553</md5>
     </Item>
     <Item>
       <id>ThinkCentre M630E|win10|2004|tc_m630E_w1064_2004_202006.exe</id>
@@ -26043,17 +26043,17 @@
       <md5>256cf4aa10ee96c17134cb20bd786568</md5>
     </Item>
     <Item>
-      <id>ThinkPad T490 Type 20RY 20RX|win10|1809|tp_t490_t590_p43s_p53s_w1064_1809_202003.exe</id>
+      <id>ThinkPad T490 Type 20RY 20RX|win10|1809|tp_t490_20ry_20rx_w1064_1809_201909.exe</id>
       <model>ThinkPad T490 Type 20RY 20RX</model>
       <machineTypes>20RX,20RY</machineTypes>
       <machineTypeCount>2</machineTypeCount>
       <os>win10</os>
       <osVersion>1809</osVersion>
-      <releaseDate>2024-02-06</releaseDate>
-      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t490_t590_p43s_p53s_w1064_1809_202003.exe</downloadUrl>
-      <fileName>tp_t490_t590_p43s_p53s_w1064_1809_202003.exe</fileName>
-      <crc>cc8730bbd1944f0366c9465b9bf333e685caa92c6065876c66795f8bda56cb34</crc>
-      <md5>19b2ece7ac4bc82c652dee7ed300b275</md5>
+      <releaseDate>2019-11-06</releaseDate>
+      <downloadUrl>https://download.lenovo.com/pccbbs/mobiles/tp_t490_20ry_20rx_w1064_1809_201909.exe</downloadUrl>
+      <fileName>tp_t490_20ry_20rx_w1064_1809_201909.exe</fileName>
+      <crc>e101023a275c39b7319cc946a62a4333123d8baa72ff6d4756d2f5d064ebf149</crc>
+      <md5>93e0991cd0f786ed39f167d5c8619c2a</md5>
     </Item>
     <Item>
       <id>ThinkPad T490 Type 20RY 20RX|win10|1903|tp_t490_20ry_20rx_w1064_1903_201909.exe</id>
