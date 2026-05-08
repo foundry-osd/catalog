@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-07T05:50:17Z" category="DriverPack">
-  <Source name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" catalogSha256="41ff63e6c62111f2b6a51f1e4c8581f3b04ca632e2f82c52718cd25808a4e0cc" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-08T05:20:39Z" category="DriverPack">
+  <Source catalogSha256="6de5deb94e3267c43a1931cb5c6579a2c3cb608c653938be267e104be4854f67" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -514,18 +514,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105946|SurfaceLaptop6forBusiness_Win11_22631_26.042.21944.0.msi</id>
+      <id>105946|SurfaceLaptop6forBusiness_Win11_22631_26.042.19414.0.msi</id>
       <model>Surface Laptop 6 for Business</model>
       <downloadTitle>Surface Laptop 6 for Business Drivers and Firmware</downloadTitle>
       <packageId>105946</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105946</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.042.21944.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.042.21944.0.msi</msiUrl>
-      <fileName>SurfaceLaptop6forBusiness_Win11_22631_26.042.21944.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.042.19414.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.042.19414.0.msi</msiUrl>
+      <fileName>SurfaceLaptop6forBusiness_Win11_22631_26.042.19414.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1034215424</sizeBytes>
-      <datePublished>2026-04-29</datePublished>
+      <sizeBytes>1034276864</sizeBytes>
+      <datePublished>2026-05-07</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
