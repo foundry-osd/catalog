@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-05-12T05:56:57Z" totalItems="17" category="WinPE">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-05-13T06:17:16Z" totalItems="17" category="WinPE">
   <Metadata name="Foundry Unified WinPE Catalog" description="Normalized WinPE catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-03-31T00:00:00Z" itemCount="9" />
