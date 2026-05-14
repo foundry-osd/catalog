@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HPCatalog schemaVersion="1" generatedAtUtc="2026-05-13T06:16:08Z" category="WinPE">
-  <Source uri="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HP_WinPE_DriverPack.html" name="HP WinPE DriverPack Page" catalogType="WinPEHtmlPage" catalogSha256="031178d6e836d1d09e9ff62b6ae10ab473cd3ef6b0383b33b5a14d0e4da35824" />
-  <CatalogMetadata toolVersion="1.2.20.0" schemaVersion="1.0.0.0" dateReleased="2026-05-12" />
+<HPCatalog schemaVersion="1" generatedAtUtc="2026-05-14T06:13:24Z" category="WinPE">
+  <Source catalogSha256="031178d6e836d1d09e9ff62b6ae10ab473cd3ef6b0383b33b5a14d0e4da35824" uri="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HP_WinPE_DriverPack.html" name="HP WinPE DriverPack Page" catalogType="WinPEHtmlPage" />
+  <CatalogMetadata schemaVersion="1.0.0.0" toolVersion="1.2.20.0" dateReleased="2026-05-12" />
   <Items>
     <Item>
       <id>sp165773</id>
