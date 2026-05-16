@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-15T06:21:08Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="33a01d25e03fc571916937b9573349f95e286723edd63b86cd876f6349b6ac4e" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-16T05:43:28Z" category="DriverPack">
+  <Source catalogType="SupportArticle" catalogSha256="e5ef983b9ee6dfa3138f046c431db37ce1022e4524a7d0e1957fd76a6ab7e37f" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -634,6 +634,21 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
+      <id>105610|SurfaceLaptopStudio2_Nvidia_GPU_v32.0.15.9155.msi</id>
+      <model>Surface Laptop Studio 2</model>
+      <downloadTitle>Surface Laptop Studio 2 Drivers and Firmware</downloadTitle>
+      <packageId>105610</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105610</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Nvidia_GPU_v32.0.15.9155.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Nvidia_GPU_v32.0.15.9155.msi</msiUrl>
+      <fileName>SurfaceLaptopStudio2_Nvidia_GPU_v32.0.15.9155.msi</fileName>
+      <format>msi</format>
+      <version>1.0</version>
+      <sizeBytes>1190178816</sizeBytes>
+      <datePublished>2026-05-16</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
       <id>105610|SurfaceLaptopStudio2_Win11_22631_26.011.7026.0.msi</id>
       <model>Surface Laptop Studio 2</model>
       <downloadTitle>Surface Laptop Studio 2 Drivers and Firmware</downloadTitle>
@@ -645,7 +660,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1132904448</sizeBytes>
-      <datePublished>2026-01-28</datePublished>
+      <datePublished>2026-05-16</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -678,18 +693,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>106292|SurfacePro10with5GforBusiness_Win11_22631_26.040.1754.0.msi</id>
+      <id>106292|SurfacePro10with5GforBusiness_Win11_22631_26.042.22188.0.msi</id>
       <model>Surface Pro 10 with 5G for Business</model>
       <downloadTitle>Surface Pro 10 with 5G for Business Drivers and Firmware</downloadTitle>
       <packageId>106292</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=106292</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.040.1754.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.040.1754.0.msi</msiUrl>
-      <fileName>SurfacePro10with5GforBusiness_Win11_22631_26.040.1754.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.042.22188.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.042.22188.0.msi</msiUrl>
+      <fileName>SurfacePro10with5GforBusiness_Win11_22631_26.042.22188.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1163030528</sizeBytes>
-      <datePublished>2026-05-05</datePublished>
+      <datePublished>2026-05-16</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
