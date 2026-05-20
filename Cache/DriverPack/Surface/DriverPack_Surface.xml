@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-19T06:37:17Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="80a35f202027aa3f9cb780bf04396c022d6dd89965a73aa25d33a9dafd451cdd" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-20T06:36:55Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" catalogSha256="cae55d341df3b896932564899dbad88a7ec5f3b342abcb72c943ce7cb871d166" name="Microsoft Surface Drivers and Firmware" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -330,7 +330,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1242841088</sizeBytes>
-      <datePublished>2026-03-12</datePublished>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -345,7 +345,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1242718208</sizeBytes>
-      <datePublished>2026-03-12</datePublished>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -366,7 +366,7 @@
     <Item>
       <id>108198|SurfaceLaptop_13in_1st_Edition_Win11_26100_26.040.4285.0.msi</id>
       <model>Surface Laptop 13-inch 1st Edition</model>
-      <downloadTitle>Surface Laptop 13-inch 1st Edition Drivers and Firmware</downloadTitle>
+      <downloadTitle>Surface Laptop 13-inch 1st Edition</downloadTitle>
       <packageId>108198</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108198</downloadCenterUrl>
       <downloadUrl>https://download.microsoft.com/download/924f1449-b531-4e66-9fc5-870b6eb30b5e/SurfaceLaptop_13in_1st_Edition_Win11_26100_26.040.4285.0.msi</downloadUrl>
@@ -375,7 +375,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>517885952</sizeBytes>
-      <datePublished>2026-05-01</datePublished>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -501,7 +501,7 @@
     <Item>
       <id>108347|SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.042.22973.0.msi</id>
       <model>Surface Laptop 5G for Business (7th Edition) with Intel</model>
-      <downloadTitle>Surface Laptop 5G for Business (7th Edition) with Intel Drivers and Firmware</downloadTitle>
+      <downloadTitle>Surface Laptop 5G for Business (7th Edition) with Intel</downloadTitle>
       <packageId>108347</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108347</downloadCenterUrl>
       <downloadUrl>https://download.microsoft.com/download/b6ba11a9-2e1b-401b-8cbc-2af02cda74e8/SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.042.22973.0.msi</downloadUrl>
@@ -510,7 +510,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1298825216</sizeBytes>
-      <datePublished>2026-05-16</datePublished>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -546,7 +546,7 @@
     <Item>
       <id>108014|SurfaceLaptop7withIntel_Win11_22631_26.041.13628.0.msi</id>
       <model>Surface Laptop 7th Edition with Intel</model>
-      <downloadTitle>Surface Laptop 7th Edition with Intel Drivers and Firmware</downloadTitle>
+      <downloadTitle>Surface Laptop 7th Edition with Intel</downloadTitle>
       <packageId>108014</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108014</downloadCenterUrl>
       <downloadUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.041.13628.0.msi</downloadUrl>
@@ -555,7 +555,67 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>973783040</sizeBytes>
-      <datePublished>2026-05-06</datePublished>
+      <datePublished>2026-05-19</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
+      <id>108670|SurfaceLaptopforBusiness13in1stEdIntel_Win11_26100_26.042.21411.0.msi</id>
+      <model>Surface Laptop for Business 13-inch 1st Edition with Intel</model>
+      <downloadTitle>Surface Laptop for Business 13-inch 1st Edition with Intel</downloadTitle>
+      <packageId>108670</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108670</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/30629874-b55d-4c3d-aed7-fbc7cb093cbd/SurfaceLaptopforBusiness13in1stEdIntel_Win11_26100_26.042.21411.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/30629874-b55d-4c3d-aed7-fbc7cb093cbd/SurfaceLaptopforBusiness13in1stEdIntel_Win11_26100_26.042.21411.0.msi</msiUrl>
+      <fileName>SurfaceLaptopforBusiness13in1stEdIntel_Win11_26100_26.042.21411.0.msi</fileName>
+      <format>msi</format>
+      <version>1</version>
+      <sizeBytes>1204641792</sizeBytes>
+      <datePublished>2026-05-19</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
+      <id>108670|SurfaceLaptopforBusiness13in1stEdIntel_Win11_26200_26.042.21417.0.msi</id>
+      <model>Surface Laptop for Business 13-inch 1st Edition with Intel</model>
+      <downloadTitle>Surface Laptop for Business 13-inch 1st Edition with Intel</downloadTitle>
+      <packageId>108670</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108670</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/30629874-b55d-4c3d-aed7-fbc7cb093cbd/SurfaceLaptopforBusiness13in1stEdIntel_Win11_26200_26.042.21417.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/30629874-b55d-4c3d-aed7-fbc7cb093cbd/SurfaceLaptopforBusiness13in1stEdIntel_Win11_26200_26.042.21417.0.msi</msiUrl>
+      <fileName>SurfaceLaptopforBusiness13in1stEdIntel_Win11_26200_26.042.21417.0.msi</fileName>
+      <format>msi</format>
+      <version>1</version>
+      <sizeBytes>1204641792</sizeBytes>
+      <datePublished>2026-05-19</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
+      <id>108669|SurfaceLaptop8withIntel_Win11_26100_26.044.41949.0.msi</id>
+      <model>Surface Laptop for Business 8th Edition with Intel</model>
+      <downloadTitle>Surface Laptop for Business 8th Edition with Intel</downloadTitle>
+      <packageId>108669</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108669</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/74b2d3cc-d205-41ed-8784-59ceba1411f0/SurfaceLaptop8withIntel_Win11_26100_26.044.41949.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/74b2d3cc-d205-41ed-8784-59ceba1411f0/SurfaceLaptop8withIntel_Win11_26100_26.044.41949.0.msi</msiUrl>
+      <fileName>SurfaceLaptop8withIntel_Win11_26100_26.044.41949.0.msi</fileName>
+      <format>msi</format>
+      <version>1.0</version>
+      <sizeBytes>1207193600</sizeBytes>
+      <datePublished>2026-05-19</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
+      <id>108669|SurfaceLaptop8withIntel_Win11_26200_26.044.41972.0.msi</id>
+      <model>Surface Laptop for Business 8th Edition with Intel</model>
+      <downloadTitle>Surface Laptop for Business 8th Edition with Intel</downloadTitle>
+      <packageId>108669</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108669</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/74b2d3cc-d205-41ed-8784-59ceba1411f0/SurfaceLaptop8withIntel_Win11_26200_26.044.41972.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/74b2d3cc-d205-41ed-8784-59ceba1411f0/SurfaceLaptop8withIntel_Win11_26200_26.044.41972.0.msi</msiUrl>
+      <fileName>SurfaceLaptop8withIntel_Win11_26200_26.044.41972.0.msi</fileName>
+      <format>msi</format>
+      <version>1.0</version>
+      <sizeBytes>1207193600</sizeBytes>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -725,7 +785,7 @@
     <Item>
       <id>108013|SurfacePro11withIntel_Win11_22631_26.043.29248.0.msi</id>
       <model>Surface Pro 11th Edition with Intel</model>
-      <downloadTitle>Surface Pro 11th Edition with Intel Drivers and Firmware</downloadTitle>
+      <downloadTitle>Surface Pro 11th Edition with Intel</downloadTitle>
       <packageId>108013</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108013</downloadCenterUrl>
       <downloadUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.043.29248.0.msi</downloadUrl>
@@ -734,13 +794,13 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>968982528</sizeBytes>
-      <datePublished>2026-05-16</datePublished>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
       <id>108199|SurfacePro_12in_1st_Edition_Win11_26100_26.041.14362.0.msi</id>
       <model>Surface Pro 12-inch 1st Edition</model>
-      <downloadTitle>Surface Pro 12-inch 1st Edition Drivers and Firmware</downloadTitle>
+      <downloadTitle>Surface Pro 12-inch 1st Edition</downloadTitle>
       <packageId>108199</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108199</downloadCenterUrl>
       <downloadUrl>https://download.microsoft.com/download/3f42130f-64d6-4a85-8a18-ec1b70f5ef82/SurfacePro_12in_1st_Edition_Win11_26100_26.041.14362.0.msi</downloadUrl>
@@ -749,7 +809,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>516128768</sizeBytes>
-      <datePublished>2026-05-01</datePublished>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -974,6 +1034,36 @@
       <version>1.0</version>
       <sizeBytes>981798912</sizeBytes>
       <datePublished>2026-05-16</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
+      <id>108671|SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</id>
+      <model>Surface Pro for Business 12th Edition with Intel</model>
+      <downloadTitle>Surface Pro for Business 12th Edition with Intel</downloadTitle>
+      <packageId>108671</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108671</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</msiUrl>
+      <fileName>SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</fileName>
+      <format>msi</format>
+      <version>1</version>
+      <sizeBytes>1337659392</sizeBytes>
+      <datePublished>2026-05-19</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
+      <id>108671|SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</id>
+      <model>Surface Pro for Business 12th Edition with Intel</model>
+      <downloadTitle>Surface Pro for Business 12th Edition with Intel</downloadTitle>
+      <packageId>108671</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108671</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</msiUrl>
+      <fileName>SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</fileName>
+      <format>msi</format>
+      <version>1</version>
+      <sizeBytes>1337659392</sizeBytes>
+      <datePublished>2026-05-19</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
