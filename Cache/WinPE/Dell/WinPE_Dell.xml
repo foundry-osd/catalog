@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DellCatalog schemaVersion="1" generatedAtUtc="2026-05-22T06:36:15Z" category="WinPE">
-  <Source name="Dell Driver Pack Catalog" catalogCabSha256="cdc7574ccc5d7140698c75cf915119a6bc1b05ea7036839cf97aa7020ffcc52a" catalogXmlSha256="434075c8e049a54e9ab9ec08f13387e7f57be640655ea32845d1981d09fac4a6" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" catalogXmlFile="DriverPackCatalog.xml" />
-  <CatalogMetadata baseLocation="downloads.dell.com" version="2026.05.04" baseLocationAccessProtocols="HTTP FTP" dateTime="2026-05-15T07:25:10" schemaVersion="2.3" />
+<DellCatalog schemaVersion="1" generatedAtUtc="2026-05-23T05:56:34Z" category="WinPE">
+  <Source catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" name="Dell Driver Pack Catalog" catalogXmlFile="DriverPackCatalog.xml" catalogXmlSha256="29c76ae2239ce8a8b2a2b764f5ebdfefce0a4d0cc43763d4967420713d0df121" catalogCabSha256="a81b0a7b22bd6d35bb2b83f098d014636c4958cb67e43b2728ccb92a14591c57" />
+  <CatalogMetadata version="2026.05.04" schemaVersion="2.3" baseLocation="downloads.dell.com" baseLocationAccessProtocols="HTTP FTP" dateTime="2026-05-21T10:40:30" />
   <Items>
     <Item>
       <releaseId>2F5W2</releaseId>

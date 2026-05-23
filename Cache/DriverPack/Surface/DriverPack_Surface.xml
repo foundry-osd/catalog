@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-22T06:36:19Z" category="DriverPack">
-  <Source catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="d42a5af5db4ede301826c72ea7c8809f969772929d0cd577ee012ee34fc6a571" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-23T05:56:20Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="8a1235d5a1d392f0d13a223c153356e0ad727327ad545f35ede87530b803da82" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -753,18 +753,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>106292|SurfacePro10with5GforBusiness_Win11_22631_26.042.23379.0.msi</id>
+      <id>106292|SurfacePro10with5GforBusiness_Win11_22631_26.050.5014.0.msi</id>
       <model>Surface Pro 10 with 5G for Business</model>
       <downloadTitle>Surface Pro 10 with 5G for Business Drivers and Firmware</downloadTitle>
       <packageId>106292</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=106292</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.042.23379.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.042.23379.0.msi</msiUrl>
-      <fileName>SurfacePro10with5GforBusiness_Win11_22631_26.042.23379.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.050.5014.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.050.5014.0.msi</msiUrl>
+      <fileName>SurfacePro10with5GforBusiness_Win11_22631_26.050.5014.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1163026432</sizeBytes>
-      <datePublished>2026-05-20</datePublished>
+      <sizeBytes>1163042816</sizeBytes>
+      <datePublished>2026-05-22</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
