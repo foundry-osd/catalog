@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-29T06:43:02Z" category="DriverPack">
-  <Source catalogSha256="a568d356d36f0a675b150b8dcc2ea3d08ee696c72a1a6104988a79a66229087c" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-05-30T06:12:17Z" category="DriverPack">
+  <Source catalogType="SupportArticle" catalogSha256="06d8a87d45f6835a310d84ea030ca3ce0f7df593902c58b7e4abd7ea44b2a718" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -319,33 +319,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>101974|SurfaceHub3_Hub2S_Win11_22631_25.122.21598.0.msi</id>
+      <id>101974|SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi</id>
       <model>Surface Hub 2S and Surface Hub 3</model>
       <downloadTitle>Drivers and Firmware for Windows 11 Pro and Enterprise OS on Surface Hub 2S and Surface Hub 3</downloadTitle>
       <packageId>101974</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101974</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_25.122.21598.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_25.122.21598.0.msi</msiUrl>
-      <fileName>SurfaceHub3_Hub2S_Win11_22631_25.122.21598.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi</msiUrl>
+      <fileName>SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1242841088</sizeBytes>
-      <datePublished>2026-05-19</datePublished>
-      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101974|SurfaceHub3_Hub2S_Win11_22631_26.021.8855.0.msi</id>
-      <model>Surface Hub 2S and Surface Hub 3</model>
-      <downloadTitle>Drivers and Firmware for Windows 11 Pro and Enterprise OS on Surface Hub 2S and Surface Hub 3</downloadTitle>
-      <packageId>101974</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101974</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_26.021.8855.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_26.021.8855.0.msi</msiUrl>
-      <fileName>SurfaceHub3_Hub2S_Win11_22631_26.021.8855.0.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>1242718208</sizeBytes>
-      <datePublished>2026-05-19</datePublished>
+      <sizeBytes>1235660800</sizeBytes>
+      <datePublished>2026-05-29</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -992,18 +977,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>103503|SurfacePro8_Win11_22631_26.042.28195.0.msi</id>
+      <id>103503|SurfacePro8_Win11_22631_26.050.4744.0.msi</id>
       <model>Surface Pro 8</model>
       <downloadTitle>Surface Pro 8 Drivers and Firmware</downloadTitle>
       <packageId>103503</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=103503</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.042.28195.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.042.28195.0.msi</msiUrl>
-      <fileName>SurfacePro8_Win11_22631_26.042.28195.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.050.4744.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.050.4744.0.msi</msiUrl>
+      <fileName>SurfacePro8_Win11_22631_26.050.4744.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1013215232</sizeBytes>
-      <datePublished>2026-05-05</datePublished>
+      <sizeBytes>1013219328</sizeBytes>
+      <datePublished>2026-05-29</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
