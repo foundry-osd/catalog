@@ -36,4 +36,14 @@ jobs:
       - name: Analyze scripts
         shell: pwsh
         run: |
-          Invoke-ScriptAnalyzer -Path Helpers,Scripts -Recurse -EnableExit
+          $diagnostics = @(
+              Invoke-ScriptAnalyzer -Path Helpers -Recurse
+              Invoke-ScriptAnalyzer -Path Scripts -Recurse
+          )
+
+          $diagnostics | Format-Table -AutoSize
+
+          $errors = @($diagnostics | Where-Object Severity -eq 'Error')
+          if ($errors.Count -gt 0) {
+              exit 1
+          }
