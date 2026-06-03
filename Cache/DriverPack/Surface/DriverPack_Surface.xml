@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-02T07:13:49Z" category="DriverPack">
-  <Source catalogSha256="cde1400f57deda2541bc2fbaae9a6acb8d1c76dce031d715c179be0ef22b19c8" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-03T07:28:24Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" catalogSha256="2ca9725582d09acd98f1768909dc3f51e904c2c4d7121e837c5216488194ab5d" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
