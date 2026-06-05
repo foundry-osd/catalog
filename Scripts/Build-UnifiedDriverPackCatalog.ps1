@@ -56,7 +56,7 @@ $ManufacturerConfigs = @{
     }
     Intel = @{
         WinPEPath = Join-Path -Path $CacheDirectory -ChildPath 'WinPE' -AdditionalChildPath @('Intel', 'WinPE_Intel.xml')
-        CatalogUrl = 'https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html'
+        CatalogUrl = 'https://www.catalog.update.microsoft.com/'
     }
 }
 

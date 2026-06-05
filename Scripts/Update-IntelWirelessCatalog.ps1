@@ -7,34 +7,15 @@ param(
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
-    [string]$CatalogPageUri = 'https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-wi-fi-drivers-for-it-administrators.html',
-
-    [Parameter()]
-    [ValidateNotNullOrEmpty()]
-    [string]$FallbackVersion = '24.40.0',
-
-    [Parameter()]
-    [ValidateNotNullOrEmpty()]
-    [string]$FallbackFileName = 'WiFi-24.40.0-Driver64-Win10-Win11.zip',
-
-    [Parameter()]
-    [ValidateNotNullOrEmpty()]
-    [string]$FallbackReleaseDate = '2026-04-28',
-
-    [Parameter()]
-    [ValidateNotNullOrEmpty()]
-    [string]$FallbackSha256 = '2cdf3e61f0d282be39d9e4dc9b10fb140cbc97c401b08cb019c44c77bda4f076',
-
-    [Parameter()]
-    [ValidateNotNullOrEmpty()]
-    [string]$FallbackDownloadUrl = 'https://downloadmirror.intel.com/918236/WiFi-24.40.0-Driver64-Win10-Win11.zip',
+    [string[]]$HardwareIds = @(
+        'PCI\VEN_8086&DEV_272B',
+        'PCI\VEN_8086&DEV_7E40',
+        'PCI\VEN_8086&DEV_2725'
+    ),
 
     [Parameter()]
     [ValidateRange(5, 300)]
-    [int]$TimeoutSeconds = 45,
-
-    [Parameter()]
-    [switch]$AllowStaleMetadataOnRefreshFailure
+    [int]$TimeoutSeconds = 45
 )
 
 Set-StrictMode -Version Latest
@@ -53,9 +34,16 @@ else {
 
 #endregion Import Helpers
 
+#region Constants
+
+$catalogSearchBaseUri = 'https://www.catalog.update.microsoft.com/Search.aspx?q='
+$catalogDownloadDialogUri = 'https://www.catalog.update.microsoft.com/DownloadDialog.aspx'
+
+#endregion Constants
+
 #region Functions
 
-function Invoke-IntelCatalogRequest {
+function Invoke-MicrosoftUpdateCatalogGet {
     param(
         [Parameter(Mandatory = $true)]
         [string]$Uri,
@@ -65,65 +53,63 @@ function Invoke-IntelCatalogRequest {
     )
 
     $headers = @{
-        'User-Agent'      = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) catalog/1.0'
+        'User-Agent'      = 'FoundryCatalog/1.0'
         'Accept'          = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
         'Accept-Language' = 'en-US,en;q=0.9'
+        'Cache-Control'   = 'no-cache'
     }
 
     return Invoke-WebRequest -Uri $Uri -Headers $headers -TimeoutSec $TimeoutSeconds -ErrorAction Stop
 }
 
-function Get-RegexValueOrNull {
+function Invoke-MicrosoftUpdateCatalogPost {
     param(
         [Parameter(Mandatory = $true)]
-        [string]$Text,
+        [string]$Uri,
 
         [Parameter(Mandatory = $true)]
-        [string]$Pattern
-    )
+        [hashtable]$Body,
 
-    $match = [regex]::Match($Text, $Pattern, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
-    if ($match.Success) {
-        return $match.Groups[1].Value.Trim()
-    }
-
-    return $null
-}
-
-function Get-IntelReleaseDateOrNull {
-    param(
         [Parameter(Mandatory = $true)]
-        [string]$Text
+        [int]$TimeoutSeconds
     )
 
-    $patterns = @(
-        '<meta\s+name="(?:lastModifieddate|LastUpdate)"\s+content="([^"]+)"',
-        '<label[^>]*>\s*Date\s*</label>\s*<span[^>]*>\s*([^<]+)\s*</span>',
-        'Date\s+([0-9]{1,2}/[0-9]{1,2}/[0-9]{4})'
-    )
-
-    foreach ($pattern in $patterns) {
-        $value = Get-RegexValueOrNull -Text $Text -Pattern $pattern
-        if ($value) {
-            return $value
-        }
+    $headers = @{
+        'User-Agent'      = 'FoundryCatalog/1.0'
+        'Accept'          = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+        'Accept-Language' = 'en-US,en;q=0.9'
+        'Cache-Control'   = 'no-cache'
     }
 
-    return $null
+    return Invoke-WebRequest -Uri $Uri -Method Post -Headers $headers -Body $Body -TimeoutSec $TimeoutSeconds -ErrorAction Stop
 }
 
-function ConvertTo-IsoDateOrFallback {
+function ConvertFrom-HtmlText {
     param(
         [Parameter()]
         [AllowNull()]
-        [string]$Value,
-
-        [Parameter(Mandatory = $true)]
-        [string]$Fallback
+        [string]$Value
     )
 
     if (-not $Value) {
-        return $Fallback
+        return $null
+    }
+
+    $withoutTags = [regex]::Replace($Value, '<[^>]+>', '|')
+    $decoded = [System.Net.WebUtility]::HtmlDecode($withoutTags)
+    $normalized = [regex]::Replace($decoded, '\|+', '|')
+    return $normalized.Trim('|', ' ', "`r", "`n", "`t")
+}
+
+function ConvertTo-IsoDateOrNull {
+    param(
+        [Parameter()]
+        [AllowNull()]
+        [string]$Value
+    )
+
+    if (-not $Value) {
+        return $null
     }
 
     [datetime]$parsed = [datetime]::MinValue
@@ -131,159 +117,276 @@ function ConvertTo-IsoDateOrFallback {
         return $parsed.ToString('yyyy-MM-dd')
     }
 
-    return $Fallback
+    return $null
 }
 
-function Test-IntelMetadataMatchesFallback {
+function ConvertTo-VersionOrNull {
     param(
         [Parameter()]
         [AllowNull()]
-        [hashtable]$Existing,
-
-        [Parameter(Mandatory = $true)]
-        [hashtable]$Fallback
+        [string]$Value
     )
 
-    if (-not $Existing) {
-        return $false
+    if (-not $Value) {
+        return $null
     }
-
-    return [string]$Existing.Version -eq [string]$Fallback.Version -and
-        [string]$Existing.FileName -eq [string]$Fallback.FileName -and
-        [string]$Existing.ReleaseDate -eq [string]$Fallback.ReleaseDate -and
-        [string]$Existing.DownloadUrl -eq [string]$Fallback.DownloadUrl -and
-        [string]$Existing.Sha256 -and
-        [string]$Fallback.Sha256 -and
-        [string]$Existing.Sha256 -eq [string]$Fallback.Sha256
-}
-
-function Get-IntelWirelessMetadata {
-    param(
-        [Parameter(Mandatory = $true)]
-        [string]$CatalogPageUri,
-
-        [Parameter(Mandatory = $true)]
-        [int]$TimeoutSeconds,
-
-        [Parameter(Mandatory = $true)]
-        [hashtable]$Fallback,
-
-        [Parameter()]
-        [AllowNull()]
-        [hashtable]$Existing,
-
-        [Parameter(Mandatory = $true)]
-        [bool]$AllowStaleMetadataOnRefreshFailure
-    )
 
     try {
-        $response = Invoke-IntelCatalogRequest -Uri $CatalogPageUri -TimeoutSeconds $TimeoutSeconds
-        $content = [string]$response.Content
-
-        $version = Get-RegexValueOrNull -Text $content -Pattern 'Version\s+([0-9]+\.[0-9]+\.[0-9]+(?:\.[0-9]+)?)'
-        $fileName = Get-RegexValueOrNull -Text $content -Pattern '(WiFi-[A-Za-z0-9._\-]+\.zip)'
-        $releaseDate = Get-IntelReleaseDateOrNull -Text $content
-        $sha256 = Get-RegexValueOrNull -Text $content -Pattern 'SHA256:\s*([A-F0-9]{64})'
-        $downloadUrl = Get-RegexValueOrNull -Text $content -Pattern '(https://downloadmirror\.intel\.com/[0-9]+/[A-Za-z0-9._\-]+\.zip)'
-
-        if (-not $downloadUrl -and $fileName) {
-            $mirrorId = Get-RegexValueOrNull -Text $content -Pattern 'downloadmirror\.intel\.com/([0-9]+)/'
-            if ($mirrorId) {
-                $downloadUrl = "https://downloadmirror.intel.com/$mirrorId/$fileName"
-            }
-        }
-
-        if (-not $downloadUrl) {
-            throw "The Intel page did not expose a direct ZIP download URL."
-        }
-
-        return [ordered]@{
-            Version = if ($version) { $version } else { $Fallback.Version }
-            FileName = if ($fileName) { $fileName } else { $Fallback.FileName }
-            ReleaseDate = ConvertTo-IsoDateOrFallback -Value $releaseDate -Fallback $Fallback.ReleaseDate
-            Sha256 = if ($sha256) { $sha256.ToLowerInvariant() } else { $Fallback.Sha256.ToLowerInvariant() }
-            DownloadUrl = $downloadUrl
-            UsedFallback = $false
-            UsedExisting = $false
-            KeepExistingFile = $false
-        }
+        return [version]$Value
     }
     catch {
-        $refreshFailureMessage = "Failed to refresh the Intel wireless package metadata from '$CatalogPageUri'. $($_.Exception.Message)"
-        if (Test-IntelMetadataMatchesFallback -Existing $Existing -Fallback $Fallback) {
-            Write-Warning ("{0} Existing metadata already matches the pinned fallback. Keeping the current catalog unchanged." -f $refreshFailureMessage)
-            return [ordered]@{
-                Version = $Existing.Version
-                FileName = $Existing.FileName
-                ReleaseDate = $Existing.ReleaseDate
-                Sha256 = $Existing.Sha256.ToLowerInvariant()
-                DownloadUrl = $Existing.DownloadUrl
-                UsedFallback = $false
-                UsedExisting = $true
-                KeepExistingFile = $true
-            }
-        }
-
-        if ($AllowStaleMetadataOnRefreshFailure -and $Existing) {
-            Write-Warning ("{0} Reusing the previous known-good entry because -AllowStaleMetadataOnRefreshFailure was specified." -f $refreshFailureMessage)
-            return [ordered]@{
-                Version = $Existing.Version
-                FileName = $Existing.FileName
-                ReleaseDate = $Existing.ReleaseDate
-                Sha256 = if ($Existing.Sha256) { $Existing.Sha256.ToLowerInvariant() } else { $null }
-                DownloadUrl = $Existing.DownloadUrl
-                UsedFallback = $false
-                UsedExisting = $true
-                KeepExistingFile = $false
-            }
-        }
-
-        Write-Warning ("{0} Using pinned fallback metadata because refreshed metadata is unavailable." -f $refreshFailureMessage)
-        return [ordered]@{
-            Version = $Fallback.Version
-            FileName = $Fallback.FileName
-            ReleaseDate = $Fallback.ReleaseDate
-            Sha256 = $Fallback.Sha256.ToLowerInvariant()
-            DownloadUrl = $Fallback.DownloadUrl
-            UsedFallback = $true
-            UsedExisting = $false
-            KeepExistingFile = $false
-        }
+        return $null
     }
 }
 
-function Get-ExistingIntelCatalogEntry {
+function ConvertFrom-Base64Hash {
     param(
+        [Parameter()]
+        [AllowNull()]
+        [string]$Value,
+
         [Parameter(Mandatory = $true)]
-        [string]$Path
+        [string]$Algorithm
     )
 
-    if (-not (Test-Path -Path $Path)) {
+    if (-not $Value) {
         return $null
     }
 
-    [xml]$xml = Get-Content -Path $Path -Raw
-    $item = $xml.IntelCatalog.Items.Item
-    if (-not $item) {
+    try {
+        return [Convert]::ToHexString([Convert]::FromBase64String($Value)).ToLowerInvariant()
+    }
+    catch {
+        throw "Microsoft Update Catalog returned an invalid $Algorithm hash."
+    }
+}
+
+function Get-MicrosoftUpdateVersionFromTitle {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Title
+    )
+
+    $match = [regex]::Match($Title, '\(([0-9]+\.[0-9]+\.[0-9]+(?:\.[0-9]+)?)\)')
+    if (-not $match.Success) {
         return $null
     }
 
-    return [ordered]@{
-        Version = if ([string]$item.version) { [string]$item.version } else { $null }
-        FileName = if ([string]$item.fileName) { [string]$item.fileName } else { $null }
-        ReleaseDate = if ([string]$item.releaseDate) { [string]$item.releaseDate } else { $null }
-        Sha256 = if ([string]$item.hashSHA256) { [string]$item.hashSHA256 } else { $null }
-        DownloadUrl = if ([string]$item.downloadUrl) { [string]$item.downloadUrl } else { $null }
+    return $match.Groups[1].Value
+}
+
+function Get-WindowsProductRank {
+    param(
+        [Parameter()]
+        [AllowNull()]
+        [string]$Products
+    )
+
+    if (-not $Products) {
+        return 0
     }
+
+    if ($Products -match 'Windows 11 Client.*25H2') {
+        return 50
+    }
+
+    if ($Products -match 'Windows 11 Client.*24H2') {
+        return 45
+    }
+
+    if ($Products -match 'Windows 11 Client.*22H2') {
+        return 40
+    }
+
+    if ($Products -match 'Windows 11 Client') {
+        return 35
+    }
+
+    if ($Products -match 'Windows 10') {
+        return 20
+    }
+
+    return 0
+}
+
+function Get-CatalogRowCells {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$RowHtml
+    )
+
+    return [regex]::Matches($RowHtml, '<td\b[^>]*>(.*?)</td>', [System.Text.RegularExpressions.RegexOptions]::Singleline) |
+        ForEach-Object { ConvertFrom-HtmlText -Value $_.Groups[1].Value }
+}
+
+function Get-MicrosoftUpdateCatalogSearchResults {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Query,
+
+        [Parameter(Mandatory = $true)]
+        [int]$TimeoutSeconds
+    )
+
+    $searchUri = $catalogSearchBaseUri + [uri]::EscapeDataString($Query)
+    $response = Invoke-MicrosoftUpdateCatalogGet -Uri $searchUri -TimeoutSeconds $TimeoutSeconds
+    $html = [string]$response.Content
+
+    if ($html -match 'ctl00_catalogBody_noResultText') {
+        return @()
+    }
+
+    $rows = [regex]::Matches($html, '<tr\b[^>]*>.*?</tr>', [System.Text.RegularExpressions.RegexOptions]::Singleline)
+    $results = foreach ($row in $rows) {
+        $rowHtml = $row.Value
+        if ($rowHtml -match 'id="headerRow"') {
+            continue
+        }
+
+        $idMatch = [regex]::Match($rowHtml, 'id="(?<id>[0-9a-fA-F-]{36})"')
+        if (-not $idMatch.Success) {
+            continue
+        }
+
+        $cells = @(Get-CatalogRowCells -RowHtml $rowHtml)
+        if ($cells.Count -lt 7) {
+            continue
+        }
+
+        $title = [string]$cells[1]
+        $version = Get-MicrosoftUpdateVersionFromTitle -Title $title
+        if (-not $version) {
+            continue
+        }
+
+        [pscustomobject]@{
+            UpdateId = $idMatch.Groups['id'].Value
+            Title = $title
+            Products = [string]$cells[2]
+            Classification = [string]$cells[3]
+            LastUpdated = ConvertTo-IsoDateOrNull -Value ([string]$cells[4])
+            Version = $version
+            VersionObject = ConvertTo-VersionOrNull -Value $version
+            Size = [string]$cells[6]
+            ProductRank = Get-WindowsProductRank -Products ([string]$cells[2])
+            Query = $Query
+        }
+    }
+
+    return @($results)
+}
+
+function Get-MicrosoftUpdateCatalogDownloads {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$UpdateId,
+
+        [Parameter(Mandatory = $true)]
+        [int]$TimeoutSeconds
+    )
+
+    $payload = '[{"size":0,"updateID":"' + $UpdateId + '","uidInfo":"' + $UpdateId + '"}]'
+    $response = Invoke-MicrosoftUpdateCatalogPost `
+        -Uri $catalogDownloadDialogUri `
+        -Body @{ updateIDs = $payload } `
+        -TimeoutSeconds $TimeoutSeconds
+
+    $html = [string]$response.Content
+    $regex = [regex]::new(
+        "downloadInformation\[\d+\]\.files\[(?<index>\d+)\]\.(?<name>[A-Za-z0-9_]+)\s*=\s*'(?<value>(?:\\'|[^'])*)'",
+        [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+
+    $files = @{}
+    foreach ($match in $regex.Matches($html)) {
+        $index = [int]$match.Groups['index'].Value
+        if (-not $files.ContainsKey($index)) {
+            $files[$index] = @{}
+        }
+
+        $value = $match.Groups['value'].Value.Replace("\'", "'").Replace("\\", "\")
+        $files[$index][$match.Groups['name'].Value] = $value
+    }
+
+    return @(
+        foreach ($index in ($files.Keys | Sort-Object)) {
+            $file = $files[$index]
+            $downloadUrl = [string]$file.url
+            if (-not $downloadUrl) {
+                continue
+            }
+
+            [pscustomobject]@{
+                FileName = [string]$file.fileName
+                DownloadUrl = $downloadUrl.Replace('www.download.windowsupdate', 'download.windowsupdate', [System.StringComparison]::OrdinalIgnoreCase)
+                Sha1 = ConvertFrom-Base64Hash -Value ([string]$file.digest) -Algorithm 'SHA1'
+                Sha256 = ConvertFrom-Base64Hash -Value ([string]$file.sha256) -Algorithm 'SHA256'
+                Architectures = [string]$file.architectures
+                Languages = [string]$file.languages
+            }
+        }
+    )
+}
+
+function Get-IntelWirelessMicrosoftUpdateMetadata {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string[]]$HardwareIds,
+
+        [Parameter(Mandatory = $true)]
+        [int]$TimeoutSeconds
+    )
+
+    $allResults = foreach ($hardwareId in $HardwareIds) {
+        Get-MicrosoftUpdateCatalogSearchResults -Query $hardwareId -TimeoutSeconds $TimeoutSeconds
+    }
+
+    $candidates = @(
+        $allResults |
+            Where-Object {
+                $_.VersionObject -and
+                $_.Title -match '^Intel net Driver Update' -and
+                $_.Classification -match 'Drivers \(Networking\)' -and
+                $_.Products -match 'Windows 11 Client'
+            } |
+            Sort-Object `
+                @{ Expression = { $_.VersionObject }; Descending = $true },
+                @{ Expression = { if ($_.LastUpdated) { [datetime]$_.LastUpdated } else { [datetime]::MinValue } }; Descending = $true },
+                @{ Expression = { $_.ProductRank }; Descending = $true },
+                @{ Expression = { $_.UpdateId }; Descending = $false }
+    )
+
+    if ($candidates.Count -eq 0) {
+        throw "Microsoft Update Catalog did not return any Windows 11 Intel networking driver updates for the configured hardware IDs."
+    }
+
+    foreach ($candidate in $candidates) {
+        $downloads = @(Get-MicrosoftUpdateCatalogDownloads -UpdateId $candidate.UpdateId -TimeoutSeconds $TimeoutSeconds)
+        $cab = $downloads |
+            Where-Object { $_.DownloadUrl -match '\.cab($|\?)' -and $_.Sha256 } |
+            Select-Object -First 1
+
+        if (-not $cab) {
+            continue
+        }
+
+        return [ordered]@{
+            Version = $candidate.Version
+            FileName = if ($cab.FileName) { $cab.FileName } else { Split-Path -Path ([uri]$cab.DownloadUrl).LocalPath -Leaf }
+            ReleaseDate = $candidate.LastUpdated
+            Sha256 = $cab.Sha256
+            DownloadUrl = $cab.DownloadUrl
+            UpdateId = $candidate.UpdateId
+            Query = $candidate.Query
+        }
+    }
+
+    throw "Microsoft Update Catalog returned Intel networking updates, but none exposed a CAB download with a SHA256 hash."
 }
 
 function Write-IntelCatalogXml {
     param(
         [Parameter(Mandatory = $true)]
         [string]$Path,
-
-        [Parameter(Mandatory = $true)]
-        [string]$CatalogPageUri,
 
         [Parameter(Mandatory = $true)]
         [hashtable]$Metadata
@@ -299,10 +402,11 @@ function Write-IntelCatalogXml {
         $writer.WriteAttributeString('itemCount', '1')
 
         $writer.WriteStartElement('Metadata')
-        $writer.WriteAttributeString('catalogUrl', $CatalogPageUri)
-        $writer.WriteAttributeString('description', 'Intel wireless driver-only ZIP catalog for WinRE Wi-Fi supplementation.')
-        $writer.WriteAttributeString('usedFallback', [string]$Metadata.UsedFallback.ToString().ToLowerInvariant())
-        $writer.WriteAttributeString('usedExisting', [string]$Metadata.UsedExisting.ToString().ToLowerInvariant())
+        $writer.WriteAttributeString('catalogUrl', 'https://www.catalog.update.microsoft.com/')
+        $writer.WriteAttributeString('description', 'Intel wireless driver CAB catalog from Microsoft Update Catalog for WinRE Wi-Fi supplementation.')
+        $writer.WriteAttributeString('source', 'MicrosoftUpdateCatalog')
+        $writer.WriteAttributeString('updateId', [string]$Metadata.UpdateId)
+        $writer.WriteAttributeString('query', [string]$Metadata.Query)
         $writer.WriteEndElement()
 
         $writer.WriteStartElement('Items')
@@ -311,11 +415,11 @@ function Write-IntelCatalogXml {
         $elements = [ordered]@{
             id = 'intel-wireless-winre-x64'
             packageId = 'intel-wireless-winre-x64'
-            name = 'Intel Wireless Wi-Fi Drivers for IT Administrators'
+            name = 'Intel Wireless Wi-Fi Drivers from Microsoft Update Catalog'
             version = $Metadata.Version
             fileName = $Metadata.FileName
             downloadUrl = $Metadata.DownloadUrl
-            format = 'zip'
+            format = 'cab'
             packageRole = 'WifiSupplement'
             driverFamily = 'IntelWireless'
             releaseDate = $Metadata.ReleaseDate
@@ -348,25 +452,8 @@ if (-not (Test-Path -Path $WinPEOutputDirectory)) {
     $null = New-Item -Path $WinPEOutputDirectory -ItemType Directory -Force
 }
 
-$fallback = @{
-    Version = $FallbackVersion
-    FileName = $FallbackFileName
-    ReleaseDate = $FallbackReleaseDate
-    Sha256 = $FallbackSha256
-    DownloadUrl = $FallbackDownloadUrl
-}
-
-$existing = Get-ExistingIntelCatalogEntry -Path $outputPath
-$metadata = Get-IntelWirelessMetadata `
-    -CatalogPageUri $CatalogPageUri `
-    -TimeoutSeconds $TimeoutSeconds `
-    -Fallback $fallback `
-    -Existing $existing `
-    -AllowStaleMetadataOnRefreshFailure $AllowStaleMetadataOnRefreshFailure.IsPresent
-
-if (-not $metadata.KeepExistingFile) {
-    Write-IntelCatalogXml -Path $outputPath -CatalogPageUri $CatalogPageUri -Metadata $metadata
-}
+$metadata = Get-IntelWirelessMicrosoftUpdateMetadata -HardwareIds $HardwareIds -TimeoutSeconds $TimeoutSeconds
+Write-IntelCatalogXml -Path $outputPath -Metadata $metadata
 
 [pscustomobject]@{
     OutputPath = $outputPath
@@ -375,8 +462,9 @@ if (-not $metadata.KeepExistingFile) {
     ReleaseDate = $metadata.ReleaseDate
     Sha256 = $metadata.Sha256
     DownloadUrl = $metadata.DownloadUrl
-    UsedFallback = $metadata.UsedFallback
-    UsedExisting = $metadata.UsedExisting
+    Source = 'MicrosoftUpdateCatalog'
+    UpdateId = $metadata.UpdateId
+    Query = $metadata.Query
 }
 
 #endregion Main Execution
