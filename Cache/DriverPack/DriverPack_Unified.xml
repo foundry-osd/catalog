@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-05T06:56:59Z" totalItems="8682" category="DriverPack">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-05T16:28:59Z" totalItems="8682" category="DriverPack">
   <Metadata name="Foundry Unified DriverPack Catalog" description="Normalized DriverPack catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-05-26T00:00:00Z" itemCount="1432" />
     <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-05-29T00:00:00Z" itemCount="4203" />
-    <Source manufacturer="Lenovo" catalogUrl="https://download.lenovo.com/cdrt/td/catalogv2.xml" lastUpdated="2026-05-28T00:00:00Z" itemCount="2965" />
-    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-06-01T00:00:00Z" itemCount="82" />
+    <Source manufacturer="Lenovo" catalogUrl="https://download.lenovo.com/cdrt/td/catalogv2.xml" lastUpdated="2026-05-29T00:00:00Z" itemCount="2965" />
+    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-06-04T00:00:00Z" itemCount="82" />
   </Sources>
   <DriverPacks>
     <DriverPack id="JFH0G" packageId="JFH0G" manufacturer="Dell" name="160-vista-A01-JFH0G.CAB" version="A01" fileName="160-vista-A01-JFH0G.CAB" downloadUrl="https://downloads.dell.com/FOLDER02291001M/1/160-vista-A01-JFH0G.CAB" sizeBytes="72429980" format="cab" type="Win" packageRole="BaseDriverPack" releaseDate="2014-07-11">
@@ -48884,13 +48884,6 @@
       <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
       <Hashes md5="997db959ac08717358ace739e9bc6ddb" crc="fac997efdcbd5efd2982ff8151981cc3b32a4c50b8ccde400331fe0287d616b1" />
     </DriverPack>
-    <DriverPack id="ThinkPad P70|win10|1909|tp_p50-p70_w1064_1909_201911.exe" packageId="tp_p50-p70_w1064_1909_201911.exe" manufacturer="Lenovo" name="tp_p50-p70_w1064_1909_201911.exe" fileName="tp_p50-p70_w1064_1909_201911.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p50-p70_w1064_1909_201911.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-02-06">
-      <Models>
-        <Model name="ThinkPad P70" systemId="20ER,20ES" />
-      </Models>
-      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
-      <Hashes md5="78395efe10c289d0e322bdad824c6efa" crc="7b1dea9fb161ef75676739cce45ea4ce06e7f8c5c19a3f03666b9df1dc8d1ff0" />
-    </DriverPack>
     <DriverPack id="ThinkPad P50|win10|1909|tp_p50-p70_w1064_1909_201911.exe" packageId="tp_p50-p70_w1064_1909_201911.exe" manufacturer="Lenovo" name="tp_p50-p70_w1064_1909_201911.exe" fileName="tp_p50-p70_w1064_1909_201911.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p50-p70_w1064_1909_201911.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-02-06">
       <Models>
         <Model name="ThinkPad P50" systemId="20EN,20EQ" />
@@ -48898,16 +48891,23 @@
       <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
       <Hashes md5="78395efe10c289d0e322bdad824c6efa" crc="7b1dea9fb161ef75676739cce45ea4ce06e7f8c5c19a3f03666b9df1dc8d1ff0" />
     </DriverPack>
-    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|1803|tp_p51_p71_w1064_1803_202003.exe" packageId="tp_p51_p71_w1064_1803_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1803_202003.exe" fileName="tp_p51_p71_w1064_1803_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1803_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+    <DriverPack id="ThinkPad P70|win10|1909|tp_p50-p70_w1064_1909_201911.exe" packageId="tp_p50-p70_w1064_1909_201911.exe" manufacturer="Lenovo" name="tp_p50-p70_w1064_1909_201911.exe" fileName="tp_p50-p70_w1064_1909_201911.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p50-p70_w1064_1909_201911.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-02-06">
       <Models>
-        <Model name="ThinkPad P51 Type 20HH 20HJ" systemId="20HH,20HJ" />
+        <Model name="ThinkPad P70" systemId="20ER,20ES" />
       </Models>
-      <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
-      <Hashes md5="2591c66991b58714ec0cbcb61c52ec58" crc="85ed2803f04790d0f4bb8e44a4ad0baf0a076023f0b2feaa6df2fad3f18e1d57" />
+      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
+      <Hashes md5="78395efe10c289d0e322bdad824c6efa" crc="7b1dea9fb161ef75676739cce45ea4ce06e7f8c5c19a3f03666b9df1dc8d1ff0" />
     </DriverPack>
     <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|1803|tp_p51_p71_w1064_1803_202003.exe" packageId="tp_p51_p71_w1064_1803_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1803_202003.exe" fileName="tp_p51_p71_w1064_1803_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1803_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
       <Models>
         <Model name="ThinkPad P51 Type 20MM 20MN" systemId="20MM,20MN" />
+      </Models>
+      <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
+      <Hashes md5="2591c66991b58714ec0cbcb61c52ec58" crc="85ed2803f04790d0f4bb8e44a4ad0baf0a076023f0b2feaa6df2fad3f18e1d57" />
+    </DriverPack>
+    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|1803|tp_p51_p71_w1064_1803_202003.exe" packageId="tp_p51_p71_w1064_1803_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1803_202003.exe" fileName="tp_p51_p71_w1064_1803_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1803_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+      <Models>
+        <Model name="ThinkPad P51 Type 20HH 20HJ" systemId="20HH,20HJ" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
       <Hashes md5="2591c66991b58714ec0cbcb61c52ec58" crc="85ed2803f04790d0f4bb8e44a4ad0baf0a076023f0b2feaa6df2fad3f18e1d57" />
@@ -48926,16 +48926,16 @@
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="6987cf89759077f82989f57e4a5c42bd" crc="29b45f95617ade46fc7b42bda0ab3e198f9982ef62556bd0e7ca979cb53883be" />
     </DriverPack>
-    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|1809|tp_p51_p71_w1064_1809_202003.exe" packageId="tp_p51_p71_w1064_1809_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1809_202003.exe" fileName="tp_p51_p71_w1064_1809_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1809_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+    <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|1809|tp_p51_p71_w1064_1809_202003.exe" packageId="tp_p51_p71_w1064_1809_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1809_202003.exe" fileName="tp_p51_p71_w1064_1809_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1809_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
       <Models>
-        <Model name="ThinkPad P51 Type 20HH 20HJ" systemId="20HH,20HJ" />
+        <Model name="ThinkPad P51 Type 20MM 20MN" systemId="20MM,20MN" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="6987cf89759077f82989f57e4a5c42bd" crc="29b45f95617ade46fc7b42bda0ab3e198f9982ef62556bd0e7ca979cb53883be" />
     </DriverPack>
-    <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|1809|tp_p51_p71_w1064_1809_202003.exe" packageId="tp_p51_p71_w1064_1809_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1809_202003.exe" fileName="tp_p51_p71_w1064_1809_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1809_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|1809|tp_p51_p71_w1064_1809_202003.exe" packageId="tp_p51_p71_w1064_1809_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1809_202003.exe" fileName="tp_p51_p71_w1064_1809_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1809_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
       <Models>
-        <Model name="ThinkPad P51 Type 20MM 20MN" systemId="20MM,20MN" />
+        <Model name="ThinkPad P51 Type 20HH 20HJ" systemId="20HH,20HJ" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="6987cf89759077f82989f57e4a5c42bd" crc="29b45f95617ade46fc7b42bda0ab3e198f9982ef62556bd0e7ca979cb53883be" />
@@ -48954,6 +48954,20 @@
       <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
       <Hashes md5="360acfacdf948360024986acf9acdcde" crc="d7327d460b13921c5bf3ab40678c9ca75b1d4881e5b6ade6cecab8ba51132481" />
     </DriverPack>
+    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|1909|tp_p51_p71_w1064_1909_202003.exe" packageId="tp_p51_p71_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1909_202003.exe" fileName="tp_p51_p71_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+      <Models>
+        <Model name="ThinkPad P51 Type 20HH 20HJ" systemId="20HH,20HJ" />
+      </Models>
+      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
+      <Hashes md5="a3e32650656af320d5b8cf4172daa76c" crc="d9c167e7f37d4106d4f293b2455589665672d7535c3688e71443eb08d9c6ca15" />
+    </DriverPack>
+    <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|1909|tp_p51_p71_w1064_1909_202003.exe" packageId="tp_p51_p71_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1909_202003.exe" fileName="tp_p51_p71_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+      <Models>
+        <Model name="ThinkPad P51 Type 20MM 20MN" systemId="20MM,20MN" />
+      </Models>
+      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
+      <Hashes md5="a3e32650656af320d5b8cf4172daa76c" crc="d9c167e7f37d4106d4f293b2455589665672d7535c3688e71443eb08d9c6ca15" />
+    </DriverPack>
     <DriverPack id="ThinkPad P71|win10|1909|tp_p51_p71_w1064_1909_202003.exe" packageId="tp_p51_p71_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1909_202003.exe" fileName="tp_p51_p71_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
       <Models>
         <Model name="ThinkPad P71" systemId="20HK,20HL" />
@@ -48961,12 +48975,12 @@
       <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
       <Hashes md5="a3e32650656af320d5b8cf4172daa76c" crc="d9c167e7f37d4106d4f293b2455589665672d7535c3688e71443eb08d9c6ca15" />
     </DriverPack>
-    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|1909|tp_p51_p71_w1064_1909_202003.exe" packageId="tp_p51_p71_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_1909_202003.exe" fileName="tp_p51_p71_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|2004|tp_p51_p71_w1064_2004_202005.exe" packageId="tp_p51_p71_w1064_2004_202005.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_2004_202005.exe" fileName="tp_p51_p71_w1064_2004_202005.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_2004_202005.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
       <Models>
         <Model name="ThinkPad P51 Type 20HH 20HJ" systemId="20HH,20HJ" />
       </Models>
-      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
-      <Hashes md5="a3e32650656af320d5b8cf4172daa76c" crc="d9c167e7f37d4106d4f293b2455589665672d7535c3688e71443eb08d9c6ca15" />
+      <OsInfo name="Windows 10" releaseId="2004" architecture="x64" />
+      <Hashes md5="77b4d6e9c18679392733efae86043f98" crc="6673d91a387c2a8aee6740965e7efd593f318daa1f0b6e7be46676bc6f2ae61b" />
     </DriverPack>
     <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|2004|tp_p51_p71_w1064_2004_202005.exe" packageId="tp_p51_p71_w1064_2004_202005.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_2004_202005.exe" fileName="tp_p51_p71_w1064_2004_202005.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_2004_202005.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
       <Models>
@@ -48982,20 +48996,6 @@
       <OsInfo name="Windows 10" releaseId="2004" architecture="x64" />
       <Hashes md5="77b4d6e9c18679392733efae86043f98" crc="6673d91a387c2a8aee6740965e7efd593f318daa1f0b6e7be46676bc6f2ae61b" />
     </DriverPack>
-    <DriverPack id="ThinkPad P51 Type 20HH 20HJ|win10|2004|tp_p51_p71_w1064_2004_202005.exe" packageId="tp_p51_p71_w1064_2004_202005.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_2004_202005.exe" fileName="tp_p51_p71_w1064_2004_202005.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_2004_202005.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
-      <Models>
-        <Model name="ThinkPad P51 Type 20HH 20HJ" systemId="20HH,20HJ" />
-      </Models>
-      <OsInfo name="Windows 10" releaseId="2004" architecture="x64" />
-      <Hashes md5="77b4d6e9c18679392733efae86043f98" crc="6673d91a387c2a8aee6740965e7efd593f318daa1f0b6e7be46676bc6f2ae61b" />
-    </DriverPack>
-    <DriverPack id="ThinkPad P71|win10|20H2|tp_p51_p71_w1064_20h2_202011.exe" packageId="tp_p51_p71_w1064_20h2_202011.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_20h2_202011.exe" fileName="tp_p51_p71_w1064_20h2_202011.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_20h2_202011.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
-      <Models>
-        <Model name="ThinkPad P71" systemId="20HK,20HL" />
-      </Models>
-      <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
-      <Hashes md5="c9d1e39bce7f71423474b971edffca4a" crc="9b04c9d571502ede2b0de822b5da491c7bb8e8822d4e19841a24e6520af10c10" />
-    </DriverPack>
     <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|20H2|tp_p51_p71_w1064_20h2_202011.exe" packageId="tp_p51_p71_w1064_20h2_202011.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_20h2_202011.exe" fileName="tp_p51_p71_w1064_20h2_202011.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_20h2_202011.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
       <Models>
         <Model name="ThinkPad P51 Type 20MM 20MN" systemId="20MM,20MN" />
@@ -49010,19 +49010,19 @@
       <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
       <Hashes md5="c9d1e39bce7f71423474b971edffca4a" crc="9b04c9d571502ede2b0de822b5da491c7bb8e8822d4e19841a24e6520af10c10" />
     </DriverPack>
+    <DriverPack id="ThinkPad P71|win10|20H2|tp_p51_p71_w1064_20h2_202011.exe" packageId="tp_p51_p71_w1064_20h2_202011.exe" manufacturer="Lenovo" name="tp_p51_p71_w1064_20h2_202011.exe" fileName="tp_p51_p71_w1064_20h2_202011.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_p71_w1064_20h2_202011.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-12-31">
+      <Models>
+        <Model name="ThinkPad P71" systemId="20HK,20HL" />
+      </Models>
+      <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
+      <Hashes md5="c9d1e39bce7f71423474b971edffca4a" crc="9b04c9d571502ede2b0de822b5da491c7bb8e8822d4e19841a24e6520af10c10" />
+    </DriverPack>
     <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|1903|tp_p51_skbl_w1064_1903_202003.exe" packageId="tp_p51_skbl_w1064_1903_202003.exe" manufacturer="Lenovo" name="tp_p51_skbl_w1064_1903_202003.exe" fileName="tp_p51_skbl_w1064_1903_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_skbl_w1064_1903_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-04-21">
       <Models>
         <Model name="ThinkPad P51 Type 20MM 20MN" systemId="20MM,20MN" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
       <Hashes md5="a5da0ad087e122ad6dae5c77507f5987" crc="246d4ef1e1f9dd530893efbd3347d3e9df75de7b0ccd2aec7a6470e567ac63d4" />
-    </DriverPack>
-    <DriverPack id="ThinkPad P51 Type 20MM 20MN|win10|1909|tp_p51_skl_w1064_1909_202003.exe" packageId="tp_p51_skl_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p51_skl_w1064_1909_202003.exe" fileName="tp_p51_skl_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p51_skl_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2020-04-21">
-      <Models>
-        <Model name="ThinkPad P51 Type 20MM 20MN" systemId="20MM,20MN" />
-      </Models>
-      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
-      <Hashes md5="554d9599513fbcc01218087365423efc" crc="32166d784b4707461cc65d212aec22a3b03862e8e869a8bbcdcdea5bedb2d26c" />
     </DriverPack>
     <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|1703|tp_p52_p72_w1064_1703_202003.exe" packageId="tp_p52_p72_w1064_1703_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1703_202003.exe" fileName="tp_p52_p72_w1064_1703_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1703_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
@@ -49038,16 +49038,16 @@
       <OsInfo name="Windows 10" releaseId="1703" architecture="x64" />
       <Hashes md5="9aafc6bff8933b193290ecf0562068d3" crc="2062e90cdcd83ca4d2c4ff62f05fab6b334e7c3bc312f12da2a5586e5a06b945" />
     </DriverPack>
-    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1709|tp_p52_p72_w1064_1709_202003.exe" packageId="tp_p52_p72_w1064_1709_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1709_202003.exe" fileName="tp_p52_p72_w1064_1709_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1709_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
+    <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|1709|tp_p52_p72_w1064_1709_202003.exe" packageId="tp_p52_p72_w1064_1709_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1709_202003.exe" fileName="tp_p52_p72_w1064_1709_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1709_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
-        <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
+        <Model name="ThinkPad P52 Type 20M9 20MA" systemId="20M9,20MA" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1709" architecture="x64" />
       <Hashes md5="e087baafebe33b7721cc9b7fb6ea26b0" crc="28e1e794c94de83c4a65aca970fecd742eb89fe79fe02d99b9d8d147fff0b5cf" />
     </DriverPack>
-    <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|1709|tp_p52_p72_w1064_1709_202003.exe" packageId="tp_p52_p72_w1064_1709_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1709_202003.exe" fileName="tp_p52_p72_w1064_1709_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1709_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
+    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1709|tp_p52_p72_w1064_1709_202003.exe" packageId="tp_p52_p72_w1064_1709_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1709_202003.exe" fileName="tp_p52_p72_w1064_1709_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1709_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
-        <Model name="ThinkPad P52 Type 20M9 20MA" systemId="20M9,20MA" />
+        <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1709" architecture="x64" />
       <Hashes md5="e087baafebe33b7721cc9b7fb6ea26b0" crc="28e1e794c94de83c4a65aca970fecd742eb89fe79fe02d99b9d8d147fff0b5cf" />
@@ -49066,13 +49066,6 @@
       <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
       <Hashes md5="bcef36a4d3c5445a1f1f9a742a7e4590" crc="fcd4999af273f3e43bd6b56d61305b56c45b221d8e000735608884993cbfbbfd" />
     </DriverPack>
-    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1809|tp_p52_p72_w1064_1809_202003.exe" packageId="tp_p52_p72_w1064_1809_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1809_202003.exe" fileName="tp_p52_p72_w1064_1809_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1809_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
-      <Models>
-        <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
-      </Models>
-      <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
-      <Hashes md5="e561408736e0d143eac05b1fbf099d03" crc="00d8f9b289379a0c166bc9867951fccaa005ea097d44aa12d1e244bad62358b8" />
-    </DriverPack>
     <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|1809|tp_p52_p72_w1064_1809_202003.exe" packageId="tp_p52_p72_w1064_1809_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1809_202003.exe" fileName="tp_p52_p72_w1064_1809_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1809_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
         <Model name="ThinkPad P52 Type 20M9 20MA" systemId="20M9,20MA" />
@@ -49080,12 +49073,12 @@
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="e561408736e0d143eac05b1fbf099d03" crc="00d8f9b289379a0c166bc9867951fccaa005ea097d44aa12d1e244bad62358b8" />
     </DriverPack>
-    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1903|tp_p52_p72_w1064_1903_202003.exe" packageId="tp_p52_p72_w1064_1903_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1903_202003.exe" fileName="tp_p52_p72_w1064_1903_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1903_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
+    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1809|tp_p52_p72_w1064_1809_202003.exe" packageId="tp_p52_p72_w1064_1809_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1809_202003.exe" fileName="tp_p52_p72_w1064_1809_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1809_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
         <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
       </Models>
-      <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
-      <Hashes md5="5b2f6db60c5c408d700abf11e1847fa9" crc="0e8cae85975b6aa774dfcb996e03563d64c6e8d0abac25ec592845236383da35" />
+      <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
+      <Hashes md5="e561408736e0d143eac05b1fbf099d03" crc="00d8f9b289379a0c166bc9867951fccaa005ea097d44aa12d1e244bad62358b8" />
     </DriverPack>
     <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|1903|tp_p52_p72_w1064_1903_202003.exe" packageId="tp_p52_p72_w1064_1903_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1903_202003.exe" fileName="tp_p52_p72_w1064_1903_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1903_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
@@ -49094,16 +49087,23 @@
       <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
       <Hashes md5="5b2f6db60c5c408d700abf11e1847fa9" crc="0e8cae85975b6aa774dfcb996e03563d64c6e8d0abac25ec592845236383da35" />
     </DriverPack>
-    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1909|tp_p52_p72_w1064_1909_202003.exe" packageId="tp_p52_p72_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1909_202003.exe" fileName="tp_p52_p72_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
+    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1903|tp_p52_p72_w1064_1903_202003.exe" packageId="tp_p52_p72_w1064_1903_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1903_202003.exe" fileName="tp_p52_p72_w1064_1903_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1903_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
         <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
       </Models>
-      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
-      <Hashes md5="a52ae55e690f6549350257fb53132c1b" crc="285fcb3a58a83e2626e88a6bd7e821fc3744f303e912533389215f243bf53cce" />
+      <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
+      <Hashes md5="5b2f6db60c5c408d700abf11e1847fa9" crc="0e8cae85975b6aa774dfcb996e03563d64c6e8d0abac25ec592845236383da35" />
     </DriverPack>
     <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|1909|tp_p52_p72_w1064_1909_202003.exe" packageId="tp_p52_p72_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1909_202003.exe" fileName="tp_p52_p72_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
         <Model name="ThinkPad P52 Type 20M9 20MA" systemId="20M9,20MA" />
+      </Models>
+      <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
+      <Hashes md5="a52ae55e690f6549350257fb53132c1b" crc="285fcb3a58a83e2626e88a6bd7e821fc3744f303e912533389215f243bf53cce" />
+    </DriverPack>
+    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|1909|tp_p52_p72_w1064_1909_202003.exe" packageId="tp_p52_p72_w1064_1909_202003.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_1909_202003.exe" fileName="tp_p52_p72_w1064_1909_202003.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_1909_202003.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
+      <Models>
+        <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
       <Hashes md5="a52ae55e690f6549350257fb53132c1b" crc="285fcb3a58a83e2626e88a6bd7e821fc3744f303e912533389215f243bf53cce" />
@@ -49136,16 +49136,16 @@
       <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
       <Hashes md5="97630af408de73a511d1c99998746367" crc="92b20e93257824adc4909e154be3547e3dad4d882f23985b64264c5a4c9fe155" />
     </DriverPack>
-    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|21H1|tp_p52_p72_w1064_21H1_202105.exe" packageId="tp_p52_p72_w1064_21H1_202105.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_21H1_202105.exe" fileName="tp_p52_p72_w1064_21H1_202105.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_21H1_202105.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
+    <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|21H1|tp_p52_p72_w1064_21H1_202105.exe" packageId="tp_p52_p72_w1064_21H1_202105.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_21H1_202105.exe" fileName="tp_p52_p72_w1064_21H1_202105.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_21H1_202105.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
-        <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
+        <Model name="ThinkPad P52 Type 20M9 20MA" systemId="20M9,20MA" />
       </Models>
       <OsInfo name="Windows 10" releaseId="21H1" architecture="x64" />
       <Hashes md5="057e0e63bd2194baa7ee73f14bd9f1e1" crc="eafb13e638adf29d579ab62d89480b01beb94f780a5e16436f62b271ec1cf518" />
     </DriverPack>
-    <DriverPack id="ThinkPad P52 Type 20M9 20MA|win10|21H1|tp_p52_p72_w1064_21H1_202105.exe" packageId="tp_p52_p72_w1064_21H1_202105.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_21H1_202105.exe" fileName="tp_p52_p72_w1064_21H1_202105.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_21H1_202105.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
+    <DriverPack id="ThinkPad P72 Type 20MB 20MC|win10|21H1|tp_p52_p72_w1064_21H1_202105.exe" packageId="tp_p52_p72_w1064_21H1_202105.exe" manufacturer="Lenovo" name="tp_p52_p72_w1064_21H1_202105.exe" fileName="tp_p52_p72_w1064_21H1_202105.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_p52_p72_w1064_21H1_202105.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-03-21">
       <Models>
-        <Model name="ThinkPad P52 Type 20M9 20MA" systemId="20M9,20MA" />
+        <Model name="ThinkPad P72 Type 20MB 20MC" systemId="20MB,20MC" />
       </Models>
       <OsInfo name="Windows 10" releaseId="21H1" architecture="x64" />
       <Hashes md5="057e0e63bd2194baa7ee73f14bd9f1e1" crc="eafb13e638adf29d579ab62d89480b01beb94f780a5e16436f62b271ec1cf518" />
@@ -52902,19 +52902,19 @@
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
       <Hashes md5="4d5eefdc873865c8dbf36daab7b8b31d" crc="53cc81c10719777e411dec9fa0e1a4a6d4ca6bb00a1977d6d84cd642549249cf" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|24H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-04-29">
+    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|24H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_24h2_202604.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-29">
       <Models>
         <Model name="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0" systemId="21YY,22A0" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
       <Hashes md5="40a0e014a354ad935a834700cce533f8" crc="01bc360fcdf8101990db5b0fe9dc5307a6c174000598d9c7a545cdb72b440c5e" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|25H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202604.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202604.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202604.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202604.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202604.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-04-29">
+    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|25H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202605.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202605.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_intelvideo_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-29">
       <Models>
         <Model name="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0" systemId="21YY,22A0" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="4179eb7bc0fcc04ee0ce720234a344af" crc="1b8489219fc23b3d2a937daaedd01314566a7f4fcedfaec38a9ee747d4058d49" />
+      <Hashes md5="67ccc46cd27edfdefefdc53c2213dccf" crc="a22e62f34ac4d6628847ae90737348218f690d8d1eef4a259f5561ffd6d04d6f" />
     </DriverPack>
     <DriverPack id="ThinkPad X13 Type 20T2 20T3|win10|1809|tp_t14s_mt20t0-20t1-x13_mt20t2-20t3_w1064_1809_202006.exe" packageId="tp_t14s_mt20t0-20t1-x13_mt20t2-20t3_w1064_1809_202006.exe" manufacturer="Lenovo" name="tp_t14s_mt20t0-20t1-x13_mt20t2-20t3_w1064_1809_202006.exe" fileName="tp_t14s_mt20t0-20t1-x13_mt20t2-20t3_w1064_1809_202006.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_mt20t0-20t1-x13_mt20t2-20t3_w1064_1809_202006.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-11-21">
       <Models>
@@ -56136,14 +56136,14 @@
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
       <Hashes md5="75a09a4fa88a179517f8c5e7bcda8452" crc="88a9c318a46ff95de2f1d7f7d72753216ccccab042e7efe041a7b40021f1bb69" />
     </DriverPack>
-    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|24H2|tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202604.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202604.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202604.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202604.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202604.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-26">
+    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|24H2|tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-29">
       <Models>
         <Model name="ThinkPad X13 Gen 7 Type 21YH 21YJ" systemId="21YH,21YJ" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="31ea92c91c5fd0aef07902747a2fa656" crc="245582d049ca5d78bcf8b3e371116ad52ec5e8b83e876f119b38674cf2f822dc" />
+      <Hashes md5="8e27adf1715672505ae4baa74dfd873b" crc="41812a0ea3894d628500bf9c82002d5a32b9a9ac201746349cb5eb5bd4c06374" />
     </DriverPack>
-    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|25H2|tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-26">
+    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|25H2|tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-29">
       <Models>
         <Model name="ThinkPad X13 Gen 7 Type 21YH 21YJ" systemId="21YH,21YJ" />
       </Models>
@@ -60831,7 +60831,7 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" build="22631" architecture="x64" />
     </DriverPack>
-    <DriverPack id="101974|SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" packageId="101974" manufacturer="Microsoft" name="SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" version="1.0" fileName="SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" downloadUrl="https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" sizeBytes="1235660800" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-29">
+    <DriverPack id="101974|SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" packageId="101974" manufacturer="Microsoft" name="SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" version="1.0" fileName="SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" downloadUrl="https://download.microsoft.com/download/e421ce83-c5a6-47a9-83a5-35ed280d6ef1/SurfaceHub3_Hub2S_Win11_22631_26.050.1291.0.msi" sizeBytes="1235660800" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-04">
       <Models>
         <Model name="Surface Hub 2S and Surface Hub 3" />
       </Models>
@@ -60885,7 +60885,7 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" build="22631" architecture="x64" />
     </DriverPack>
-    <DriverPack id="102924|SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" packageId="102924" manufacturer="Microsoft" name="SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" version="1.0" fileName="SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" downloadUrl="https://download.microsoft.com/download/dddb6b6d-02da-40ac-b945-37df889d4045/SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" sizeBytes="848404480" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-28">
+    <DriverPack id="102924|SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" packageId="102924" manufacturer="Microsoft" name="SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" version="1.0" fileName="SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" downloadUrl="https://download.microsoft.com/download/dddb6b6d-02da-40ac-b945-37df889d4045/SurfaceLaptop4_Intel_Win11_22631_26.051.8181.0.msi" sizeBytes="848404480" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-04">
       <Models>
         <Model name="Surface Laptop 4 with Intel Processor" />
       </Models>
@@ -60897,7 +60897,7 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" build="22631" architecture="x64" />
     </DriverPack>
-    <DriverPack id="105946|SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" packageId="105946" manufacturer="Microsoft" name="SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" version="1.0" fileName="SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" downloadUrl="https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" sizeBytes="1034276864" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-28">
+    <DriverPack id="105946|SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" packageId="105946" manufacturer="Microsoft" name="SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" version="1.0" fileName="SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" downloadUrl="https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi" sizeBytes="1034276864" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-04">
       <Models>
         <Model name="Surface Laptop 6 for Business" />
       </Models>
@@ -61035,15 +61035,15 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" build="22631" architecture="x64" />
     </DriverPack>
-    <DriverPack id="106119|SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" packageId="106119" manufacturer="Microsoft" name="SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" version="1.0" fileName="SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" downloadUrl="https://download.microsoft.com/download/92821b24-203a-4ce5-9a3a-5df3160a2fe3/SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" sizeBytes="646807552" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-01">
+    <DriverPack id="106119|SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" packageId="106119" manufacturer="Microsoft" name="SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" version="1.0" fileName="SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" downloadUrl="https://download.microsoft.com/download/92821b24-203a-4ce5-9a3a-5df3160a2fe3/SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi" sizeBytes="646807552" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-04">
       <Models>
         <Model name="Surface Pro 11th Edition" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" build="26100" architecture="x64" />
     </DriverPack>
-    <DriverPack id="108013|SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" packageId="108013" manufacturer="Microsoft" name="SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" version="1.0" fileName="SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" downloadUrl="https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" sizeBytes="969027584" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-28">
+    <DriverPack id="108013|SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" packageId="108013" manufacturer="Microsoft" name="SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" version="1.0" fileName="SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" downloadUrl="https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi" sizeBytes="969027584" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-04">
       <Models>
-        <Model name="Surface Pro 11th Edition with Intel" />
+        <Model name="Surface Pro for Business 11th Edition with Intel" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" build="22631" architecture="x64" />
     </DriverPack>
@@ -61101,7 +61101,7 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="22H2" build="22621" architecture="x64" />
     </DriverPack>
-    <DriverPack id="102633|SurfacePro7+_Win11_22631_25.122.23303.0.msi" packageId="102633" manufacturer="Microsoft" name="SurfacePro7+_Win11_22631_25.122.23303.0.msi" version="1.0" fileName="SurfacePro7+_Win11_22631_25.122.23303.0.msi" downloadUrl="https://download.microsoft.com/download/0195da46-88f9-4f56-8046-babe15cafe2e/SurfacePro7+_Win11_22631_25.122.23303.0.msi" sizeBytes="1005178880" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-01-16">
+    <DriverPack id="102633|SurfacePro7+_Win11_22631_26.044.39457.0.msi" packageId="102633" manufacturer="Microsoft" name="SurfacePro7+_Win11_22631_26.044.39457.0.msi" version="1.0" fileName="SurfacePro7+_Win11_22631_26.044.39457.0.msi" downloadUrl="https://download.microsoft.com/download/0195da46-88f9-4f56-8046-babe15cafe2e/SurfacePro7+_Win11_22631_26.044.39457.0.msi" sizeBytes="1004617728" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-04">
       <Models>
         <Model name="Surface Pro 7+" />
       </Models>
