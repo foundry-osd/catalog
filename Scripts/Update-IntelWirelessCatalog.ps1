@@ -11,27 +11,30 @@ param(
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
-    [string]$FallbackVersion = '24.30.1',
+    [string]$FallbackVersion = '24.40.0',
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
-    [string]$FallbackFileName = 'WiFi-24.30.1-Driver64-Win10-Win11.zip',
+    [string]$FallbackFileName = 'WiFi-24.40.0-Driver64-Win10-Win11.zip',
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
-    [string]$FallbackReleaseDate = '2026-03-24',
+    [string]$FallbackReleaseDate = '2026-04-28',
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
-    [string]$FallbackSha256 = 'A09AF2CC6E6305E395A553C4CDE4264F554DC7DF29EEF34DBBDE53025464EF8E',
+    [string]$FallbackSha256 = '2cdf3e61f0d282be39d9e4dc9b10fb140cbc97c401b08cb019c44c77bda4f076',
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
-    [string]$FallbackDownloadUrl = 'https://downloadmirror.intel.com/915923/WiFi-24.30.1-Driver64-Win10-Win11.zip',
+    [string]$FallbackDownloadUrl = 'https://downloadmirror.intel.com/918236/WiFi-24.40.0-Driver64-Win10-Win11.zip',
 
     [Parameter()]
     [ValidateRange(5, 300)]
-    [int]$TimeoutSeconds = 45
+    [int]$TimeoutSeconds = 45,
+
+    [Parameter()]
+    [switch]$AllowStaleMetadataOnRefreshFailure
 )
 
 Set-StrictMode -Version Latest
@@ -87,6 +90,28 @@ function Get-RegexValueOrNull {
     return $null
 }
 
+function Get-IntelReleaseDateOrNull {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Text
+    )
+
+    $patterns = @(
+        '<meta\s+name="(?:lastModifieddate|LastUpdate)"\s+content="([^"]+)"',
+        '<label[^>]*>\s*Date\s*</label>\s*<span[^>]*>\s*([^<]+)\s*</span>',
+        'Date\s+([0-9]{1,2}/[0-9]{1,2}/[0-9]{4})'
+    )
+
+    foreach ($pattern in $patterns) {
+        $value = Get-RegexValueOrNull -Text $Text -Pattern $pattern
+        if ($value) {
+            return $value
+        }
+    }
+
+    return $null
+}
+
 function ConvertTo-IsoDateOrFallback {
     param(
         [Parameter()]
@@ -122,7 +147,10 @@ function Get-IntelWirelessMetadata {
 
         [Parameter()]
         [AllowNull()]
-        [hashtable]$Existing
+        [hashtable]$Existing,
+
+        [Parameter(Mandatory = $true)]
+        [bool]$AllowStaleMetadataOnRefreshFailure
     )
 
     try {
@@ -131,7 +159,7 @@ function Get-IntelWirelessMetadata {
 
         $version = Get-RegexValueOrNull -Text $content -Pattern 'Version\s+([0-9]+\.[0-9]+\.[0-9]+(?:\.[0-9]+)?)'
         $fileName = Get-RegexValueOrNull -Text $content -Pattern '(WiFi-[A-Za-z0-9._\-]+\.zip)'
-        $releaseDate = Get-RegexValueOrNull -Text $content -Pattern 'Date\s+([0-9]{1,2}/[0-9]{1,2}/[0-9]{4})'
+        $releaseDate = Get-IntelReleaseDateOrNull -Text $content
         $sha256 = Get-RegexValueOrNull -Text $content -Pattern 'SHA256:\s*([A-F0-9]{64})'
         $downloadUrl = Get-RegexValueOrNull -Text $content -Pattern '(https://downloadmirror\.intel\.com/[0-9]+/[A-Za-z0-9._\-]+\.zip)'
 
@@ -150,32 +178,37 @@ function Get-IntelWirelessMetadata {
             Version = if ($version) { $version } else { $Fallback.Version }
             FileName = if ($fileName) { $fileName } else { $Fallback.FileName }
             ReleaseDate = ConvertTo-IsoDateOrFallback -Value $releaseDate -Fallback $Fallback.ReleaseDate
-            Sha256 = if ($sha256) { $sha256.ToUpperInvariant() } else { $Fallback.Sha256 }
+            Sha256 = if ($sha256) { $sha256.ToLowerInvariant() } else { $Fallback.Sha256.ToLowerInvariant() }
             DownloadUrl = $downloadUrl
             UsedFallback = $false
             UsedExisting = $false
         }
     }
     catch {
+        $refreshFailureMessage = "Failed to refresh the Intel wireless package metadata from '$CatalogPageUri'. $($_.Exception.Message)"
+        if (-not $AllowStaleMetadataOnRefreshFailure) {
+            throw $refreshFailureMessage
+        }
+
         if ($Existing) {
-            Write-Warning ("Failed to refresh the Intel wireless package metadata from '{0}'. Reusing the previous known-good entry. {1}" -f $CatalogPageUri, $_.Exception.Message)
+            Write-Warning ("{0} Reusing the previous known-good entry because -AllowStaleMetadataOnRefreshFailure was specified." -f $refreshFailureMessage)
             return [ordered]@{
                 Version = $Existing.Version
                 FileName = $Existing.FileName
                 ReleaseDate = $Existing.ReleaseDate
-                Sha256 = $Existing.Sha256
+                Sha256 = if ($Existing.Sha256) { $Existing.Sha256.ToLowerInvariant() } else { $null }
                 DownloadUrl = $Existing.DownloadUrl
                 UsedFallback = $false
                 UsedExisting = $true
             }
         }
 
-        Write-Warning ("Failed to refresh the Intel wireless package metadata from '{0}'. Using fallback metadata. {1}" -f $CatalogPageUri, $_.Exception.Message)
+        Write-Warning ("{0} Using fallback metadata because -AllowStaleMetadataOnRefreshFailure was specified." -f $refreshFailureMessage)
         return [ordered]@{
             Version = $Fallback.Version
             FileName = $Fallback.FileName
             ReleaseDate = $Fallback.ReleaseDate
-            Sha256 = $Fallback.Sha256
+            Sha256 = $Fallback.Sha256.ToLowerInvariant()
             DownloadUrl = $Fallback.DownloadUrl
             UsedFallback = $true
             UsedExisting = $false
@@ -288,7 +321,12 @@ $fallback = @{
 }
 
 $existing = Get-ExistingIntelCatalogEntry -Path $outputPath
-$metadata = Get-IntelWirelessMetadata -CatalogPageUri $CatalogPageUri -TimeoutSeconds $TimeoutSeconds -Fallback $fallback -Existing $existing
+$metadata = Get-IntelWirelessMetadata `
+    -CatalogPageUri $CatalogPageUri `
+    -TimeoutSeconds $TimeoutSeconds `
+    -Fallback $fallback `
+    -Existing $existing `
+    -AllowStaleMetadataOnRefreshFailure $AllowStaleMetadataOnRefreshFailure.IsPresent
 Write-IntelCatalogXml -Path $outputPath -CatalogPageUri $CatalogPageUri -Metadata $metadata
 
 [pscustomobject]@{
