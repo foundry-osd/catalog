@@ -134,6 +134,29 @@ function ConvertTo-IsoDateOrFallback {
     return $Fallback
 }
 
+function Test-IntelMetadataMatchesFallback {
+    param(
+        [Parameter()]
+        [AllowNull()]
+        [hashtable]$Existing,
+
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Fallback
+    )
+
+    if (-not $Existing) {
+        return $false
+    }
+
+    return [string]$Existing.Version -eq [string]$Fallback.Version -and
+        [string]$Existing.FileName -eq [string]$Fallback.FileName -and
+        [string]$Existing.ReleaseDate -eq [string]$Fallback.ReleaseDate -and
+        [string]$Existing.DownloadUrl -eq [string]$Fallback.DownloadUrl -and
+        [string]$Existing.Sha256 -and
+        [string]$Fallback.Sha256 -and
+        [string]$Existing.Sha256 -eq [string]$Fallback.Sha256
+}
+
 function Get-IntelWirelessMetadata {
     param(
         [Parameter(Mandatory = $true)]
@@ -182,15 +205,26 @@ function Get-IntelWirelessMetadata {
             DownloadUrl = $downloadUrl
             UsedFallback = $false
             UsedExisting = $false
+            KeepExistingFile = $false
         }
     }
     catch {
         $refreshFailureMessage = "Failed to refresh the Intel wireless package metadata from '$CatalogPageUri'. $($_.Exception.Message)"
-        if (-not $AllowStaleMetadataOnRefreshFailure) {
-            throw $refreshFailureMessage
+        if (Test-IntelMetadataMatchesFallback -Existing $Existing -Fallback $Fallback) {
+            Write-Warning ("{0} Existing metadata already matches the pinned fallback. Keeping the current catalog unchanged." -f $refreshFailureMessage)
+            return [ordered]@{
+                Version = $Existing.Version
+                FileName = $Existing.FileName
+                ReleaseDate = $Existing.ReleaseDate
+                Sha256 = $Existing.Sha256.ToLowerInvariant()
+                DownloadUrl = $Existing.DownloadUrl
+                UsedFallback = $false
+                UsedExisting = $true
+                KeepExistingFile = $true
+            }
         }
 
-        if ($Existing) {
+        if ($AllowStaleMetadataOnRefreshFailure -and $Existing) {
             Write-Warning ("{0} Reusing the previous known-good entry because -AllowStaleMetadataOnRefreshFailure was specified." -f $refreshFailureMessage)
             return [ordered]@{
                 Version = $Existing.Version
@@ -200,10 +234,11 @@ function Get-IntelWirelessMetadata {
                 DownloadUrl = $Existing.DownloadUrl
                 UsedFallback = $false
                 UsedExisting = $true
+                KeepExistingFile = $false
             }
         }
 
-        Write-Warning ("{0} Using fallback metadata because -AllowStaleMetadataOnRefreshFailure was specified." -f $refreshFailureMessage)
+        Write-Warning ("{0} Using pinned fallback metadata because refreshed metadata is unavailable." -f $refreshFailureMessage)
         return [ordered]@{
             Version = $Fallback.Version
             FileName = $Fallback.FileName
@@ -212,6 +247,7 @@ function Get-IntelWirelessMetadata {
             DownloadUrl = $Fallback.DownloadUrl
             UsedFallback = $true
             UsedExisting = $false
+            KeepExistingFile = $false
         }
     }
 }
@@ -327,7 +363,10 @@ $metadata = Get-IntelWirelessMetadata `
     -Fallback $fallback `
     -Existing $existing `
     -AllowStaleMetadataOnRefreshFailure $AllowStaleMetadataOnRefreshFailure.IsPresent
-Write-IntelCatalogXml -Path $outputPath -CatalogPageUri $CatalogPageUri -Metadata $metadata
+
+if (-not $metadata.KeepExistingFile) {
+    Write-IntelCatalogXml -Path $outputPath -CatalogPageUri $CatalogPageUri -Metadata $metadata
+}
 
 [pscustomobject]@{
     OutputPath = $outputPath
