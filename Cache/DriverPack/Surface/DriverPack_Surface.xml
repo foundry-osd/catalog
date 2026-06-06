@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-05T17:09:40Z" category="DriverPack">
-  <Source catalogSha256="43946359266034ae9a0df281efab99f251120840431f5e83cbcd732db7664809" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-06T06:18:13Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" catalogSha256="911df1c5c5b6f787724dff74ef5ed17eececae28b426bb4d70d06801c229df0b" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -529,18 +529,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108014|SurfaceLaptop7withIntel_Win11_22631_26.043.33704.0.msi</id>
+      <id>108014|SurfaceLaptop7withIntel_Win11_22631_26.044.42206.0.msi</id>
       <model>Surface Laptop 7th Edition with Intel</model>
       <downloadTitle>Surface Laptop 7th Edition with Intel</downloadTitle>
       <packageId>108014</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108014</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.043.33704.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.043.33704.0.msi</msiUrl>
-      <fileName>SurfaceLaptop7withIntel_Win11_22631_26.043.33704.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.044.42206.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.044.42206.0.msi</msiUrl>
+      <fileName>SurfaceLaptop7withIntel_Win11_22631_26.044.42206.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>973869056</sizeBytes>
-      <datePublished>2026-05-28</datePublished>
+      <sizeBytes>973889536</sizeBytes>
+      <datePublished>2026-06-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -649,18 +649,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105608|SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</id>
+      <id>105608|SurfaceLaptopGo3_Win11_22631_26.051.6828.0.msi</id>
       <model>Surface Laptop Go 3</model>
       <downloadTitle>Surface Laptop Go 3 Drivers and Firmware</downloadTitle>
       <packageId>105608</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105608</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</msiUrl>
-      <fileName>SurfaceLaptopGo3_Win11_22631_26.042.23536.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.051.6828.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/cad99f30-7b1c-4ee5-a88b-71e729362b2b/SurfaceLaptopGo3_Win11_22631_26.051.6828.0.msi</msiUrl>
+      <fileName>SurfaceLaptopGo3_Win11_22631_26.051.6828.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>843624448</sizeBytes>
-      <datePublished>2026-05-06</datePublished>
+      <sizeBytes>843055104</sizeBytes>
+      <datePublished>2026-06-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -690,22 +690,22 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1190178816</sizeBytes>
-      <datePublished>2026-05-20</datePublished>
+      <datePublished>2026-06-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105610|SurfaceLaptopStudio2_Win11_22631_26.042.22213.0.msi</id>
+      <id>105610|SurfaceLaptopStudio2_Win11_22631_26.052.19442.0.msi</id>
       <model>Surface Laptop Studio 2</model>
       <downloadTitle>Surface Laptop Studio 2 Drivers and Firmware</downloadTitle>
       <packageId>105610</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105610</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.042.22213.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.042.22213.0.msi</msiUrl>
-      <fileName>SurfaceLaptopStudio2_Win11_22631_26.042.22213.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.052.19442.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.052.19442.0.msi</msiUrl>
+      <fileName>SurfaceLaptopStudio2_Win11_22631_26.052.19442.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1132908544</sizeBytes>
-      <datePublished>2026-05-20</datePublished>
+      <sizeBytes>1132929024</sizeBytes>
+      <datePublished>2026-06-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -992,18 +992,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>104680|SurfacePro9_Win11_22631_26.043.29691.0.msi</id>
+      <id>104680|SurfacePro9_Win11_22631_26.051.6816.0.msi</id>
       <model>Surface Pro 9 with Intel Processor</model>
       <downloadTitle>Surface Pro 9 with Intel Processor Drivers and Firmware</downloadTitle>
       <packageId>104680</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=104680</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.043.29691.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.043.29691.0.msi</msiUrl>
-      <fileName>SurfacePro9_Win11_22631_26.043.29691.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.051.6816.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.051.6816.0.msi</msiUrl>
+      <fileName>SurfacePro9_Win11_22631_26.051.6816.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>981798912</sizeBytes>
-      <datePublished>2026-05-16</datePublished>
+      <sizeBytes>981819392</sizeBytes>
+      <datePublished>2026-06-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-05T17:11:24Z" totalItems="8694" category="DriverPack">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-06T06:19:38Z" totalItems="8694" category="DriverPack">
   <Metadata name="Foundry Unified DriverPack Catalog" description="Normalized DriverPack catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-05-26T00:00:00Z" itemCount="1432" />
