@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-06T06:18:13Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" catalogSha256="911df1c5c5b6f787724dff74ef5ed17eececae28b426bb4d70d06801c229df0b" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-07T06:55:10Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="2d6db98a1db686b4c1ee4214c06ed9822b165ed83cda4e2eaa1544777e0aef93" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -723,18 +723,18 @@
       <supportedOperatingSystems>Windows 10 Windows 8.1 Windows 10 Tech Preview</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105947|SurfacePro10forBusiness_Win11_22631_26.042.28155.0.msi</id>
+      <id>105947|SurfacePro10forBusiness_Win11_22631_26.051.6833.0.msi</id>
       <model>Surface Pro 10 for Business</model>
       <downloadTitle>Surface Pro 10 for Business Drivers and Firmware</downloadTitle>
       <packageId>105947</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105947</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.042.28155.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.042.28155.0.msi</msiUrl>
-      <fileName>SurfacePro10forBusiness_Win11_22631_26.042.28155.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.051.6833.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.051.6833.0.msi</msiUrl>
+      <fileName>SurfacePro10forBusiness_Win11_22631_26.051.6833.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1073065984</sizeBytes>
-      <datePublished>2026-05-20</datePublished>
+      <sizeBytes>1073061888</sizeBytes>
+      <datePublished>2026-06-06</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
