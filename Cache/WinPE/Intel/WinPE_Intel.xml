@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IntelCatalog generatedAtUtc="2026-06-12T07:09:34Z" itemCount="1">
-  <Metadata catalogUrl="https://www.catalog.update.microsoft.com/" description="Intel wireless driver CAB catalog from Microsoft Update Catalog for WinRE Wi-Fi supplementation." source="MicrosoftUpdateCatalog" updateId="1b6ea866-4745-4f65-a224-0b63e6762f98" query="PCI\VEN_8086&amp;DEV_7E40" />
+<IntelCatalog generatedAtUtc="2026-06-13T06:44:14Z" itemCount="1">
+  <Metadata catalogUrl="https://www.catalog.update.microsoft.com/" description="Intel wireless driver CAB catalog from Microsoft Update Catalog for WinRE Wi-Fi supplementation." source="MicrosoftUpdateCatalog" updateId="1b5d7327-c4aa-4341-9a6a-4ecb0269baf1" query="PCI\VEN_8086&amp;DEV_272B" />
   <Items>
     <Item>
       <id>intel-wireless-winre-x64</id>

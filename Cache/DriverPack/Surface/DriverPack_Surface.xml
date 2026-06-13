@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-12T07:09:16Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="9121a9431a35b962173cec9bc7013e35eacf69f65141aad0388c2fdb06b33587" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-13T06:44:07Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="5a41e4d5ffacf3dd760daa709336713f50542b566cabeac933ccecb098960b6d" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -484,18 +484,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108347|SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.042.22973.0.msi</id>
+      <id>108347|SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.061.11549.0.msi</id>
       <model>Surface Laptop 5G for Business (7th Edition) with Intel</model>
       <downloadTitle>Surface Laptop 5G for Business (7th Edition) with Intel</downloadTitle>
       <packageId>108347</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108347</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b6ba11a9-2e1b-401b-8cbc-2af02cda74e8/SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.042.22973.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b6ba11a9-2e1b-401b-8cbc-2af02cda74e8/SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.042.22973.0.msi</msiUrl>
-      <fileName>SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.042.22973.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/b6ba11a9-2e1b-401b-8cbc-2af02cda74e8/SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.061.11549.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/b6ba11a9-2e1b-401b-8cbc-2af02cda74e8/SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.061.11549.0.msi</msiUrl>
+      <fileName>SurfaceLaptop7-5GforBusinesswithIntel_Win11_22631_26.061.11549.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1298825216</sizeBytes>
-      <datePublished>2026-05-19</datePublished>
+      <sizeBytes>1031991296</sizeBytes>
+      <datePublished>2026-06-12</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -634,18 +634,18 @@
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>104251|SurfaceLaptopGo2_Win11_22631_25.121.13746.0.msi</id>
+      <id>104251|SurfaceLaptopGo2_Win11_22631_26.051.9458.0.msi</id>
       <model>Surface Laptop Go 2</model>
       <downloadTitle>Surface Laptop Go 2 Drivers and Firmware</downloadTitle>
       <packageId>104251</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=104251</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/8ba2cbfd-02b1-42ba-b588-4aecd0e992aa/SurfaceLaptopGo2_Win11_22631_25.121.13746.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/8ba2cbfd-02b1-42ba-b588-4aecd0e992aa/SurfaceLaptopGo2_Win11_22631_25.121.13746.0.msi</msiUrl>
-      <fileName>SurfaceLaptopGo2_Win11_22631_25.121.13746.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/8ba2cbfd-02b1-42ba-b588-4aecd0e992aa/SurfaceLaptopGo2_Win11_22631_26.051.9458.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/8ba2cbfd-02b1-42ba-b588-4aecd0e992aa/SurfaceLaptopGo2_Win11_22631_26.051.9458.0.msi</msiUrl>
+      <fileName>SurfaceLaptopGo2_Win11_22631_26.051.9458.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>849022976</sizeBytes>
-      <datePublished>2026-01-28</datePublished>
+      <sizeBytes>848535552</sizeBytes>
+      <datePublished>2026-06-12</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -947,33 +947,33 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>102633|SurfacePro7+_Win11_22631_26.044.39457.0.msi</id>
+      <id>102633|SurfacePro7+_Win11_22631_26.052.26600.0.msi</id>
       <model>Surface Pro 7+</model>
       <downloadTitle>Surface Pro 7+ Drivers and Firmware</downloadTitle>
       <packageId>102633</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=102633</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/0195da46-88f9-4f56-8046-babe15cafe2e/SurfacePro7+_Win11_22631_26.044.39457.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/0195da46-88f9-4f56-8046-babe15cafe2e/SurfacePro7+_Win11_22631_26.044.39457.0.msi</msiUrl>
-      <fileName>SurfacePro7+_Win11_22631_26.044.39457.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/0195da46-88f9-4f56-8046-babe15cafe2e/SurfacePro7+_Win11_22631_26.052.26600.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/0195da46-88f9-4f56-8046-babe15cafe2e/SurfacePro7+_Win11_22631_26.052.26600.0.msi</msiUrl>
+      <fileName>SurfacePro7+_Win11_22631_26.052.26600.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1004617728</sizeBytes>
-      <datePublished>2026-06-04</datePublished>
+      <sizeBytes>1004675072</sizeBytes>
+      <datePublished>2026-06-12</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>103503|SurfacePro8_Win11_22631_26.050.4744.0.msi</id>
+      <id>103503|SurfacePro8_Win11_22631_26.052.20816.0.msi</id>
       <model>Surface Pro 8</model>
       <downloadTitle>Surface Pro 8 Drivers and Firmware</downloadTitle>
       <packageId>103503</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=103503</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.050.4744.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.050.4744.0.msi</msiUrl>
-      <fileName>SurfacePro8_Win11_22631_26.050.4744.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.052.20816.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.052.20816.0.msi</msiUrl>
+      <fileName>SurfacePro8_Win11_22631_26.052.20816.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>1013219328</sizeBytes>
-      <datePublished>2026-05-29</datePublished>
+      <datePublished>2026-06-12</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
