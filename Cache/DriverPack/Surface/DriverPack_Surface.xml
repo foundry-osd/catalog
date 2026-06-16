@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-15T08:45:21Z" category="DriverPack">
-  <Source catalogType="SupportArticle" catalogSha256="765242c69ae0d3338ca8e191bb921556ce7f1dbdadc89e3db838a25f49f7e174" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-16T08:36:41Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="6260b9af80addc6ddf0e509a03ab4b0fadaa6fa8bd312ca1d110565448c74eb5" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -664,18 +664,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>103505|SurfaceLaptopStudio_Win11_22631_26.040.2269.0.msi</id>
+      <id>103505|SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</id>
       <model>Surface Laptop Studio</model>
       <downloadTitle>Surface Laptop Studio Drivers and Firmware</downloadTitle>
       <packageId>103505</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=103505</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.040.2269.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.040.2269.0.msi</msiUrl>
-      <fileName>SurfaceLaptopStudio_Win11_22631_26.040.2269.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</msiUrl>
+      <fileName>SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>2062606336</sizeBytes>
-      <datePublished>2026-04-29</datePublished>
+      <sizeBytes>2062573568</sizeBytes>
+      <datePublished>2026-06-15</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -1007,18 +1007,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108013|SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi</id>
+      <id>108013|SurfacePro11withIntel_Win11_22631_26.050.4821.0.msi</id>
       <model>Surface Pro for Business 11th Edition with Intel</model>
       <downloadTitle>Surface Pro for Business 11th Edition with Intel</downloadTitle>
       <packageId>108013</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108013</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi</msiUrl>
-      <fileName>SurfacePro11withIntel_Win11_22631_26.043.31153.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.050.4821.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.050.4821.0.msi</msiUrl>
+      <fileName>SurfacePro11withIntel_Win11_22631_26.050.4821.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>969027584</sizeBytes>
-      <datePublished>2026-06-04</datePublished>
+      <sizeBytes>969261056</sizeBytes>
+      <datePublished>2026-06-15</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
