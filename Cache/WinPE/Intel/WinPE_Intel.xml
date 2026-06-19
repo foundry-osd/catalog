@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IntelCatalog generatedAtUtc="2026-06-18T07:22:36Z" itemCount="1">
-  <Metadata catalogUrl="https://www.catalog.update.microsoft.com/" description="Intel wireless driver CAB catalog from Microsoft Update Catalog for WinRE Wi-Fi supplementation." source="MicrosoftUpdateCatalog" updateId="1b5d7327-c4aa-4341-9a6a-4ecb0269baf1" query="PCI\VEN_8086&amp;DEV_272B" />
+<IntelCatalog generatedAtUtc="2026-06-19T08:23:54Z" itemCount="1">
+  <Metadata catalogUrl="https://www.catalog.update.microsoft.com/" description="Intel wireless driver CAB catalog from Microsoft Update Catalog for WinRE Wi-Fi supplementation." source="MicrosoftUpdateCatalog" updateId="34cf8ffa-450f-4dcd-bc20-35590c6d5e17" query="PCI\VEN_8086&amp;DEV_7E40" />
   <Items>
     <Item>
       <id>intel-wireless-winre-x64</id>
       <packageId>intel-wireless-winre-x64</packageId>
       <name>Intel Wireless Wi-Fi Drivers from Microsoft Update Catalog</name>
-      <version>24.30.1.1</version>
-      <fileName>f3c4a477-ae76-481a-8209-14c67b17dbc2_1da674454d30d8e5f2ceb85eb98088251b89a2de.cab</fileName>
-      <downloadUrl>https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2026/03/f3c4a477-ae76-481a-8209-14c67b17dbc2_1da674454d30d8e5f2ceb85eb98088251b89a2de.cab</downloadUrl>
+      <version>24.40.0.4</version>
+      <fileName>a855de7b-b2e8-4192-8bca-2d3c74dc8665_2a7b7fffc6bd37f5093c6a0261f9aea45ac475f4.cab</fileName>
+      <downloadUrl>https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2026/04/a855de7b-b2e8-4192-8bca-2d3c74dc8665_2a7b7fffc6bd37f5093c6a0261f9aea45ac475f4.cab</downloadUrl>
       <format>cab</format>
       <packageRole>WifiSupplement</packageRole>
       <driverFamily>IntelWireless</driverFamily>
-      <releaseDate>2026-03-02</releaseDate>
+      <releaseDate>2026-04-12</releaseDate>
       <osName>WinPE</osName>
       <osReleaseId>11</osReleaseId>
       <osArchitecture>x64</osArchitecture>
-      <hashSHA256>3f5e426c3e746f2eb9ac3ce5698c4de8313378da20a03aeb5f80a536acf9bafc</hashSHA256>
+      <hashSHA256>4365da6d3ad51e942d5c091372536d2163dc3ca17fa5e389feedcb29ad5e339f</hashSHA256>
     </Item>
   </Items>
 </IntelCatalog>
