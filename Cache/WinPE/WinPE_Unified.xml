@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-19T08:24:47Z" totalItems="17" category="WinPE">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-20T06:53:11Z" totalItems="17" category="WinPE">
   <Metadata name="Foundry Unified WinPE Catalog" description="Normalized WinPE catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-05-29T00:00:00Z" itemCount="9" />
     <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-04-30T00:00:00Z" itemCount="7" />
-    <Source manufacturer="Intel" catalogUrl="https://www.catalog.update.microsoft.com/" lastUpdated="2026-03-02T00:00:00Z" itemCount="1" />
+    <Source manufacturer="Intel" catalogUrl="https://www.catalog.update.microsoft.com/" lastUpdated="2026-04-12T00:00:00Z" itemCount="1" />
   </Sources>
   <DriverPacks>
     <DriverPack id="524P6|x86" packageId="524P6" manufacturer="Dell" name="WinPE10.0-Drivers-A39-524P6.cab" version="A39" fileName="WinPE10.0-Drivers-A39-524P6.cab" downloadUrl="https://downloads.dell.com/FOLDER14364021M/1/WinPE10.0-Drivers-A39-524P6.cab" sizeBytes="141010161" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-03-31">
@@ -64,9 +64,9 @@
     <DriverPack id="sp87510" packageId="sp87510" manufacturer="HP" name="sp87510" version="1.07" fileName="sp87510.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp87501-88000/sp87510.exe" format="exe" type="WinPE" packageRole="BaseDriverPack" releaseDate="2018-05-30">
       <OsInfo name="WinPE" releaseId="3" architecture="x64" />
     </DriverPack>
-    <DriverPack id="intel-wireless-winre-x64" packageId="intel-wireless-winre-x64" manufacturer="Intel" name="Intel Wireless Wi-Fi Drivers from Microsoft Update Catalog" version="24.30.1.1" fileName="f3c4a477-ae76-481a-8209-14c67b17dbc2_1da674454d30d8e5f2ceb85eb98088251b89a2de.cab" downloadUrl="https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2026/03/f3c4a477-ae76-481a-8209-14c67b17dbc2_1da674454d30d8e5f2ceb85eb98088251b89a2de.cab" format="cab" type="WinPE" packageRole="WifiSupplement" driverFamily="IntelWireless" releaseDate="2026-03-02">
+    <DriverPack id="intel-wireless-winre-x64" packageId="intel-wireless-winre-x64" manufacturer="Intel" name="Intel Wireless Wi-Fi Drivers from Microsoft Update Catalog" version="24.40.0.4" fileName="a855de7b-b2e8-4192-8bca-2d3c74dc8665_2a7b7fffc6bd37f5093c6a0261f9aea45ac475f4.cab" downloadUrl="https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2026/04/a855de7b-b2e8-4192-8bca-2d3c74dc8665_2a7b7fffc6bd37f5093c6a0261f9aea45ac475f4.cab" format="cab" type="WinPE" packageRole="WifiSupplement" driverFamily="IntelWireless" releaseDate="2026-04-12">
       <OsInfo name="WinPE" releaseId="11" architecture="x64" />
-      <Hashes sha256="3f5e426c3e746f2eb9ac3ce5698c4de8313378da20a03aeb5f80a536acf9bafc" />
+      <Hashes sha256="4365da6d3ad51e942d5c091372536d2163dc3ca17fa5e389feedcb29ad5e339f" />
     </DriverPack>
   </DriverPacks>
 </DriverPackCatalog>
