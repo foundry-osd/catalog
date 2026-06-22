@@ -20,7 +20,7 @@ jobs:
       matrix: ${{ steps.discover.outputs.matrix }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Discover update scripts
         id: discover
@@ -58,7 +58,7 @@ jobs:
       matrix: ${{ fromJson(needs.discover-update-scripts.outputs.matrix) }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install 7-Zip
         if: runner.os == 'Linux' && matrix.requires_7zip
@@ -117,7 +117,7 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Execute unified build
         shell: pwsh
@@ -155,7 +155,7 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
