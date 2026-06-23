@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-22T08:45:56Z" category="DriverPack">
-  <Source catalogSha256="5c1a49ed8617586fb8b37f04dca198edd52c5192296af7b7f2c14805bf05193c" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-06-23T06:36:54Z" category="DriverPack">
+  <Source catalogType="SupportArticle" catalogSha256="01e23a811041ca815f1fde935b402f42b28cfa3b3b3ed3073e2b174eb436c796" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -289,18 +289,18 @@
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>103504|SurfaceGo3_Win11_22631_26.041.10497.0.msi</id>
+      <id>103504|SurfaceGo3_Win11_22631_26.053.29292.0.msi</id>
       <model>Surface Go 3</model>
       <downloadTitle>Surface Go 3 Drivers and Firmware</downloadTitle>
       <packageId>103504</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=103504</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/100ded78-f124-4076-ab44-4be7375925fa/SurfaceGo3_Win11_22631_26.041.10497.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/100ded78-f124-4076-ab44-4be7375925fa/SurfaceGo3_Win11_22631_26.041.10497.0.msi</msiUrl>
-      <fileName>SurfaceGo3_Win11_22631_26.041.10497.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/100ded78-f124-4076-ab44-4be7375925fa/SurfaceGo3_Win11_22631_26.053.29292.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/100ded78-f124-4076-ab44-4be7375925fa/SurfaceGo3_Win11_22631_26.053.29292.0.msi</msiUrl>
+      <fileName>SurfaceGo3_Win11_22631_26.053.29292.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>741564416</sizeBytes>
-      <datePublished>2026-04-30</datePublished>
+      <sizeBytes>741609472</sizeBytes>
+      <datePublished>2026-06-22</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -499,18 +499,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105946|SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi</id>
+      <id>105946|SurfaceLaptop6forBusiness_Win11_22631_26.060.411.0.msi</id>
       <model>Surface Laptop 6 for Business</model>
       <downloadTitle>Surface Laptop 6 for Business Drivers and Firmware</downloadTitle>
       <packageId>105946</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105946</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi</msiUrl>
-      <fileName>SurfaceLaptop6forBusiness_Win11_22631_26.051.6840.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.060.411.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.060.411.0.msi</msiUrl>
+      <fileName>SurfaceLaptop6forBusiness_Win11_22631_26.060.411.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>1034276864</sizeBytes>
-      <datePublished>2026-06-04</datePublished>
+      <sizeBytes>1034260480</sizeBytes>
+      <datePublished>2026-06-22</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
