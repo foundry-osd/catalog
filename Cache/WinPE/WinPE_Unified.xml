@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-23T06:38:17Z" totalItems="17" category="WinPE">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-06-24T06:35:05Z" totalItems="18" category="WinPE">
   <Metadata name="Foundry Unified WinPE Catalog" description="Normalized WinPE catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-05-29T00:00:00Z" itemCount="9" />
-    <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-04-30T00:00:00Z" itemCount="7" />
+    <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-06-22T00:00:00Z" itemCount="8" />
     <Source manufacturer="Intel" catalogUrl="https://www.catalog.update.microsoft.com/" lastUpdated="2026-04-12T00:00:00Z" itemCount="1" />
   </Sources>
   <DriverPacks>
@@ -53,6 +53,9 @@
       <OsInfo name="WinPE" releaseId="10/11" architecture="x64" />
     </DriverPack>
     <DriverPack id="sp172442" packageId="sp172442" manufacturer="HP" name="sp172442" version="3.30" fileName="sp172442.exe" downloadUrl="https://ftp.ext.hp.com/pub/softpaq/sp172001-172500/sp172442.exe" format="exe" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-04-30">
+      <OsInfo name="WinPE" releaseId="10/11" architecture="x64" />
+    </DriverPack>
+    <DriverPack id="sp173204" packageId="sp173204" manufacturer="HP" name="sp173204" version="3.40" fileName="sp173204.exe" downloadUrl="https://ftp.ext.hp.com/pub/softpaq/sp173001-173500/sp173204.exe" format="exe" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-06-22">
       <OsInfo name="WinPE" releaseId="10/11" architecture="x64" />
     </DriverPack>
     <DriverPack id="sp64529" packageId="sp64529" manufacturer="HP" name="sp64529" version="1.01" fileName="sp64529.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp64501-65000/sp64529.exe" format="exe" type="WinPE" packageRole="BaseDriverPack" releaseDate="2013-12-04">
