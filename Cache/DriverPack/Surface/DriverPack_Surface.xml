@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-01T07:00:22Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="f52dd14c4ff80e77a9cf4289eb7f786d0dd1cdfccbe8044c06ebe35e2604b269" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-02T06:27:32Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="199a1f14172be42311128b71716f8ff7fae10aa2ef02f81d839d18b0e39d732e" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -1080,33 +1080,33 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108671|SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</id>
+      <id>108671|SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi</id>
       <model>Surface Pro for Business 12th Edition with Intel</model>
       <downloadTitle>Surface Pro for Business 12th Edition with Intel</downloadTitle>
       <packageId>108671</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108671</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</msiUrl>
-      <fileName>SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi</msiUrl>
+      <fileName>SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1337659392</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>1119285248</sizeBytes>
+      <datePublished>2026-07-01</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108671|SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</id>
+      <id>108671|SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi</id>
       <model>Surface Pro for Business 12th Edition with Intel</model>
       <downloadTitle>Surface Pro for Business 12th Edition with Intel</downloadTitle>
       <packageId>108671</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108671</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</msiUrl>
-      <fileName>SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi</msiUrl>
+      <fileName>SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1337659392</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>1119285248</sizeBytes>
+      <datePublished>2026-07-01</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
