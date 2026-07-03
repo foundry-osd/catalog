@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-07-02T06:28:57Z" totalItems="8776" category="DriverPack">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-07-03T06:20:54Z" totalItems="8776" category="DriverPack">
   <Metadata name="Foundry Unified DriverPack Catalog" description="Normalized DriverPack catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-06-24T00:00:00Z" itemCount="1435" />
     <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-06-22T00:00:00Z" itemCount="4255" />
     <Source manufacturer="Lenovo" catalogUrl="https://download.lenovo.com/cdrt/td/catalogv2.xml" lastUpdated="2026-06-11T00:00:00Z" itemCount="3000" />
-    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-06-25T00:00:00Z" itemCount="86" />
+    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-07-01T00:00:00Z" itemCount="86" />
   </Sources>
   <DriverPacks>
     <DriverPack id="JFH0G" packageId="JFH0G" manufacturer="Dell" name="160-vista-A01-JFH0G.CAB" version="A01" fileName="160-vista-A01-JFH0G.CAB" downloadUrl="https://downloads.dell.com/FOLDER02291001M/1/160-vista-A01-JFH0G.CAB" sizeBytes="72429980" format="cab" type="Win" packageRole="BaseDriverPack" releaseDate="2014-07-11">
@@ -10595,9 +10595,9 @@
       <OsInfo name="Windows 10" releaseId="21H2" architecture="x64" />
       <Hashes md5="aa59f9836bfec14884aef18d2ce87f10" sha256="8F682852B3CF6AEC2736F1B180BD5FDEC7B33FF5AB6F232B2AE49C46E412A319" />
     </DriverPack>
-    <DriverPack id="2100914872|8B21,8979|4288|sp145052" packageId="sp145052" manufacturer="HP" name="HP EB 4/6x0 G9 ZHAN Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp145052.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp145001-145500/sp145052.exe" sizeBytes="1804608680" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-01">
+    <DriverPack id="2100914872|8979,8B21|4288|sp145052" packageId="sp145052" manufacturer="HP" name="HP EB 4/6x0 G9 ZHAN Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp145052.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp145001-145500/sp145052.exe" sizeBytes="1804608680" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-01">
       <Models>
-        <Model name="HP ZHAN 66 Pro 14 inch G5 Notebook PC" systemId="8B21,8979" />
+        <Model name="HP ZHAN 66 Pro 14 inch G5 Notebook PC" systemId="8979,8B21" />
       </Models>
       <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
       <Hashes md5="aa59f9836bfec14884aef18d2ce87f10" sha256="8F682852B3CF6AEC2736F1B180BD5FDEC7B33FF5AB6F232B2AE49C46E412A319" />
@@ -10987,9 +10987,9 @@
       <OsInfo name="Windows 10" releaseId="22H2" architecture="x64" />
       <Hashes md5="d6e501602e579038895e0ca54ecc1301" sha256="0651529DE6672656C057A63308D5EDAD7851BA6D959135279C121813D8E43685" />
     </DriverPack>
-    <DriverPack id="2100896346|8abb,896d|4297|sp144912" packageId="sp144912" manufacturer="HP" name="HP EB 8x0 1040 ZB G9 MWS Windows 10 x64 Driver Pack" version="3.00 A 1" fileName="sp144912.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144912.exe" sizeBytes="2507886208" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-02-24">
+    <DriverPack id="2100896346|896d,8abb|4297|sp144912" packageId="sp144912" manufacturer="HP" name="HP EB 8x0 1040 ZB G9 MWS Windows 10 x64 Driver Pack" version="3.00 A 1" fileName="sp144912.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144912.exe" sizeBytes="2507886208" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-02-24">
       <Models>
-        <Model name="HP ZBook Firefly 16 inch G9 Mobile Workstation PC" systemId="8abb,896d" />
+        <Model name="HP ZBook Firefly 16 inch G9 Mobile Workstation PC" systemId="896d,8abb" />
       </Models>
       <OsInfo name="Windows 10" releaseId="21H2" architecture="x64" />
       <Hashes md5="d6e501602e579038895e0ca54ecc1301" sha256="0651529DE6672656C057A63308D5EDAD7851BA6D959135279C121813D8E43685" />
@@ -12688,12 +12688,12 @@
       <OsInfo name="Windows 11" releaseId="21H2" architecture="x64" />
       <Hashes md5="06d2d5dd1cffc8d9d0a3c63d4bff77e7" sha256="2D6D7C8FD2C74A909C742BC9B9B07652F775C7319CC5FF726863B325847F8274" />
     </DriverPack>
-    <DriverPack id="2102256092|8D0A|4317|sp168542" packageId="sp168542" manufacturer="HP" name="HP Elite SFF 805 G9 Desktop PC Windows 11 Driver Pack" version="10.00 A 1" fileName="sp168542.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp168501-169000/sp168542.exe" sizeBytes="3353379352" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2025-12-22">
+    <DriverPack id="2102256092|8D0A|4317|sp173532" packageId="sp173532" manufacturer="HP" name="HP Elite SFF 805 G9 Desktop PC Windows 11 Driver Pack" version="11.00 A 1" fileName="sp173532.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp173501-174000/sp173532.exe" sizeBytes="3318916280" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-09">
       <Models>
         <Model name="HP Elite SFF 805 G9 Desktop PC" systemId="8D0A" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
-      <Hashes md5="AC7D42BE20AAE83B673EB1D51917B82E" sha256="853510505E1E4CC6B497D4D416F2D04AC02F5450756A00A3857EC884F46FB8F6" />
+      <Hashes md5="45B3F975C6058325AA8813012D82DFA0" sha256="49F678A4CF372D76C0BEF47CA7F1CBCD2091329788D1718B3D32B483E41AC6B2" />
     </DriverPack>
     <DriverPack id="2102256092|8D0A|4306|sp157843" packageId="sp157843" manufacturer="HP" name="HP Elite SFF 805 G9 Desktop PC Windows 11 Driver Pack" version="9.00 A 1" fileName="sp157843.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp157501-158000/sp157843.exe" sizeBytes="3051982312" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2025-12-03">
       <Models>
@@ -12702,19 +12702,19 @@
       <OsInfo name="Windows 11" releaseId="22H2" architecture="x64" />
       <Hashes md5="5EA2E9CC807B676372FE9A59B636754F" sha256="B209F4176467E11A911F2363BC325302AB92AB85F9E6028DDEE8D89BD8C06B71" />
     </DriverPack>
-    <DriverPack id="2102256092|8D0A|4323|sp168542" packageId="sp168542" manufacturer="HP" name="HP Elite SFF 805 G9 Desktop PC Windows 11 Driver Pack" version="10.00 A 1" fileName="sp168542.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp168501-169000/sp168542.exe" sizeBytes="3353379352" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2025-12-22">
+    <DriverPack id="2102256092|8D0A|4323|sp173532" packageId="sp173532" manufacturer="HP" name="HP Elite SFF 805 G9 Desktop PC Windows 11 Driver Pack" version="11.00 A 1" fileName="sp173532.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp173501-174000/sp173532.exe" sizeBytes="3318916280" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-09">
       <Models>
         <Model name="HP Elite SFF 805 G9 Desktop PC" systemId="8D0A" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="AC7D42BE20AAE83B673EB1D51917B82E" sha256="853510505E1E4CC6B497D4D416F2D04AC02F5450756A00A3857EC884F46FB8F6" />
+      <Hashes md5="45B3F975C6058325AA8813012D82DFA0" sha256="49F678A4CF372D76C0BEF47CA7F1CBCD2091329788D1718B3D32B483E41AC6B2" />
     </DriverPack>
-    <DriverPack id="2102256092|8D0A|4333|sp168542" packageId="sp168542" manufacturer="HP" name="HP Elite SFF 805 G9 Desktop PC Windows 11 Driver Pack" version="10.00 A 1" fileName="sp168542.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp168501-169000/sp168542.exe" sizeBytes="3353379352" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2025-12-22">
+    <DriverPack id="2102256092|8D0A|4333|sp173532" packageId="sp173532" manufacturer="HP" name="HP Elite SFF 805 G9 Desktop PC Windows 11 Driver Pack" version="11.00 A 1" fileName="sp173532.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp173501-174000/sp173532.exe" sizeBytes="3318916280" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-09">
       <Models>
         <Model name="HP Elite SFF 805 G9 Desktop PC" systemId="8D0A" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="AC7D42BE20AAE83B673EB1D51917B82E" sha256="853510505E1E4CC6B497D4D416F2D04AC02F5450756A00A3857EC884F46FB8F6" />
+      <Hashes md5="45B3F975C6058325AA8813012D82DFA0" sha256="49F678A4CF372D76C0BEF47CA7F1CBCD2091329788D1718B3D32B483E41AC6B2" />
     </DriverPack>
     <DriverPack id="27872032|8396|4254|sp99864" packageId="sp99864" manufacturer="HP" name="HP Elite Slice G2 Windows 10 x64 Driver Pack" version="9.00 A 1" fileName="sp99864.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp99501-100000/sp99864.exe" sizeBytes="512118576" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-10-28">
       <Models>
@@ -13325,9 +13325,9 @@
       <OsInfo name="Windows 11" releaseId="22H2" architecture="x64" />
       <Hashes md5="904E1F4DB15A95A756C4106AA1FBFD2E" sha256="FE269583BFABE957EFF0F35120605D0416B9911CE319B390AF008F85B4FC1B20" />
     </DriverPack>
-    <DriverPack id="2101037406|8953,8AC7,8C59|4297|sp145708" packageId="sp145708" manufacturer="HP" name="HP Elite Tower/SFF 6x0/8x0 G9/Z1 Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp145708.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp145501-146000/sp145708.exe" sizeBytes="2822576448" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-04-21">
+    <DriverPack id="2101037406|8C59,8953,8AC7|4297|sp145708" packageId="sp145708" manufacturer="HP" name="HP Elite Tower/SFF 6x0/8x0 G9/Z1 Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp145708.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp145501-146000/sp145708.exe" sizeBytes="2822576448" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-04-21">
       <Models>
-        <Model name="HP Pro Tower 480 G9 PCI Desktop PC" systemId="8953,8AC7,8C59" />
+        <Model name="HP Pro Tower 480 G9 PCI Desktop PC" systemId="8C59,8953,8AC7" />
       </Models>
       <OsInfo name="Windows 10" releaseId="21H2" architecture="x64" />
       <Hashes md5="58c03558580bf6490dc64d3bc6b9604c" sha256="3A928C6CF74E7668A0D5B1D15B8EDD2B02E3913DAE1210C9D7C96DA21D5E3378" />
@@ -20752,9 +20752,9 @@
       <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
       <Hashes md5="e4854b947b8c1af474ddc4b5aa485288" sha256="FF1ACFE395016AB8E9FAAAB95CBB0C9BB8171A718EC5F171E128B6C215E99514" />
     </DriverPack>
-    <DriverPack id="21353728|8409,845a,83e2|4263|sp100497" packageId="sp100497" manufacturer="HP" name="HP ElitePro 4/6/800 G4 PC Win10 x64 Driver Pack" version="10.0 A 1" fileName="sp100497.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp100001-100500/sp100497.exe" sizeBytes="843131728" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-12-04">
+    <DriverPack id="21353728|83e2,8409,845a|4263|sp100497" packageId="sp100497" manufacturer="HP" name="HP ElitePro 4/6/800 G4 PC Win10 x64 Driver Pack" version="10.0 A 1" fileName="sp100497.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp100001-100500/sp100497.exe" sizeBytes="843131728" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-12-04">
       <Models>
-        <Model name="HP EliteDesk 800 35W G4 Desktop Mini PC" systemId="8409,845a,83e2" />
+        <Model name="HP EliteDesk 800 35W G4 Desktop Mini PC" systemId="83e2,8409,845a" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="1dfd07f0e7c77e4ae7b9914296e2d564" sha256="1E556C10463C23805B37488D7D15B7529A408E73471AC49E8952919C7B541538" />
@@ -20983,9 +20983,9 @@
       <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
       <Hashes md5="eebb0157f59933272493e925deef3d33" sha256="640FCE37A390965D243F9507B42AB1C637FBBF62C6A4A80CF88381123812F09D" />
     </DriverPack>
-    <DriverPack id="27090298|859f,85a0,85eb|4254|sp96782" packageId="sp96782" manufacturer="HP" name="HP ElitePro 4/6/800 G5 AiO Win 10 x64 Driver Pack" version="1.00 A 1" fileName="sp96782.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp96501-97000/sp96782.exe" sizeBytes="738862328" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-05-30">
+    <DriverPack id="27090298|85eb,859f,85a0|4254|sp96782" packageId="sp96782" manufacturer="HP" name="HP ElitePro 4/6/800 G5 AiO Win 10 x64 Driver Pack" version="1.00 A 1" fileName="sp96782.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp96501-97000/sp96782.exe" sizeBytes="738862328" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-05-30">
       <Models>
-        <Model name="HP EliteOne 800 G5 23.8-in Healthcare Edition All-in-One" systemId="859f,85a0,85eb" />
+        <Model name="HP EliteOne 800 G5 23.8-in Healthcare Edition All-in-One" systemId="85eb,859f,85a0" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
       <Hashes md5="eebb0157f59933272493e925deef3d33" sha256="640FCE37A390965D243F9507B42AB1C637FBBF62C6A4A80CF88381123812F09D" />
@@ -21004,9 +21004,9 @@
       <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
       <Hashes md5="eebb0157f59933272493e925deef3d33" sha256="640FCE37A390965D243F9507B42AB1C637FBBF62C6A4A80CF88381123812F09D" />
     </DriverPack>
-    <DriverPack id="27780459|85a2,85a1|4254|sp96782" packageId="sp96782" manufacturer="HP" name="HP ElitePro 4/6/800 G5 AiO Win 10 x64 Driver Pack" version="1.00 A 1" fileName="sp96782.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp96501-97000/sp96782.exe" sizeBytes="738862328" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-05-30">
+    <DriverPack id="27780459|85a1,85a2|4254|sp96782" packageId="sp96782" manufacturer="HP" name="HP ElitePro 4/6/800 G5 AiO Win 10 x64 Driver Pack" version="1.00 A 1" fileName="sp96782.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp96501-97000/sp96782.exe" sizeBytes="738862328" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-05-30">
       <Models>
-        <Model name="HP ProOne 600 G5 21.5-in All-in-One Business PC" systemId="85a2,85a1" />
+        <Model name="HP ProOne 600 G5 21.5-in All-in-One Business PC" systemId="85a1,85a2" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1803" architecture="x64" />
       <Hashes md5="eebb0157f59933272493e925deef3d33" sha256="640FCE37A390965D243F9507B42AB1C637FBBF62C6A4A80CF88381123812F09D" />
@@ -21578,9 +21578,9 @@
       <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
       <Hashes md5="371c36fb504fceba8822c40414056ec6" sha256="C041D62D4FB87F7683A3778C4A4C24E3D9908F4E6B38BA6893F94919BF5DD613" />
     </DriverPack>
-    <DriverPack id="27066641|8594,8595,8593|4263|sp99588" packageId="sp99588" manufacturer="HP" name="HP ElitePro 4/6/800 G5 PC Win 10 x64 Driver Pack" version="3.00 A 1" fileName="sp99588.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp99501-100000/sp99588.exe" sizeBytes="832327416" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-10-17">
+    <DriverPack id="27066641|8593,8594,8595|4263|sp99588" packageId="sp99588" manufacturer="HP" name="HP ElitePro 4/6/800 G5 PC Win 10 x64 Driver Pack" version="3.00 A 1" fileName="sp99588.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp99501-100000/sp99588.exe" sizeBytes="832327416" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-10-17">
       <Models>
-        <Model name="HP EliteDesk 800 G5 Desktop Mini PC" systemId="8594,8595,8593" />
+        <Model name="HP EliteDesk 800 G5 Desktop Mini PC" systemId="8593,8594,8595" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="a178e51dd931676497168a7014185bb1" sha256="8342C3984EDD09DB2D15FA81B640F4328FB243F0C59A83E56774F33420BEC45B" />
@@ -22985,9 +22985,9 @@
       <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
       <Hashes md5="1d3bfd90ce09daf3e9dcac8851dc0c80" sha256="DE07065C254C8490EA9BCCF12E655D4A476D7A2DDECC472F32285617B31C97A1" />
     </DriverPack>
-    <DriverPack id="2100639661|8968,8882|4285|sp121400" packageId="sp121400" manufacturer="HP" name="HP ElitePro 4/805 G8 DM Windows 10 x64 Driver Pack" version="1.00 A 1" fileName="sp121400.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp121001-121500/sp121400.exe" sizeBytes="1118428792" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-07-12">
+    <DriverPack id="2100639661|8882,8968|4285|sp121400" packageId="sp121400" manufacturer="HP" name="HP ElitePro 4/805 G8 DM Windows 10 x64 Driver Pack" version="1.00 A 1" fileName="sp121400.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp121001-121500/sp121400.exe" sizeBytes="1118428792" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-07-12">
       <Models>
-        <Model name="HP ProDesk 405 G8 Desktop Mini PC" systemId="8968,8882" />
+        <Model name="HP ProDesk 405 G8 Desktop Mini PC" systemId="8882,8968" />
       </Models>
       <OsInfo name="Windows 10" releaseId="2004" architecture="x64" />
       <Hashes md5="8abd07de9645c77378bec828969aa586" sha256="3B68D59CF23C5D388452314D0B4D50379588E9B5ED2CD8B6FBCEDFB84E392AEC" />
@@ -24469,9 +24469,9 @@
       <OsInfo name="Windows 10" releaseId="1909" architecture="x64" />
       <Hashes md5="fae470e85c868cdfc76138464e9acd02" sha256="6D7CD9F87434F6CA26452F7AE95E487C1C14263DC93781FD9DA0F5B9BB455FF9" />
     </DriverPack>
-    <DriverPack id="21341255|83eb,83ea|4249|sp89032" packageId="sp89032" manufacturer="HP" name="HP ElitePro 400/600/800 G4 AiO Win10 x64 Driver Pack" version="2.00 A 1" fileName="sp89032.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp89001-89500/sp89032.exe" sizeBytes="606082768" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2018-07-17">
+    <DriverPack id="21341255|83ea,83eb|4249|sp89032" packageId="sp89032" manufacturer="HP" name="HP ElitePro 400/600/800 G4 AiO Win10 x64 Driver Pack" version="2.00 A 1" fileName="sp89032.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp89001-89500/sp89032.exe" sizeBytes="606082768" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2018-07-17">
       <Models>
-        <Model name="HP Zhan60 G1 21.5-inch FHD Non-Touch GPU All-in-One Business PC" systemId="83eb,83ea" />
+        <Model name="HP Zhan60 G1 21.5-inch FHD Non-Touch GPU All-in-One Business PC" systemId="83ea,83eb" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1709" architecture="x64" />
       <Hashes md5="dafdd80b8072ac3e7b4cbe88708aba90" sha256="74F0276EC58B0943A3AC192B61DA90B73C1A146D7A81985611F2C0C664306388" />
@@ -24574,9 +24574,9 @@
       <OsInfo name="Windows 10" releaseId="1709" architecture="x64" />
       <Hashes md5="dafdd80b8072ac3e7b4cbe88708aba90" sha256="74F0276EC58B0943A3AC192B61DA90B73C1A146D7A81985611F2C0C664306388" />
     </DriverPack>
-    <DriverPack id="21351244|83eb,83ea|4297|sp114256" packageId="sp114256" manufacturer="HP" name="HP ElitePro 400/600/800 G4 AiO Win10 x64 Driver Pack" version="14.00 A 1" fileName="sp114256.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114256.exe" sizeBytes="1086987800" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-06-24">
+    <DriverPack id="21351244|83ea,83eb|4297|sp114256" packageId="sp114256" manufacturer="HP" name="HP ElitePro 400/600/800 G4 AiO Win10 x64 Driver Pack" version="14.00 A 1" fileName="sp114256.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114256.exe" sizeBytes="1086987800" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-06-24">
       <Models>
-        <Model name="HP Zhan60 G1 23.8-inch FHD Non-Touch GPU All-in-One Business PC" systemId="83eb,83ea" />
+        <Model name="HP Zhan60 G1 23.8-inch FHD Non-Touch GPU All-in-One Business PC" systemId="83ea,83eb" />
       </Models>
       <OsInfo name="Windows 10" releaseId="21H2" architecture="x64" />
       <Hashes md5="b9491bbd00fd641ae63da5e1e1769b14" sha256="1422087DFE8A45EC90CB09FD62A86B255933068CBA8EEE000AA1D96CA56CEE90" />
@@ -25491,9 +25491,9 @@
       <OsInfo name="Windows 11" releaseId="22H2" architecture="x64" />
       <Hashes md5="d5f2b06d204a514e0fd93fc6163004db" sha256="5CB6061990A2154194889DBC1A9D922299ECE28660E2CE829C50EC69733B2494" />
     </DriverPack>
-    <DriverPack id="34658464|870f,8710,8711|4298|sp143754" packageId="sp143754" manufacturer="HP" name="HP ElitePro 6/800 G6 SFF Windows 11 Driver Pack" version="5.00 A 1" fileName="sp143754.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp143501-144000/sp143754.exe" sizeBytes="1226001688" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-11-28">
+    <DriverPack id="34658464|8710,8711,870f|4298|sp143754" packageId="sp143754" manufacturer="HP" name="HP ElitePro 6/800 G6 SFF Windows 11 Driver Pack" version="5.00 A 1" fileName="sp143754.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp143501-144000/sp143754.exe" sizeBytes="1226001688" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2022-11-28">
       <Models>
-        <Model name="HP EliteDesk 800 G6 Desktop Mini PC" systemId="870f,8710,8711" />
+        <Model name="HP EliteDesk 800 G6 Desktop Mini PC" systemId="8710,8711,870f" />
       </Models>
       <OsInfo name="Windows 11" releaseId="21H2" architecture="x64" />
       <Hashes md5="d5f2b06d204a514e0fd93fc6163004db" sha256="5CB6061990A2154194889DBC1A9D922299ECE28660E2CE829C50EC69733B2494" />
@@ -31504,9 +31504,9 @@
       <OsInfo name="Windows 10" releaseId="22H2" architecture="x64" />
       <Hashes md5="46ba0ae7ccc64215ff5f8a1bb102b86d" sha256="A2579561A34CE23D32238E79183B9047C0BA3360FA239FF96D665B2A09FA8667" />
     </DriverPack>
-    <DriverPack id="37999762|87E0,8807,8A74,8A76,8A84,8A86|4285|sp114062" packageId="sp114062" manufacturer="HP" name="HP ProBook 4x0 G8/ZHAN G4 Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp114062.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114062.exe" sizeBytes="1371475104" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-05-31">
+    <DriverPack id="37999762|8A86,87E0,8807,8A74,8A76,8A84|4285|sp114062" packageId="sp114062" manufacturer="HP" name="HP ProBook 4x0 G8/ZHAN G4 Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp114062.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114062.exe" sizeBytes="1371475104" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-05-31">
       <Models>
-        <Model name="HP ProBook 440 G8 Notebook PC" systemId="87E0,8807,8A74,8A76,8A84,8A86" />
+        <Model name="HP ProBook 440 G8 Notebook PC" systemId="8A86,87E0,8807,8A74,8A76,8A84" />
       </Models>
       <OsInfo name="Windows 10" releaseId="2004" architecture="x64" />
       <Hashes md5="c0ce6bc542a8a2c926f4312554d0fade" sha256="D4D9B229DB17C2552AB0287B8A90413B05FE2073DAA13A0F3D4EBF5CE1FFE2FA" />
@@ -33492,9 +33492,9 @@
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="E9820CCEEFCD19DEA32B808EA096CB5F" sha256="98C4A6E4EF3152321161574960A35D0A37994329A7C9E8AD5F71C1D0CFAF5CC8" />
     </DriverPack>
-    <DriverPack id="2101091270|89B0,8B4B|4323|sp160036" packageId="sp160036" manufacturer="HP" name="HP ProBook x360 Fortis G9 Windows 11 Driver Pack" version="6.00 A 1" fileName="sp160036.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp160001-160500/sp160036.exe" sizeBytes="937327600" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2025-06-02">
+    <DriverPack id="2101091270|8B4B,89B0|4323|sp160036" packageId="sp160036" manufacturer="HP" name="HP ProBook x360 Fortis G9 Windows 11 Driver Pack" version="6.00 A 1" fileName="sp160036.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp160001-160500/sp160036.exe" sizeBytes="937327600" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2025-06-02">
       <Models>
-        <Model name="HP ProBook Fortis 14 inch G9 Notebook PC" systemId="89B0,8B4B" />
+        <Model name="HP ProBook Fortis 14 inch G9 Notebook PC" systemId="8B4B,89B0" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
       <Hashes md5="E9820CCEEFCD19DEA32B808EA096CB5F" sha256="98C4A6E4EF3152321161574960A35D0A37994329A7C9E8AD5F71C1D0CFAF5CC8" />
@@ -33716,9 +33716,9 @@
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="BD4BF0459BB4F65BB56C99C563B2A56C" sha256="21EBF982EBC456747DA01692E9D1689ACD0F1AAEEB99AD61D06BBCF2DF7AC951" />
     </DriverPack>
-    <DriverPack id="2102843745|8E2E,8E58|4323|sp170232" packageId="sp170232" manufacturer="HP" name="HP ProBook/EliteBook 6 G1iR Windows 11 Driver Pack" version="3.00 A 1" fileName="sp170232.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp170001-170500/sp170232.exe" sizeBytes="1577984048" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-02-03">
+    <DriverPack id="2102843745|8E58,8E2E|4323|sp170232" packageId="sp170232" manufacturer="HP" name="HP ProBook/EliteBook 6 G1iR Windows 11 Driver Pack" version="3.00 A 1" fileName="sp170232.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp170001-170500/sp170232.exe" sizeBytes="1577984048" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-02-03">
       <Models>
-        <Model name="HP ProBook 4 G1iR 16 inch Notebook PC" systemId="8E2E,8E58" />
+        <Model name="HP ProBook 4 G1iR 16 inch Notebook PC" systemId="8E58,8E2E" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
       <Hashes md5="BD4BF0459BB4F65BB56C99C563B2A56C" sha256="21EBF982EBC456747DA01692E9D1689ACD0F1AAEEB99AD61D06BBCF2DF7AC951" />
@@ -34458,9 +34458,9 @@
       <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
       <Hashes md5="07f4c901060dd0f33df5b57ac0f16207" sha256="F11CDFDA050B1F78268618E4C25AEBA8A1FC571B75D8A95F6D538084F360E7CE" />
     </DriverPack>
-    <DriverPack id="27733966|859a,8599|4263|sp99623" packageId="sp99623" manufacturer="HP" name="HP ProDesk 4x0 G6 SFF/MT Windows 10 x64 Driver Pack" version="2.00 A 1" fileName="sp99623.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp99501-100000/sp99623.exe" sizeBytes="830748224" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-10-17">
+    <DriverPack id="27733966|8599,859a|4263|sp99623" packageId="sp99623" manufacturer="HP" name="HP ProDesk 4x0 G6 SFF/MT Windows 10 x64 Driver Pack" version="2.00 A 1" fileName="sp99623.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp99501-100000/sp99623.exe" sizeBytes="830748224" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2019-10-17">
       <Models>
-        <Model name="HP ProDesk 400 G6 Microtower PC" systemId="859a,8599" />
+        <Model name="HP ProDesk 400 G6 Microtower PC" systemId="8599,859a" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="caf952f16ff2264132facff1524b72a9" sha256="169C110F2C7D886D669E2B674A597434B73D865E0B8DCF7EC38D764193464ADF" />
@@ -34703,9 +34703,9 @@
       <OsInfo name="Windows 10" releaseId="1903" architecture="x64" />
       <Hashes md5="5debd84093b545f87c5503c6029ca545" sha256="2F3F3B8CA919E1238DA643F56EC9545B1BB16C59D4C4AE86CC5B20A86151EE87" />
     </DriverPack>
-    <DriverPack id="35719296|871C,880F,8810,871B|4263|sp123509" packageId="sp123509" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Win 10 x64 Driver Pack" version="5.00 A 1" fileName="sp123509.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp123501-124000/sp123509.exe" sizeBytes="1554374400" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-07-23">
+    <DriverPack id="35719296|871B,871C,880F,8810|4263|sp123509" packageId="sp123509" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Win 10 x64 Driver Pack" version="5.00 A 1" fileName="sp123509.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp123501-124000/sp123509.exe" sizeBytes="1554374400" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-07-23">
       <Models>
-        <Model name="HP ProOne 400 G6 24 All-in-One PC" systemId="871C,880F,8810,871B" />
+        <Model name="HP ProOne 400 G6 24 All-in-One PC" systemId="871B,871C,880F,8810" />
       </Models>
       <OsInfo name="Windows 10" releaseId="1809" architecture="x64" />
       <Hashes md5="e8889e39a0d33623c3f26e0f866bfef5" sha256="57E6944EC343E4409C9E71A5AA6E1BCFD5F572457FFCAC7BCC8E4953FAE06407" />
@@ -34780,9 +34780,9 @@
       <OsInfo name="Windows 10" releaseId="21H2" architecture="x64" />
       <Hashes md5="8f4135765c4858a318effc202633929c" sha256="D44ECD24C949C44AF4397525B79A95047BF1DAEE44176459977EBC111EB7F0EE" />
     </DriverPack>
-    <DriverPack id="37972710|871b,871c|4295|sp144594" packageId="sp144594" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Windows 10 x64 Driver Pack" version="8.00 A 1" fileName="sp144594.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144594.exe" sizeBytes="1441141912" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-02">
+    <DriverPack id="37972710|871c,871b|4295|sp144594" packageId="sp144594" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Windows 10 x64 Driver Pack" version="8.00 A 1" fileName="sp144594.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144594.exe" sizeBytes="1441141912" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-02">
       <Models>
-        <Model name="HP ZHAN 66 Pro G3 22 All-in-One PC" systemId="871b,871c" />
+        <Model name="HP ZHAN 66 Pro G3 22 All-in-One PC" systemId="871c,871b" />
       </Models>
       <OsInfo name="Windows 10" releaseId="21H1" architecture="x64" />
       <Hashes md5="8f4135765c4858a318effc202633929c" sha256="D44ECD24C949C44AF4397525B79A95047BF1DAEE44176459977EBC111EB7F0EE" />
@@ -34829,9 +34829,9 @@
       <OsInfo name="Windows 10" releaseId="22H2" architecture="x64" />
       <Hashes md5="8f4135765c4858a318effc202633929c" sha256="D44ECD24C949C44AF4397525B79A95047BF1DAEE44176459977EBC111EB7F0EE" />
     </DriverPack>
-    <DriverPack id="38820081|871b,871c,880f,8810|4297|sp144594" packageId="sp144594" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Windows 10 x64 Driver Pack" version="8.00 A 1" fileName="sp144594.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144594.exe" sizeBytes="1441141912" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-02">
+    <DriverPack id="38820081|871c,880f,8810,871b|4297|sp144594" packageId="sp144594" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Windows 10 x64 Driver Pack" version="8.00 A 1" fileName="sp144594.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144594.exe" sizeBytes="1441141912" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-02">
       <Models>
-        <Model name="HP ZHAN 66 Pro G3 24 All-in-One PC" systemId="871b,871c,880f,8810" />
+        <Model name="HP ZHAN 66 Pro G3 24 All-in-One PC" systemId="871c,880f,8810,871b" />
       </Models>
       <OsInfo name="Windows 10" releaseId="21H2" architecture="x64" />
       <Hashes md5="8f4135765c4858a318effc202633929c" sha256="D44ECD24C949C44AF4397525B79A95047BF1DAEE44176459977EBC111EB7F0EE" />
@@ -34850,9 +34850,9 @@
       <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
       <Hashes md5="8f4135765c4858a318effc202633929c" sha256="D44ECD24C949C44AF4397525B79A95047BF1DAEE44176459977EBC111EB7F0EE" />
     </DriverPack>
-    <DriverPack id="37972729|8810,871b,871c,880f|4308|sp144594" packageId="sp144594" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Windows 10 x64 Driver Pack" version="8.00 A 1" fileName="sp144594.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144594.exe" sizeBytes="1441141912" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-02">
+    <DriverPack id="37972729|880f,8810,871b,871c|4308|sp144594" packageId="sp144594" manufacturer="HP" name="HP ProOne 4/600 G6 AiO Windows 10 x64 Driver Pack" version="8.00 A 1" fileName="sp144594.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp144501-145000/sp144594.exe" sizeBytes="1441141912" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-03-02">
       <Models>
-        <Model name="HP ProOne 440 G6 24 All-in-One PC" systemId="8810,871b,871c,880f" />
+        <Model name="HP ProOne 440 G6 24 All-in-One PC" systemId="880f,8810,871b,871c" />
       </Models>
       <OsInfo name="Windows 10" releaseId="22H2" architecture="x64" />
       <Hashes md5="8f4135765c4858a318effc202633929c" sha256="D44ECD24C949C44AF4397525B79A95047BF1DAEE44176459977EBC111EB7F0EE" />
@@ -35067,9 +35067,9 @@
       <OsInfo name="Windows 10" releaseId="21H2" architecture="x64" />
       <Hashes md5="0085dd45b7e06cd65371e547d9f9bd4b" sha256="5F72BDEF9ECC23F7F43D3A275B551578B3BE09CE95EA043F53C9CA63DD259ECE" />
     </DriverPack>
-    <DriverPack id="2101121148|8acd,8ace,8c5b,8c5d,8958,8959|4288|sp145706" packageId="sp145706" manufacturer="HP" name="HP ProOne 440 23.8 G9 AIO Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp145706.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp145501-146000/sp145706.exe" sizeBytes="1287486768" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-06-15">
+    <DriverPack id="2101121148|8958,8959,8acd,8ace,8c5b,8c5d|4288|sp145706" packageId="sp145706" manufacturer="HP" name="HP ProOne 440 23.8 G9 AIO Windows 10 x64 Driver Pack" version="4.00 A 1" fileName="sp145706.exe" downloadUrl="https://ftp.hp.com/pub/softpaq/sp145501-146000/sp145706.exe" sizeBytes="1287486768" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2023-06-15">
       <Models>
-        <Model name="HP ProOne 440 23.8 inch G9 All-in-One Desktop PC" systemId="8acd,8ace,8c5b,8c5d,8958,8959" />
+        <Model name="HP ProOne 440 23.8 inch G9 All-in-One Desktop PC" systemId="8958,8959,8acd,8ace,8c5b,8c5d" />
       </Models>
       <OsInfo name="Windows 10" releaseId="20H2" architecture="x64" />
       <Hashes md5="0085dd45b7e06cd65371e547d9f9bd4b" sha256="5F72BDEF9ECC23F7F43D3A275B551578B3BE09CE95EA043F53C9CA63DD259ECE" />
@@ -61696,13 +61696,13 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" build="22631" architecture="x64" />
     </DriverPack>
-    <DriverPack id="108671|SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi" packageId="108671" manufacturer="Microsoft" name="SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi" version="1" fileName="SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi" downloadUrl="https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.041.10353.0.msi" sizeBytes="1337659392" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-24">
+    <DriverPack id="108671|SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi" packageId="108671" manufacturer="Microsoft" name="SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi" version="1" fileName="SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi" downloadUrl="https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26100_26.060.3233.0.msi" sizeBytes="1119285248" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-01">
       <Models>
         <Model name="Surface Pro for Business 12th Edition with Intel" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" build="26100" architecture="x64" />
     </DriverPack>
-    <DriverPack id="108671|SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi" packageId="108671" manufacturer="Microsoft" name="SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi" version="1" fileName="SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi" downloadUrl="https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.041.10338.0.msi" sizeBytes="1337659392" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-24">
+    <DriverPack id="108671|SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi" packageId="108671" manufacturer="Microsoft" name="SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi" version="1" fileName="SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi" downloadUrl="https://download.microsoft.com/download/bb74a988-4bd8-42d7-8681-1c55f414c80b/SurfacePro12withIntel_Win11_26200_26.060.3232.0.msi" sizeBytes="1119285248" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-01">
       <Models>
         <Model name="Surface Pro for Business 12th Edition with Intel" />
       </Models>

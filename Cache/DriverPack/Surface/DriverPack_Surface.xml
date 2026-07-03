@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-02T06:27:32Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="199a1f14172be42311128b71716f8ff7fae10aa2ef02f81d839d18b0e39d732e" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-03T06:18:30Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="5549987f2058297ff1c052e013e19d3cd651682963224aef7340540c6e7d0e99" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -1155,18 +1155,18 @@
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>104681|SurfaceStudio2+_Win11_22631_26.040.3348.0.msi</id>
+      <id>104681|SurfaceStudio2+_Win11_22631_26.061.14996.0.msi</id>
       <model>Surface Studio 2+</model>
       <downloadTitle>Surface Studio 2+</downloadTitle>
       <packageId>104681</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=104681</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/3fcf5151-489a-4091-ac14-d5662ad964f3/SurfaceStudio2+_Win11_22631_26.040.3348.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/3fcf5151-489a-4091-ac14-d5662ad964f3/SurfaceStudio2+_Win11_22631_26.040.3348.0.msi</msiUrl>
-      <fileName>SurfaceStudio2+_Win11_22631_26.040.3348.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/3fcf5151-489a-4091-ac14-d5662ad964f3/SurfaceStudio2+_Win11_22631_26.061.14996.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/3fcf5151-489a-4091-ac14-d5662ad964f3/SurfaceStudio2+_Win11_22631_26.061.14996.0.msi</msiUrl>
+      <fileName>SurfaceStudio2+_Win11_22631_26.061.14996.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1924808704</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>1924825088</sizeBytes>
+      <datePublished>2026-07-02</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
