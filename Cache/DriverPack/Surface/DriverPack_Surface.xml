@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-21T05:38:22Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="7fc834c662f85d9d923717d0aa3fe5bbee4f90a4ec88ff48d3a606d42f87aaf7" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-22T05:37:10Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="cceffac3615c37346c315b3698fefa059173a953cf9b1becfd2b1dc5157e3ef8" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -1035,18 +1035,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105941|SurfacePro9-5G_Win11_22621_25.070.2191.0.msi</id>
+      <id>105941|SurfacePro9-5G_Win11_22631_26.062.19189.0.msi</id>
       <model>Surface Pro 9 5G with SQ3</model>
       <downloadTitle>Surface Pro 9 5G with SQ3</downloadTitle>
       <packageId>105941</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105941</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/9ba185b4-fd54-44da-9c54-adb8b2bc6c09/SurfacePro9-5G_Win11_22621_25.070.2191.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/9ba185b4-fd54-44da-9c54-adb8b2bc6c09/SurfacePro9-5G_Win11_22621_25.070.2191.0.msi</msiUrl>
-      <fileName>SurfacePro9-5G_Win11_22621_25.070.2191.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/9ba185b4-fd54-44da-9c54-adb8b2bc6c09/SurfacePro9-5G_Win11_22631_26.062.19189.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/9ba185b4-fd54-44da-9c54-adb8b2bc6c09/SurfacePro9-5G_Win11_22631_26.062.19189.0.msi</msiUrl>
+      <fileName>SurfacePro9-5G_Win11_22631_26.062.19189.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>404729856</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>404353024</sizeBytes>
+      <datePublished>2026-07-21</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
