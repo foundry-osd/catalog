@@ -366,45 +366,6 @@ function Save-ProductsCabForRelease {
     }
 }
 
-function Get-RepresentativeReleaseItem {
-    param(
-        [Parameter(Mandatory = $true)]
-        [ValidateNotNull()]
-        [pscustomobject[]]$Items,
-
-        [Parameter(Mandatory = $true)]
-        [string]$ReleaseId,
-
-        [Parameter()]
-        [AllowNull()]
-        [int]$ExpectedBuildMajor
-    )
-
-    $releaseItems = @(
-        $Items |
-        Where-Object { $_.windowsRelease -eq 11 -and $_.releaseId -eq $ReleaseId }
-    )
-
-    if ($releaseItems.Count -lt 1) {
-        throw "Downloaded products.xml did not contain any Windows 11 $ReleaseId ESD entries after filtering."
-    }
-
-    $representativeItem = $releaseItems |
-        Sort-Object -Descending -Property @(
-            @{ Expression = { if ($null -eq $_.buildUbr) { -1 } else { $_.buildUbr } } },
-            @{ Expression = { $_.buildMajor } },
-            @{ Expression = { $_.build } },
-            @{ Expression = { $_.fileName } }
-        ) |
-        Select-Object -First 1
-
-    if ($ExpectedBuildMajor -and $representativeItem.buildMajor -ne $ExpectedBuildMajor) {
-        throw "Windows 11 $ReleaseId source returned build major $($representativeItem.buildMajor), expected $ExpectedBuildMajor."
-    }
-
-    return $representativeItem
-}
-
 function Get-ReleaseMediaIdentity {
     param(
         [Parameter(Mandatory = $true)]
@@ -529,11 +490,6 @@ function Get-ProductsSourceFiles {
 
             if ($sourceItems.Count -lt 1) {
                 throw "Downloaded products.xml for Windows 11 $releaseId did not yield any matching ESD items."
-            }
-
-            $representativeItem = Get-RepresentativeReleaseItem -Items $sourceItems -ReleaseId $releaseId -ExpectedBuildMajor $releaseDefinition.ExpectedBuildMajor
-            if (-not $representativeItem.buildMajor) {
-                throw "Unable to determine build major for Windows 11 $releaseId."
             }
 
             $identity = Get-ReleaseMediaIdentity -Items $sourceItems -ReleaseId $releaseId
