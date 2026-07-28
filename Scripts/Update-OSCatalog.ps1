@@ -10,9 +10,8 @@ param(
     [string]$SourceOutputDirectory = (Join-Path -Path $PSScriptRoot -ChildPath '..\Cache\OS\Microsoft'),
 
     [Parameter()]
-    [ValidateNotNullOrEmpty()]
-    [ValidateSet('23H2', '24H2', '25H2')]
-    [string[]]$TargetReleases = @('23H2', '24H2', '25H2'),
+    [ValidateNotNull()]
+    [string[]]$TargetReleases = @(),
 
     [Parameter()]
     [ValidateNotNullOrEmpty()]
@@ -23,7 +22,14 @@ param(
 
     [Parameter()]
     [ValidateRange(1, 1000000)]
-    [int]$MinimumItemCount = 50
+    [int]$MinimumItemCount = 50,
+
+    [Parameter()]
+    [ValidateRange(1, 120)]
+    [int]$RetentionMonths = 12,
+
+    [Parameter()]
+    [datetime]$RetentionReferenceDateUtc = [datetime]::UtcNow
 )
 
 Set-StrictMode -Version Latest
@@ -40,31 +46,28 @@ else {
     throw "Helpers module not found at: $helpersPath"
 }
 
+$operatingSystemHelpersPath = Join-Path -Path $PSScriptRoot -ChildPath '..' -AdditionalChildPath @('Helpers', 'OperatingSystemCatalog.psm1')
+if (Test-Path -Path $operatingSystemHelpersPath) {
+    Import-Module -Name $operatingSystemHelpersPath -Force -ErrorAction Stop
+}
+else {
+    throw "Operating system helpers module not found at: $operatingSystemHelpersPath"
+}
+
+$releaseConfigurationPath = Join-Path -Path $PSScriptRoot -ChildPath '..' -AdditionalChildPath @('Config', 'Windows11Releases.psd1')
+$script:windows11ReleaseSources = Import-OperatingSystemReleaseConfiguration -Path $releaseConfigurationPath
+if (-not $PSBoundParameters.ContainsKey('TargetReleases')) {
+    $TargetReleases = @($script:windows11ReleaseSources.Keys | Sort-Object)
+}
+
+$script:releaseByBuildMajor = @{}
+foreach ($releaseDefinition in $script:windows11ReleaseSources.Values) {
+    $script:releaseByBuildMajor[[int]$releaseDefinition.ExpectedBuildMajor] = [string]$releaseDefinition.ReleaseId
+}
+
 #endregion Import Helpers
 
 #region Utility Functions
-
-$script:windows11ReleaseSources = @{
-    '23H2' = [pscustomobject]@{
-        ReleaseId = '23H2'
-        SourceType = 'StaticCab'
-        CabUrl = 'https://download.microsoft.com/download/6/2/b/62b47bc5-1b28-4bfa-9422-e7a098d326d4/products_win11_20231208.cab'
-        ExpectedBuildMajor = 22631
-    }
-    '24H2' = [pscustomobject]@{
-        ReleaseId = '24H2'
-        SourceType = 'StaticCab'
-        CabUrl = 'https://download.microsoft.com/download/8e0c23e7-ddc2-45c4-b7e1-85a808b408ee/Products-Win11-24H2-6B.cab'
-        ExpectedBuildMajor = 26100
-    }
-    '25H2' = [pscustomobject]@{
-        ReleaseId = '25H2'
-        SourceType = 'DynamicWindowsUpdate'
-        Products = 'PN=Windows.Products.Cab.amd64&V=0.0.0.0'
-        DeviceAttributes = 'DUScan=1;OSVersion=10.0.26100.1'
-        ExpectedBuildMajor = 26200
-    }
-}
 
 function Resolve-DirectoryPath {
     param(
@@ -178,12 +181,11 @@ function Get-WindowsReleaseIdFromBuildMajor {
         return $null
     }
 
-    switch ($BuildMajor) {
-        { $_ -ge 26200 } { return '25H2' }
-        { $_ -ge 26100 } { return '24H2' }
-        { $_ -ge 22631 } { return '23H2' }
-        default { return $null }
+    if ($script:releaseByBuildMajor.ContainsKey($BuildMajor)) {
+        return $script:releaseByBuildMajor[$BuildMajor]
     }
+
+    return $null
 }
 
 function Get-SourceDefinitionFromFileName {
@@ -193,22 +195,15 @@ function Get-SourceDefinitionFromFileName {
         [string]$FileName
     )
 
-    $baseName = [System.IO.Path]::GetFileNameWithoutExtension($FileName)
-    $match = [regex]::Match($baseName, '^(?i)Win(?<windowsMajor>\d+)_(?<releaseId>\d{2}H\d)_(?<buildMajor>\d{5})$')
-    if (-not $match.Success) {
-        throw ("Source XML name '{0}' must match 'Win<major>_<releaseId>_<buildMajor>.xml'." -f $FileName)
-    }
-
-    [int]$parsedBuildMajor = 0
-    if (-not [int]::TryParse($match.Groups['buildMajor'].Value, [ref]$parsedBuildMajor)) {
-        throw ("Source XML name '{0}' contains an invalid build major." -f $FileName)
-    }
-
+    $definition = Get-OperatingSystemSnapshotDefinition -FileName $FileName
     return [pscustomobject]([ordered]@{
-            id = $baseName
-            windowsMajor = $match.Groups['windowsMajor'].Value
-            releaseId = $match.Groups['releaseId'].Value.ToUpperInvariant()
-            buildMajor = $parsedBuildMajor
+            id = $definition.Id
+            windowsMajor = $definition.WindowsMajor
+            releaseId = $definition.ReleaseId
+            build = $definition.Build
+            buildMajor = $definition.BuildMajor
+            buildUbr = $definition.BuildUbr
+            mediaDate = $definition.MediaDate
         })
 }
 
@@ -332,7 +327,6 @@ function Get-ProductsXmlContentFromCab {
 function Get-Windows11ReleaseSourceDefinition {
     param(
         [Parameter(Mandatory = $true)]
-        [ValidateSet('23H2', '24H2', '25H2')]
         [string]$ReleaseId
     )
 
@@ -363,50 +357,68 @@ function Save-ProductsCabForRelease {
             $cabMetadata = Get-WindowsUpdateProductsCabMetadata -Products $ReleaseDefinition.Products -DeviceAttributes $ReleaseDefinition.DeviceAttributes
             Save-VerifiedProductsCab -Metadata $cabMetadata -DestinationPath $DestinationPath
         }
+        'ArchiveOnly' {
+            throw "ArchiveOnly release $($ReleaseDefinition.ReleaseId) cannot be downloaded."
+        }
         default {
             throw "Unsupported source type '$($ReleaseDefinition.SourceType)' for release $($ReleaseDefinition.ReleaseId)."
         }
     }
 }
 
-function Get-RepresentativeReleaseItem {
+function Get-ReleaseMediaIdentity {
     param(
         [Parameter(Mandatory = $true)]
         [ValidateNotNull()]
         [pscustomobject[]]$Items,
 
         [Parameter(Mandatory = $true)]
-        [ValidateSet('23H2', '24H2', '25H2')]
-        [string]$ReleaseId,
-
-        [Parameter()]
-        [AllowNull()]
-        [int]$ExpectedBuildMajor
+        [ValidateNotNullOrEmpty()]
+        [string]$ReleaseId
     )
 
-    $releaseItems = @(
+    $identities = @(
         $Items |
-        Where-Object { $_.windowsRelease -eq 11 -and $_.releaseId -eq $ReleaseId }
+        Where-Object { $_.windowsRelease -eq 11 -and $_.releaseId -eq $ReleaseId } |
+        ForEach-Object { Get-OperatingSystemMediaIdentity -FileName $_.fileName }
+    )
+    if ($identities.Count -lt 1) {
+        throw "Unable to determine media identity for Windows 11 $ReleaseId."
+    }
+
+    $identityGroups = @($identities | Group-Object -Property { "$($_.Build)|$($_.MediaDate.ToString('yyyy-MM-dd'))" })
+    if ($identityGroups.Count -ne 1) {
+        throw "Windows 11 $ReleaseId source contains multiple media builds or dates."
+    }
+
+    return $identities[0]
+}
+
+function Get-ProductsSnapshotRecords {
+    param(
+        [Parameter(Mandatory = $true)]
+        [ValidateNotNullOrEmpty()]
+        [string]$Directory
     )
 
-    if ($releaseItems.Count -lt 1) {
-        throw "Downloaded products.xml did not contain any Windows 11 $ReleaseId ESD entries after filtering."
-    }
-
-    $representativeItem = $releaseItems |
-        Sort-Object -Descending -Property @(
-            @{ Expression = { if ($null -eq $_.buildUbr) { -1 } else { $_.buildUbr } } },
-            @{ Expression = { $_.buildMajor } },
-            @{ Expression = { $_.build } },
-            @{ Expression = { $_.fileName } }
-        ) |
-        Select-Object -First 1
-
-    if ($ExpectedBuildMajor -and $representativeItem.buildMajor -ne $ExpectedBuildMajor) {
-        throw "Windows 11 $ReleaseId source returned build major $($representativeItem.buildMajor), expected $ExpectedBuildMajor."
-    }
-
-    return $representativeItem
+    return @(
+        Get-ChildItem -Path $Directory -Filter 'Win11_*.xml' -File -ErrorAction SilentlyContinue |
+        ForEach-Object {
+            try {
+                $definition = Get-OperatingSystemSnapshotDefinition -FileName $_.Name
+                [pscustomobject]@{
+                    Path = $_.FullName
+                    ReleaseId = $definition.ReleaseId
+                    MediaDate = $definition.MediaDate
+                    BuildMajor = $definition.BuildMajor
+                    BuildUbr = $definition.BuildUbr
+                }
+            }
+            catch {
+                Write-Verbose "Ignoring unmanaged source XML '$($_.Name)'."
+            }
+        }
+    )
 }
 
 function Get-ProductsSourceFiles {
@@ -428,7 +440,14 @@ function Get-ProductsSourceFiles {
         [string]$SevenZipPath,
 
         [Parameter()]
-        [System.Management.Automation.SwitchParameter]$IncludeKey
+        [System.Management.Automation.SwitchParameter]$IncludeKey,
+
+        [Parameter()]
+        [ValidateRange(1, 120)]
+        [int]$RetentionMonths = 12,
+
+        [Parameter()]
+        [datetime]$RetentionReferenceDateUtc = [datetime]::UtcNow
     )
 
     $resolvedSourceOutputDirectory = Resolve-DirectoryPath -Path $SourceOutputDirectory
@@ -439,14 +458,28 @@ function Get-ProductsSourceFiles {
         Select-Object -Unique
     )
 
-    $generatedFilePaths = New-Object System.Collections.Generic.List[string]
+    $releaseDefinitions = @{}
     foreach ($releaseId in $normalizedTargetReleases) {
-        $releaseDefinition = Get-Windows11ReleaseSourceDefinition -ReleaseId $releaseId
-        $tempRoot = Join-Path -Path (Get-TemporaryRootPath) -ChildPath ('foundry-os-wu-' + [guid]::NewGuid())
-        try {
-            $null = New-Item -Path $tempRoot -ItemType Directory -Force
+        $releaseDefinitions[$releaseId] = Get-Windows11ReleaseSourceDefinition -ReleaseId $releaseId
+    }
 
-            $productsCabPath = Join-Path -Path $tempRoot -ChildPath 'products.cab'
+    $tempRoot = Join-Path -Path (Get-TemporaryRootPath) -ChildPath ('foundry-os-wu-' + [guid]::NewGuid())
+    $sourceParentDirectory = Split-Path -Path $resolvedSourceOutputDirectory -Parent
+    $sourceDirectoryName = Split-Path -Path $resolvedSourceOutputDirectory -Leaf
+    $transactionDirectory = Join-Path -Path $sourceParentDirectory -ChildPath ('.{0}.next-{1}' -f $sourceDirectoryName, [guid]::NewGuid())
+    $backupDirectory = Join-Path -Path $sourceParentDirectory -ChildPath ('.{0}.previous-{1}' -f $sourceDirectoryName, [guid]::NewGuid())
+    $candidates = New-Object System.Collections.Generic.List[object]
+    try {
+        $null = New-Item -Path $tempRoot -ItemType Directory -Force
+        foreach ($releaseId in $normalizedTargetReleases) {
+            $releaseDefinition = $releaseDefinitions[$releaseId]
+            if ($releaseDefinition.SourceType -eq 'ArchiveOnly') {
+                continue
+            }
+
+            $releaseTempRoot = Join-Path -Path $tempRoot -ChildPath $releaseId
+            $null = New-Item -Path $releaseTempRoot -ItemType Directory -Force
+            $productsCabPath = Join-Path -Path $releaseTempRoot -ChildPath 'products.cab'
             Save-ProductsCabForRelease -ReleaseDefinition $releaseDefinition -DestinationPath $productsCabPath
 
             $productsXmlContent = Get-ProductsXmlContentFromCab -CabPath $productsCabPath -SevenZipPath $SevenZipPath
@@ -459,37 +492,140 @@ function Get-ProductsSourceFiles {
                 throw "Downloaded products.xml for Windows 11 $releaseId did not yield any matching ESD items."
             }
 
-            $representativeItem = Get-RepresentativeReleaseItem -Items $sourceItems -ReleaseId $releaseId -ExpectedBuildMajor $releaseDefinition.ExpectedBuildMajor
-            if (-not $representativeItem.buildMajor) {
-                throw "Unable to determine build major for Windows 11 $releaseId."
+            $identity = Get-ReleaseMediaIdentity -Items $sourceItems -ReleaseId $releaseId
+            if ($identity.BuildMajor -ne $releaseDefinition.ExpectedBuildMajor) {
+                throw "Windows 11 $releaseId media identity returned build major $($identity.BuildMajor), expected $($releaseDefinition.ExpectedBuildMajor)."
             }
 
-            $sourceFileName = "Win11_{0}_{1}.xml" -f $releaseId, $representativeItem.buildMajor
-            $sourceFilePath = Join-Path -Path $resolvedSourceOutputDirectory -ChildPath $sourceFileName
-            Write-Utf8NoBomFile -Path $sourceFilePath -Content $productsXmlContent
-            $generatedFilePaths.Add($sourceFilePath)
+            $sourceFileName = "Win11_{0}_{1}_{2}.xml" -f $releaseId, $identity.Build, $identity.MediaDate.ToString('yyyyMMdd')
+            $stagedPath = Join-Path -Path $releaseTempRoot -ChildPath $sourceFileName
+            Write-Utf8NoBomFile -Path $stagedPath -Content $productsXmlContent
+            $candidates.Add([pscustomobject]@{
+                    ReleaseId = $releaseId
+                    StagedPath = $stagedPath
+                    FileName = $sourceFileName
+                })
         }
-        finally {
-            if (Test-Path -Path $tempRoot) {
-                Remove-Item -Path $tempRoot -Recurse -Force -ErrorAction SilentlyContinue
+
+        foreach ($candidate in $candidates) {
+            $destinationPath = Join-Path -Path $resolvedSourceOutputDirectory -ChildPath $candidate.FileName
+            if (Test-Path -LiteralPath $destinationPath) {
+                $stagedHash = (Get-FileHash -LiteralPath $candidate.StagedPath -Algorithm SHA256).Hash
+                $destinationHash = (Get-FileHash -LiteralPath $destinationPath -Algorithm SHA256).Hash
+                if ($stagedHash -ne $destinationHash) {
+                    throw "Snapshot '$($candidate.FileName)' already exists with different content."
+                }
             }
+        }
+
+        $existingSnapshotReleases = @(
+            Get-ChildItem -Path $resolvedSourceOutputDirectory -Filter 'Win11_*.xml' -File -ErrorAction SilentlyContinue |
+            ForEach-Object {
+                try {
+                    (Get-OperatingSystemSnapshotDefinition -FileName $_.Name).ReleaseId
+                }
+                catch {
+                    Write-Verbose "Ignoring unmanaged source XML '$($_.Name)'."
+                }
+            }
+        )
+        foreach ($releaseId in $normalizedTargetReleases) {
+            if ($releaseDefinitions[$releaseId].SourceType -eq 'ArchiveOnly' -and
+                $releaseId -notin $existingSnapshotReleases) {
+                throw "ArchiveOnly release $releaseId does not have an existing source snapshot."
+            }
+        }
+
+        $null = New-Item -Path $transactionDirectory -ItemType Directory -Force
+        Get-ChildItem -LiteralPath $resolvedSourceOutputDirectory -Force -ErrorAction Stop |
+        Copy-Item -Destination $transactionDirectory -Recurse -Force -ErrorAction Stop
+
+        foreach ($candidate in $candidates) {
+            $null = Publish-OperatingSystemSnapshot `
+                -StagedPath $candidate.StagedPath `
+                -DestinationDirectory $transactionDirectory `
+                -FileName $candidate.FileName
+        }
+
+        $transactionSnapshots = Get-ProductsSnapshotRecords -Directory $transactionDirectory
+        $retentionPlan = Get-OperatingSystemRetentionPlan `
+            -Snapshots $transactionSnapshots `
+            -TargetReleases $normalizedTargetReleases `
+            -ReferenceDateUtc $RetentionReferenceDateUtc `
+            -RetentionMonths $RetentionMonths
+        foreach ($snapshot in $retentionPlan.Delete) {
+            Remove-Item -LiteralPath $snapshot.Path -Force -ErrorAction Stop
+        }
+
+        $transactionFiles = @(
+            Get-ChildItem -Path $transactionDirectory -Filter 'Win11_*.xml' -File -ErrorAction SilentlyContinue |
+            Where-Object {
+                try {
+                    $definition = Get-OperatingSystemSnapshotDefinition -FileName $_.Name
+                    return $script:windows11ReleaseSources.ContainsKey($definition.ReleaseId)
+                }
+                catch {
+                    return $false
+                }
+            }
+        )
+        foreach ($releaseId in $normalizedTargetReleases) {
+            if (@($transactionFiles | Where-Object { $_.Name -like "Win11_${releaseId}_*" }).Count -lt 1) {
+                throw "No retained source snapshot is available for Windows 11 $releaseId."
+            }
+        }
+
+        Move-Item -LiteralPath $resolvedSourceOutputDirectory -Destination $backupDirectory -ErrorAction Stop
+        try {
+            Move-Item -LiteralPath $transactionDirectory -Destination $resolvedSourceOutputDirectory -ErrorAction Stop
+        }
+        catch {
+            Move-Item -LiteralPath $backupDirectory -Destination $resolvedSourceOutputDirectory -ErrorAction Stop
+            throw
+        }
+
+        if (Test-Path -LiteralPath $backupDirectory) {
+            Remove-Item -LiteralPath $backupDirectory -Recurse -Force -ErrorAction SilentlyContinue
+        }
+    }
+    finally {
+        if (Test-Path -LiteralPath $transactionDirectory) {
+            Remove-Item -LiteralPath $transactionDirectory -Recurse -Force -ErrorAction SilentlyContinue
+        }
+        if (-not (Test-Path -LiteralPath $resolvedSourceOutputDirectory) -and
+            (Test-Path -LiteralPath $backupDirectory)) {
+            try {
+                Move-Item -LiteralPath $backupDirectory -Destination $resolvedSourceOutputDirectory -ErrorAction Stop
+            }
+            catch {
+                Write-Warning "Unable to restore source snapshot directory from '$backupDirectory'."
+            }
+        }
+        if (Test-Path -Path $tempRoot) {
+            Remove-Item -Path $tempRoot -Recurse -Force -ErrorAction SilentlyContinue
         }
     }
 
-    $generatedFileNames = @($generatedFilePaths | ForEach-Object { [System.IO.Path]::GetFileName($_) })
-    $staleFiles = @(
+    $retainedFiles = @(
         Get-ChildItem -Path $resolvedSourceOutputDirectory -Filter 'Win11_*.xml' -File -ErrorAction SilentlyContinue |
-        Where-Object { $_.Name -notin $generatedFileNames }
+        Where-Object {
+            try {
+                $definition = Get-OperatingSystemSnapshotDefinition -FileName $_.Name
+                return $script:windows11ReleaseSources.ContainsKey($definition.ReleaseId)
+            }
+            catch {
+                return $false
+            }
+        }
     )
-    foreach ($staleFile in $staleFiles) {
-        Remove-Item -Path $staleFile.FullName -Force -ErrorAction Stop
+    foreach ($releaseId in $normalizedTargetReleases) {
+        if (@($retainedFiles | Where-Object { $_.Name -like "Win11_${releaseId}_*" }).Count -lt 1) {
+            throw "No retained source snapshot is available for Windows 11 $releaseId."
+        }
     }
 
     return @(
-        $generatedFilePaths |
-        Sort-Object -Unique |
-        ForEach-Object { Get-Item -Path $_ -ErrorAction Stop } |
-        Sort-Object -Property Name
+        $retainedFiles | Sort-Object -Property Name
     )
 }
 
@@ -738,6 +874,12 @@ function Get-LocalProductsSource {
             @{ Expression = { $_.fileName } }
         ) |
         Select-Object -First 1
+    $mediaIdentity = Get-ReleaseMediaIdentity -Items $sourceItems -ReleaseId $sourceDefinition.releaseId
+    if ($mediaIdentity.BuildMajor -ne $sourceDefinition.buildMajor -or
+        $mediaIdentity.BuildUbr -ne $sourceDefinition.buildUbr -or
+        $mediaIdentity.MediaDate.Date -ne $sourceDefinition.mediaDate.Date) {
+        throw ("Source XML '{0}' content identity does not match its file name." -f $fileInfo.Name)
+    }
 
     $releaseId = if ($representativeItem.releaseId) { [string]$representativeItem.releaseId } else { [string]$sourceDefinition.releaseId }
     if ($releaseId -ne $sourceDefinition.releaseId) {
@@ -762,9 +904,10 @@ function Get-LocalProductsSource {
                     id = $sourceDefinition.id
                     windowsMajor = $windowsMajor
                     releaseId = $releaseId
-                    build = if ($representativeItem.build) { [string]$representativeItem.build } else { [string]$sourceDefinition.buildMajor }
+                    build = $sourceDefinition.build
                     buildMajor = $sourceDefinition.buildMajor
-                    buildUbr = $representativeItem.buildUbr
+                    buildUbr = $sourceDefinition.buildUbr
+                    mediaDate = $sourceDefinition.mediaDate.ToString('yyyy-MM-dd')
                     sourceFile = $sourceRelativePath
                     sourceXmlSha256 = $sourceXmlSha256
                     itemCount = $sourceItems.Count
@@ -849,17 +992,28 @@ $resolvedOutputDirectory = Resolve-DirectoryPath -Path $OutputDirectory
 $resolvedSourceOutputDirectory = Resolve-DirectoryPath -Path $SourceOutputDirectory
 $sevenZipPath = Get-SevenZipCommandPath
 $sourceFiles = @(
-    Get-ProductsSourceFiles -SourceOutputDirectory $resolvedSourceOutputDirectory -TargetReleases $TargetReleases -ClientTypes $ClientTypes -SevenZipPath $sevenZipPath -IncludeKey:$IncludeKey
+    Get-ProductsSourceFiles `
+        -SourceOutputDirectory $resolvedSourceOutputDirectory `
+        -TargetReleases $TargetReleases `
+        -ClientTypes $ClientTypes `
+        -SevenZipPath $sevenZipPath `
+        -IncludeKey:$IncludeKey `
+        -RetentionMonths $RetentionMonths `
+        -RetentionReferenceDateUtc $RetentionReferenceDateUtc
 )
 
-$sources = @()
-$itemsAll = @()
-
+$sourceResults = @()
 foreach ($sourceFile in $sourceFiles) {
-    $sourceResult = Get-LocalProductsSource -Path $sourceFile.FullName -CatalogRoot $resolvedOutputDirectory -ClientTypes $ClientTypes -IncludeKey:$IncludeKey
-    $sources += $sourceResult.Source
-    $itemsAll += $sourceResult.Items
+    $sourceResults += Get-LocalProductsSource -Path $sourceFile.FullName -CatalogRoot $resolvedOutputDirectory -ClientTypes $ClientTypes -IncludeKey:$IncludeKey
 }
+$sourceResults = @($sourceResults | Sort-Object -Descending -Property @(
+        @{ Expression = { [datetime]$_.Source.mediaDate } },
+        @{ Expression = { $_.Source.buildMajor } },
+        @{ Expression = { $_.Source.buildUbr } },
+        @{ Expression = { $_.Source.id } }
+    ))
+$sources = @($sourceResults | ForEach-Object { $_.Source })
+$itemsAll = @($sourceResults | ForEach-Object { $_.Items })
 
 if (-not $itemsAll -or $itemsAll.Count -lt $MinimumItemCount) {
     throw ("Catalog looks unexpectedly small (items={0}, minimum={1})." -f @($itemsAll).Count, $MinimumItemCount)
@@ -897,6 +1051,7 @@ $itemsSorted = @($dedupMap.Values | Sort-Object -Descending -Property @(
 
 $sourcesSorted = @($sources | Sort-Object -Descending -Property @(
         @{ Expression = { [int]$_.windowsMajor } },
+        @{ Expression = { [datetime]$_.mediaDate } },
         @{ Expression = { $_.buildMajor } },
         @{ Expression = { if ($null -eq $_.buildUbr) { -1 } else { $_.buildUbr } } },
         @{ Expression = { $_.releaseId } },
@@ -906,7 +1061,7 @@ $sourcesSorted = @($sources | Sort-Object -Descending -Property @(
 $relativeSourceDirectory = [System.IO.Path]::GetRelativePath($resolvedOutputDirectory, $resolvedSourceOutputDirectory).Replace('\', '/')
 
 $catalog = [pscustomobject]([ordered]@{
-        schemaVersion = 3
+        schemaVersion = 4
         generatedAtUtc = $generatedAtUtc
         source = [pscustomobject]([ordered]@{
                 name = 'Foundry Automated OS Catalog Generation'

@@ -5,13 +5,17 @@ on:
     branches: [main]
     paths:
       - "Helpers/**/*.psm1"
+      - "Config/**/*.psd1"
       - "Scripts/**/*.ps1"
+      - "Tests/**/*.ps1"
       - ".github/workflows/powershell-analysis.yml"
   pull_request:
     branches: [main]
     paths:
       - "Helpers/**/*.psm1"
+      - "Config/**/*.psd1"
       - "Scripts/**/*.ps1"
+      - "Tests/**/*.ps1"
       - ".github/workflows/powershell-analysis.yml"
   workflow_dispatch:
 
@@ -47,3 +51,7 @@ jobs:
           if ($errors.Count -gt 0) {
               exit 1
           }
+
+      - name: Test operating system catalog history
+        shell: pwsh
+        run: ./Tests/Test-OSCatalogHistory.ps1
