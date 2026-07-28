@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-07-28T05:42:24Z" totalItems="8614" category="DriverPack">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-07-28T21:07:57Z" totalItems="8614" category="DriverPack">
   <Metadata name="Foundry Unified DriverPack Catalog" description="Normalized DriverPack catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-07-22T00:00:00Z" itemCount="1436" />
     <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-06-22T00:00:00Z" itemCount="4089" />
     <Source manufacturer="Lenovo" catalogUrl="https://download.lenovo.com/cdrt/td/catalogv2.xml" lastUpdated="2026-07-14T00:00:00Z" itemCount="3003" />
-    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-07-21T00:00:00Z" itemCount="86" />
+    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-07-27T00:00:00Z" itemCount="86" />
   </Sources>
   <DriverPacks>
     <DriverPack id="JFH0G" packageId="JFH0G" manufacturer="Dell" name="160-vista-A01-JFH0G.CAB" version="A01" fileName="160-vista-A01-JFH0G.CAB" downloadUrl="https://downloads.dell.com/FOLDER02291001M/1/160-vista-A01-JFH0G.CAB" sizeBytes="72429980" format="cab" type="Win" packageRole="BaseDriverPack" releaseDate="2014-07-11">
@@ -60388,7 +60388,7 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="21H2" build="22000" architecture="x64" />
     </DriverPack>
-    <DriverPack id="102923|SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi" packageId="102923" manufacturer="Microsoft" name="SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi" version="1" fileName="SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi" downloadUrl="https://download.microsoft.com/download/7ee743a7-aac6-4b0c-83bf-218070e93e39/SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi" sizeBytes="735399936" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-24">
+    <DriverPack id="102923|SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi" packageId="102923" manufacturer="Microsoft" name="SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi" version="1" fileName="SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi" downloadUrl="https://download.microsoft.com/download/7ee743a7-aac6-4b0c-83bf-218070e93e39/SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi" sizeBytes="735399936" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-27">
       <Models>
         <Model name="Surface Laptop 4 with AMD" />
       </Models>
