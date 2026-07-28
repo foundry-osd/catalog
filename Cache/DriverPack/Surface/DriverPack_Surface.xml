@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-27T06:14:18Z" category="DriverPack">
-  <Source catalogType="SupportArticle" catalogSha256="9b1b7c1f2d24e02cf1a38cb6e53fde8ef0a6d1a1f65506957e6cad49f0778096" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-07-28T05:35:58Z" category="DriverPack">
+  <Source catalogSha256="4a95b272e2b1aeb740e846bef907da3d9e66933fa5da0254ef8e2d507536a9c5" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -453,18 +453,18 @@
       <supportedOperatingSystems>Windows 10 Windows 11 Windows 10 Tech Preview</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>102923|SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi</id>
+      <id>102923|SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi</id>
       <model>Surface Laptop 4 with AMD</model>
       <downloadTitle>Surface Laptop 4 with AMD</downloadTitle>
       <packageId>102923</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=102923</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/7ee743a7-aac6-4b0c-83bf-218070e93e39/SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/7ee743a7-aac6-4b0c-83bf-218070e93e39/SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi</msiUrl>
-      <fileName>SurfaceLaptop4_AMD_Win11_22631_26.040.2105.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/7ee743a7-aac6-4b0c-83bf-218070e93e39/SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/7ee743a7-aac6-4b0c-83bf-218070e93e39/SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi</msiUrl>
+      <fileName>SurfaceLaptop4_AMD_Win11_22631_26.070.3458.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
       <sizeBytes>735399936</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <datePublished>2026-07-27</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
