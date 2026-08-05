@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-08-04T05:35:54Z" category="DriverPack">
-  <Source catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="3e2f1e7c2e856175debeb174f26d7337f6e94fb563d3a7df16ee9ab993305c5c" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-08-05T05:34:03Z" category="DriverPack">
+  <Source catalogSha256="37a129bbd4bf3726e6746ad5fb51b734f6daccd935edfe4bd6dbb1d1c827fd43" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -543,18 +543,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108705|SurfaceLaptop8withSnapdragon_Win11_28000_26.051.8481.0.msi</id>
+      <id>108705|SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</id>
       <model>Surface Laptop 8th Edition with Snapdragon</model>
       <downloadTitle>Surface Laptop 8th Edition with Snapdragon</downloadTitle>
       <packageId>108705</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108705</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.051.8481.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.051.8481.0.msi</msiUrl>
-      <fileName>SurfaceLaptop8withSnapdragon_Win11_28000_26.051.8481.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</msiUrl>
+      <fileName>SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>687718400</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>693428224</sizeBytes>
+      <datePublished>2026-08-05</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -826,18 +826,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108706|SurfacePro12withSnapdragon_Win11_28000_26.051.8494.0.msi</id>
+      <id>108706|SurfacePro12withSnapdragon_Win11_28000_26.071.11928.0.msi</id>
       <model>Surface Pro 12th Edition with Snapdragon</model>
       <downloadTitle>Surface Pro 12th Edition with Snapdragon</downloadTitle>
       <packageId>108706</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108706</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/85364b00-7e11-4a77-8115-bfcece673d91/SurfacePro12withSnapdragon_Win11_28000_26.051.8494.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/85364b00-7e11-4a77-8115-bfcece673d91/SurfacePro12withSnapdragon_Win11_28000_26.051.8494.0.msi</msiUrl>
-      <fileName>SurfacePro12withSnapdragon_Win11_28000_26.051.8494.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/85364b00-7e11-4a77-8115-bfcece673d91/SurfacePro12withSnapdragon_Win11_28000_26.071.11928.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/85364b00-7e11-4a77-8115-bfcece673d91/SurfacePro12withSnapdragon_Win11_28000_26.071.11928.0.msi</msiUrl>
+      <fileName>SurfacePro12withSnapdragon_Win11_28000_26.071.11928.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>683917312</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>690716672</sizeBytes>
+      <datePublished>2026-08-05</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
