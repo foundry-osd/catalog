@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-08-17T03:37:44Z" category="DriverPack">
-  <Source uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" catalogSha256="0934e0f7953f92ca177988ad09ebf2554b2d7b76dc8e67984337e7fc079f2cda" catalogType="DriverPackCatalogXml" name="Lenovo DriverPack Catalog V2" />
+<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-08-18T03:33:40Z" category="DriverPack">
+  <Source uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" catalogSha256="0934e0f7953f92ca177988ad09ebf2554b2d7b76dc8e67984337e7fc079f2cda" name="Lenovo DriverPack Catalog V2" catalogType="DriverPackCatalogXml" />
   <CatalogMetadata modelCount="508" catalogVersion="1.0" />
   <Items>
     <Item>
