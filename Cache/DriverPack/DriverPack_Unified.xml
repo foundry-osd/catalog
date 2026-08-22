@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-08-21T03:40:53Z" totalItems="8626" category="DriverPack">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-08-22T10:58:03Z" totalItems="8626" category="DriverPack">
   <Metadata name="Foundry Unified DriverPack Catalog" description="Normalized DriverPack catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-08-11T00:00:00Z" itemCount="1436" />
     <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-08-17T00:00:00Z" itemCount="4098" />
     <Source manufacturer="Lenovo" catalogUrl="https://download.lenovo.com/cdrt/td/catalogv2.xml" lastUpdated="2026-08-03T00:00:00Z" itemCount="3006" />
-    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-08-14T00:00:00Z" itemCount="86" />
+    <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-08-21T00:00:00Z" itemCount="86" />
   </Sources>
   <DriverPacks>
     <DriverPack id="JFH0G" packageId="JFH0G" manufacturer="Dell" name="160-vista-A01-JFH0G.CAB" version="A01" fileName="160-vista-A01-JFH0G.CAB" downloadUrl="https://downloads.dell.com/FOLDER02291001M/1/160-vista-A01-JFH0G.CAB" sizeBytes="72429980" format="cab" type="Win" packageRole="BaseDriverPack" releaseDate="2014-07-11">
@@ -60620,7 +60620,7 @@
       </Models>
       <OsInfo name="Windows 11" releaseId="21H2" build="22000" architecture="x64" />
     </DriverPack>
-    <DriverPack id="105947|SurfacePro10forBusiness_Win11_22631_26.071.7945.0.msi" packageId="105947" manufacturer="Microsoft" name="SurfacePro10forBusiness_Win11_22631_26.071.7945.0.msi" version="1" fileName="SurfacePro10forBusiness_Win11_22631_26.071.7945.0.msi" downloadUrl="https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.071.7945.0.msi" sizeBytes="1072640000" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-07">
+    <DriverPack id="105947|SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi" packageId="105947" manufacturer="Microsoft" name="SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi" version="1" fileName="SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi" downloadUrl="https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi" sizeBytes="1022009344" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-21">
       <Models>
         <Model name="Surface Pro 10 for Business" />
       </Models>
