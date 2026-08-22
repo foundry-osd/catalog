@@ -55,3 +55,7 @@ jobs:
       - name: Test operating system catalog history
         shell: pwsh
         run: ./Tests/Test-OSCatalogHistory.ps1
+
+      - name: Test Intel wireless catalog fallback
+        shell: pwsh
+        run: ./Tests/Test-IntelWirelessCatalogFallback.ps1

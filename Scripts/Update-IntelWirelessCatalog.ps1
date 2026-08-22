@@ -383,6 +383,65 @@ function Get-IntelWirelessMicrosoftUpdateMetadata {
     throw "Microsoft Update Catalog returned Intel networking updates, but none exposed a CAB download with a SHA256 hash."
 }
 
+function Get-ExistingIntelCatalogMetadata {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Path
+    )
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        return $null
+    }
+
+    [xml]$xml = Get-Content -LiteralPath $Path -Raw
+    $item = $xml.IntelCatalog.Items.Item
+    if (-not $item) {
+        return $null
+    }
+
+    return [ordered]@{
+        Version = [string]$item.version
+        FileName = [string]$item.fileName
+        ReleaseDate = [string]$item.releaseDate
+        Sha256 = [string]$item.hashSHA256
+        DownloadUrl = [string]$item.downloadUrl
+        UpdateId = [string]$xml.IntelCatalog.Metadata.updateId
+        Query = [string]$xml.IntelCatalog.Metadata.query
+    }
+}
+
+function Get-IntelWirelessMetadataWithFallback {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string[]]$HardwareIds,
+
+        [Parameter(Mandatory = $true)]
+        [int]$TimeoutSeconds,
+
+        [Parameter()]
+        [AllowNull()]
+        [System.Collections.IDictionary]$ExistingMetadata
+    )
+
+    try {
+        return [pscustomobject]@{
+            Metadata = Get-IntelWirelessMicrosoftUpdateMetadata -HardwareIds $HardwareIds -TimeoutSeconds $TimeoutSeconds
+            UsedExisting = $false
+        }
+    }
+    catch {
+        if (-not $ExistingMetadata) {
+            throw
+        }
+
+        Write-Warning ("Failed to refresh Intel wireless metadata. Reusing the existing known-good catalog entry. {0}" -f $_.Exception.Message)
+        return [pscustomobject]@{
+            Metadata = $ExistingMetadata
+            UsedExisting = $true
+        }
+    }
+}
+
 function Write-IntelCatalogXml {
     param(
         [Parameter(Mandatory = $true)]
@@ -452,8 +511,16 @@ if (-not (Test-Path -Path $WinPEOutputDirectory)) {
     $null = New-Item -Path $WinPEOutputDirectory -ItemType Directory -Force
 }
 
-$metadata = Get-IntelWirelessMicrosoftUpdateMetadata -HardwareIds $HardwareIds -TimeoutSeconds $TimeoutSeconds
-Write-IntelCatalogXml -Path $outputPath -Metadata $metadata
+$existingMetadata = Get-ExistingIntelCatalogMetadata -Path $outputPath
+$metadataResult = Get-IntelWirelessMetadataWithFallback `
+    -HardwareIds $HardwareIds `
+    -TimeoutSeconds $TimeoutSeconds `
+    -ExistingMetadata $existingMetadata
+$metadata = $metadataResult.Metadata
+
+if (-not $metadataResult.UsedExisting) {
+    Write-IntelCatalogXml -Path $outputPath -Metadata $metadata
+}
 
 [pscustomobject]@{
     OutputPath = $outputPath
@@ -465,6 +532,7 @@ Write-IntelCatalogXml -Path $outputPath -Metadata $metadata
     Source = 'MicrosoftUpdateCatalog'
     UpdateId = $metadata.UpdateId
     Query = $metadata.Query
+    UsedExisting = $metadataResult.UsedExisting
 }
 
 #endregion Main Execution
