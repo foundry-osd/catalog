@@ -399,7 +399,7 @@ function Get-ExistingIntelCatalogMetadata {
         return $null
     }
 
-    return [ordered]@{
+    $metadata = [ordered]@{
         Version = [string]$item.version
         FileName = [string]$item.fileName
         ReleaseDate = [string]$item.releaseDate
@@ -408,6 +408,14 @@ function Get-ExistingIntelCatalogMetadata {
         UpdateId = [string]$xml.IntelCatalog.Metadata.updateId
         Query = [string]$xml.IntelCatalog.Metadata.query
     }
+
+    foreach ($value in $metadata.Values) {
+        if ([string]::IsNullOrWhiteSpace([string]$value)) {
+            return $null
+        }
+    }
+
+    return $metadata
 }
 
 function Get-IntelWirelessMetadataWithFallback {
@@ -419,8 +427,7 @@ function Get-IntelWirelessMetadataWithFallback {
         [int]$TimeoutSeconds,
 
         [Parameter()]
-        [AllowNull()]
-        [System.Collections.IDictionary]$ExistingMetadata
+        [string]$ExistingCatalogPath
     )
 
     try {
@@ -430,13 +437,22 @@ function Get-IntelWirelessMetadataWithFallback {
         }
     }
     catch {
-        if (-not $ExistingMetadata) {
-            throw
+        $refreshException = $_.Exception
+        try {
+            $existingMetadata = Get-ExistingIntelCatalogMetadata -Path $ExistingCatalogPath
+        }
+        catch {
+            Write-Warning ("Existing Intel wireless catalog is unusable and cannot be used as a fallback. {0}" -f $_.Exception.Message)
+            throw $refreshException
         }
 
-        Write-Warning ("Failed to refresh Intel wireless metadata. Reusing the existing known-good catalog entry. {0}" -f $_.Exception.Message)
+        if (-not $existingMetadata) {
+            throw $refreshException
+        }
+
+        Write-Warning ("Failed to refresh Intel wireless metadata. Reusing the existing known-good catalog entry. {0}" -f $refreshException.Message)
         return [pscustomobject]@{
-            Metadata = $ExistingMetadata
+            Metadata = $existingMetadata
             UsedExisting = $true
         }
     }
@@ -502,6 +518,42 @@ function Write-IntelCatalogXml {
     }
 }
 
+function Invoke-IntelWirelessCatalogUpdate {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$OutputPath,
+
+        [Parameter(Mandatory = $true)]
+        [string[]]$HardwareIds,
+
+        [Parameter(Mandatory = $true)]
+        [int]$TimeoutSeconds
+    )
+
+    $metadataResult = Get-IntelWirelessMetadataWithFallback `
+        -HardwareIds $HardwareIds `
+        -TimeoutSeconds $TimeoutSeconds `
+        -ExistingCatalogPath $OutputPath
+    $metadata = $metadataResult.Metadata
+
+    if (-not $metadataResult.UsedExisting) {
+        Write-IntelCatalogXml -Path $OutputPath -Metadata $metadata
+    }
+
+    return [pscustomobject]@{
+        OutputPath = $OutputPath
+        Version = $metadata.Version
+        FileName = $metadata.FileName
+        ReleaseDate = $metadata.ReleaseDate
+        Sha256 = $metadata.Sha256
+        DownloadUrl = $metadata.DownloadUrl
+        Source = 'MicrosoftUpdateCatalog'
+        UpdateId = $metadata.UpdateId
+        Query = $metadata.Query
+        UsedExisting = $metadataResult.UsedExisting
+    }
+}
+
 #endregion Functions
 
 #region Main Execution
@@ -511,28 +563,9 @@ if (-not (Test-Path -Path $WinPEOutputDirectory)) {
     $null = New-Item -Path $WinPEOutputDirectory -ItemType Directory -Force
 }
 
-$existingMetadata = Get-ExistingIntelCatalogMetadata -Path $outputPath
-$metadataResult = Get-IntelWirelessMetadataWithFallback `
+Invoke-IntelWirelessCatalogUpdate `
+    -OutputPath $outputPath `
     -HardwareIds $HardwareIds `
-    -TimeoutSeconds $TimeoutSeconds `
-    -ExistingMetadata $existingMetadata
-$metadata = $metadataResult.Metadata
-
-if (-not $metadataResult.UsedExisting) {
-    Write-IntelCatalogXml -Path $outputPath -Metadata $metadata
-}
-
-[pscustomobject]@{
-    OutputPath = $outputPath
-    Version = $metadata.Version
-    FileName = $metadata.FileName
-    ReleaseDate = $metadata.ReleaseDate
-    Sha256 = $metadata.Sha256
-    DownloadUrl = $metadata.DownloadUrl
-    Source = 'MicrosoftUpdateCatalog'
-    UpdateId = $metadata.UpdateId
-    Query = $metadata.Query
-    UsedExisting = $metadataResult.UsedExisting
-}
+    -TimeoutSeconds $TimeoutSeconds
 
 #endregion Main Execution

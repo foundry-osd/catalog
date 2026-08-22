@@ -96,25 +96,57 @@ try {
     Assert-Equal -Expected 'PCI\VEN_8086&DEV_7E40' -Actual $existingMetadata.Query -Message 'Existing hardware ID query was not preserved.'
     Assert-Equal -Expected '24.40.0.4' -Actual $existingMetadata.Version -Message 'Existing version was not preserved.'
 
+    $malformedCatalogPath = Join-Path -Path $tempDirectory -ChildPath 'Malformed_WinPE_Intel.xml'
+    [System.IO.File]::WriteAllText($malformedCatalogPath, '<IntelCatalog>')
+
+    function Get-IntelWirelessMicrosoftUpdateMetadata {
+        param(
+            [string[]]$HardwareIds,
+            [int]$TimeoutSeconds
+        )
+
+        return [ordered]@{
+            Version = '24.50.0.1'
+            FileName = 'refreshed-intel-wireless.cab'
+            ReleaseDate = '2026-08-22'
+            Sha256 = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+            DownloadUrl = 'https://download.windowsupdate.com/refreshed-intel-wireless.cab'
+            UpdateId = 'a7b2b487-0b2c-4ea3-9f73-a3b1220d77df'
+            Query = $HardwareIds[0]
+        }
+    }
+
+    $refreshResult = Get-IntelWirelessMetadataWithFallback `
+        -HardwareIds @('PCI\VEN_8086&DEV_7E40') `
+        -TimeoutSeconds 45 `
+        -ExistingCatalogPath $malformedCatalogPath
+
+    Assert-Equal -Expected $false -Actual $refreshResult.UsedExisting -Message 'Healthy refresh incorrectly depended on the malformed existing catalog.'
+    Assert-Equal -Expected '24.50.0.1' -Actual $refreshResult.Metadata.Version -Message 'Healthy refresh metadata is incorrect.'
+
     function Get-IntelWirelessMicrosoftUpdateMetadata {
         throw 'Simulated Microsoft Update Catalog failure.'
     }
 
-    $fallbackResult = Get-IntelWirelessMetadataWithFallback `
+    $beforeHash = (Get-FileHash -LiteralPath $catalogPath -Algorithm SHA256).Hash
+    $beforeWriteTime = (Get-Item -LiteralPath $catalogPath).LastWriteTimeUtc
+    $fallbackResult = Invoke-IntelWirelessCatalogUpdate `
+        -OutputPath $catalogPath `
         -HardwareIds @('PCI\VEN_8086&DEV_7E40') `
-        -TimeoutSeconds 45 `
-        -ExistingMetadata $existingMetadata
+        -TimeoutSeconds 45
 
     Assert-Equal -Expected $true -Actual $fallbackResult.UsedExisting -Message 'Existing metadata was not selected after refresh failure.'
-    Assert-Equal -Expected '24.40.0.4' -Actual $fallbackResult.Metadata.Version -Message 'Fallback metadata version is incorrect.'
-    Assert-Equal -Expected '34cf8ffa-450f-4dcd-bc20-35590c6d5e17' -Actual $fallbackResult.Metadata.UpdateId -Message 'Fallback metadata update ID is incorrect.'
+    Assert-Equal -Expected '24.40.0.4' -Actual $fallbackResult.Version -Message 'Fallback metadata version is incorrect.'
+    Assert-Equal -Expected '34cf8ffa-450f-4dcd-bc20-35590c6d5e17' -Actual $fallbackResult.UpdateId -Message 'Fallback metadata update ID is incorrect.'
+    Assert-Equal -Expected $beforeHash -Actual (Get-FileHash -LiteralPath $catalogPath -Algorithm SHA256).Hash -Message 'Fallback rewrote the existing catalog content.'
+    Assert-Equal -Expected $beforeWriteTime -Actual (Get-Item -LiteralPath $catalogPath).LastWriteTimeUtc -Message 'Fallback rewrote the existing catalog file.'
 
     Assert-Throws `
         -Action {
             Get-IntelWirelessMetadataWithFallback `
                 -HardwareIds @('PCI\VEN_8086&DEV_7E40') `
                 -TimeoutSeconds 45 `
-                -ExistingMetadata $null
+                -ExistingCatalogPath (Join-Path -Path $tempDirectory -ChildPath 'Missing_WinPE_Intel.xml')
         } `
         -ExpectedMessage 'Simulated Microsoft Update Catalog failure.' `
         -Message 'Refresh failure without existing metadata was suppressed.'
