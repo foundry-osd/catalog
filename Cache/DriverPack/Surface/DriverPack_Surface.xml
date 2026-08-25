@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-08-24T03:41:31Z" category="DriverPack">
-  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" catalogSha256="84692360a276109475a410b938e693704172df5df55145c7c8a287c0efe4c595" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-08-25T03:37:30Z" category="DriverPack">
+  <Source catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="9a5cdd00455d1ddeff5f49311e8da423fae6da624ad5bdc6a0aa00a51f64f4af" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -693,18 +693,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>103505|SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</id>
+      <id>103505|SurfaceLaptopStudio_Win11_22631_26.073.29264.0.msi</id>
       <model>Surface Laptop Studio</model>
       <downloadTitle>Surface Laptop Studio</downloadTitle>
       <packageId>103505</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=103505</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</msiUrl>
-      <fileName>SurfaceLaptopStudio_Win11_22631_26.053.37928.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.073.29264.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.073.29264.0.msi</msiUrl>
+      <fileName>SurfaceLaptopStudio_Win11_22631_26.073.29264.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>2062573568</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>2063159296</sizeBytes>
+      <datePublished>2026-08-25</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -1020,18 +1020,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>103503|SurfacePro8_Win11_22631_26.052.20816.0.msi</id>
+      <id>103503|SurfacePro8_Win11_22631_26.073.32221.0.msi</id>
       <model>Surface Pro 8</model>
       <downloadTitle>Surface Pro 8</downloadTitle>
       <packageId>103503</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=103503</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.052.20816.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.052.20816.0.msi</msiUrl>
-      <fileName>SurfacePro8_Win11_22631_26.052.20816.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.073.32221.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/6a5b8acd-9bb2-4813-8cdd-09f603f91ee5/SurfacePro8_Win11_22631_26.073.32221.0.msi</msiUrl>
+      <fileName>SurfacePro8_Win11_22631_26.073.32221.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1013219328</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <sizeBytes>1013727232</sizeBytes>
+      <datePublished>2026-08-25</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
