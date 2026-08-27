@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-08-26T03:41:47Z" category="DriverPack">
-  <Source catalogType="SupportArticle" catalogSha256="0e35ea32b0064c6ee33948af8893abbd12f9a871586ce8b6802ecd1de68a76b8" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-08-27T13:12:05Z" category="DriverPack">
+  <Source catalogSha256="502094ecaa57d311a38d79d0fa25abb4f78ca609863ea0bc19ef3b9b9ac1e588" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -122,126 +122,6 @@
       <sizeBytes>2017701888</sizeBytes>
       <datePublished>2024-07-15</datePublished>
       <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101315|SurfaceBook3_Win10_19045_25.013.34375.0.msi</id>
-      <model>Surface Book 3</model>
-      <downloadTitle>Surface Book 3 Drivers and Firmware</downloadTitle>
-      <packageId>101315</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101315</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/6dc0552d-48b4-416f-8137-3b9a845cc283/SurfaceBook3_Win10_19045_25.013.34375.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/6dc0552d-48b4-416f-8137-3b9a845cc283/SurfaceBook3_Win10_19045_25.013.34375.0.msi</msiUrl>
-      <fileName>SurfaceBook3_Win10_19045_25.013.34375.0.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>1670889472</sizeBytes>
-      <datePublished>2025-04-03</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101315|SurfaceBook3_Win11_22621_25.013.34389.0.msi</id>
-      <model>Surface Book 3</model>
-      <downloadTitle>Surface Book 3 Drivers and Firmware</downloadTitle>
-      <packageId>101315</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101315</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/6dc0552d-48b4-416f-8137-3b9a845cc283/SurfaceBook3_Win11_22621_25.013.34389.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/6dc0552d-48b4-416f-8137-3b9a845cc283/SurfaceBook3_Win11_22621_25.013.34389.0.msi</msiUrl>
-      <fileName>SurfaceBook3_Win11_22621_25.013.34389.0.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>1671258112</sizeBytes>
-      <datePublished>2025-04-03</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 10 Tech Preview Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101317|SurfaceDock2_DriverOnly_Win10_17763_20.054.26905.0.msi</id>
-      <model>Surface Dock 2</model>
-      <downloadTitle>Surface Dock 2 Firmware and Drivers</downloadTitle>
-      <packageId>101317</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101317</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_DriverOnly_Win10_17763_20.054.26905.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_DriverOnly_Win10_17763_20.054.26905.0.msi</msiUrl>
-      <fileName>SurfaceDock2_DriverOnly_Win10_17763_20.054.26905.0.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>1306624</sizeBytes>
-      <datePublished>2024-07-15</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101317|SurfaceDock2_DriverOnly_Win10_17763_20.054.29700.0.msi</id>
-      <model>Surface Dock 2</model>
-      <downloadTitle>Surface Dock 2 Firmware and Drivers</downloadTitle>
-      <packageId>101317</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101317</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_DriverOnly_Win10_17763_20.054.29700.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_DriverOnly_Win10_17763_20.054.29700.0.msi</msiUrl>
-      <fileName>SurfaceDock2_DriverOnly_Win10_17763_20.054.29700.0.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>2076672</sizeBytes>
-      <datePublished>2024-07-15</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101317|SurfaceDock2_SEMMforDock_Win10_17763_20.054.29469.0.msi</id>
-      <model>Surface Dock 2</model>
-      <downloadTitle>Surface Dock 2 Firmware and Drivers</downloadTitle>
-      <packageId>101317</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101317</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_SEMMforDock_Win10_17763_20.054.29469.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_SEMMforDock_Win10_17763_20.054.29469.0.msi</msiUrl>
-      <fileName>SurfaceDock2_SEMMforDock_Win10_17763_20.054.29469.0.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>1966080</sizeBytes>
-      <datePublished>2024-07-15</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101317|SurfaceDock2_SurfaceProX_SEMMforDock_Win10_17763_20.053.18210.0.msi</id>
-      <model>Surface Dock 2</model>
-      <downloadTitle>Surface Dock 2 Firmware and Drivers</downloadTitle>
-      <packageId>101317</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101317</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_SurfaceProX_SEMMforDock_Win10_17763_20.053.18210.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_SurfaceProX_SEMMforDock_Win10_17763_20.053.18210.0.msi</msiUrl>
-      <fileName>SurfaceDock2_SurfaceProX_SEMMforDock_Win10_17763_20.053.18210.0.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>1757184</sizeBytes>
-      <datePublished>2024-07-15</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101317|SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32423.0_x64.msi</id>
-      <model>Surface Dock 2</model>
-      <downloadTitle>Surface Dock 2 Firmware and Drivers</downloadTitle>
-      <packageId>101317</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101317</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32423.0_x64.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32423.0_x64.msi</msiUrl>
-      <fileName>SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32423.0_x64.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>520192</sizeBytes>
-      <datePublished>2024-07-15</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 11</supportedOperatingSystems>
-    </Item>
-    <Item>
-      <id>101317|SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32491.0_arm64.msi</id>
-      <model>Surface Dock 2</model>
-      <downloadTitle>Surface Dock 2 Firmware and Drivers</downloadTitle>
-      <packageId>101317</packageId>
-      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=101317</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32491.0_arm64.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/b/7/4/b74fa4b8-5bc8-4404-bb12-6711b0daf165/SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32491.0_arm64.msi</msiUrl>
-      <fileName>SurfaceDock2_WmiInstanceProvider_Win10_17763_20.072.32491.0_arm64.msi</fileName>
-      <format>msi</format>
-      <version>1.0</version>
-      <sizeBytes>483328</sizeBytes>
-      <datePublished>2024-07-15</datePublished>
-      <supportedOperatingSystems>Windows 10 Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
       <id>57601|SurfaceGo_Win10_19042_22.104.24060_LTE_0.msi</id>
