@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-08-31T08:58:20Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="e8ac4dcda495a40dd4d2421b9c5a27b1ede0b9c0e84cb3238fed91cc5e23bb7d" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-01T08:00:51Z" category="DriverPack">
+  <Source catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" catalogSha256="73acdecd56f6a56c0e8e0d7b9f27a23b863528c76725d8243d000ac7a19fe8c9" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -543,18 +543,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108705|SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</id>
+      <id>108705|SurfaceLaptop8withSnapdragon_Win11_28000_26.083.28964.0.msi</id>
       <model>Surface Laptop 8th Edition with Snapdragon</model>
       <downloadTitle>Surface Laptop 8th Edition with Snapdragon</downloadTitle>
       <packageId>108705</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108705</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</msiUrl>
-      <fileName>SurfaceLaptop8withSnapdragon_Win11_28000_26.071.11930.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.083.28964.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/912431b4-2920-4990-8b62-50b573263fda/SurfaceLaptop8withSnapdragon_Win11_28000_26.083.28964.0.msi</msiUrl>
+      <fileName>SurfaceLaptop8withSnapdragon_Win11_28000_26.083.28964.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>693428224</sizeBytes>
-      <datePublished>2026-08-05</datePublished>
+      <sizeBytes>693440512</sizeBytes>
+      <datePublished>2026-08-31</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
