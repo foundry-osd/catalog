@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-09-04T07:29:39Z" totalItems="8626" category="DriverPack">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-09-05T07:11:15Z" totalItems="8626" category="DriverPack">
   <Metadata name="Foundry Unified DriverPack Catalog" description="Normalized DriverPack catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-08-24T00:00:00Z" itemCount="1436" />
     <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-08-21T00:00:00Z" itemCount="4098" />
-    <Source manufacturer="Lenovo" catalogUrl="https://download.lenovo.com/cdrt/td/catalogv2.xml" lastUpdated="2026-08-19T00:00:00Z" itemCount="3006" />
+    <Source manufacturer="Lenovo" catalogUrl="https://download.lenovo.com/cdrt/td/catalogv2.xml" lastUpdated="2026-09-02T00:00:00Z" itemCount="3006" />
     <Source manufacturer="Microsoft" catalogUrl="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" lastUpdated="2026-09-02T00:00:00Z" itemCount="86" />
   </Sources>
   <DriverPacks>
@@ -49955,47 +49955,47 @@
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
       <Hashes md5="189ed4e91a5838a21bf93d7b514cf94a" crc="900cd174e51a030fa58cffad77c633f231366fd3c8b109d40cce9dcde53cb8fb" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14 Gen 6 Type 21QC 21QD|win11|23H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14 Gen 6 Type 21QC 21QD|win11|23H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T14 Gen 6 Type 21QC 21QD" systemId="21QC,21QD" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="8f6b7727898c1ea136c27c705531eb53" crc="139cc2672349823534514ddddc84d1ec712ced7844dcd25e65c1c0399bc53ab6" />
     </DriverPack>
-    <DriverPack id="ThinkPad T16 Gen 4 Type 21QE 21QF|win11|23H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T16 Gen 4 Type 21QE 21QF|win11|23H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_23h2_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T16 Gen 4 Type 21QE 21QF" systemId="21QE,21QF" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="8f6b7727898c1ea136c27c705531eb53" crc="139cc2672349823534514ddddc84d1ec712ced7844dcd25e65c1c0399bc53ab6" />
     </DriverPack>
-    <DriverPack id="ThinkPad T16 Gen 4 Type 21QE 21QF|win11|24H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T16 Gen 4 Type 21QE 21QF|win11|24H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T16 Gen 4 Type 21QE 21QF" systemId="21QE,21QF" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="45087f8f2f60bcbfd4d6f2b541c7066e" crc="9377298dd582643f667176daee3744bb989a73c2dd34bf13f6f8005a80027307" />
+      <Hashes md5="6b22dd117ab366ca83017c968f14593d" crc="b064c6c511a486bf0745ebd74a5dff8afeb0ffd6c6c3d2f77c2af556e79b5ed3" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14 Gen 6 Type 21QC 21QD|win11|24H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14 Gen 6 Type 21QC 21QD|win11|24H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T14 Gen 6 Type 21QC 21QD" systemId="21QC,21QD" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="45087f8f2f60bcbfd4d6f2b541c7066e" crc="9377298dd582643f667176daee3744bb989a73c2dd34bf13f6f8005a80027307" />
+      <Hashes md5="6b22dd117ab366ca83017c968f14593d" crc="b064c6c511a486bf0745ebd74a5dff8afeb0ffd6c6c3d2f77c2af556e79b5ed3" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14 Gen 6 Type 21QC 21QD|win11|25H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14 Gen 6 Type 21QC 21QD|win11|25H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T14 Gen 6 Type 21QC 21QD" systemId="21QC,21QD" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="b9a565462b3aa0a115e5bbaf2e7c58e1" crc="a05aa54a31293cd35e3188027e78e7bf68778450bda37daaa841049a6b6f35ca" />
+      <Hashes md5="636064c69d665fd7879a4c1c552da0fa" crc="7ea02ddb946aa1c0fab14a03d03069e1cf8b984f8c2928d5dd44322d88171e1e" />
     </DriverPack>
-    <DriverPack id="ThinkPad T16 Gen 4 Type 21QE 21QF|win11|25H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T16 Gen 4 Type 21QE 21QF|win11|25H2|tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" packageId="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" fileName="tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt_21qc-21qd_21qe_21qf_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T16 Gen 4 Type 21QE 21QF" systemId="21QE,21QF" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="b9a565462b3aa0a115e5bbaf2e7c58e1" crc="a05aa54a31293cd35e3188027e78e7bf68778450bda37daaa841049a6b6f35ca" />
+      <Hashes md5="636064c69d665fd7879a4c1c552da0fa" crc="7ea02ddb946aa1c0fab14a03d03069e1cf8b984f8c2928d5dd44322d88171e1e" />
     </DriverPack>
     <DriverPack id="ThinkPad T16 Gen 4 Type 22AW 22AX|win11|24H2|tp_t14_gen6_t16_gen4_mt21qg_21qh_22aw_22ax_w11_24h2_202606.exe" packageId="tp_t14_gen6_t16_gen4_mt21qg_21qh_22aw_22ax_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_t14_gen6_t16_gen4_mt21qg_21qh_22aw_22ax_w11_24h2_202606.exe" fileName="tp_t14_gen6_t16_gen4_mt21qg_21qh_22aw_22ax_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen6_t16_gen4_mt21qg_21qh_22aw_22ax_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
       <Models>
@@ -50011,33 +50011,33 @@
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
       <Hashes md5="717b96d38073b7ca1133a253149992e7" crc="f787de5b93d3793addcf8dc47a4b1598a5961ab7ed29fe90ccbc66dea5ea78f9" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14 Gen 7 Type 21WN 21WQ|win11|24H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-18">
+    <DriverPack id="ThinkPad T14 Gen 7 Type 21WN 21WQ|win11|24H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T14 Gen 7 Type 21WN 21WQ" systemId="21WN,21WQ" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="84ed386bdb8495908b89eb581b1da57f" crc="93cbb2359bf992b97eb3405a3ac76119ad3b551484d35459df2294ab44fab3fb" />
+      <Hashes md5="ad83c009e940524087cc99cd7d4ba87d" crc="6ceb71aaf061a077d0eb074bfa07e884ce9b5222821c1360e64de2d32ad88535" />
     </DriverPack>
-    <DriverPack id="ThinkPad T16 Gen 5 Type 21WT 21WU|win11|24H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-18">
+    <DriverPack id="ThinkPad T16 Gen 5 Type 21WT 21WU|win11|24H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T16 Gen 5 Type 21WT 21WU" systemId="21WT,21WU" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="84ed386bdb8495908b89eb581b1da57f" crc="93cbb2359bf992b97eb3405a3ac76119ad3b551484d35459df2294ab44fab3fb" />
+      <Hashes md5="ad83c009e940524087cc99cd7d4ba87d" crc="6ceb71aaf061a077d0eb074bfa07e884ce9b5222821c1360e64de2d32ad88535" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14 Gen 7 Type 21WN 21WQ|win11|25H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-18">
+    <DriverPack id="ThinkPad T14 Gen 7 Type 21WN 21WQ|win11|25H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T14 Gen 7 Type 21WN 21WQ" systemId="21WN,21WQ" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="43662c9227a6e9d25703f2e1a2be6e55" crc="d5242e0ed747ced8360a600220becaca2b293b1ef12debc6b100c6e5eae0d2f1" />
+      <Hashes md5="2fa2f1cfc98998105b0b26965e26f857" crc="4d0bc71e1c95dcf36279d9e5e94750c3d48884b6c11c2fd1b95cfbbd3fc4ef30" />
     </DriverPack>
-    <DriverPack id="ThinkPad T16 Gen 5 Type 21WT 21WU|win11|25H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-18">
+    <DriverPack id="ThinkPad T16 Gen 5 Type 21WT 21WU|win11|25H2|tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" packageId="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" fileName="tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_gen7_mt21wn-21wq-t16_gen5_mt21wt-21wu_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T16 Gen 5 Type 21WT 21WU" systemId="21WT,21WU" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="43662c9227a6e9d25703f2e1a2be6e55" crc="d5242e0ed747ced8360a600220becaca2b293b1ef12debc6b100c6e5eae0d2f1" />
+      <Hashes md5="2fa2f1cfc98998105b0b26965e26f857" crc="4d0bc71e1c95dcf36279d9e5e94750c3d48884b6c11c2fd1b95cfbbd3fc4ef30" />
     </DriverPack>
     <DriverPack id="ThinkPad P16S Gen 2 Type 21HK 21HL|win10|21H2|tp_t14_p14s_gen4_t16_p16s_gen2_w1064_21h2_202508.exe" packageId="tp_t14_p14s_gen4_t16_p16s_gen2_w1064_21h2_202508.exe" manufacturer="Lenovo" name="tp_t14_p14s_gen4_t16_p16s_gen2_w1064_21h2_202508.exe" fileName="tp_t14_p14s_gen4_t16_p16s_gen2_w1064_21h2_202508.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14_p14s_gen4_t16_p16s_gen2_w1064_21h2_202508.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-07">
       <Models>
@@ -52356,96 +52356,96 @@
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
       <Hashes md5="00edf83732ebb5238d1096dc916fd271" crc="a1f8532725901d52138c3341d2ecbfbf0e9cc2dd6e332401a58111e13c13d39b" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 6 Type 21QX 21QY|win11|23H2|tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" packageId="tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" manufacturer="Lenovo" name="tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" fileName="tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S Gen 6 Type 21QX 21QY|win11|23H2|tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" packageId="tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" manufacturer="Lenovo" name="tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" fileName="tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_21qx_21qy_w11_23_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S Gen 6 Type 21QX 21QY" systemId="21QX,21QY" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="74d567b23291c1a28ec927e0b98d3833" crc="49aa8e895e347a90437a22bfa1420bdf07e40ee8154a2606bdd6da8717b86f49" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 6 Type 21QX 21QY|win11|24H2|tp_t14s_gen6_21qx_21qy_w11_24h2_202606.exe" packageId="tp_t14s_gen6_21qx_21qy_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_t14s_gen6_21qx_21qy_w11_24h2_202606.exe" fileName="tp_t14s_gen6_21qx_21qy_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_21qx_21qy_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S Gen 6 Type 21QX 21QY|win11|24H2|tp_t14s_gen6_21qx_21qy_w11_24h2_202608.exe" packageId="tp_t14s_gen6_21qx_21qy_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen6_21qx_21qy_w11_24h2_202608.exe" fileName="tp_t14s_gen6_21qx_21qy_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_21qx_21qy_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S Gen 6 Type 21QX 21QY" systemId="21QX,21QY" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="0a69db1d42900070c463a14ae2e6edde" crc="2abb3fcb3c41ff7daaa03ba84f133359cd3beedf828227366aa3c3e0a518716a" />
+      <Hashes md5="a48c826c4abbbd52718794cfcbe628ac" crc="d48a2d7e014ac133dbec05ad414f50b67634e2db4dda61ee8cacc6a20af894b7" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 6 Type 21QX 21QY|win11|25H2|tp_t14s_gen6_21qx_21qy_w11_25h2_202606.exe" packageId="tp_t14s_gen6_21qx_21qy_w11_25h2_202606.exe" manufacturer="Lenovo" name="tp_t14s_gen6_21qx_21qy_w11_25h2_202606.exe" fileName="tp_t14s_gen6_21qx_21qy_w11_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_21qx_21qy_w11_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S Gen 6 Type 21QX 21QY|win11|25H2|tp_t14s_gen6_21qx_21qy_w11_25h2_202608.exe" packageId="tp_t14s_gen6_21qx_21qy_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen6_21qx_21qy_w11_25h2_202608.exe" fileName="tp_t14s_gen6_21qx_21qy_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_21qx_21qy_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S Gen 6 Type 21QX 21QY" systemId="21QX,21QY" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="58ac557ba3ff1cc37ad4c5f461558d6d" crc="ccd35e674a463bae55e6f899bd4a848737e7a3b2f911d0adf3635da94bac78cd" />
+      <Hashes md5="f854febad18fecd78fdeaaaa78b34e53" crc="9834ca210bcecfdb547da41e676c901f9e0d43057ec1f207cfd029f18fc2696b" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4|win11|23H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4|win11|23H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4" systemId="21R3,21R4" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="b820109f60199ecf5d5baab3f23c783a" crc="297503476088da3ecae61100e7200c75cecff4872f14f46ac2afb8c4a69110bd" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 6 Type 21R1 21R2|win11|23H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S Gen 6 Type 21R1 21R2|win11|23H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_23_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S Gen 6 Type 21R1 21R2" systemId="21R1,21R2" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="b820109f60199ecf5d5baab3f23c783a" crc="297503476088da3ecae61100e7200c75cecff4872f14f46ac2afb8c4a69110bd" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4|win11|24H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4|win11|24H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4" systemId="21R3,21R4" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="86e5b0720233f2b07492ac4b7e3f37c9" crc="19dc91932b9b3afd7d53f0ab1882d7e1195808b6d42bd11f3048277a30854bab" />
+      <Hashes md5="5b78a4adb75ce09affa725ae2f2ca6a1" crc="5b379f1fb4d21ef01ed5434b8eaeb348e98aaf4086ecb72ec77782b5e57d7f60" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 6 Type 21R1 21R2|win11|24H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S Gen 6 Type 21R1 21R2|win11|24H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S Gen 6 Type 21R1 21R2" systemId="21R1,21R2" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="86e5b0720233f2b07492ac4b7e3f37c9" crc="19dc91932b9b3afd7d53f0ab1882d7e1195808b6d42bd11f3048277a30854bab" />
+      <Hashes md5="5b78a4adb75ce09affa725ae2f2ca6a1" crc="5b379f1fb4d21ef01ed5434b8eaeb348e98aaf4086ecb72ec77782b5e57d7f60" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 6 Type 21R1 21R2|win11|25H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S Gen 6 Type 21R1 21R2|win11|25H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S Gen 6 Type 21R1 21R2" systemId="21R1,21R2" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="b0493e486df35e351fe7478b810b4ed1" crc="236142a3250b8786d373f0ec8086def1bd62e913edabfb8f510803245ef2986d" />
+      <Hashes md5="c05227310fa4aa175650d148dcfb69bc" crc="53d84bbcac36d27f813ffbd5c4058933b2030d9b0a0f29f65c8cbbd9210c1151" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4|win11|25H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-06">
+    <DriverPack id="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4|win11|25H2|tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" packageId="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" fileName="tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen6_mt21r1-21r2-t14s_2-in-1_gen1_mt21r3-21r4_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-28">
       <Models>
         <Model name="ThinkPad T14S 2IN1 Gen 1 Type 21R3 21R4" systemId="21R3,21R4" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="b0493e486df35e351fe7478b810b4ed1" crc="236142a3250b8786d373f0ec8086def1bd62e913edabfb8f510803245ef2986d" />
+      <Hashes md5="c05227310fa4aa175650d148dcfb69bc" crc="53d84bbcac36d27f813ffbd5c4058933b2030d9b0a0f29f65c8cbbd9210c1151" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 7 Type 21YU 21YV|win11|24H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-03">
+    <DriverPack id="ThinkPad T14S Gen 7 Type 21YU 21YV|win11|24H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T14S Gen 7 Type 21YU 21YV" systemId="21YU,21YV" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="fa797c534982d14d8349b5c24cbea343" crc="5aa5b97a2489fc42b91fc892f9cc7c174bb5a1ee09606ebcfd9b57ff5b61f37d" />
+      <Hashes md5="2642362c0950b6a8f999e130103e6de7" crc="3cf120cc7d45e01726f529fc6ce84e2a1d17a2d7f76b194c7084fdbf9bb7420b" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|24H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-03">
+    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|24H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0" systemId="21YY,22A0" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="fa797c534982d14d8349b5c24cbea343" crc="5aa5b97a2489fc42b91fc892f9cc7c174bb5a1ee09606ebcfd9b57ff5b61f37d" />
+      <Hashes md5="2642362c0950b6a8f999e130103e6de7" crc="3cf120cc7d45e01726f529fc6ce84e2a1d17a2d7f76b194c7084fdbf9bb7420b" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S Gen 7 Type 21YU 21YV|win11|25H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-03">
+    <DriverPack id="ThinkPad T14S Gen 7 Type 21YU 21YV|win11|25H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T14S Gen 7 Type 21YU 21YV" systemId="21YU,21YV" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="fd97f6732a120f83e3326244e82a1b42" crc="ea22347cf087524779df32f3d9608c363c53c4ddcfb2b77b453b449a41647f2c" />
+      <Hashes md5="a1a3330be884bf8f697f7ddec648055b" crc="3f40b381473a0fa79f0bd61bfeac70f8a2be7708b9ca6fbb8cc21509838d430d" />
     </DriverPack>
-    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|25H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-06-03">
+    <DriverPack id="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0|win11|25H2|tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" packageId="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" fileName="tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt21yu-21yv_t14s_2-in-1_gen2_mt21yy-22a0_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad T14S 2IN1 Gen 2 Type 21YY 22A0" systemId="21YY,22A0" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="fd97f6732a120f83e3326244e82a1b42" crc="ea22347cf087524779df32f3d9608c363c53c4ddcfb2b77b453b449a41647f2c" />
+      <Hashes md5="a1a3330be884bf8f697f7ddec648055b" crc="3f40b381473a0fa79f0bd61bfeac70f8a2be7708b9ca6fbb8cc21509838d430d" />
     </DriverPack>
     <DriverPack id="ThinkPad T14S Gen 7 Type 22A7 22A8|win11|*|tp_t14s_gen7_mt22a7-22a8_w11_26h1_202606.exe" packageId="tp_t14s_gen7_mt22a7-22a8_w11_26h1_202606.exe" manufacturer="Lenovo" name="tp_t14s_gen7_mt22a7-22a8_w11_26h1_202606.exe" fileName="tp_t14s_gen7_mt22a7-22a8_w11_26h1_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t14s_gen7_mt22a7-22a8_w11_26h1_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-01">
       <Models>
@@ -52874,33 +52874,33 @@
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="563fb7fe3ff2aba514d0c8b191680b3e" crc="119bfad6a229ceb231d06c269566517bd7e78f6c2d97b1c7505f25ce99839e74" />
     </DriverPack>
-    <DriverPack id="ThinkPad T16G Gen 3 Type 21V5 21V6|win11|24H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-13">
+    <DriverPack id="ThinkPad T16G Gen 3 Type 21V5 21V6|win11|24H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T16G Gen 3 Type 21V5 21V6" systemId="21V5,21V6" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="e0e3e8dda07702bc87920c2413493f0a" crc="06931a3e28578225b29ed8d75c1845cce21c27ad53585d1adc86abbe2075eaa0" />
+      <Hashes md5="6087d381301f7fc928c1e57caafdb9e0" crc="a55d26b0a0e727e9e3dc2f98bbed7136efe0b109b59bb3d63e6326c33ee89b5e" />
     </DriverPack>
-    <DriverPack id="ThinkPad P16 Gen 3 Type 21RQ 21RR|win11|24H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-13">
+    <DriverPack id="ThinkPad P16 Gen 3 Type 21RQ 21RR|win11|24H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad P16 Gen 3 Type 21RQ 21RR" systemId="21RQ,21RR" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="e0e3e8dda07702bc87920c2413493f0a" crc="06931a3e28578225b29ed8d75c1845cce21c27ad53585d1adc86abbe2075eaa0" />
+      <Hashes md5="6087d381301f7fc928c1e57caafdb9e0" crc="a55d26b0a0e727e9e3dc2f98bbed7136efe0b109b59bb3d63e6326c33ee89b5e" />
     </DriverPack>
-    <DriverPack id="ThinkPad T16G Gen 3 Type 21V5 21V6|win11|25H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-13">
+    <DriverPack id="ThinkPad T16G Gen 3 Type 21V5 21V6|win11|25H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad T16G Gen 3 Type 21V5 21V6" systemId="21V5,21V6" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="5056a139cc5ee70977915d8984d6d40b" crc="10eed06229c1a7704c2acc82eba3c70f714bcece64a5d5def901d0a5572406ee" />
+      <Hashes md5="b54ba221c1e5ad36d60bd59ab57bddea" crc="31c038e797cd687db5132da8fa48a3b357107089e8c5108b81f9399c77a5e5fd" />
     </DriverPack>
-    <DriverPack id="ThinkPad P16 Gen 3 Type 21RQ 21RR|win11|25H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-13">
+    <DriverPack id="ThinkPad P16 Gen 3 Type 21RQ 21RR|win11|25H2|tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" packageId="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" manufacturer="Lenovo" name="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" fileName="tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t16gg3_p16g3_mt21v5-21v6_mt21rq_21rr_w1164_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad P16 Gen 3 Type 21RQ 21RR" systemId="21RQ,21RR" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="5056a139cc5ee70977915d8984d6d40b" crc="10eed06229c1a7704c2acc82eba3c70f714bcece64a5d5def901d0a5572406ee" />
+      <Hashes md5="b54ba221c1e5ad36d60bd59ab57bddea" crc="31c038e797cd687db5132da8fa48a3b357107089e8c5108b81f9399c77a5e5fd" />
     </DriverPack>
     <DriverPack id="ThinkPad T440S|win10|1803|tp_t440-t440s_w1064_1803_201807.exe" packageId="tp_t440-t440s_w1064_1803_201807.exe" manufacturer="Lenovo" name="tp_t440-t440s_w1064_1803_201807.exe" fileName="tp_t440-t440s_w1064_1803_201807.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_t440-t440s_w1064_1803_201807.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2018-08-02">
       <Models>
@@ -55688,19 +55688,19 @@
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
       <Hashes md5="f2f4a633f9b6d84d78d207833cb3bdba" crc="e33cd56611781738af44b9da4a87b4935adcfc83c839c6da86855cf65d2a84cd" />
     </DriverPack>
-    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|24H2|tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-29">
+    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|24H2|tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202608.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202608.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad X13 Gen 7 Type 21YH 21YJ" systemId="21YH,21YJ" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="8e27adf1715672505ae4baa74dfd873b" crc="41812a0ea3894d628500bf9c82002d5a32b9a9ac201746349cb5eb5bd4c06374" />
+      <Hashes md5="01e401e3537375c055f91582488f31cb" crc="d1b6a86637c92aef1bd3dc742e5069cb42277faa222ab7e9c1432e9430114fca" />
     </DriverPack>
-    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|25H2|tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202605.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-05-29">
+    <DriverPack id="ThinkPad X13 Gen 7 Type 21YH 21YJ|win11|25H2|tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202608.exe" packageId="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202608.exe" fileName="tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_gen7_intel_mt21yh-21yj_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-27">
       <Models>
         <Model name="ThinkPad X13 Gen 7 Type 21YH 21YJ" systemId="21YH,21YJ" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="690668186645d530898f1c3d715e9867" crc="b79a61ab0976a32c6c0dc6d2fd59e95a451d532784097083acfe457df815f762" />
+      <Hashes md5="dd385ec202ed0967378c97f07ce6e6ad" crc="919e1538ee64383c1f3cc06d179511c31676fb44e5a9433186028b0f69ccebe6" />
     </DriverPack>
     <DriverPack id="ThinkPad X13 DETACHABLE Gen 1 Type 21U6 21U7|win11|24H2|tp_x13_mt21u6_mt21u7_w11_24h2_202606.exe" packageId="tp_x13_mt21u6_mt21u7_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_x13_mt21u6_mt21u7_w11_24h2_202606.exe" fileName="tp_x13_mt21u6_mt21u7_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x13_mt21u6_mt21u7_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-16">
       <Models>
@@ -57186,33 +57186,33 @@
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
       <Hashes md5="62e45231ab14120c3e343bd6e2ba5aba" crc="9e02391e66214e41b159b2264eaddf763585fd0805b001e35ec72b5cd82ac9bd" />
     </DriverPack>
-    <DriverPack id="ThinkPad X1 2 IN 1 Gen 11 Type 21V9 21VA|win11|24H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-03">
+    <DriverPack id="ThinkPad X1 2 IN 1 Gen 11 Type 21V9 21VA|win11|24H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-26">
       <Models>
         <Model name="ThinkPad X1 2 IN 1 Gen 11 Type 21V9 21VA" systemId="21V9,21VA" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="2a6ffe8febcfc2edd6507c9a13c19eed" crc="bcbf59343881a8af09ef205ae2617f3af21a171ebba5e4c3b28cf079ef1dacb6" />
+      <Hashes md5="1b4287979bd98e5423d710a66e2f1b7c" crc="8d61efed76f2517e175d7851641093a392098b601919fde20157074fa9d4a996" />
     </DriverPack>
-    <DriverPack id="ThinkPad X1 Carbon Gen 14 Type 21V7 21V8|win11|24H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202607.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-03">
+    <DriverPack id="ThinkPad X1 Carbon Gen 14 Type 21V7 21V8|win11|24H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_24_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-26">
       <Models>
         <Model name="ThinkPad X1 Carbon Gen 14 Type 21V7 21V8" systemId="21V7,21V8" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="2a6ffe8febcfc2edd6507c9a13c19eed" crc="bcbf59343881a8af09ef205ae2617f3af21a171ebba5e4c3b28cf079ef1dacb6" />
+      <Hashes md5="1b4287979bd98e5423d710a66e2f1b7c" crc="8d61efed76f2517e175d7851641093a392098b601919fde20157074fa9d4a996" />
     </DriverPack>
-    <DriverPack id="ThinkPad X1 Carbon Gen 14 Type 21V7 21V8|win11|25H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-03">
+    <DriverPack id="ThinkPad X1 Carbon Gen 14 Type 21V7 21V8|win11|25H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-26">
       <Models>
         <Model name="ThinkPad X1 Carbon Gen 14 Type 21V7 21V8" systemId="21V7,21V8" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="6e523273ae43e0a67650da5f8a99a821" crc="426cd67253007ab6134016ffc77310fa84754f7111cc016138b34121609bcb29" />
+      <Hashes md5="6312deb8d698cf11d5f25e25935ae59c" crc="5632cd5b3e99bb2178a9acc2fa32f3ec598627b8369ba9a64d626179155a8308" />
     </DriverPack>
-    <DriverPack id="ThinkPad X1 2 IN 1 Gen 11 Type 21V9 21VA|win11|25H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202607.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-03">
+    <DriverPack id="ThinkPad X1 2 IN 1 Gen 11 Type 21V9 21VA|win11|25H2|tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" packageId="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" manufacturer="Lenovo" name="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" fileName="tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1carbon_mt21v7-21v8-x1_2-in-1_mt21v9-21va_w11_25_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-26">
       <Models>
         <Model name="ThinkPad X1 2 IN 1 Gen 11 Type 21V9 21VA" systemId="21V9,21VA" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="6e523273ae43e0a67650da5f8a99a821" crc="426cd67253007ab6134016ffc77310fa84754f7111cc016138b34121609bcb29" />
+      <Hashes md5="6312deb8d698cf11d5f25e25935ae59c" crc="5632cd5b3e99bb2178a9acc2fa32f3ec598627b8369ba9a64d626179155a8308" />
     </DriverPack>
     <DriverPack id="ThinkPad X1 EXTREME|win10|1709|tp_x1extreme_mt20mf-20mg-p1_mt20md-20me_w1064_1709_201904.exe" packageId="tp_x1extreme_mt20mf-20mg-p1_mt20md-20me_w1064_1709_201904.exe" manufacturer="Lenovo" name="tp_x1extreme_mt20mf-20mg-p1_mt20md-20me_w1064_1709_201904.exe" fileName="tp_x1extreme_mt20mf-20mg-p1_mt20md-20me_w1064_1709_201904.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x1extreme_mt20mf-20mg-p1_mt20md-20me_w1064_1709_201904.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2021-11-24">
       <Models>
@@ -58922,26 +58922,26 @@
       <OsInfo name="Windows 11" releaseId="22H2" architecture="x64" />
       <Hashes md5="a4b901ef6e3101c0b74db1c226123a17" crc="f90dbeb7bf1bb499f773bb8e1c46318fcb32e04020d3ad6cad08bd02eae29019" />
     </DriverPack>
-    <DriverPack id="ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|23H2|tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" packageId="tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" manufacturer="Lenovo" name="tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" fileName="tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-08">
+    <DriverPack id="ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|23H2|tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" packageId="tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" manufacturer="Lenovo" name="tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" fileName="tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x9-14_gen1_mt21qa-21qb_w11_23h2_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad X9-14 Gen 1 Type 21QA 21QB" systemId="21QA,21QB" />
       </Models>
       <OsInfo name="Windows 11" releaseId="23H2" architecture="x64" />
       <Hashes md5="d5a108cc948af00568134083c7f5fc83" crc="bff045265a7b1644fed62729b1ad74f4f157df441cd5c5b4e04493998b65d816" />
     </DriverPack>
-    <DriverPack id="ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|24H2|tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202606.exe" packageId="tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202606.exe" manufacturer="Lenovo" name="tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202606.exe" fileName="tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-08">
+    <DriverPack id="ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|24H2|tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202608.exe" packageId="tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202608.exe" manufacturer="Lenovo" name="tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202608.exe" fileName="tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x9-14_gen1_mt21qa-21qb_w11_24h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad X9-14 Gen 1 Type 21QA 21QB" systemId="21QA,21QB" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="686a3d6a55cb2dc4d3c19ff27e7ea130" crc="c3e199839252177197d68decceb343401c94c2f5cc8666eacd7c2e63ceff974b" />
+      <Hashes md5="33f18801b3f7a15f4c807e8c91eb82e8" crc="8510a4c5672e49b33cf46e8d5fcf82349910ab832875035b728e36e22d477f44" />
     </DriverPack>
-    <DriverPack id="ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|25H2|tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202606.exe" packageId="tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202606.exe" manufacturer="Lenovo" name="tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202606.exe" fileName="tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202606.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202606.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-07-08">
+    <DriverPack id="ThinkPad X9-14 Gen 1 Type 21QA 21QB|win11|25H2|tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202608.exe" packageId="tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202608.exe" manufacturer="Lenovo" name="tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202608.exe" fileName="tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x9-14_gen1_mt21qa-21qb_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-02">
       <Models>
         <Model name="ThinkPad X9-14 Gen 1 Type 21QA 21QB" systemId="21QA,21QB" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="d3ac08993140b4c4c5924e4b03279adf" crc="f78834c6bcd6d3f909896406a0e729a908e55fc8ae9710068a687aedeb7abeea" />
+      <Hashes md5="11c7bb5c642b2c800b580682ccaae540" crc="17dcef3822f640e2f4157c98fa6e7d818c4eff16318eb37309d6bc38146cb5b2" />
     </DriverPack>
     <DriverPack id="ThinkPad X9-15 Gen 1 Type 21Q6 21Q7|win11|24H2|tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe" packageId="tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe" manufacturer="Lenovo" name="tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe" fileName="tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe" downloadUrl="https://download.lenovo.com/pccbbs/mobiles/tp_x9-15_gen1_mt21q6-21q7_w11_24h2_202512.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-04-21">
       <Models>
@@ -59727,19 +59727,19 @@
       <OsInfo name="Windows 10" releaseId="*" architecture="x64" />
       <Hashes md5="328a8ee91527b3f9655349994a5ec52e" crc="1bfc05986a39e628a54f9c80424b0842859f04d289cc04922a94d044a8b94f6c" />
     </DriverPack>
-    <DriverPack id="ThinkStation P5 Gen 2|win11|24H2|ts_p5_gen2_w11_25h2_202601.exe" packageId="ts_p5_gen2_w11_25h2_202601.exe" manufacturer="Lenovo" name="ts_p5_gen2_w11_25h2_202601.exe" fileName="ts_p5_gen2_w11_25h2_202601.exe" downloadUrl="https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_gen2_w11_25h2_202601.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-04-28">
+    <DriverPack id="ThinkStation P5 Gen 2|win11|24H2|ts_p5_gen2_w11_25h2_202608.exe" packageId="ts_p5_gen2_w11_25h2_202608.exe" manufacturer="Lenovo" name="ts_p5_gen2_w11_25h2_202608.exe" fileName="ts_p5_gen2_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_gen2_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-26">
       <Models>
         <Model name="ThinkStation P5 Gen 2" systemId="30KB,30KC,30KD" />
       </Models>
       <OsInfo name="Windows 11" releaseId="24H2" architecture="x64" />
-      <Hashes md5="fcce7b61199d29ded407dabec8fea6ea" crc="56a82121c802369791f4a1b0ed563aa76451281658807aa93e3da1b58007a888" />
+      <Hashes md5="2894a197744c05f2d3a67bd1b75ac8bf" crc="bfa540eaff46ce2be721506b603d4d37c1d09ed3c109c2831a31ece30c26fa8d" />
     </DriverPack>
-    <DriverPack id="ThinkStation P5 Gen 2|win11|25H2|ts_p5_gen2_w11_25h2_202601.exe" packageId="ts_p5_gen2_w11_25h2_202601.exe" manufacturer="Lenovo" name="ts_p5_gen2_w11_25h2_202601.exe" fileName="ts_p5_gen2_w11_25h2_202601.exe" downloadUrl="https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_gen2_w11_25h2_202601.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-04-28">
+    <DriverPack id="ThinkStation P5 Gen 2|win11|25H2|ts_p5_gen2_w11_25h2_202608.exe" packageId="ts_p5_gen2_w11_25h2_202608.exe" manufacturer="Lenovo" name="ts_p5_gen2_w11_25h2_202608.exe" fileName="ts_p5_gen2_w11_25h2_202608.exe" downloadUrl="https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_gen2_w11_25h2_202608.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-26">
       <Models>
         <Model name="ThinkStation P5 Gen 2" systemId="30KB,30KC,30KD" />
       </Models>
       <OsInfo name="Windows 11" releaseId="25H2" architecture="x64" />
-      <Hashes md5="fcce7b61199d29ded407dabec8fea6ea" crc="56a82121c802369791f4a1b0ed563aa76451281658807aa93e3da1b58007a888" />
+      <Hashes md5="2894a197744c05f2d3a67bd1b75ac8bf" crc="bfa540eaff46ce2be721506b603d4d37c1d09ed3c109c2831a31ece30c26fa8d" />
     </DriverPack>
     <DriverPack id="ThinkStation P5|win11|21H2|ts_p5_w1164_21h2_202401.exe" packageId="ts_p5_w1164_21h2_202401.exe" manufacturer="Lenovo" name="ts_p5_w1164_21h2_202401.exe" fileName="ts_p5_w1164_21h2_202401.exe" downloadUrl="https://download.lenovo.com/pccbbs/thinkcentre_drivers/ts_p5_w1164_21h2_202401.exe" format="exe" type="Win" packageRole="BaseDriverPack" releaseDate="2026-08-10">
       <Models>
