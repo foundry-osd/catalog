@@ -8,13 +8,11 @@ General behavior:
 - Follow the existing repository structure and conventions
 
 Task execution:
-- Treat requests to implement, fix, or improve something as authorization to do the work, not merely propose a plan
-- Infer intent from the full conversation and carry the authorized task through implementation, relevant verification, and the requested delivery
-- Choose reasonable defaults for routine, reversible decisions; ask focused questions only when missing information materially changes scope, correctness, or an irreversible action
-- Continue independent authorized work while waiting for clarification
-- Incorporate new requirements and answer status questions without abandoning the original task unless the user cancels or replaces it
-- Before requesting approval for an action that needs it, complete the authorized preparation so the result is concrete and reviewable
-- Do not introduce approval steps or safety checklists for hypothetical risks; respect actual permission boundaries and repository constraints
+- Treat implementation requests as authorization to complete the scoped work, relevant verification, and requested delivery
+- Choose reasonable defaults for routine reversible decisions; ask only when missing information materially affects scope, correctness, or an irreversible action
+- Continue independent authorized work while awaiting clarification and prepare a reviewable result before requesting necessary approval
+- Incorporate follow-up requirements without abandoning the original task unless the user cancels or replaces it
+- Respect actual permission boundaries without adding approval steps for hypothetical risks
 
 Instruction handling:
 - Follow applicable system and developer instructions; within those boundaries, explicit user instructions take precedence over skill guidance and repository defaults
@@ -32,7 +30,7 @@ Verification scope:
 Repository scope:
 - This repository is a PowerShell catalog automation repository for Foundry
 - It is not a .NET, WPF, or WinUI application repository
-- Keep changes focused on catalog generators, schemas, helpers, workflow files, or generated cache outputs directly related to the task
+- Keep changes focused on the relevant generators in `Scripts`, helpers in `Helpers`, release definitions in `Config`, contracts in `Schemas`, regression scripts in `Tests`, workflows, and generated `Cache` outputs
 
 Cleanup rules:
 - After an implementation, check whether replaced code, unused files, obsolete helpers, dead configuration, or outdated documentation became unnecessary
@@ -45,12 +43,12 @@ PowerShell rules:
 - Use `[CmdletBinding()]`, validated parameters, `Set-StrictMode -Version Latest`, and `$ErrorActionPreference = 'Stop'` in scripts
 - Use clear PowerShell `Verb-Noun` function names
 - Keep functions small and focused
-- Reuse `Helpers/FoundryHelpers.psm1` before adding duplicate helper logic
+- Reuse `Helpers/FoundryHelpers.psm1` for shared mechanisms and `Helpers/OperatingSystemCatalog.psm1` for OS catalog rules; keep release source definitions in `Config/Windows11Releases.psd1`
 - Prefer structured XML APIs and `XmlWriter` for catalog output
 - Avoid ad hoc string manipulation for XML, paths, or structured data when a proper API is available
 
 Catalog output rules:
-- Catalog outputs are XML-only unless explicitly requested otherwise
+- Keep machine-readable catalog outputs XML; preserve the generated Markdown README summaries alongside them
 - Preserve UTF-8 without BOM, CRLF line endings, two-space XML indentation, deterministic sorting, UTC timestamps, and lowercase SHA256 hashes
 - Keep schema changes aligned with generated XML output
 - Do not hand-edit generated `Cache` XML or generated README outputs unless explicitly requested
@@ -64,9 +62,11 @@ External dependency rules:
 - Dell, HP, and OS catalog generation require `7zz` or `7z` for CAB extraction
 
 Validation rules:
-- No formal test suite exists in this repository
-- For script-only edits, at minimum run a PowerShell parser check over changed scripts and helpers
-- For behavior changes, run the relevant generator with the smallest practical scope when possible
+- Run `pwsh -NoProfile -File Tests/Test-OSCatalogHistory.ps1` for OS history or release configuration changes
+- Run `pwsh -NoProfile -File Tests/Test-IntelWirelessCatalogFallback.ps1` for Intel wireless fallback changes; both regression scripts run in `.github/workflows/powershell-analysis.yml`
+- Match the workflow PSScriptAnalyzer checks for changed scripts and helpers; report analyzer errors and unavailable tooling
+- At minimum, parse changed `.ps1`, `.psm1`, and `.psd1` files with the PowerShell parser
+- Prefer local regression tests for behavior changes; run a networked generator only when regenerated catalog data is part of the task
 - Verify generated files only when the task intentionally changes generated catalog output
 
 Git rules:
@@ -79,10 +79,12 @@ Git rules:
 Worktree / branch / PR rules:
 - Use a dedicated git worktree for implementation work when the task changes code
 - Create worktrees outside the main repository folder
-- Sync the base branch before creating a worktree
+- Fetch the remote base before creating a worktree; preserve existing checkout changes and reuse the task worktree for follow-ups
 - Create a focused branch for each implementation task
-- Push the branch and open a pull request when implementation and verification are complete
-- Delete merged feature branches and clean up worktrees after PR merge
+- Push the branch and open or update its pull request when implementation and verification are complete
+- Use an English Conventional Commit PR title and include summary, reason, main changes, and testing notes
+- Merge only when requested and follow the requested merge strategy; retain the worktree until merge unless cleanup is requested
+- After a requested merge, clean up only the merged task branch and its clean worktree; preserve other work
 
 Subagent rules:
 - Delegate bounded, independent analysis, implementation, or verification tasks when parallel work materially improves delivery and the main agent can continue useful work
@@ -99,7 +101,5 @@ Output rules:
 - In the final response, state what changed, relevant verification, and any blocker or required follow-up without repeating the work log
 - Do not add emojis
 - Do not add unnecessary comments
-- Only explain decisions when useful
-- When making assumptions, choose the most reasonable one and proceed
 
 Instruction guidance source: [OpenAI GPT-6 Astra prompting best practices](https://developers.openai.com/api/docs/guides/latest-model#prompting-best-practices).
