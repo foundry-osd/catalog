@@ -18,6 +18,8 @@ Task execution:
 
 Instruction handling:
 - Follow applicable system and developer instructions; within those boundaries, explicit user instructions take precedence over skill guidance and repository defaults
+- For agent workflow defaults, follow current official OpenAI guidance for the model in use over conflicting repository or skill preferences, within the system, developer, and explicit user instructions above
+- Apply guidance relevant to the task; distinguish official recommendations from local implementation choices and preserve product contracts, architecture, and security constraints
 - Read relevant repository and skill instructions before applying them, and resolve conflicts using the current task context
 - If a skill or repository instruction blocks progress, identify the exact file and instruction, explain its relevance, and distinguish an explicit requirement from an interpretation
 
@@ -83,11 +85,11 @@ Worktree / branch / PR rules:
 - Delete merged feature branches and clean up worktrees after PR merge
 
 Subagent rules:
-- Use subagents when explicitly requested or when two or more independent read-only questions can be investigated in parallel while the main agent makes useful progress
-- Give each subagent a bounded question and clear scope, avoid duplicate exploration, and integrate its findings before deciding on changes
-- Use subagents only for read-only code exploration and analysis
-- Do not use subagents to modify files
-- The main agent is responsible for all code edits, commits, pushes, and pull requests
+- Delegate bounded, independent analysis, implementation, or verification tasks when parallel work materially improves delivery and the main agent can continue useful work
+- Keep simple or tightly coupled tasks local; do not delegate solely to increase agent count
+- Assign explicit file or module ownership for edits, avoid overlapping work, and tell subagents to preserve other contributors' changes
+- Give each subagent the relevant task context and acceptance criteria; avoid duplicate exploration
+- The main agent reviews and integrates delegated changes and owns final verification, commits, pushes, and pull requests
 
 Output rules:
 - Lead with the outcome and use plain, concise English
