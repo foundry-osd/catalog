@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-15T08:04:17Z" category="DriverPack">
-  <Source catalogSha256="fcdab64fb736856687d7afc7e8e17ce475f7b84d4cff31f94c33196ef96d1fe7" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-16T07:58:20Z" category="DriverPack">
+  <Source catalogType="SupportArticle" catalogSha256="6007036d85249e4b98084e6acd6c267adf9aca4dfebcbbdb5158eda779bfd642" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -704,22 +704,22 @@
       <format>msi</format>
       <version>1</version>
       <sizeBytes>1190178816</sizeBytes>
-      <datePublished>2026-08-07</datePublished>
+      <datePublished>2026-09-16</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105610|SurfaceLaptopStudio2_Win11_22631_26.071.9397.0.msi</id>
+      <id>105610|SurfaceLaptopStudio2_Win11_22631_26.073.30690.0.msi</id>
       <model>Surface Laptop Studio 2</model>
       <downloadTitle>Surface Laptop Studio 2</downloadTitle>
       <packageId>105610</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105610</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.071.9397.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.071.9397.0.msi</msiUrl>
-      <fileName>SurfaceLaptopStudio2_Win11_22631_26.071.9397.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.073.30690.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/68949314-91cb-46dc-bcff-a50479d6ec4f/SurfaceLaptopStudio2_Win11_22631_26.073.30690.0.msi</msiUrl>
+      <fileName>SurfaceLaptopStudio2_Win11_22631_26.073.30690.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1135403008</sizeBytes>
-      <datePublished>2026-08-07</datePublished>
+      <sizeBytes>1136181248</sizeBytes>
+      <datePublished>2026-09-16</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>

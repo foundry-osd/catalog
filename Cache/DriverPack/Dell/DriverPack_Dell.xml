@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DellCatalog schemaVersion="1" generatedAtUtc="2026-09-15T08:05:36Z" category="DriverPack">
-  <Source catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" catalogXmlFile="DriverPackCatalog.xml" catalogXmlSha256="7f140e7296303d99471f1418a605663cf156278f1268d9caae77b0208897cce4" catalogCabSha256="d195b7409f2588d674b15d3a479a18e549ef582afad01402f7f9b53e502fb929" name="Dell Driver Pack Catalog" />
-  <CatalogMetadata version="2026.09.02" schemaVersion="2.3" baseLocation="downloads.dell.com" baseLocationAccessProtocols="HTTP FTP" dateTime="2026-09-08T14:13:04" />
+<DellCatalog schemaVersion="1" generatedAtUtc="2026-09-16T07:57:54Z" category="DriverPack">
+  <Source catalogCabSha256="332d5ca5d283b7e421f90bb344063b39f46fade95c22f624b7d3c5d4703c9d14" catalogXmlFile="DriverPackCatalog.xml" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" name="Dell Driver Pack Catalog" catalogXmlSha256="6d57fed5f6eba84abf440f84402280dd37042538de0328606ce8c40796463fb5" />
+  <CatalogMetadata baseLocation="downloads.dell.com" schemaVersion="2.3" dateTime="2026-09-15T06:33:41" baseLocationAccessProtocols="HTTP FTP" version="2026.09.02" />
   <Items>
     <Item>
       <releaseId>001T5</releaseId>
@@ -5516,7 +5516,7 @@
       <path>FOLDER14878739M/1/MA16250-4YGW1_Win11_1.0_A06.exe</path>
       <downloadUrl>https://downloads.dell.com/FOLDER14878739M/1/MA16250-4YGW1_Win11_1.0_A06.exe</downloadUrl>
       <SupportedSystems>
-        <System brandKey="60" brandPrefix="DPML" systemId="0D33" systemName="-" generation="-" rtsDate="2025-07-16T16:00:00" />
+        <System brandKey="60" brandPrefix="DPML" systemId="0D33" systemName="Dell Pro Max 16 Premium MA16250" generation="-" rtsDate="2025-07-16T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -5885,12 +5885,12 @@
       <path>FOLDER14857362M/1/P514265-5D0VR_Win11_1.0_A01.exe</path>
       <downloadUrl>https://downloads.dell.com/FOLDER14857362M/1/P514265-5D0VR_Win11_1.0_A01.exe</downloadUrl>
       <SupportedSystems>
-        <System brandKey="58" brandPrefix="DPL" systemId="0E25" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0E31" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0E5F" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0E65" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0E5B" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0E69" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E25" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E31" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E5F" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E65" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E5B" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E69" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -12957,35 +12957,6 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
-      <releaseId>D40FH</releaseId>
-      <type>Win</type>
-      <name>PC14255-D40FH_Win11_1.0_A06.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A06</dellVersion>
-      <dateTime>2026-08-24T05:44:51</dateTime>
-      <hashMD5>D7926784FA1D13CDE051E8334B8B61CD</hashMD5>
-      <hashSHA1>2EB8690604C12D25A97E460D803D7FE67AB6F38B</hashSHA1>
-      <hashSHA256>0808961928EE303BD3D272E783AE21D022C87573DE1A3F1E418E8E4391ED960C</hashSHA256>
-      <sizeBytes>672692400</sizeBytes>
-      <path>FOLDER14772074M/1/PC14255-D40FH_Win11_1.0_A06.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14772074M/1/PC14255-D40FH_Win11_1.0_A06.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="58" brandPrefix="DPL" systemId="0D50" systemName="Dell Pro 14 PC14255" generation="-" rtsDate="2025-03-26T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0D51" systemName="Dell Pro 14 PC14255" generation="-" rtsDate="2025-03-26T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0D52" systemName="Dell Pro 14 PC14255" generation="-" rtsDate="2025-03-26T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
       <releaseId>D46TR</releaseId>
       <type>Win</type>
       <name>3020-win10-A03-D46TR.CAB</name>
@@ -13567,9 +13538,9 @@
       <path>FOLDER14857383M/1/P314265-DX936_Win11_1.0_A01.exe</path>
       <downloadUrl>https://downloads.dell.com/FOLDER14857383M/1/P314265-DX936_Win11_1.0_A01.exe</downloadUrl>
       <SupportedSystems>
-        <System brandKey="58" brandPrefix="DPL" systemId="0E29" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0E5D" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0E67" systemName="-" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E29" systemName="Dell Pro 3 14 P314265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E5D" systemName="Dell Pro 3 14 P314265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E67" systemName="Dell Pro 3 14 P314265" generation="-" rtsDate="2026-05-27T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -19475,6 +19446,35 @@
       <SupportedSystems>
         <System brandKey="72" brandPrefix="XPSNOTEBOOK" systemId="0AF3" systemName="XPS 13 9320" generation="TBD" rtsDate="2022-02-25T06:00:00" />
         <System brandKey="72" brandPrefix="XPSNOTEBOOK" systemId="0C10" systemName="XPS 13 9320" generation="TBD" rtsDate="2022-02-25T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>KPTK1</releaseId>
+      <type>Win</type>
+      <name>PC14255-KPTK1_Win11_1.0_A07.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A07</dellVersion>
+      <dateTime>2026-09-15T00:53:07</dateTime>
+      <hashMD5>E83F324D60B0DC6C92CF5EF562A739A0</hashMD5>
+      <hashSHA1>987D7B4311A45D34F1CE9D57470AEB8B251B5A39</hashSHA1>
+      <hashSHA256>AC26823A2323EEBAC1FB12422AA6F3D1D6151AE2463ADF71A77662F07B6B9FF1</hashSHA256>
+      <sizeBytes>664347568</sizeBytes>
+      <path>FOLDER14974146M/1/PC14255-KPTK1_Win11_1.0_A07.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14974146M/1/PC14255-KPTK1_Win11_1.0_A07.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="58" brandPrefix="DPL" systemId="0D50" systemName="Dell Pro 14 PC14255" generation="-" rtsDate="2025-03-26T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0D51" systemName="Dell Pro 14 PC14255" generation="-" rtsDate="2025-03-26T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0D52" systemName="Dell Pro 14 PC14255" generation="-" rtsDate="2025-03-26T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -27432,7 +27432,7 @@
       <path>FOLDER14892405M/1/MA14250-VKW2M_Win11_1.0_A06.exe</path>
       <downloadUrl>https://downloads.dell.com/FOLDER14892405M/1/MA14250-VKW2M_Win11_1.0_A06.exe</downloadUrl>
       <SupportedSystems>
-        <System brandKey="60" brandPrefix="DPML" systemId="0D32" systemName="-" generation="-" rtsDate="2025-07-16T16:00:00" />
+        <System brandKey="60" brandPrefix="DPML" systemId="0D32" systemName="Dell Pro Max 14 Premium MA14250" generation="-" rtsDate="2025-07-16T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
