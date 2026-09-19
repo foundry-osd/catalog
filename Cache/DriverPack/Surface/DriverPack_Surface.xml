@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-18T07:39:44Z" category="DriverPack">
-  <Source catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="c136502db7fe73e4144b503a367c31ce950b342fc2e83d88a7ceef681bc22048" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-19T07:35:11Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" catalogSha256="06e0047470902234dc0a455cfe7e78afdcba73acf9418a89e516f58a8055851b" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -599,7 +599,7 @@
       <format>msi</format>
       <version>1.0</version>
       <sizeBytes>934162432</sizeBytes>
-      <datePublished>2026-09-11</datePublished>
+      <datePublished>2026-09-18</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -1050,18 +1050,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108013|SurfacePro11withIntel_Win11_22631_26.081.13472.0.msi</id>
+      <id>108013|SurfacePro11withIntel_Win11_22631_26.083.38253.0.msi</id>
       <model>Surface Pro for Business 11th Edition with Intel</model>
       <downloadTitle>Surface Pro for Business 11th Edition with Intel</downloadTitle>
       <packageId>108013</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108013</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.081.13472.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.081.13472.0.msi</msiUrl>
-      <fileName>SurfacePro11withIntel_Win11_22631_26.081.13472.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.083.38253.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/c26c62fe-da4b-41d1-b276-c855751c247c/SurfacePro11withIntel_Win11_22631_26.083.38253.0.msi</msiUrl>
+      <fileName>SurfacePro11withIntel_Win11_22631_26.083.38253.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>969666560</sizeBytes>
-      <datePublished>2026-09-11</datePublished>
+      <sizeBytes>970203136</sizeBytes>
+      <datePublished>2026-09-18</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
