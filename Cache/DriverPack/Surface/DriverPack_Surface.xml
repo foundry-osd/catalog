@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-21T08:15:45Z" category="DriverPack">
-  <Source catalogSha256="28fafa6ef2ba8972b6fb94cc5c8fb5b9e78514a127d19d264b3e67ae6c309aef" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-22T07:59:45Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="c60260bb657155b292265ce701a8cbc9872c19222fd1620b8e1ebea4c11a24ac" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -768,8 +768,8 @@
     </Item>
     <Item>
       <id>106119|SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi</id>
-      <model>Surface Pro 11th Edition</model>
-      <downloadTitle>Surface Pro 11th Edition</downloadTitle>
+      <model>Surface Pro 11th Edition with Snapdragon</model>
+      <downloadTitle>Surface Pro 11th Edition with Snapdragon</downloadTitle>
       <packageId>106119</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=106119</downloadCenterUrl>
       <downloadUrl>https://download.microsoft.com/download/92821b24-203a-4ce5-9a3a-5df3160a2fe3/SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi</downloadUrl>
@@ -778,7 +778,7 @@
       <format>msi</format>
       <version>1</version>
       <sizeBytes>646807552</sizeBytes>
-      <datePublished>2026-06-24</datePublished>
+      <datePublished>2026-09-21</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
