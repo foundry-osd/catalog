@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-22T07:59:45Z" category="DriverPack">
-  <Source name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="c60260bb657155b292265ce701a8cbc9872c19222fd1620b8e1ebea4c11a24ac" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-23T08:01:17Z" category="DriverPack">
+  <Source catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" catalogSha256="8512c521b831b50a3b1f707a68b0fffbbf3f154a5b0b45513c3fdfc38a76e0e7" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -483,18 +483,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>104679|SurfaceLaptop5_Win11_22631_26.073.32218.0.msi</id>
+      <id>104679|SurfaceLaptop5_Win11_22631_26.084.43979.0.msi</id>
       <model>Surface Laptop 5</model>
       <downloadTitle>Surface Laptop 5</downloadTitle>
       <packageId>104679</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=104679</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.073.32218.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.073.32218.0.msi</msiUrl>
-      <fileName>SurfaceLaptop5_Win11_22631_26.073.32218.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.084.43979.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.084.43979.0.msi</msiUrl>
+      <fileName>SurfaceLaptop5_Win11_22631_26.084.43979.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>900820992</sizeBytes>
-      <datePublished>2026-09-11</datePublished>
+      <sizeBytes>900816896</sizeBytes>
+      <datePublished>2026-09-22</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -513,18 +513,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105946|SurfaceLaptop6forBusiness_Win11_22631_26.072.19202.0.msi</id>
+      <id>105946|SurfaceLaptop6forBusiness_Win11_22631_26.082.26400.0.msi</id>
       <model>Surface Laptop 6 for Business</model>
       <downloadTitle>Surface Laptop 6 for Business</downloadTitle>
       <packageId>105946</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105946</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.072.19202.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.072.19202.0.msi</msiUrl>
-      <fileName>SurfaceLaptop6forBusiness_Win11_22631_26.072.19202.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.082.26400.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/a53facb0-c939-4302-a0d3-53aa18217230/SurfaceLaptop6forBusiness_Win11_22631_26.082.26400.0.msi</msiUrl>
+      <fileName>SurfaceLaptop6forBusiness_Win11_22631_26.082.26400.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1034932224</sizeBytes>
-      <datePublished>2026-08-07</datePublished>
+      <sizeBytes>989396992</sizeBytes>
+      <datePublished>2026-09-22</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -588,18 +588,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108014|SurfaceLaptop7withIntel_Win11_22631_26.072.20743.0.msi</id>
+      <id>108014|SurfaceLaptop7withIntel_Win11_22631_26.081.15509.0.msi</id>
       <model>Surface Laptop for Business 7th Edition with Intel</model>
       <downloadTitle>Surface Laptop for Business 7th Edition with Intel</downloadTitle>
       <packageId>108014</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108014</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.072.20743.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.072.20743.0.msi</msiUrl>
-      <fileName>SurfaceLaptop7withIntel_Win11_22631_26.072.20743.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.081.15509.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/1543bd80-9cae-498d-8b0f-9841e4d7b2a8/SurfaceLaptop7withIntel_Win11_22631_26.081.15509.0.msi</msiUrl>
+      <fileName>SurfaceLaptop7withIntel_Win11_22631_26.081.15509.0.msi</fileName>
       <format>msi</format>
       <version>1.0</version>
-      <sizeBytes>934162432</sizeBytes>
-      <datePublished>2026-09-18</datePublished>
+      <sizeBytes>934506496</sizeBytes>
+      <datePublished>2026-09-22</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -737,18 +737,18 @@
       <supportedOperatingSystems>Windows 10 Windows 8.1 Windows 10 Tech Preview</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105947|SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi</id>
+      <id>105947|SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</id>
       <model>Surface Pro 10 for Business</model>
       <downloadTitle>Surface Pro 10 for Business</downloadTitle>
       <packageId>105947</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105947</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi</msiUrl>
-      <fileName>SurfacePro10forBusiness_Win11_22631_26.071.9611.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</msiUrl>
+      <fileName>SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1022009344</sizeBytes>
-      <datePublished>2026-08-21</datePublished>
+      <sizeBytes>1022263296</sizeBytes>
+      <datePublished>2026-09-22</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
