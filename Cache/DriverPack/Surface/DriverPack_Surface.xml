@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-23T08:01:17Z" category="DriverPack">
-  <Source catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" catalogSha256="8512c521b831b50a3b1f707a68b0fffbbf3f154a5b0b45513c3fdfc38a76e0e7" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-09-24T07:51:48Z" category="DriverPack">
+  <Source catalogSha256="57606ad1e2b034396de48cb88f9867aef644929e14acf6752ce7e7ffea22a250" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -752,18 +752,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>106292|SurfacePro10with5GforBusiness_Win11_22631_26.070.2299.0.msi</id>
+      <id>106292|SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi</id>
       <model>Surface Pro 10 with 5G for Business</model>
       <downloadTitle>Surface Pro 10 with 5G for Business</downloadTitle>
       <packageId>106292</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=106292</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.070.2299.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.070.2299.0.msi</msiUrl>
-      <fileName>SurfacePro10with5GforBusiness_Win11_22631_26.070.2299.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi</msiUrl>
+      <fileName>SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1163358208</sizeBytes>
-      <datePublished>2026-07-30</datePublished>
+      <sizeBytes>1163665408</sizeBytes>
+      <datePublished>2026-09-23</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -1035,18 +1035,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>104680|SurfacePro9_Win11_22631_26.081.6553.0.msi</id>
+      <id>104680|SurfacePro9_Win11_22631_26.084.40704.0.msi</id>
       <model>Surface Pro 9 with Intel</model>
       <downloadTitle>Surface Pro 9 with Intel</downloadTitle>
       <packageId>104680</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=104680</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.081.6553.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.081.6553.0.msi</msiUrl>
-      <fileName>SurfacePro9_Win11_22631_26.081.6553.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.084.40704.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/9a27d0e5-cbce-4933-8fc6-ec5fe5315c69/SurfacePro9_Win11_22631_26.084.40704.0.msi</msiUrl>
+      <fileName>SurfacePro9_Win11_22631_26.084.40704.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>982458368</sizeBytes>
-      <datePublished>2026-08-14</datePublished>
+      <sizeBytes>982401024</sizeBytes>
+      <datePublished>2026-09-23</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
