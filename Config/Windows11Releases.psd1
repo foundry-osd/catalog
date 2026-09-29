@@ -1,11 +1,5 @@
 @{
     Releases = @{
-        '23H2' = @{
-            ReleaseId = '23H2'
-            SourceType = 'StaticCab'
-            CabUrl = 'https://download.microsoft.com/download/6/2/b/62b47bc5-1b28-4bfa-9422-e7a098d326d4/products_win11_20231208.cab'
-            ExpectedBuildMajor = 22631
-        }
         '24H2' = @{
             ReleaseId = '24H2'
             SourceType = 'StaticCab'
@@ -14,10 +8,15 @@
         }
         '25H2' = @{
             ReleaseId = '25H2'
+            SourceType = 'ArchiveOnly'
+            ExpectedBuildMajor = 26200
+        }
+        '26H2' = @{
+            ReleaseId = '26H2'
             SourceType = 'DynamicWindowsUpdate'
             Products = 'PN=Windows.Products.Cab.amd64&V=0.0.0.0'
             DeviceAttributes = 'DUScan=1;OSVersion=10.0.26100.1'
-            ExpectedBuildMajor = 26200
+            ExpectedBuildMajor = 26300
         }
     }
 }

@@ -191,9 +191,10 @@ function Get-ReleaseIdFromBuild {
     }
 
     switch ($buildNumber) {
-        { $_ -ge 26200 } { return '25H2' }
-        { $_ -ge 26100 } { return '24H2' }
-        { $_ -ge 22631 } { return '23H2' }
+        26300 { return '26H2' }
+        26200 { return '25H2' }
+        26100 { return '24H2' }
+        { $_ -gt 22621 } { return $null }
         { $_ -ge 22621 } { return '22H2' }
         { $_ -ge 22000 } { return '21H2' }
         { $_ -ge 19045 } { return '22H2' }
@@ -316,7 +317,7 @@ function Get-ReleaseIdFromText {
     }
 
     $normalized = $Text.ToUpperInvariant()
-    $match = [regex]::Match($normalized, '(25H2|24H2|23H2|22H2|21H2|21H1|20H2|2004|1909|1903|1809|1803|1709|1703|1607|1511|1507)')
+    $match = [regex]::Match($normalized, '(\d{2}H[12]|2004|1909|1903|1809|1803|1709|1703|1607|1511|1507)')
     if ($match.Success) {
         return $match.Groups[1].Value
     }

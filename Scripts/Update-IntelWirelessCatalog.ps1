@@ -186,6 +186,10 @@ function Get-WindowsProductRank {
         return 0
     }
 
+    if ($Products -match 'Windows 11 Client.*26H2') {
+        return 55
+    }
+
     if ($Products -match 'Windows 11 Client.*25H2') {
         return 50
     }

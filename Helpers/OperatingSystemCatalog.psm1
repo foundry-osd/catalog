@@ -189,6 +189,10 @@ function Get-OperatingSystemRetentionPlan {
         [ValidateNotNull()]
         [string[]]$TargetReleases,
 
+        [Parameter(Mandatory = $true)]
+        [ValidateNotNullOrEmpty()]
+        [string[]]$SupportedReleases,
+
         [Parameter()]
         [datetime]$ReferenceDateUtc = [datetime]::UtcNow,
 
@@ -207,15 +211,20 @@ function Get-OperatingSystemRetentionPlan {
         [System.DateTimeKind]::Utc
     ).AddMonths(-($RetentionMonths - 1))
     $targets = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+    $supported = [System.Collections.Generic.HashSet[string]]::new($SupportedReleases, [System.StringComparer]::OrdinalIgnoreCase)
     foreach ($releaseId in $TargetReleases) {
         if (-not [string]::IsNullOrWhiteSpace($releaseId)) {
+            if (-not $supported.Contains($releaseId.Trim())) {
+                throw "Target release '$releaseId' is not supported."
+            }
             $null = $targets.Add($releaseId.Trim())
         }
     }
 
     $keepPaths = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
     foreach ($snapshot in $Snapshots) {
-        if (-not $targets.Contains([string]$snapshot.ReleaseId) -or $snapshot.MediaDate -ge $cutoff) {
+        if ($supported.Contains([string]$snapshot.ReleaseId) -and
+            (-not $targets.Contains([string]$snapshot.ReleaseId) -or $snapshot.MediaDate -ge $cutoff)) {
             $null = $keepPaths.Add([string]$snapshot.Path)
         }
     }
