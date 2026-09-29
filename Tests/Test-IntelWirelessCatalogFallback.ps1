@@ -62,6 +62,13 @@ foreach ($functionDefinition in $functionDefinitions) {
     . ([scriptblock]::Create($functionDefinition.Extent.Text))
 }
 
+$rank26H2 = Get-WindowsProductRank -Products 'Windows 11 Client, version 26H2 and later, Servicing Drivers'
+$rank25H2 = Get-WindowsProductRank -Products 'Windows 11 Client, version 25H2 and later, Servicing Drivers'
+if ($rank26H2 -le $rank25H2) {
+    throw 'Windows 11 26H2 drivers must rank above 25H2 drivers when version and release date are equal.'
+}
+Assert-Equal -Expected 0 -Actual (Get-WindowsProductRank -Products $null) -Message 'Missing Windows products must remain unranked.'
+
 $tempDirectory = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath ('foundry-intel-wireless-test-' + [guid]::NewGuid())
 try {
     $null = New-Item -Path $tempDirectory -ItemType Directory -Force

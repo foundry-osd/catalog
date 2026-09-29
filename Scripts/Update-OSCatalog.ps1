@@ -551,6 +551,7 @@ function Get-ProductsSourceFiles {
         $retentionPlan = Get-OperatingSystemRetentionPlan `
             -Snapshots $transactionSnapshots `
             -TargetReleases $normalizedTargetReleases `
+            -SupportedReleases @($script:windows11ReleaseSources.Keys) `
             -ReferenceDateUtc $RetentionReferenceDateUtc `
             -RetentionMonths $RetentionMonths
         foreach ($snapshot in $retentionPlan.Delete) {

@@ -48,7 +48,9 @@ Run:
 pwsh -NoProfile -File ./Scripts/Update-OSCatalog.ps1
 ```
 
-The script targets Windows 11 `23H2`, `24H2`, and `25H2` only, with no fallback to repository-pinned source catalogs. It uses Microsoft-hosted `products.cab` links for `23H2` and `24H2`, and Windows Update metadata resolution for `25H2`.
+The script targets Windows 11 `24H2`, `25H2`, and `26H2`, as defined in `Config/Windows11Releases.psd1`. It uses a Microsoft-hosted `products.cab` link for `24H2`, retains the checked-in Microsoft source snapshots for `25H2` (`ArchiveOnly`), and resolves the current `26H2` metadata through Windows Update. The dynamic endpoint advances when Microsoft publishes a new release, so it must not remain assigned to an older release. Downloaded media must match the configured build before publication; a failed download does not silently fall back to archived metadata.
+
+Source snapshots retain 12 calendar months of history, with at least the newest snapshot kept for each targeted release. Snapshots for releases removed from the configuration are deleted during a successful refresh. Catalog availability follows Foundry's supported release list.
 
 Generated source files use the naming convention `Win<major>_<releaseId>_<build>_<mediaDate>.xml`, for example `Win11_24H2_26100.4349_20250607.xml`.
 

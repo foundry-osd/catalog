@@ -49,6 +49,8 @@ $configPath = Join-Path -Path $PSScriptRoot -ChildPath '..\Config\Windows11Relea
 $configuration = Import-OperatingSystemReleaseConfiguration -Path $configPath
 Assert-Equal -Expected 3 -Actual $configuration.Count -Message 'Release configuration count is incorrect.'
 Assert-Equal -Expected 26200 -Actual $configuration['25H2'].ExpectedBuildMajor -Message '25H2 build mapping is incorrect.'
+Assert-Equal -Expected 26300 -Actual $configuration['26H2'].ExpectedBuildMajor -Message '26H2 build mapping is incorrect.'
+Assert-Equal -Expected 'ArchiveOnly' -Actual $configuration['25H2'].SourceType -Message '25H2 must retain snapshots after the dynamic source advances.'
 
 $invalidConfigurations = @(
     @{
@@ -78,21 +80,27 @@ Assert-Equal -Expected 8873 -Actual $snapshot.BuildUbr -Message 'Snapshot UBR is
 Assert-Throws -Action { Get-OperatingSystemSnapshotDefinition -FileName 'Win11_25H2_26200.xml' } -Message 'Legacy snapshot name was accepted.'
 
 $snapshots = @(
-    [pscustomobject]@{ Path = '23-old.xml'; ReleaseId = '23H2'; MediaDate = [datetime]'2023-12-04'; BuildMajor = 22631; BuildUbr = 2861 },
+    [pscustomobject]@{ Path = 'unsupported-old.xml'; ReleaseId = '99H1'; MediaDate = [datetime]'2023-12-04'; BuildMajor = 99999; BuildUbr = 1 },
     [pscustomobject]@{ Path = '25-old.xml'; ReleaseId = '25H2'; MediaDate = [datetime]'2024-01-10'; BuildMajor = 26200; BuildUbr = 100 },
     [pscustomobject]@{ Path = '25-newest-old.xml'; ReleaseId = '25H2'; MediaDate = [datetime]'2024-02-10'; BuildMajor = 26200; BuildUbr = 200 },
     [pscustomobject]@{ Path = '25-aug-a.xml'; ReleaseId = '25H2'; MediaDate = [datetime]'2025-08-05'; BuildMajor = 26200; BuildUbr = 300 },
     [pscustomobject]@{ Path = '25-aug-b.xml'; ReleaseId = '25H2'; MediaDate = [datetime]'2025-08-20'; BuildMajor = 26200; BuildUbr = 301 },
-    [pscustomobject]@{ Path = '25-jul.xml'; ReleaseId = '25H2'; MediaDate = [datetime]'2026-07-10'; BuildMajor = 26200; BuildUbr = 8873 }
+    [pscustomobject]@{ Path = '25-jul.xml'; ReleaseId = '25H2'; MediaDate = [datetime]'2026-07-10'; BuildMajor = 26200; BuildUbr = 8873 },
+    [pscustomobject]@{ Path = '24-old.xml'; ReleaseId = '24H2'; MediaDate = [datetime]'2025-06-07'; BuildMajor = 26100; BuildUbr = 4349 },
+    [pscustomobject]@{ Path = 'unsupported-recent.xml'; ReleaseId = '99H1'; MediaDate = [datetime]'2026-07-10'; BuildMajor = 99999; BuildUbr = 2 }
 )
-$retentionPlan = Get-OperatingSystemRetentionPlan -Snapshots $snapshots -TargetReleases @('25H2') -ReferenceDateUtc ([datetime]'2026-07-28') -RetentionMonths 12
+$retentionPlan = Get-OperatingSystemRetentionPlan -Snapshots $snapshots -TargetReleases @('25H2') -SupportedReleases @('24H2', '25H2', '26H2') -ReferenceDateUtc ([datetime]'2026-07-28') -RetentionMonths 12
 Assert-Equal -Expected 4 -Actual $retentionPlan.Keep.Count -Message 'Retention keep count is incorrect.'
-Assert-Equal -Expected 2 -Actual $retentionPlan.Delete.Count -Message 'Retention delete count is incorrect.'
+Assert-Equal -Expected 4 -Actual $retentionPlan.Delete.Count -Message 'Retention delete count is incorrect.'
 Assert-Equal -Expected 1 -Actual @($retentionPlan.Delete | Where-Object Path -eq '25-old.xml').Count -Message 'Oldest targeted snapshot was not deleted.'
-Assert-Equal -Expected 0 -Actual @($retentionPlan.Delete | Where-Object ReleaseId -eq '23H2').Count -Message 'Untargeted snapshot was deleted.'
+Assert-Equal -Expected 0 -Actual @($retentionPlan.Delete | Where-Object ReleaseId -eq '24H2').Count -Message 'Untargeted supported snapshot was deleted.'
+Assert-Equal -Expected 2 -Actual @($retentionPlan.Delete | Where-Object ReleaseId -eq '99H1').Count -Message 'Retired snapshots must be deleted regardless of age.'
 
-$oldOnlyPlan = Get-OperatingSystemRetentionPlan -Snapshots $snapshots[1..2] -TargetReleases @('25H2') -ReferenceDateUtc ([datetime]'2026-07-28') -RetentionMonths 12
+$oldOnlyPlan = Get-OperatingSystemRetentionPlan -Snapshots $snapshots[1..2] -TargetReleases @('25H2') -SupportedReleases @('24H2', '25H2', '26H2') -ReferenceDateUtc ([datetime]'2026-07-28') -RetentionMonths 12
 Assert-Equal -Expected '25-newest-old.xml' -Actual $oldOnlyPlan.Keep[0].Path -Message 'Newest old snapshot was not preserved.'
+Assert-Throws -Action {
+    Get-OperatingSystemRetentionPlan -Snapshots $snapshots -TargetReleases @('99H1') -SupportedReleases @('24H2', '25H2', '26H2')
+} -Message 'A retired release was allowed to preserve its newest snapshot.'
 
 $tempDirectory = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath ('foundry-os-history-test-' + [guid]::NewGuid())
 try {
