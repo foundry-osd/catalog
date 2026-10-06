@@ -119,6 +119,44 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Download vendor patch artifacts
+        uses: actions/download-artifact@v8
+        continue-on-error: true
+        with:
+          pattern: cache-update-*
+          merge-multiple: true
+          path: vendor-patches
+
+      # Build the unified catalogs from today's vendor caches, not the checked-out ones.
+      # The vendor changes are committed locally so the unified patch below only carries unified outputs.
+      - name: Apply vendor patches
+        shell: pwsh
+        run: |
+          if (-not (Test-Path -Path 'vendor-patches')) {
+            Write-Host 'No vendor patch artifacts found.'
+            exit 0
+          }
+
+          $patchFiles = @(Get-ChildItem -Path 'vendor-patches' -Filter '*.patch' -File | Sort-Object -Property Name)
+          foreach ($patchFile in $patchFiles) {
+            git apply --index --whitespace=nowarn $patchFile.FullName
+            if ($LASTEXITCODE -ne 0) {
+              throw "Failed to apply vendor patch '$($patchFile.Name)'."
+            }
+          }
+
+          Remove-Item -Path 'vendor-patches' -Recurse -Force
+
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            exit 0
+          }
+
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit --quiet -m 'Apply vendor cache updates'
+          if ($LASTEXITCODE -ne 0) {
+            throw 'Failed to commit vendor cache updates locally.'
+          }
+
       - name: Execute unified build
         shell: pwsh
         run: pwsh -NoProfile -File "Scripts/Build-UnifiedDriverPackCatalog.ps1"
