@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<OperatingSystemCatalog schemaVersion="4" generatedAtUtc="2026-10-05T09:40:39Z">
+<OperatingSystemCatalog schemaVersion="4" generatedAtUtc="2026-10-06T09:29:51Z">
   <Source name="Foundry Automated OS Catalog Generation" directory="Microsoft" />
   <Sources>
     <Source id="Win11_26H2_26300.9457_20260913" windowsMajor="11" releaseId="26H2" build="26300.9457" buildMajor="26300" buildUbr="9457" mediaDate="2026-09-13" sourceFile="Microsoft/Win11_26H2_26300.9457_20260913.xml" sourceXmlSha256="c67fd879d024779daa84683247188f190efd1e581b3735496f5e19b120419bd0" itemCount="1978" />
