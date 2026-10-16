@@ -29,7 +29,7 @@ Run manually:
 pwsh -NoProfile -File ./Scripts/Build-UnifiedDriverPackCatalog.ps1
 ```
 
-In GitHub Actions, `run-scripts-daily.yml` executes all `Update-*.ps1` scripts first and runs `Build-UnifiedDriverPackCatalog.ps1` only after those jobs succeed. Scripts listed in `$pausedScripts` in that workflow are skipped and keep their committed cache.
+In GitHub Actions, `run-scripts-daily.yml` executes all `Update-*.ps1` scripts first and runs `Build-UnifiedDriverPackCatalog.ps1` only after those jobs succeed.
 
 ## Operating System Catalog
 
