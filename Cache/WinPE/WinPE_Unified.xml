@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-10-15T07:47:44Z" totalItems="18" category="WinPE">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-10-16T07:35:59Z" totalItems="18" category="WinPE">
   <Metadata name="Foundry Unified WinPE Catalog" description="Normalized WinPE catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
-    <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-05-29T00:00:00Z" itemCount="9" />
+    <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-10-14T00:00:00Z" itemCount="9" />
     <Source manufacturer="HP" catalogUrl="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" lastUpdated="2026-06-22T00:00:00Z" itemCount="8" />
     <Source manufacturer="Intel" catalogUrl="https://www.catalog.update.microsoft.com/" lastUpdated="2026-04-12T00:00:00Z" itemCount="1" />
   </Sources>
@@ -15,9 +15,9 @@
       <OsInfo name="WinPE" releaseId="10" architecture="x64" />
       <Hashes md5="13D1360DEBFC2E539BC8E04D9DAA0C97" sha256="8B4F308A2EC886F7421B5F9A2CA97F25C89AF1FB6AA7631BB42BBC52531AB924" />
     </DriverPack>
-    <DriverPack id="XCXDW" packageId="XCXDW" manufacturer="Dell" name="WinPE11.0-Drivers-A10-XCXDW.cab" version="A10" fileName="WinPE11.0-Drivers-A10-XCXDW.cab" downloadUrl="https://downloads.dell.com/FOLDER14542934M/1/WinPE11.0-Drivers-A10-XCXDW.cab" sizeBytes="33410892" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-05-29">
+    <DriverPack id="KHF4P" packageId="KHF4P" manufacturer="Dell" name="WinPE11.0-Drivers-A11-KHF4P.cab" version="A11" fileName="WinPE11.0-Drivers-A11-KHF4P.cab" downloadUrl="https://downloads.dell.com/FOLDER15124725M/1/WinPE11.0-Drivers-A11-KHF4P.cab" sizeBytes="35871956" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2026-10-14">
       <OsInfo name="WinPE" releaseId="11" architecture="x64" />
-      <Hashes md5="6F8D68ECF6876B9E22855C614E2D5788" sha256="38863DE5B8AC148C6C32622E643B98E3017FEDBA33910C48AA2F3CBA2956CD21" />
+      <Hashes md5="2AC78623E50D468EDEDD77F6960FF1A1" sha256="39665D324E4B090F4BCFC7DB434B0D9B3924C554694E1BCD7C55675984576830" />
     </DriverPack>
     <DriverPack id="MJ53D|x64" packageId="MJ53D" manufacturer="Dell" name="WinPE3.0-Drivers-A23-MJ53D.CAB" version="A23" fileName="WinPE3.0-Drivers-A23-MJ53D.CAB" downloadUrl="https://downloads.dell.com/FOLDER05323227M/1/WinPE3.0-Drivers-A23-MJ53D.CAB" sizeBytes="179684132" format="cab" type="WinPE" packageRole="BaseDriverPack" releaseDate="2018-11-21">
       <OsInfo name="WinPE" releaseId="3" architecture="x64" />
