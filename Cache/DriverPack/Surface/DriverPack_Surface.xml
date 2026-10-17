@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-10-16T18:31:09Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="f7c3c0c08d5fde0ac5f713e35aee207982d9ee89f5d267612899955e65e3c862" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-10-17T07:14:01Z" category="DriverPack">
+  <Source catalogSha256="9bce4cf8a2cd87d89430f14098e72b16f417b4694a2132361272f5873bf1f2c4" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -378,6 +378,21 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
+      <id>108876|SurfaceLaptop13in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</id>
+      <model>Surface Laptop 13-inch 2nd Edition with Snapdragon</model>
+      <downloadTitle>Surface Laptop 13-inch 2nd Edition with Snapdragon</downloadTitle>
+      <packageId>108876</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108876</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/30ff24b5-e65e-4fde-9c22-491e6ac81c16/SurfaceLaptop13in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/30ff24b5-e65e-4fde-9c22-491e6ac81c16/SurfaceLaptop13in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</msiUrl>
+      <fileName>SurfaceLaptop13in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</fileName>
+      <format>msi</format>
+      <version>1</version>
+      <sizeBytes>687312896</sizeBytes>
+      <datePublished>2026-10-14</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
       <id>57515|SurfaceLaptop2_Win10_19041_22.080.1424.0.msi</id>
       <model>Surface Laptop 2</model>
       <downloadTitle>Surface Laptop 2 Drivers and Firmware</downloadTitle>
@@ -737,18 +752,18 @@
       <supportedOperatingSystems>Windows 10 Windows 8.1 Windows 10 Tech Preview</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105947|SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</id>
+      <id>105947|SurfacePro10forBusiness_Win11_22631_26.091.15004.0.msi</id>
       <model>Surface Pro 10 for Business</model>
       <downloadTitle>Surface Pro 10 for Business</downloadTitle>
       <packageId>105947</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105947</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</msiUrl>
-      <fileName>SurfacePro10forBusiness_Win11_22631_26.074.44232.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.091.15004.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/9185dccf-8be8-4395-8eda-a45cbf93ed91/SurfacePro10forBusiness_Win11_22631_26.091.15004.0.msi</msiUrl>
+      <fileName>SurfacePro10forBusiness_Win11_22631_26.091.15004.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1022263296</sizeBytes>
-      <datePublished>2026-09-22</datePublished>
+      <sizeBytes>1022406656</sizeBytes>
+      <datePublished>2026-10-16</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -808,6 +823,21 @@
       <version>1</version>
       <sizeBytes>54</sizeBytes>
       <datePublished>2026-06-24</datePublished>
+      <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
+    </Item>
+    <Item>
+      <id>108877|SurfacePro12in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</id>
+      <model>Surface Pro 12-inch 2nd Edition with Snapdragon</model>
+      <downloadTitle>Surface Pro 12-inch 2nd Edition with Snapdragon</downloadTitle>
+      <packageId>108877</packageId>
+      <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108877</downloadCenterUrl>
+      <downloadUrl>https://download.microsoft.com/download/3df31041-667b-4bf4-b99e-a2722059ab53/SurfacePro12in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/3df31041-667b-4bf4-b99e-a2722059ab53/SurfacePro12in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</msiUrl>
+      <fileName>SurfacePro12in2ndEditionwithSnapdragon_Win11_28000_26.083.37733.0.msi</fileName>
+      <format>msi</format>
+      <version>1</version>
+      <sizeBytes>808103936</sizeBytes>
+      <datePublished>2026-10-14</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
