@@ -27,8 +27,7 @@ jobs:
         shell: pwsh
         run: |
           # Paused update scripts keep their committed cache until they are removed from this list.
-          # Update-DellCatalog.ps1: Dell removed its Windows 11 driver packs from its catalog (foundry-osd/foundry#448).
-          $pausedScripts = @('Update-DellCatalog.ps1')
+          $pausedScripts = @()
           foreach ($pausedScript in $pausedScripts) {
             Write-Host "::warning::$pausedScript is paused; its committed cache is kept."
           }
