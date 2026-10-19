@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HPCatalog schemaVersion="1" generatedAtUtc="2026-10-19T08:08:58Z" category="DriverPack">
-  <Source platformListExtractedSha256="0205285e239af7d86fd6d694fdb98fe609e80adf9993aa965f3c36996deddfb0" extractedSha256="a5881457a2396a43190158888ec19f0ca467bc9a66d583711e912a6616cd79cc" platformListUri="https://ftp.hp.com/pub/caps-softpaq/cmit/imagepal/ref/platformList.cab" name="HP Client DriverPack Catalog" uri="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" catalogSha256="1eca03cc7a2ba0c597b80bce6d1d0acbdec7b3325a8a9d2cdb88c7219741f90e" extractedFile="HPClientDriverPackCatalog.xml" platformListExtractedFile="platformList.xml" catalogType="DriverPackCatalogCab" platformListCatalogSha256="bd7da22a69db5fe86986a8cef1cb6dcbb2fab6721158f0ddb5ad985ba3b7c149" />
-  <CatalogMetadata dateReleased="2026-10-16" toolVersion="1.2.20.0" schemaVersion="1.0.0.0" />
+<HPCatalog schemaVersion="1" generatedAtUtc="2026-10-19T21:17:38Z" category="DriverPack">
+  <Source catalogType="DriverPackCatalogCab" uri="https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HPClientDriverPackCatalog.cab" catalogSha256="1eca03cc7a2ba0c597b80bce6d1d0acbdec7b3325a8a9d2cdb88c7219741f90e" platformListCatalogSha256="bd7da22a69db5fe86986a8cef1cb6dcbb2fab6721158f0ddb5ad985ba3b7c149" platformListExtractedSha256="0205285e239af7d86fd6d694fdb98fe609e80adf9993aa965f3c36996deddfb0" platformListUri="https://ftp.hp.com/pub/caps-softpaq/cmit/imagepal/ref/platformList.cab" extractedFile="HPClientDriverPackCatalog.xml" extractedSha256="a5881457a2396a43190158888ec19f0ca467bc9a66d583711e912a6616cd79cc" platformListExtractedFile="platformList.xml" name="HP Client DriverPack Catalog" />
+  <CatalogMetadata toolVersion="1.2.20.0" schemaVersion="1.0.0.0" dateReleased="2026-10-16" />
   <Items>
     <Item>
       <id>2100314059|874d,874e|4263|sp123503</id>

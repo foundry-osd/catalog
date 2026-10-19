@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DellCatalog schemaVersion="1" generatedAtUtc="2026-10-15T07:46:27Z" category="DriverPack">
-  <Source catalogXmlFile="DriverPackCatalog.xml" name="Dell Driver Pack Catalog" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" catalogCabSha256="1d7c9a5e87fa1be81a00aaef25e6a34a96aaffba2999138659ec69408fa20bab" catalogXmlSha256="17c0ccaac4172d3fb1d422a5253bb99b97f379929b209c92e6b709f7fca68225" />
-  <CatalogMetadata schemaVersion="2.3" dateTime="2026-09-22T09:20:13" baseLocationAccessProtocols="HTTP FTP" version="2026.09.04" baseLocation="downloads.dell.com" />
+<DellCatalog schemaVersion="1" generatedAtUtc="2026-10-19T21:17:37Z" category="DriverPack">
+  <Source catalogXmlFile="DriverPackCatalog.xml" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" catalogXmlSha256="d310e54d4eb6f7d136fd037d7702230189646655e7ca7e9a3185a7ba13735eb5" name="Dell Driver Pack Catalog" catalogCabSha256="9e9ee669b206aca6a1fd1c194b3eb31498887069f7533cda4d48fb2bb060bbdb" />
+  <CatalogMetadata dateTime="2026-10-16T13:10:39" baseLocationAccessProtocols="HTTP FTP" schemaVersion="2.3" version="2026.10.02" baseLocation="downloads.dell.com" />
   <Items>
     <Item>
       <releaseId>001T5</releaseId>
@@ -143,6 +143,34 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows8.1" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="3" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>01JH0</releaseId>
+      <type>Win</type>
+      <name>XPS-16-9640-01JH0_Win11_1.0_A07.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A07</dellVersion>
+      <dateTime>2025-08-24T23:48:03</dateTime>
+      <hashMD5>CD1E197F591EDBCBCCDCFBF22DF0F8EB</hashMD5>
+      <hashSHA1>A23375F99E28AEA9E2E53BC1AFB2AD6A6DDA8320</hashSHA1>
+      <hashSHA256>2A978CE11E8A1B933B8EB9ECBAECFABC6D46D14C4F61B766324C13E5E95CF3DD</hashSHA256>
+      <sizeBytes>3040637048</sizeBytes>
+      <path>FOLDER13359086M/1/XPS-16-9640-01JH0_Win11_1.0_A07.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER13359086M/1/XPS-16-9640-01JH0_Win11_1.0_A07.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="72" brandPrefix="XPSNOTEBOOK" systemId="0C62" systemName="XPS 16 9640" rtsDate="2024-01-30T16:00:00" />
+        <System brandKey="72" brandPrefix="XPSNOTEBOOK" systemId="0C63" systemName="XPS 16 9640" rtsDate="2024-01-30T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -738,6 +766,34 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>0DR7C</releaseId>
+      <type>Win</type>
+      <name>DT1265-0DR7C_Win11_1.0_A03.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A03</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>7AA01B6F80600FBD224E663216EF388C</hashMD5>
+      <hashSHA1>E6131E9C8E3D2EA501274FA4D111045646566887</hashSHA1>
+      <hashSHA256>4081C2E23297EEFDA34AB57216424FC0698B783BC23193B17BC703C02FCE517A</hashSHA256>
+      <sizeBytes>2027929112</sizeBytes>
+      <path>FOLDER14913991M/1/DT1265-0DR7C_Win11_1.0_A03.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14913991M/1/DT1265-0DR7C_Win11_1.0_A03.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="54" brandPrefix="DD" systemId="0E0D" systemName="Dell Tower DT1265" generation="-" rtsDate="2026-02-19T16:00:00" />
+        <System brandKey="54" brandPrefix="DD" systemId="0E7C" systemName="Dell Tower DT1265" generation="-" rtsDate="2026-02-19T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -1390,6 +1446,34 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>11RGM</releaseId>
+      <type>Win</type>
+      <name>DS1265-11RGM_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
+      <dateTime>2026-08-11T01:07:36</dateTime>
+      <hashMD5>BE6EC94E8C1EE49E0A9934442F294C88</hashMD5>
+      <hashSHA1>B63685AEFD2BDE4F62878FC1C5EF1CCBDA7176F3</hashSHA1>
+      <hashSHA256>3E31A8C011BF394A154D16D31D3937C8889A95047DD4DA079DD5AF657FE88751</hashSHA256>
+      <sizeBytes>1003349112</sizeBytes>
+      <path>FOLDER14873746M/1/DS1265-11RGM_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14873746M/1/DS1265-11RGM_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="54" brandPrefix="DD" systemId="0E0F" systemName="Dell Slim DS1265" generation="-" rtsDate="2026-02-19T16:00:00" />
+        <System brandKey="54" brandPrefix="DD" systemId="0E7E" systemName="Dell Slim DS1265" generation="-" rtsDate="2026-02-19T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>121HY</releaseId>
       <type>Win</type>
       <name>PB14250-121HY_Win11_1.0_A08.exe</name>
@@ -1433,7 +1517,63 @@
       <format>exe</format>
       <vendorVersion>1.0</vendorVersion>
       <dellVersion>A05</dellVersion>
+      <dateTime>2023-11-24T04:05:13</dateTime>
+      <hashMD5>38B526A259D1E3D7EDD37343C1786584</hashMD5>
+      <hashSHA1>71542CFB5B5EAC97512E8B58D8548E4F522B9AF0</hashSHA1>
+      <hashSHA256>384CACD25B40C84757364931461C29824887AD5CBC6319F5ADD45F31FD84409B</hashSHA256>
+      <sizeBytes>2891197704</sizeBytes>
+      <path>FOLDER10865490M/1/Precision-5820-Tower-12CM4_Win11_1.0_A05.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER10865490M/1/Precision-5820-Tower-12CM4_Win11_1.0_A05.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0738" systemName="Precision 5820 Tower" generation="X10" rtsDate="2017-09-28T05:00:00" />
+        <System brandKey="11" brandPrefix="PRE" systemId="08B1" systemName="Precision 5820 Tower" generation="X10" rtsDate="2017-09-28T05:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>12CM4</releaseId>
+      <type>Win</type>
+      <name>Precision-5820-Tower-12CM4_Win11_1.0_A05.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A05</dellVersion>
       <dateTime>2023-11-24T15:35:13</dateTime>
+      <hashMD5>38B526A259D1E3D7EDD37343C1786584</hashMD5>
+      <hashSHA1>71542CFB5B5EAC97512E8B58D8548E4F522B9AF0</hashSHA1>
+      <hashSHA256>384CACD25B40C84757364931461C29824887AD5CBC6319F5ADD45F31FD84409B</hashSHA256>
+      <sizeBytes>2891197704</sizeBytes>
+      <path>FOLDER10865490M/1/Precision-5820-Tower-12CM4_Win11_1.0_A05.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER10865490M/1/Precision-5820-Tower-12CM4_Win11_1.0_A05.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0738" systemName="Precision 5820 Tower" generation="X10" rtsDate="2017-09-28T05:00:00" />
+        <System brandKey="11" brandPrefix="PRE" systemId="08B1" systemName="Precision 5820 Tower" generation="X10" rtsDate="2017-09-28T05:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>12CM4</releaseId>
+      <type>Win</type>
+      <name>Precision-5820-Tower-12CM4_Win11_1.0_A05.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A05</dellVersion>
+      <dateTime>2023-11-24T04:05:13</dateTime>
       <hashMD5>38B526A259D1E3D7EDD37343C1786584</hashMD5>
       <hashSHA1>71542CFB5B5EAC97512E8B58D8548E4F522B9AF0</hashSHA1>
       <hashSHA256>384CACD25B40C84757364931461C29824887AD5CBC6319F5ADD45F31FD84409B</hashSHA256>
@@ -1991,33 +2131,6 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
-      <releaseId>1K9FW</releaseId>
-      <type>Win</type>
-      <name>RA02260-1K9FW_Win10_1.0_A03.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A03</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>4FD229D6B8E15F01BA6BD687997379D9</hashMD5>
-      <hashSHA1>F9A8DF44AF5F041293A6F867E4641824D6BAB217</hashSHA1>
-      <hashSHA256>6102B6FA1DD6169F0BC8D4F9A7D8AE2322CBACB0B240CDA1B5291061F7445D0E</hashSHA256>
-      <sizeBytes>1240838056</sizeBytes>
-      <path>FOLDER14753854M/1/RA02260-1K9FW_Win10_1.0_A03.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14753854M/1/RA02260-1K9FW_Win10_1.0_A03.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="61" brandPrefix="DPRL" systemId="0D67" systemName="Dell Pro Rugged 12 Tablet RA02260" generation="-" rtsDate="2025-10-06T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
       <releaseId>1MFCV</releaseId>
       <type>Win</type>
       <name>5490-1MFCV_Win11_1.0_A00.exe</name>
@@ -2549,6 +2662,60 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>21T49</releaseId>
+      <type>Win</type>
+      <name>Latitude-5455-21T49_Win11_1.0_A00.cab</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>cab</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A00</dellVersion>
+      <dateTime>2026-10-14T02:18:04</dateTime>
+      <hashMD5>C7DB6B2B01B5412D93549A5B66F38632</hashMD5>
+      <hashSHA1>D6642931D36F88417F3F09C0FCCD1DA7C1DE727C</hashSHA1>
+      <hashSHA256>6410B95DC4689E8AF6552559057282113E60CAE763FF857D68E758EC601093A6</hashSHA256>
+      <sizeBytes>462474526</sizeBytes>
+      <path>FOLDER14902820M/1/Latitude-5455-21T49_Win11_1.0_A00.cab</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14902820M/1/Latitude-5455-21T49_Win11_1.0_A00.cab</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0C83" systemName="Latitude 5455" generation="-" rtsDate="2024-09-22T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="ARM64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>231XR</releaseId>
+      <type>Win</type>
+      <name>PR713260-231XR_Win11_1.0_A00.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A00</dellVersion>
+      <dateTime>2026-10-13T05:17:03</dateTime>
+      <hashMD5>9A94D5B7FBD5E3169C42D828B23DA2BD</hashMD5>
+      <hashSHA1>2FDC2CAFFDEEA4CA2361E936199A34F54506BAC9</hashSHA1>
+      <hashSHA256>F4A9C7B45327AC25DD81DA63E00333D3263D168595F7E4407C13EB8E3F3F1848</hashSHA256>
+      <sizeBytes>1106188544</sizeBytes>
+      <path>FOLDER14857519M/1/PR713260-231XR_Win11_1.0_A00.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14857519M/1/PR713260-231XR_Win11_1.0_A00.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="61" brandPrefix="DPRL" systemId="0E05" systemName="Dell Pro Rugged 13 Extreme PR713260" generation="-" rtsDate="2026-09-28T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>23V7P</releaseId>
       <type>Win</type>
       <name>R7910-win10-A05-23V7P.CAB</name>
@@ -2888,6 +3055,34 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>2GYW9</releaseId>
+      <type>Win</type>
+      <name>7320-2GYW9_Win10_1.0_A11.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A11</dellVersion>
+      <dateTime>2024-02-08T23:36:09</dateTime>
+      <hashMD5>63D271FF5B628DC0E25307A115530774</hashMD5>
+      <hashSHA1>705FB0394252BC6D69E978F77A0B94F232A8A5EB</hashSHA1>
+      <hashSHA256>CE070F35882192D515BFDC7E26C4E09006BCB1A71D461BBB99938C971ED0EE4E</hashSHA256>
+      <sizeBytes>1683317480</sizeBytes>
+      <path>FOLDER10956439M/1/7320-2GYW9_Win10_1.0_A11.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER10956439M/1/7320-2GYW9_Win10_1.0_A11.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0A34" systemName="Latitude 7320" generation="X12" rtsDate="2020-12-29T06:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0A35" systemName="Latitude 7320" generation="X12" rtsDate="2020-12-29T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>2H6CX</releaseId>
       <type>Win</type>
       <name>7720-Win8.1-A01-2H6CX.CAB</name>
@@ -2913,33 +3108,6 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows8.1" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="3" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
-      <releaseId>2HHDX</releaseId>
-      <type>Win</type>
-      <name>RA00260-2HHDX_Win11_1.0_A03.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A03</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>34D1B1E1436C3F336999185E191D91F0</hashMD5>
-      <hashSHA1>AC7583C993E603A2B688D88DA02A0F05C5CE2B43</hashSHA1>
-      <hashSHA256>286DC274BB26BE6D6B6280AB67DFD3895B03883CC0259251E579A0497A94E913</hashSHA256>
-      <sizeBytes>1113808752</sizeBytes>
-      <path>FOLDER14690336M/1/RA00260-2HHDX_Win11_1.0_A03.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14690336M/1/RA00260-2HHDX_Win11_1.0_A03.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="61" brandPrefix="DPRL" systemId="0D66" systemName="Dell Pro Rugged 10 Tablet RA00260" generation="-" rtsDate="2025-10-06T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -3078,34 +3246,6 @@
       <SupportedSystems>
         <System brandKey="4" brandPrefix="LAT" systemId="09EC" systemName="Latitude 3410" generation="x11" rtsDate="2020-05-04T05:00:00" />
         <System brandKey="4" brandPrefix="LAT" systemId="09F1" systemName="Latitude 3410" generation="x11" rtsDate="2020-05-04T05:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
-      <releaseId>2M87N</releaseId>
-      <type>Win</type>
-      <name>Latitude-7350-Detachable-2M87N_Win11_1.0_A09.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A09</dellVersion>
-      <dateTime>2026-04-10T02:09:16</dateTime>
-      <hashMD5>D19D97794A3FBE106E5F0EE38410DA49</hashMD5>
-      <hashSHA1>D26E52BA787E7CEAE069A66260A0DBAB4CA0A383</hashSHA1>
-      <hashSHA256>19919793CE33E3C925814D689D5FB1A341C25E0671403284DF20B19B814EE9AD</hashSHA256>
-      <sizeBytes>1130164424</sizeBytes>
-      <path>FOLDER14355831M/1/Latitude-7350-Detachable-2M87N_Win11_1.0_A09.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14355831M/1/Latitude-7350-Detachable-2M87N_Win11_1.0_A09.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="4" brandPrefix="LAT" systemId="0C64" systemName="Latitude 7350 Detachable" rtsDate="2024-04-02T04:00:00" />
-        <System brandKey="4" brandPrefix="LAT" systemId="0DAA" systemName="Latitude 7350 Detachable" rtsDate="2024-04-02T04:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -3419,6 +3559,34 @@
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Vista" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="6" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
         <OperatingSystem osCode="Vista" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>2XWPG</releaseId>
+      <type>Win</type>
+      <name>3400-2XWPG_Win11_1.0_A01.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A01</dellVersion>
+      <dateTime>2024-03-22T05:21:28</dateTime>
+      <hashMD5>09166D8D80960523AA53DE336791E7B0</hashMD5>
+      <hashSHA1>AA52417FEC55D80062B20C2A94D6C224FC5CC312</hashSHA1>
+      <hashSHA256>DB88E21B2E6FD59F325086E8BE48541D56E2974B49C598B5F45AC6B50946A165</hashSHA256>
+      <sizeBytes>2154819408</sizeBytes>
+      <path>FOLDER11353259M/1/3400-2XWPG_Win11_1.0_A01.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER11353259M/1/3400-2XWPG_Win11_1.0_A01.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="08BC" systemName="Latitude 3400" generation="X10" rtsDate="2019-03-05T06:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="08BE" systemName="Latitude 3400" generation="X10" rtsDate="2019-03-05T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -4717,6 +4885,33 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>45TC4</releaseId>
+      <type>Win</type>
+      <name>RA02260-45TC4_Win11_1.0_A04.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A04</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>8A7B2BEBB61BAD83DD713B5569CA57AC</hashMD5>
+      <hashSHA1>B5E56BC51145E416689BDFE82312414B0F40C2BF</hashSHA1>
+      <hashSHA256>E9C9DBF0B748FE35973275ED8363DFE32FB2053C64F568ECB846F357E8EF8C76</hashSHA256>
+      <sizeBytes>1224720464</sizeBytes>
+      <path>FOLDER14939714M/1/RA02260-45TC4_Win11_1.0_A04.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14939714M/1/RA02260-45TC4_Win11_1.0_A04.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="61" brandPrefix="DPRL" systemId="0D67" systemName="Dell Pro Rugged 12 Tablet RA02260" generation="-" rtsDate="2025-10-06T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>45VJ9</releaseId>
       <type>Win</type>
       <name>7212-win7-A08-45VJ9.CAB</name>
@@ -4826,6 +5021,33 @@
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>47WY2</releaseId>
+      <type>Win</type>
+      <name>PE14260-47WY2_Win11_1.0_A03.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A03</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>7B26E1A17315E81A201B1EA5D40AA2B2</hashMD5>
+      <hashSHA1>C9AC92633CF3FF63ABBA69B0B90BE36AC0BAB364</hashSHA1>
+      <hashSHA256>5B1C7E83976B454722945FCDAF89B8345F02176A730F4EA91411681262C492D7</hashSHA256>
+      <sizeBytes>676127992</sizeBytes>
+      <path>FOLDER14927120M/1/PE14260-47WY2_Win11_1.0_A03.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14927120M/1/PE14260-47WY2_Win11_1.0_A03.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="55" brandPrefix="DEL" systemId="0DED" systemName="Dell Pro Education 14 PE14260" generation="-" rtsDate="2026-02-13T05:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -4961,6 +5183,36 @@
       <downloadUrl>https://downloads.dell.com/FOLDER09535409M/1/5411-4CK98_Win11_1.0_A02.exe</downloadUrl>
       <SupportedSystems>
         <System brandKey="4" brandPrefix="LAT" systemId="09C0" systemName="Latitude 5411" generation="x11" rtsDate="2020-04-08T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>4CRFW</releaseId>
+      <type>Win</type>
+      <name>Latitude-7350-4CRFW_Win11_1.0_A10.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A10</dellVersion>
+      <dateTime>2026-09-22T02:46:29</dateTime>
+      <hashMD5>673CC116F8A5A152B4EB4A828EF44D09</hashMD5>
+      <hashSHA1>0262DDC6AC756D97743F36D19C7C2A0067F9B1B3</hashSHA1>
+      <hashSHA256>5E3FBCAAE0AFF9F6D9F96357399D9D9A86D586FDDF7604F8FBBBA20AD7BCC9EA</hashSHA256>
+      <sizeBytes>1980805920</sizeBytes>
+      <path>FOLDER14509408M/1/Latitude-7350-4CRFW_Win11_1.0_A10.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14509408M/1/Latitude-7350-4CRFW_Win11_1.0_A10.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0CBD" systemName="Latitude 7350" generation="-" rtsDate="2024-03-04T16:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0CBE" systemName="Latitude 7350" generation="-" rtsDate="2024-03-04T16:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0CBF" systemName="Latitude 7350" generation="-" rtsDate="2024-03-04T16:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0CC0" systemName="Latitude 7350" generation="-" rtsDate="2024-03-04T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -5470,6 +5722,34 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>4T5DC</releaseId>
+      <type>Win</type>
+      <name>PE11260-4T5DC_Win11_1.0_A03.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A03</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>43EDB5F9474F87DB2765A88E8325009F</hashMD5>
+      <hashSHA1>8A1653CDABA56A8EBEA0E5ED36BCC5384DD57A78</hashSHA1>
+      <hashSHA256>6E09D10980DCB553A5F0E41C6BFCC9E367B90DD560E825E528F237B7676858BA</hashSHA256>
+      <sizeBytes>676066376</sizeBytes>
+      <path>FOLDER14924935M/1/PE11260-4T5DC_Win11_1.0_A03.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14924935M/1/PE11260-4T5DC_Win11_1.0_A03.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="55" brandPrefix="DEL" systemId="0D7D" systemName="Dell Pro Education 11 PE11260" generation="-" rtsDate="2026-02-13T06:00:00" />
+        <System brandKey="55" brandPrefix="DEL" systemId="0D7E" systemName="Dell Pro Education 11 PE11260" generation="-" rtsDate="2026-02-13T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>4XFDC</releaseId>
       <type>Win</type>
       <name>3350-win7-A11-4XFDC.CAB</name>
@@ -5550,6 +5830,33 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>4YGW1</releaseId>
+      <type>Win</type>
+      <name>MA16250-4YGW1_Win11_1.0_A06.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A06</dellVersion>
+      <dateTime>2026-09-08T01:20:27</dateTime>
+      <hashMD5>1E42F6579BF738E2CDC3360D79B7A7BE</hashMD5>
+      <hashSHA1>448BA72D9EF29CEC96A77C9E8E74705AF107FEE0</hashSHA1>
+      <hashSHA256>6604E5224CF3BCD5381F1AD481456EB8DD99AF9D98F0B51E656912FC28AE2BD9</hashSHA256>
+      <sizeBytes>2465234768</sizeBytes>
+      <path>FOLDER14878739M/1/MA16250-4YGW1_Win11_1.0_A06.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14878739M/1/MA16250-4YGW1_Win11_1.0_A06.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="60" brandPrefix="DPML" systemId="0D33" systemName="Dell Pro Max 16 Premium MA16250" generation="-" rtsDate="2025-07-16T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -5692,34 +5999,6 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows8" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="6" minorVersion="2" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
-      <releaseId>53KFY</releaseId>
-      <type>Win</type>
-      <name>PV14250-53KFY_Win11_1.0_A03.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A03</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>E1855C99485FA06D977975BA8B55DDD6</hashMD5>
-      <hashSHA1>8BE1786A8C11EE7720589EAFF2B0F6D88ED45BF7</hashSHA1>
-      <hashSHA256>C556D20BDF6AAD073647E92086BF69CADD3AF408CD75BE36C14F4CF45E15BFD1</hashSHA256>
-      <sizeBytes>1002618536</sizeBytes>
-      <path>FOLDER14873679M/1/PV14250-53KFY_Win11_1.0_A03.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14873679M/1/PV14250-53KFY_Win11_1.0_A03.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="58" brandPrefix="DPL" systemId="0DE8" systemName="Dell Pro 14 Essential PV14250" generation="-" rtsDate="2025-08-26T16:00:00" />
-        <System brandKey="58" brandPrefix="DPL" systemId="0DE9" systemName="Dell Pro 14 Essential PV14250" generation="-" rtsDate="2025-08-26T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -5948,6 +6227,40 @@
         <System brandKey="58" brandPrefix="DPL" systemId="0E65" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
         <System brandKey="58" brandPrefix="DPL" systemId="0E5B" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
         <System brandKey="58" brandPrefix="DPL" systemId="0E69" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0EFB" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>5D0VR</releaseId>
+      <type>Win</type>
+      <name>P514265-5D0VR_Win11_1.0_A01.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A01</dellVersion>
+      <dateTime>2026-09-08T01:20:27</dateTime>
+      <hashMD5>DEEC113D21CC08A441609D8186A317AE</hashMD5>
+      <hashSHA1>DFE38BE67EBD2617BAAFFB60CB0E374899E1B2A4</hashSHA1>
+      <hashSHA256>6CF3197068C6B8B13D965064D31C851C049287E8EE099EB54C103B590B650F97</hashSHA256>
+      <sizeBytes>1057109728</sizeBytes>
+      <path>FOLDER14857362M/1/P514265-5D0VR_Win11_1.0_A01.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14857362M/1/P514265-5D0VR_Win11_1.0_A01.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="58" brandPrefix="DPL" systemId="0E25" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E31" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E5F" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E65" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E5B" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E69" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0EFB" systemName="Dell Pro 5 14 P514265" generation="-" rtsDate="2026-05-27T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -6328,6 +6641,34 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>5KX55</releaseId>
+      <type>Win</type>
+      <name>PV14250-5KX55_Win11_1.0_A04.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A04</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>DE3B87F1B08B10623E6C2E85043BFD33</hashMD5>
+      <hashSHA1>F44AC9425A8730E188BF794627951F4E9655BBAE</hashSHA1>
+      <hashSHA256>A5179EA6842C46F2DF6FD5F8B0CED3ABCD411E4796353CF413B344C75E86D527</hashSHA256>
+      <sizeBytes>811592352</sizeBytes>
+      <path>FOLDER14938428M/1/PV14250-5KX55_Win11_1.0_A04.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14938428M/1/PV14250-5KX55_Win11_1.0_A04.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="58" brandPrefix="DPL" systemId="0DE8" systemName="Dell Pro 14 Essential PV14250" generation="-" rtsDate="2025-08-26T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0DE9" systemName="Dell Pro 14 Essential PV14250" generation="-" rtsDate="2025-08-26T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>5PRNW</releaseId>
       <type>Win</type>
       <name>XE2-win8.1-A05-5PRNW.CAB</name>
@@ -6577,6 +6918,34 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>634FC</releaseId>
+      <type>Win</type>
+      <name>Precision-3440-SFF-634FC_Win10_1.0_A10.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A10</dellVersion>
+      <dateTime>2023-06-30T02:52:58</dateTime>
+      <hashMD5>A476E66AC9BA098E2153A4CC6748A31C</hashMD5>
+      <hashSHA1>9F4013D502E62F11279D54F40DF1784F737411D4</hashSHA1>
+      <hashSHA256>FE38DCFEC8AC78FE3B29480B3AC5416AD3984C831BE8AA4FECD67ECD83780FA1</hashSHA256>
+      <sizeBytes>3618119856</sizeBytes>
+      <path>FOLDER09847966M/1/Precision-3440-SFF-634FC_Win10_1.0_A10.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER09847966M/1/Precision-3440-SFF-634FC_Win10_1.0_A10.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="09AA" systemName="Precision 3440 SFF" generation="x11" rtsDate="2020-05-01T05:00:00" />
+        <System brandKey="11" brandPrefix="PRE" systemId="09AB" systemName="Precision 3440 SFF" generation="x11" rtsDate="2020-05-01T05:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -7792,6 +8161,34 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>6YWN7</releaseId>
+      <type>Win</type>
+      <name>Latitude-7350-Detachable-6YWN7_Win11_1.0_A10.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A10</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>8488AF20ABAE2F745749C49BC4159679</hashMD5>
+      <hashSHA1>D48EB5AB2B21695A3934D1E0966008139BAA6CF0</hashSHA1>
+      <hashSHA256>568C908AE977114ED8D3537CA4345FC15E09B9D990B16744BD66E99E8F6D246D</hashSHA256>
+      <sizeBytes>1225220936</sizeBytes>
+      <path>FOLDER14949054M/1/Latitude-7350-Detachable-6YWN7_Win11_1.0_A10.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14949054M/1/Latitude-7350-Detachable-6YWN7_Win11_1.0_A10.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0C64" systemName="Latitude 7350 Detachable" generation="-" rtsDate="2024-04-02T04:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0DAA" systemName="Latitude 7350 Detachable" generation="-" rtsDate="2024-04-02T04:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>704JG</releaseId>
       <type>Win</type>
       <name>M4700-win8.1-A02-704JG.CAB</name>
@@ -8069,6 +8466,36 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows7" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>79X67</releaseId>
+      <type>Win</type>
+      <name>OptiPlex-7020-Tower-79X67_Win11_1.0_A09.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A09</dellVersion>
+      <dateTime>2025-10-27T04:04:52</dateTime>
+      <hashMD5>893E5067B561FEBF9C1070AA2040F580</hashMD5>
+      <hashSHA1>5F0A53B888440939834BD2D41DFF1D6B676B8CA2</hashSHA1>
+      <hashSHA256>06024AC46E5913D23C9C094254942A3D68D0ECA71122BBC57C0B3A6C24C0FD49</hashSHA256>
+      <sizeBytes>3031492328</sizeBytes>
+      <path>FOLDER13680147M/1/OptiPlex-7020-Tower-79X67_Win11_1.0_A09.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER13680147M/1/OptiPlex-7020-Tower-79X67_Win11_1.0_A09.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="1" brandPrefix="OP" systemId="0C6D" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+        <System brandKey="1" brandPrefix="OP" systemId="0C6E" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+        <System brandKey="1" brandPrefix="OP" systemId="0C77" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+        <System brandKey="1" brandPrefix="OP" systemId="0C78" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -9143,6 +9570,34 @@
       <SupportedOperatingSystems>
         <OperatingSystem osCode="XP" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="5" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
         <OperatingSystem osCode="XP" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="5" minorVersion="2" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>87T5P</releaseId>
+      <type>Win</type>
+      <name>Precision-3440-SFF-87T5P_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
+      <dateTime>2023-06-30T02:52:58</dateTime>
+      <hashMD5>B955C35522C6B0A33F394D08893D8A5F</hashMD5>
+      <hashSHA1>19D6283F0B7CB6C75B02F2C7B2117478CC83BAEA</hashSHA1>
+      <hashSHA256>C6B2167B21DB3D9F726C86600BEE06987294E8016A9FCEB4A1000F75E21C724C</hashSHA256>
+      <sizeBytes>3618122008</sizeBytes>
+      <path>FOLDER09848777M/1/Precision-3440-SFF-87T5P_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER09848777M/1/Precision-3440-SFF-87T5P_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="09AA" systemName="Precision 3440 SFF" generation="x11" rtsDate="2020-05-01T05:00:00" />
+        <System brandKey="11" brandPrefix="PRE" systemId="09AB" systemName="Precision 3440 SFF" generation="x11" rtsDate="2020-05-01T05:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -10365,34 +10820,6 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
-      <releaseId>96K0F</releaseId>
-      <type>Win</type>
-      <name>PE11260-96K0F_Win11_1.0_A02.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A02</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>06D4E8BB81826A7D2B5A423EEDB54640</hashMD5>
-      <hashSHA1>4AFD9FBF7EF05CDA9F8E7788C9F9CEE1A7993BFB</hashSHA1>
-      <hashSHA256>C6C5D151C09D43812973BBFD321A7FC0F6E52CA448F27C0C2C8E48817CCD05DC</hashSHA256>
-      <sizeBytes>1387488608</sizeBytes>
-      <path>FOLDER14682092M/1/PE11260-96K0F_Win11_1.0_A02.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14682092M/1/PE11260-96K0F_Win11_1.0_A02.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="55" brandPrefix="DEL" systemId="0D7D" systemName="Dell Pro Education 11 PE11260" generation="-" rtsDate="2026-02-13T06:00:00" />
-        <System brandKey="55" brandPrefix="DEL" systemId="0D7E" systemName="Dell Pro Education 11 PE11260" generation="-" rtsDate="2026-02-13T06:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
       <releaseId>96T3X</releaseId>
       <type>Win</type>
       <name>3050 AIO-win7-A11-96T3X.CAB</name>
@@ -10621,6 +11048,62 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>992P5</releaseId>
+      <type>Win</type>
+      <name>3400-992P5_Win10_1.0_A13.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A13</dellVersion>
+      <dateTime>2024-03-08T00:09:25</dateTime>
+      <hashMD5>A02C24F69D149C28F8A87F10FAE6152C</hashMD5>
+      <hashSHA1>C5A31A984662E4EB2B3A454B8C27ED3EE4BA561A</hashSHA1>
+      <hashSHA256>EB05BB079947A104B62636865F8CAF35DA23470BB815000FA99C66FC9B8C3BA5</hashSHA256>
+      <sizeBytes>2147749800</sizeBytes>
+      <path>FOLDER11311929M/1/3400-992P5_Win10_1.0_A13.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER11311929M/1/3400-992P5_Win10_1.0_A13.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="08BC" systemName="Latitude 3400" generation="X10" rtsDate="2019-03-05T06:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="08BE" systemName="Latitude 3400" generation="X10" rtsDate="2019-03-05T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>992P5</releaseId>
+      <type>Win</type>
+      <name>3400-992P5_Win10_1.0_A13.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A13</dellVersion>
+      <dateTime>2024-03-08T00:09:25</dateTime>
+      <hashMD5>A02C24F69D149C28F8A87F10FAE6152C</hashMD5>
+      <hashSHA1>C5A31A984662E4EB2B3A454B8C27ED3EE4BA561A</hashSHA1>
+      <hashSHA256>EB05BB079947A104B62636865F8CAF35DA23470BB815000FA99C66FC9B8C3BA5</hashSHA256>
+      <sizeBytes>2147749800</sizeBytes>
+      <path>FOLDER11311929M/1/3400-992P5_Win10_1.0_A13.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER11311929M/1/3400-992P5_Win10_1.0_A13.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="08BC" systemName="Latitude 3400" generation="X10" rtsDate="2019-03-05T06:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="08BE" systemName="Latitude 3400" generation="X10" rtsDate="2019-03-05T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>99FJJ</releaseId>
       <type>Win</type>
       <name>9310-2n1-99FJJ_Win10_1.0_A11.exe</name>
@@ -10705,6 +11188,33 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>9C6JN</releaseId>
+      <type>Win</type>
+      <name>RA00260-9C6JN_Win10_1.0_A04.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A04</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>DB5E38ED496A0864D8B8353ED2B90DF1</hashMD5>
+      <hashSHA1>482E66164A64ECD21C32F000EE247CBC6D369B06</hashSHA1>
+      <hashSHA256>023912E60209DCC9ED15062BBEB5AFFCA020F6072E7A16AF2AE7853D870A5217</hashSHA256>
+      <sizeBytes>1292527968</sizeBytes>
+      <path>FOLDER14938929M/1/RA00260-9C6JN_Win10_1.0_A04.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14938929M/1/RA00260-9C6JN_Win10_1.0_A04.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="61" brandPrefix="DPRL" systemId="0D66" systemName="Dell Pro Rugged 10 Tablet RA00260" generation="-" rtsDate="2025-10-06T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>9CRTM</releaseId>
       <type>Win</type>
       <name>Latitude-7390-2-in-1-9CRTM_Win10_1.0_A16.exe</name>
@@ -10729,34 +11239,6 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
-      <releaseId>9D4TY</releaseId>
-      <type>Win</type>
-      <name>Latitude-3550-9D4TY_Win11_1.0_A09.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A09</dellVersion>
-      <dateTime>2026-04-10T02:09:16</dateTime>
-      <hashMD5>D25E7C14E8C6FD6420628A1E08EC0233</hashMD5>
-      <hashSHA1>3BEE0A39D43409E55832A7416BEC4229572FB55D</hashSHA1>
-      <hashSHA256>DD9D34A7518A62B8345664E54F4585E68F620DD184F224A1A55940207173FF7B</hashSHA256>
-      <sizeBytes>3754762928</sizeBytes>
-      <path>FOLDER14229238M/1/Latitude-3550-9D4TY_Win11_1.0_A09.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14229238M/1/Latitude-3550-9D4TY_Win11_1.0_A09.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="4" brandPrefix="LAT" systemId="0C9A" systemName="Latitude 3550" rtsDate="2024-03-04T16:00:00" />
-        <System brandKey="4" brandPrefix="LAT" systemId="0C98" systemName="Latitude 3550" rtsDate="2024-03-04T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -13604,6 +14086,35 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>DX936</releaseId>
+      <type>Win</type>
+      <name>P314265-DX936_Win11_1.0_A01.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A01</dellVersion>
+      <dateTime>2026-09-08T01:20:27</dateTime>
+      <hashMD5>FE6681BBDAD927116BD40E1D5298FDB2</hashMD5>
+      <hashSHA1>9E01FCD41A031E688449860D721F1A0BCBD9C1F2</hashSHA1>
+      <hashSHA256>81B425178EB3DF6AE8066EEB00D4F359C11B58BE2F0A9BB51A298E47D8DB56C5</hashSHA256>
+      <sizeBytes>697165888</sizeBytes>
+      <path>FOLDER14857383M/1/P314265-DX936_Win11_1.0_A01.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14857383M/1/P314265-DX936_Win11_1.0_A01.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="58" brandPrefix="DPL" systemId="0E29" systemName="Dell Pro 3 14 P314265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E5D" systemName="Dell Pro 3 14 P314265" generation="-" rtsDate="2026-05-27T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E67" systemName="Dell Pro 3 14 P314265" generation="-" rtsDate="2026-05-27T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>DYD40</releaseId>
       <type>Win</type>
       <name>3020M-Win10-A04-DYD40.CAB</name>
@@ -14175,6 +14686,38 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>F9WXR</releaseId>
+      <type>Win</type>
+      <name>P516260-F9WXR_Win11_1.0_A03.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A03</dellVersion>
+      <dateTime>2026-09-08T01:20:27</dateTime>
+      <hashMD5>A8FBEFBED69425528FC5FA8161690FFD</hashMD5>
+      <hashSHA1>9E05AB0DC805B0F66A2964881F3A05305CBFA049</hashSHA1>
+      <hashSHA256>823A85781E8B2F35A5AE70F5100F79837A562F4A0A759F6917D2F262E6C2FA35</hashSHA256>
+      <sizeBytes>1394049776</sizeBytes>
+      <path>FOLDER14931265M/1/P516260-F9WXR_Win11_1.0_A03.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14931265M/1/P516260-F9WXR_Win11_1.0_A03.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="58" brandPrefix="DPL" systemId="0E1E" systemName="Dell Pro 5 16 P516260" generation="-" rtsDate="2026-04-29T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E34" systemName="Dell Pro 5 16 P516260" generation="-" rtsDate="2026-04-29T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E36" systemName="Dell Pro 5 16 P516260" generation="-" rtsDate="2026-04-29T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E3F" systemName="Dell Pro 5 16 P516260" generation="-" rtsDate="2026-04-29T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0E3D" systemName="Dell Pro 5 16 P516260" generation="-" rtsDate="2026-04-29T16:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0EAB" systemName="Dell Pro 5 16 P516260" generation="-" rtsDate="2026-04-29T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>FCN1X</releaseId>
       <type>Win</type>
       <name>3410-FCN1X_Win10_1.0_A14.exe</name>
@@ -14401,6 +14944,33 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>FK2XK</releaseId>
+      <type>Win</type>
+      <name>RA02260-FK2XK_Win10_1.0_A04.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A04</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>F770F92A0D86D60D8156884FB09509BA</hashMD5>
+      <hashSHA1>47EC064A25BC7C84B884C316C6769A050402DEAC</hashSHA1>
+      <hashSHA256>8B7373585E905230BCDFF77539537938ECB41D7E51A0E02BC6E3D4F05DE3FB1D</hashSHA256>
+      <sizeBytes>1292526280</sizeBytes>
+      <path>FOLDER14939684M/1/RA02260-FK2XK_Win10_1.0_A04.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14939684M/1/RA02260-FK2XK_Win10_1.0_A04.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="61" brandPrefix="DPRL" systemId="0D67" systemName="Dell Pro Rugged 12 Tablet RA02260" generation="-" rtsDate="2025-10-06T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>FK47Y</releaseId>
       <type>Win</type>
       <name>580-win7-A06-FK47Y.CAB</name>
@@ -14485,6 +15055,34 @@
         <System brandKey="58" brandPrefix="DPL" systemId="0D4C" systemName="Dell Pro 13 Plus PB13255" generation="-" rtsDate="2025-03-26T16:00:00" />
         <System brandKey="58" brandPrefix="DPL" systemId="0D61" systemName="Dell Pro 13 Plus PB13255" generation="-" rtsDate="2025-03-26T16:00:00" />
         <System brandKey="58" brandPrefix="DPL" systemId="0D62" systemName="Dell Pro 13 Plus PB13255" generation="-" rtsDate="2025-03-26T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>FMHN4</releaseId>
+      <type>Win</type>
+      <name>Latitude-3450-FMHN4_Win11_1.0_A10.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A10</dellVersion>
+      <dateTime>2026-10-13T02:24:04</dateTime>
+      <hashMD5>E2C709243F93F90E561E3372306C616F</hashMD5>
+      <hashSHA1>E80F9CAECEDD75713DF22313EC4826CCB6E7110D</hashSHA1>
+      <hashSHA256>D3B0C681B807326B9EEB3E4E69EE5F5782C9BD9F781BFF83FA09DE1D3461C312</hashSHA256>
+      <sizeBytes>2622115984</sizeBytes>
+      <path>FOLDER14940398M/1/Latitude-3450-FMHN4_Win11_1.0_A10.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14940398M/1/Latitude-3450-FMHN4_Win11_1.0_A10.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0C99" systemName="Latitude 3450" generation="-" rtsDate="2024-03-04T16:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0C97" systemName="Latitude 3450" generation="-" rtsDate="2024-03-04T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -15163,33 +15761,6 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
-      <releaseId>G97T0</releaseId>
-      <type>Win</type>
-      <name>PE14260-G97T0_Win11_1.0_A02.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A02</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>9A899920A7C75E882162DC533FCA9A44</hashMD5>
-      <hashSHA1>6BD59948A8B3BCDBBF4F9F50A56FED70A26DE388</hashSHA1>
-      <hashSHA256>1EF99B0A7FDF1CAB3E7CF521CCC3E1E1B3A7735592B0076D47529F2B09C818C1</hashSHA256>
-      <sizeBytes>1387382064</sizeBytes>
-      <path>FOLDER14682619M/1/PE14260-G97T0_Win11_1.0_A02.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14682619M/1/PE14260-G97T0_Win11_1.0_A02.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="55" brandPrefix="DEL" systemId="0DED" systemName="Dell Pro Education 14 PE14260" generation="-" rtsDate="2026-02-13T05:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
       <releaseId>G9R71</releaseId>
       <type>Win</type>
       <name>7510-win10-A14-G9R71.CAB</name>
@@ -15694,6 +16265,33 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>GR86P</releaseId>
+      <type>Win</type>
+      <name>MA14250-GR86P_Win10_1.0_A06.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A06</dellVersion>
+      <dateTime>2026-09-08T01:20:27</dateTime>
+      <hashMD5>85C37357D64369F86F1ECAB20A4EA049</hashMD5>
+      <hashSHA1>3E19990D2093C11649C310725204364BB8497DA4</hashSHA1>
+      <hashSHA256>2BC3836CC48485DD3053767C875B09563546378EF1012F825F6F653740894425</hashSHA256>
+      <sizeBytes>1975326848</sizeBytes>
+      <path>FOLDER14892370M/1/MA14250-GR86P_Win10_1.0_A06.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14892370M/1/MA14250-GR86P_Win10_1.0_A06.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="60" brandPrefix="DPML" systemId="0D32" systemName="Dell Pro Max 14 Premium MA14250" generation="-" rtsDate="2025-07-16T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
@@ -16515,6 +17113,36 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>HFM3W</releaseId>
+      <type>Win</type>
+      <name>OptiPlex-7020-Tower-HFM3W_Win10_1.0_A09.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A09</dellVersion>
+      <dateTime>2025-10-27T04:04:52</dateTime>
+      <hashMD5>5AC921AF009614ADB52BEA1B49AAAB62</hashMD5>
+      <hashSHA1>DC7359C12A3D72C546BD345AA2E88CFF668B9D00</hashSHA1>
+      <hashSHA256>C46CA15F36EE02E8D2A6F9B68B53C7FD5CE3A5FBF22605B3852C7A5BC1D5C7A4</hashSHA256>
+      <sizeBytes>3031378640</sizeBytes>
+      <path>FOLDER13680146M/1/OptiPlex-7020-Tower-HFM3W_Win10_1.0_A09.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER13680146M/1/OptiPlex-7020-Tower-HFM3W_Win10_1.0_A09.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="1" brandPrefix="OP" systemId="0C6D" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+        <System brandKey="1" brandPrefix="OP" systemId="0C6E" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+        <System brandKey="1" brandPrefix="OP" systemId="0C77" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+        <System brandKey="1" brandPrefix="OP" systemId="0C78" systemName="OptiPlex 7020 Tower" rtsDate="2024-02-23T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>HGY7M</releaseId>
       <type>Win</type>
       <name>3189-win10-A12-HGY7M.CAB</name>
@@ -16791,6 +17419,35 @@
       <downloadUrl>https://downloads.dell.com/FOLDER08080634M/1/3541-win11-A00-HT8FH.CAB</downloadUrl>
       <SupportedSystems>
         <System brandKey="11" brandPrefix="PRE" systemId="091A" systemName="Precision 3541" generation="X13" rtsDate="2019-05-15T00:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>HT8VV</releaseId>
+      <type>Win</type>
+      <name>PB13250-HT8VV_Win11_1.0_A08.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A08</dellVersion>
+      <dateTime>2026-08-11T01:07:36</dateTime>
+      <hashMD5>B45BA72AA51C503737EB248158E12678</hashMD5>
+      <hashSHA1>DBCC5D7668972A8E8DB11042FA52D1B5B54E6B0C</hashSHA1>
+      <hashSHA256>C689DEB32AF06CF4D7F3CC6EBF4B1356F2F851CC70845E00CBA7E29552CC9324</hashSHA256>
+      <sizeBytes>1932519904</sizeBytes>
+      <path>FOLDER14816275M/1/PB13250-HT8VV_Win11_1.0_A08.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14816275M/1/PB13250-HT8VV_Win11_1.0_A08.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="58" brandPrefix="DPL" systemId="0CF4" systemName="Dell Pro 13 Plus PB13250" generation="-" rtsDate="2025-02-18T00:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0CF3" systemName="Dell Pro 13 Plus PB13250" generation="-" rtsDate="2025-02-18T00:00:00" />
+        <System brandKey="58" brandPrefix="DPL" systemId="0CDB" systemName="Dell Pro 13 Plus PB13250" generation="-" rtsDate="2025-02-18T00:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -18014,6 +18671,37 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>JHY83</releaseId>
+      <type>Win</type>
+      <name>QxM1250-JHY83_Win11_1.0_A07.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A07</dellVersion>
+      <dateTime>2026-08-11T01:07:36</dateTime>
+      <hashMD5>C837AD876DB65366180AFDF8720A92AB</hashMD5>
+      <hashSHA1>6A0102A45FB0ABAB1FF3B20680978B06C480FBA0</hashSHA1>
+      <hashSHA256>0E00F7111D055455C9748CF7E82997184FEB260BF6B24CFEE91618EB03AFEF4D</hashSHA256>
+      <sizeBytes>2768963312</sizeBytes>
+      <path>FOLDER14649097M/1/QxM1250-JHY83_Win11_1.0_A07.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14649097M/1/QxM1250-JHY83_Win11_1.0_A07.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="57" brandPrefix="DPD" systemId="0D03" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0E72" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0D05" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0E73" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0D1A" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>JJ15G</releaseId>
       <type>Win</type>
       <name>E6500-win7-A05-JJ15G.CAB</name>
@@ -18520,34 +19208,6 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
-      <releaseId>JVMJJ</releaseId>
-      <type>Win</type>
-      <name>DT1265-JVMJJ_Win11_1.0_A02.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A02</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>2D1F20A6601D4BB96263FEBD88E268F2</hashMD5>
-      <hashSHA1>F744154D787E366EA1A788ED6F000E3CBB8DE364</hashSHA1>
-      <hashSHA256>B3109CAD2B2AB1CDB8FF789F2B7691E4D47444F0B366AE5CECC236120EE96E8F</hashSHA256>
-      <sizeBytes>1003349672</sizeBytes>
-      <path>FOLDER14873787M/1/DT1265-JVMJJ_Win11_1.0_A02.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14873787M/1/DT1265-JVMJJ_Win11_1.0_A02.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="54" brandPrefix="DD" systemId="0E0D" systemName="Dell Tower DT1265" generation="-" rtsDate="2026-02-19T16:00:00" />
-        <System brandKey="54" brandPrefix="DD" systemId="0E7C" systemName="Dell Tower DT1265" generation="-" rtsDate="2026-02-19T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -19169,34 +19829,6 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
-      <releaseId>KGPR0</releaseId>
-      <type>Win</type>
-      <name>Latitude-3450-KGPR0_Win11_1.0_A09.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A09</dellVersion>
-      <dateTime>2026-04-10T02:09:16</dateTime>
-      <hashMD5>7424F6FBFE8A3E1A360DC8041E4BB7E1</hashMD5>
-      <hashSHA1>81AFAB74831EF4BB768E888E48A8F1D7A87D546B</hashSHA1>
-      <hashSHA256>4A0AA84E6B2292DF47FA591B1F6D98FE37C9304BE9FEBD9A24C1B9087809A097</hashSHA256>
-      <sizeBytes>3670292640</sizeBytes>
-      <path>FOLDER14229848M/1/Latitude-3450-KGPR0_Win11_1.0_A09.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14229848M/1/Latitude-3450-KGPR0_Win11_1.0_A09.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="4" brandPrefix="LAT" systemId="0C99" systemName="Latitude 3450" rtsDate="2024-03-04T16:00:00" />
-        <System brandKey="4" brandPrefix="LAT" systemId="0C97" systemName="Latitude 3450" rtsDate="2024-03-04T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -20637,6 +21269,33 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>MJXYP</releaseId>
+      <type>Win</type>
+      <name>MC14250-MJXYP_Win11_1.0_A08.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A08</dellVersion>
+      <dateTime>2026-09-08T01:20:27</dateTime>
+      <hashMD5>E719E4894FECA63AF1A2BE9FEE1D0E8A</hashMD5>
+      <hashSHA1>4BAD3B2DE58373B5253561F99DB228479C091895</hashSHA1>
+      <hashSHA256>A8ACA12CC5C5446E0A0DB6B3631D90A444F70A9184B536D6A5214B747CC7096E</hashSHA256>
+      <sizeBytes>2175990432</sizeBytes>
+      <path>FOLDER14895939M/1/MC14250-MJXYP_Win11_1.0_A08.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14895939M/1/MC14250-MJXYP_Win11_1.0_A08.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="60" brandPrefix="DPML" systemId="0CF0" systemName="Dell Pro Max 14 MC14250" generation="-" rtsDate="2025-03-19T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>MK0RT</releaseId>
       <type>Win</type>
       <name>5520-Win8.1-A00-MK0RT.CAB</name>
@@ -20770,6 +21429,33 @@
       <downloadUrl>https://downloads.dell.com/FOLDER11655208M/1/XPS-15-9510-MNC36_Win11_1.0_A14.exe</downloadUrl>
       <SupportedSystems>
         <System brandKey="72" brandPrefix="XPSNOTEBOOK" systemId="0A61" systemName="XPS 15 9510" generation="X12" rtsDate="2021-06-14T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>MNCHW</releaseId>
+      <type>Win</type>
+      <name>PR514260-MNCHW_Win11_1.0_A00.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A00</dellVersion>
+      <dateTime>2026-10-13T05:17:03</dateTime>
+      <hashMD5>48C73BCFF32375ED8BE930CDE28870F8</hashMD5>
+      <hashSHA1>CFCD301312981581527510FE0AB6A140E2A5EE57</hashSHA1>
+      <hashSHA256>E54DE12A0BD89F85BEF65640702D0CEBF94CC07514470E5DF7C7421F64B6BF52</hashSHA256>
+      <sizeBytes>2215004408</sizeBytes>
+      <path>FOLDER14857755M/1/PR514260-MNCHW_Win11_1.0_A00.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14857755M/1/PR514260-MNCHW_Win11_1.0_A00.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="61" brandPrefix="DPRL" systemId="0E04" systemName="Dell Pro Rugged 14 PR514260" generation="-" rtsDate="2026-09-28T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -20917,6 +21603,34 @@
       <SupportedOperatingSystems>
         <OperatingSystem osCode="XP" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="5" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
         <OperatingSystem osCode="XP" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="5" minorVersion="2" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>MVKJ4</releaseId>
+      <type>Win</type>
+      <name>Latitude-3550-MVKJ4_Win11_1.0_A10.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A10</dellVersion>
+      <dateTime>2026-10-13T02:45:29</dateTime>
+      <hashMD5>9A2E04DF4FA3B667CDF504B794EDDBA5</hashMD5>
+      <hashSHA1>AA8D7615F90B83D057B9523DC559A9DB6F5F53F8</hashSHA1>
+      <hashSHA256>40B4D29035B66EECB9E5173F0AA28912BF4E1BF3153BDEE9184F9FACC14C11C3</hashSHA256>
+      <sizeBytes>2788669728</sizeBytes>
+      <path>FOLDER14939351M/1/Latitude-3550-MVKJ4_Win11_1.0_A10.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14939351M/1/Latitude-3550-MVKJ4_Win11_1.0_A10.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0C9A" systemName="Latitude 3550" generation="-" rtsDate="2024-03-04T16:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0C98" systemName="Latitude 3550" generation="-" rtsDate="2024-03-04T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -21390,6 +22104,33 @@
       <downloadUrl>https://downloads.dell.com/FOLDER11803510M/1/Latitude-7520-N62TH_Win11_1.0_A06.exe</downloadUrl>
       <SupportedSystems>
         <System brandKey="4" brandPrefix="LAT" systemId="0A38" systemName="Latitude 7520" generation="X12" rtsDate="2020-12-29T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>N6N1R</releaseId>
+      <type>Win</type>
+      <name>7740-N6N1R_Win11_1.0_A00.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A00</dellVersion>
+      <dateTime>2023-02-10T11:44:27</dateTime>
+      <hashMD5>14CCA0577909EA4658B730E069976FB0</hashMD5>
+      <hashSHA1>50D753A13B5FADC4E4BDCA81D5119EF04CED12BE</hashSHA1>
+      <hashSHA256>E2884E69843156293F78466BF82EF7FD39BCDF2C72349AE49B51CF2D6CA8D2F4</hashSHA256>
+      <sizeBytes>2661916784</sizeBytes>
+      <path>FOLDER09527652M/1/7740-N6N1R_Win11_1.0_A00.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER09527652M/1/7740-N6N1R_Win11_1.0_A00.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0927" systemName="Precision 7740" generation="X10" rtsDate="2019-06-30T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -22495,6 +23236,33 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows7" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>P1KTX</releaseId>
+      <type>Win</type>
+      <name>DA14250-P1KTX_Win11_1.0_A07.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A07</dellVersion>
+      <dateTime>2026-08-11T01:07:36</dateTime>
+      <hashMD5>93533961C1B0672596A0FB2C8B7F079D</hashMD5>
+      <hashSHA1>B21051ECE782E98674C9B71BBC97813D2A6B4123</hashSHA1>
+      <hashSHA256>1E683E4DA53104643128EC72BF6765B0E7BBB050B81DA48561794596A3D8249D</hashSHA256>
+      <sizeBytes>2060302752</sizeBytes>
+      <path>FOLDER14665856M/1/DA14250-P1KTX_Win11_1.0_A07.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14665856M/1/DA14250-P1KTX_Win11_1.0_A07.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="56" brandPrefix="DL" systemId="0CE5" systemName="Dell 14 Premium DA14250" generation="-" rtsDate="2025-06-25T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -23938,33 +24706,6 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
-      <releaseId>R0VMY</releaseId>
-      <type>Win</type>
-      <name>RA00260-R0VMY_Win10_1.0_A03.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A03</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>D67503F97D284C310584993F2C8BB4FD</hashMD5>
-      <hashSHA1>4EB1CB7916FE8FD3B01850CE711FDB6AD7C621FE</hashSHA1>
-      <hashSHA256>90A917E8145F7BA5A2C6408AB20FB55F0F7876BDF5A6E152407F2826C3EC499F</hashSHA256>
-      <sizeBytes>1240837688</sizeBytes>
-      <path>FOLDER14753853M/1/RA00260-R0VMY_Win10_1.0_A03.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14753853M/1/RA00260-R0VMY_Win10_1.0_A03.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="61" brandPrefix="DPRL" systemId="0D66" systemName="Dell Pro Rugged 10 Tablet RA00260" generation="-" rtsDate="2025-10-06T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
       <releaseId>R11GJ</releaseId>
       <type>Win</type>
       <name>E7250_7250-win7-A10-R11GJ.CAB</name>
@@ -25115,6 +25856,34 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>RTTN2</releaseId>
+      <type>Win</type>
+      <name>Precision-3260-Compact-RTTN2_Win10_1.0_A19.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A20</dellVersion>
+      <dateTime>2026-06-08T00:22:12</dateTime>
+      <hashMD5>AF605136FCB3695687E8E112AFF7CC96</hashMD5>
+      <hashSHA1>1BA2DA361B33CFEEB8FF517710757EB327870754</hashSHA1>
+      <hashSHA256>94FAA81F213F4E43A7DAA0F1E710C8A7DA996D782B72CB5B69AA4E318538FD11</hashSHA256>
+      <sizeBytes>2954123368</sizeBytes>
+      <path>FOLDER14630213M/1/Precision-3260-Compact-RTTN2_Win10_1.0_A19.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14630213M/1/Precision-3260-Compact-RTTN2_Win10_1.0_A19.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0AC9" systemName="Precision 3260 Compact" generation="TBD" rtsDate="2022-03-17T05:00:00" />
+        <System brandKey="11" brandPrefix="PRE" systemId="0ACA" systemName="Precision 3260 Compact" generation="TBD" rtsDate="2022-03-17T05:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>RVC2V</releaseId>
       <type>Win</type>
       <name>3330-win10-A03-RVC2V.CAB</name>
@@ -25481,6 +26250,33 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>T3YVN</releaseId>
+      <type>Win</type>
+      <name>Precision-3470-T3YVN_Win10_1.0_A04.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A04</dellVersion>
+      <dateTime>2024-06-10T02:50:45</dateTime>
+      <hashMD5>06FB448473B42FE68841BF9040AF9326</hashMD5>
+      <hashSHA1>0C33ED6419D9C01EFC4209243D8E5CB26BC26601</hashSHA1>
+      <hashSHA256>E627473ED0B628BA6BBD2B0F86ACAD5BD70EA3BC12BB7E6670DB3B6379588F23</hashSHA256>
+      <sizeBytes>3248180096</sizeBytes>
+      <path>FOLDER11657896M/1/Precision-3470-T3YVN_Win10_1.0_A04.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER11657896M/1/Precision-3470-T3YVN_Win10_1.0_A04.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0BC1" systemName="Precision 3470" rtsDate="2022-04-27T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>T4JHN</releaseId>
       <type>Win</type>
       <name>Precision-3280-Compact-T4JHN_Win10_1.0_A07.exe</name>
@@ -25805,6 +26601,88 @@
       <downloadUrl>https://downloads.dell.com/FOLDER11657897M/1/Precision-3470-T93JX_Win11_1.0_A02.exe</downloadUrl>
       <SupportedSystems>
         <System brandKey="11" brandPrefix="PRE" systemId="0BC1" systemName="Precision 3470" rtsDate="2022-04-27T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>T93JX</releaseId>
+      <type>Win</type>
+      <name>Precision-3470-T93JX_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
+      <dateTime>2024-06-10T02:50:45</dateTime>
+      <hashMD5>30FC535AD5DCB0F3F1C379E5BF2599E3</hashMD5>
+      <hashSHA1>2F0D0C274EFD21047207523751F3B65CA1A3A582</hashSHA1>
+      <hashSHA256>AA26E600757158E0B869295687D80AC688535DFC9D31FBF7B2DB31D6A849A394</hashSHA256>
+      <sizeBytes>3246911920</sizeBytes>
+      <path>FOLDER11657897M/1/Precision-3470-T93JX_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER11657897M/1/Precision-3470-T93JX_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0BC1" systemName="Precision 3470" rtsDate="2022-04-27T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>T93JX</releaseId>
+      <type>Win</type>
+      <name>Precision-3470-T93JX_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
+      <dateTime>2024-06-10T02:50:45</dateTime>
+      <hashMD5>30FC535AD5DCB0F3F1C379E5BF2599E3</hashMD5>
+      <hashSHA1>2F0D0C274EFD21047207523751F3B65CA1A3A582</hashSHA1>
+      <hashSHA256>AA26E600757158E0B869295687D80AC688535DFC9D31FBF7B2DB31D6A849A394</hashSHA256>
+      <sizeBytes>3246911920</sizeBytes>
+      <path>FOLDER11657897M/1/Precision-3470-T93JX_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER11657897M/1/Precision-3470-T93JX_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0BC1" systemName="Precision 3470" rtsDate="2022-04-27T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>T99VW</releaseId>
+      <type>Win</type>
+      <name>PVM1265-T99VW_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
+      <dateTime>2026-08-11T01:07:36</dateTime>
+      <hashMD5>B0EB78A0E729FD5564261CB1E71B6C6A</hashMD5>
+      <hashSHA1>A51674EC9891777BB6AD71A19E0EA8D524FD1174</hashSHA1>
+      <hashSHA256>4CD7337D724091197083F50234FFA8545187FACA9273065F72F1FE8595B08D69</hashSHA256>
+      <sizeBytes>1003361656</sizeBytes>
+      <path>FOLDER14873881M/1/PVM1265-T99VW_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14873881M/1/PVM1265-T99VW_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="57" brandPrefix="DPD" systemId="0E10" systemName="Dell Pro Essential Micro PVM1265" generation="-" rtsDate="2026-02-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0E7F" systemName="Dell Pro Essential Micro PVM1265" generation="-" rtsDate="2026-02-19T16:00:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -26420,6 +27298,33 @@
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows7" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
         <OperatingSystem osCode="Windows7" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>TRC98</releaseId>
+      <type>Win</type>
+      <name>RA00260-TRC98_Win11_1.0_A04.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A04</dellVersion>
+      <dateTime>2026-10-13T00:53:07</dateTime>
+      <hashMD5>065B3211E385806E1CAB83247763894D</hashMD5>
+      <hashSHA1>5747F7946D0294BF12A8AED2A6D5F844665F77AD</hashSHA1>
+      <hashSHA256>DEA07DD47144CF82D7A23C49241354136EA465B9CDCE8F9FC7B895D10448E006</hashSHA256>
+      <sizeBytes>1224242208</sizeBytes>
+      <path>FOLDER14938928M/1/RA00260-TRC98_Win11_1.0_A04.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14938928M/1/RA00260-TRC98_Win11_1.0_A04.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="61" brandPrefix="DPRL" systemId="0D66" systemName="Dell Pro Rugged 10 Tablet RA00260" generation="-" rtsDate="2025-10-06T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -27062,6 +27967,60 @@
       <format>exe</format>
       <vendorVersion>1.0</vendorVersion>
       <dellVersion>A02</dellVersion>
+      <dateTime>2023-11-24T04:11:28</dateTime>
+      <hashMD5>65213315F587A54015E4A45C08D730B1</hashMD5>
+      <hashSHA1>2B2FE919437C808BBECF01034694C44C85D17B85</hashSHA1>
+      <hashSHA256>CA7471707EC09B0C8A850E8CDFFA4F4D97BD7C1B30564CBA995F04CC67FA92C0</hashSHA256>
+      <sizeBytes>2765313384</sizeBytes>
+      <path>FOLDER09891643M/1/7750-V6V18_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER09891643M/1/7750-V6V18_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="09C4" systemName="Precision 7750" generation="x11" rtsDate="2020-05-03T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>V6V18</releaseId>
+      <type>Win</type>
+      <name>7750-V6V18_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
+      <dateTime>2023-11-24T04:11:28</dateTime>
+      <hashMD5>65213315F587A54015E4A45C08D730B1</hashMD5>
+      <hashSHA1>2B2FE919437C808BBECF01034694C44C85D17B85</hashSHA1>
+      <hashSHA256>CA7471707EC09B0C8A850E8CDFFA4F4D97BD7C1B30564CBA995F04CC67FA92C0</hashSHA256>
+      <sizeBytes>2765313384</sizeBytes>
+      <path>FOLDER09891643M/1/7750-V6V18_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER09891643M/1/7750-V6V18_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="09C4" systemName="Precision 7750" generation="x11" rtsDate="2020-05-03T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>V6V18</releaseId>
+      <type>Win</type>
+      <name>7750-V6V18_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
       <dateTime>2023-11-24T15:41:28</dateTime>
       <hashMD5>65213315F587A54015E4A45C08D730B1</hashMD5>
       <hashSHA1>2B2FE919437C808BBECF01034694C44C85D17B85</hashSHA1>
@@ -27437,6 +28396,33 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>VKW2M</releaseId>
+      <type>Win</type>
+      <name>MA14250-VKW2M_Win11_1.0_A06.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A06</dellVersion>
+      <dateTime>2026-09-08T01:20:27</dateTime>
+      <hashMD5>E790A1EC7BB04D467075BE05D020D4B6</hashMD5>
+      <hashSHA1>E33BBAB6E8A7EC0744ADDE37C1CC99F95849FF54</hashSHA1>
+      <hashSHA256>616A92F0383A7B91F12B90294964CC858E82768537A161983AF026C34FD5D66E</hashSHA256>
+      <sizeBytes>2465227832</sizeBytes>
+      <path>FOLDER14892405M/1/MA14250-VKW2M_Win11_1.0_A06.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14892405M/1/MA14250-VKW2M_Win11_1.0_A06.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="60" brandPrefix="DPML" systemId="0D32" systemName="Dell Pro Max 14 Premium MA14250" generation="-" rtsDate="2025-07-16T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -28055,6 +29041,33 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>W394W</releaseId>
+      <type>Win</type>
+      <name>Latitude 7455-Win11-A01-W394W.CAB</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>CAB</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A01</dellVersion>
+      <dateTime>2026-10-14T02:18:04</dateTime>
+      <hashMD5>2F3700B5768BDAE95DDA8E710B755142</hashMD5>
+      <hashSHA1>C95602C251A0E13BE365FEE7D48C833CE8B0FF0B</hashSHA1>
+      <hashSHA256>22598F82E7606EE538F26901AA7D97A0638575F5BA15CF3BF2FFDA2B65DEB9BE</hashSHA256>
+      <sizeBytes>809294928</sizeBytes>
+      <path>FOLDER14914706M/1/Latitude 7455-Win11-A01-W394W.CAB</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14914706M/1/Latitude 7455-Win11-A01-W394W.CAB</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0C85" systemName="Latitude 7455" generation="-" rtsDate="2024-06-13T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="ARM64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>W3HH1</releaseId>
       <type>Win</type>
       <name>Latitude-7440-W3HH1_Win11_1.0_A11.exe</name>
@@ -28220,6 +29233,33 @@
       <downloadUrl>https://downloads.dell.com/FOLDER05575873M/1/7370-win10-A16-W8J2J.CAB</downloadUrl>
       <SupportedSystems>
         <System brandKey="4" brandPrefix="LAT" systemId="071B" systemName="Latitude 7370" generation="X7" rtsDate="2016-02-28T00:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>W8PVM</releaseId>
+      <type>Win</type>
+      <name>Precision-3930-Rack-W8PVM_Win10_1.0_A23.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A23</dellVersion>
+      <dateTime>2024-07-05T00:58:28</dateTime>
+      <hashMD5>7F0AC2544A33B9A2363A8AD5594B63F4</hashMD5>
+      <hashSHA1>17A7C82F0FED31D8D0DB1438673101694B1F1F50</hashSHA1>
+      <hashSHA256>F7C6533A229EA83D09CED0DC76166DD172E7FE2509B61F5E7D4138ADA4D2B2E2</hashSHA256>
+      <sizeBytes>3368053248</sizeBytes>
+      <path>FOLDER11759413M/1/Precision-3930-Rack-W8PVM_Win10_1.0_A23.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER11759413M/1/Precision-3930-Rack-W8PVM_Win10_1.0_A23.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="11" brandPrefix="PRE" systemId="0873" systemName="Precision 3930 Rack" generation="X10" rtsDate="2018-08-07T18:30:00" />
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
@@ -29226,33 +30266,6 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
-      <releaseId>X0G67</releaseId>
-      <type>Win</type>
-      <name>RA02260-X0G67_Win11_1.0_A03.exe</name>
-      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
-1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
-2) Create a system-level optimized deployment sequence
-3) Setup an appropriate boot control sequence.
-4) Optimize the deployment of targeted system-specific driver packages.</description>
-      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
-      <format>exe</format>
-      <vendorVersion>1.0</vendorVersion>
-      <dellVersion>A03</dellVersion>
-      <dateTime>2026-08-11T01:07:36</dateTime>
-      <hashMD5>1FBD2E8B29839559F8CCFB3EA3D2B12A</hashMD5>
-      <hashSHA1>B01716B81FE5E3AD1769A7C2FD2F1A0909F1CA15</hashSHA1>
-      <hashSHA256>F1EA4BF52EB4670942B4A6C3E8687E0DD5377A6F780C3FCAC27895B7F890307D</hashSHA256>
-      <sizeBytes>1108493920</sizeBytes>
-      <path>FOLDER14874004M/1/RA02260-X0G67_Win11_1.0_A03.exe</path>
-      <downloadUrl>https://downloads.dell.com/FOLDER14874004M/1/RA02260-X0G67_Win11_1.0_A03.exe</downloadUrl>
-      <SupportedSystems>
-        <System brandKey="61" brandPrefix="DPRL" systemId="0D67" systemName="Dell Pro Rugged 12 Tablet RA02260" generation="-" rtsDate="2025-10-06T16:00:00" />
-      </SupportedSystems>
-      <SupportedOperatingSystems>
-        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
-      </SupportedOperatingSystems>
-    </Item>
-    <Item>
       <releaseId>X15FY</releaseId>
       <type>Win</type>
       <name>E5520-win8-A03-X15FY.CAB</name>
@@ -29337,6 +30350,34 @@
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows7" osVendor="Microsoft" osArch="x86" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
         <OperatingSystem osCode="Windows7" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>X2Y4G</releaseId>
+      <type>Win</type>
+      <name>7320-X2Y4G_Win11_1.0_A05.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A05</dellVersion>
+      <dateTime>2024-02-08T23:36:09</dateTime>
+      <hashMD5>B8D1B47F5580B3C055B57D299B6A79D8</hashMD5>
+      <hashSHA1>A79E2A44AE108534AD287DC429514AEC63C3B664</hashSHA1>
+      <hashSHA256>BD1B4050ADC4E3AE0F19DB63D696A5FDF62714AF898EB1DDBEAE68638566C706</hashSHA256>
+      <sizeBytes>1310469752</sizeBytes>
+      <path>FOLDER10956508M/1/7320-X2Y4G_Win11_1.0_A05.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER10956508M/1/7320-X2Y4G_Win11_1.0_A05.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="4" brandPrefix="LAT" systemId="0A34" systemName="Latitude 7320" generation="X12" rtsDate="2020-12-29T06:00:00" />
+        <System brandKey="4" brandPrefix="LAT" systemId="0A35" systemName="Latitude 7320" generation="X12" rtsDate="2020-12-29T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
@@ -29959,6 +31000,64 @@
       </SupportedOperatingSystems>
     </Item>
     <Item>
+      <releaseId>XJTW7</releaseId>
+      <type>Win</type>
+      <name>XPS-13-9345-XJTW7_Win11_1.0_A01.cab</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>cab</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A01</dellVersion>
+      <dateTime>2026-10-14T02:18:04</dateTime>
+      <hashMD5>D0B58EDAF7111B57650A867D2BD282B3</hashMD5>
+      <hashSHA1>D485E8FB87F76E5966EF69099F85E37F28766AB7</hashSHA1>
+      <hashSHA256>85E1EAC760405D0D08907E579AB43EF6D7C12369D008E79053BBEAD44BB1356A</hashSHA256>
+      <sizeBytes>463993037</sizeBytes>
+      <path>FOLDER14902792M/1/XPS-13-9345-XJTW7_Win11_1.0_A01.cab</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14902792M/1/XPS-13-9345-XJTW7_Win11_1.0_A01.cab</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="72" brandPrefix="XPSNOTEBOOK" systemId="0C69" systemName="XPS 13 9345" generation="-" rtsDate="2024-06-14T06:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="ARM64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>XKDPF</releaseId>
+      <type>Win</type>
+      <name>QxM1250-XKDPF_Win10_1.0_A07.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A07</dellVersion>
+      <dateTime>2026-08-11T01:07:36</dateTime>
+      <hashMD5>33B7093CE16279A311A5D7BDAEF6935D</hashMD5>
+      <hashSHA1>1E6CC726A1B64D765575E7876A72A92A70215530</hashSHA1>
+      <hashSHA256>1300CBB2184B2E5446D822B3FF72F1178B242A64472159D3C4B6DE49243ED98F</hashSHA256>
+      <sizeBytes>2711777096</sizeBytes>
+      <path>FOLDER14649095M/1/QxM1250-XKDPF_Win10_1.0_A07.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER14649095M/1/QxM1250-XKDPF_Win10_1.0_A07.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="57" brandPrefix="DPD" systemId="0D03" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0E72" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0D05" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0E73" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+        <System brandKey="57" brandPrefix="DPD" systemId="0D1A" systemName="Dell Pro Micro Plus QBM1250/Dell Pro Micro QCM1250" generation="-" rtsDate="2025-03-19T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
       <releaseId>XKDPF</releaseId>
       <type>Win</type>
       <name>QxM1250-XKDPF_Win10_1.0_A07.exe</name>
@@ -30360,6 +31459,34 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>Y23VT</releaseId>
+      <type>Win</type>
+      <name>DA16250-Y23VT_Win11_1.0_A02.exe</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>exe</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A02</dellVersion>
+      <dateTime>2025-10-27T04:04:52</dateTime>
+      <hashMD5>EA425D39053E311E4DDD004A6533774A</hashMD5>
+      <hashSHA1>B617F14E484CC48D3A34B275F756FA5A08C0D842</hashSHA1>
+      <hashSHA256>7BE8058ABC52B3D2FE7C86AD78527E1388506EA830C5328C3C7ADECD05230E40</hashSHA256>
+      <sizeBytes>2047333048</sizeBytes>
+      <path>FOLDER13657000M/1/DA16250-Y23VT_Win11_1.0_A02.exe</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER13657000M/1/DA16250-Y23VT_Win11_1.0_A02.exe</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="56" brandPrefix="DL" systemId="0CE6" systemName="DA16250" rtsDate="2025-07-15T15:00:00" />
+        <System brandKey="56" brandPrefix="DL" systemId="0CE7" systemName="DA16250" rtsDate="2025-07-15T15:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
