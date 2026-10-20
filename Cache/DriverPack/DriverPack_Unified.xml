@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-10-19T21:19:01Z" totalItems="8659" category="DriverPack">
+<DriverPackCatalog schemaVersion="1" generatedAtUtc="2026-10-20T07:59:18Z" totalItems="8659" category="DriverPack">
   <Metadata name="Foundry Unified DriverPack Catalog" description="Normalized DriverPack catalog containing driver packs from Dell, HP, Lenovo, Microsoft, and Intel" />
   <Sources>
     <Source manufacturer="Dell" catalogUrl="https://downloads.dell.com/catalog/DriverPackCatalog.cab" lastUpdated="2026-10-14T00:00:00Z" itemCount="1476" />
@@ -60911,7 +60911,7 @@
       </Models>
       <OsInfo name="Windows 11" build="22631" architecture="x64" />
     </DriverPack>
-    <DriverPack id="106292|SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi" packageId="106292" manufacturer="Microsoft" name="SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi" version="1" fileName="SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi" downloadUrl="https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.082.19275.0.msi" sizeBytes="1163665408" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-09-23">
+    <DriverPack id="106292|SurfacePro10with5GforBusiness_Win11_22631_26.093.32355.0.msi" packageId="106292" manufacturer="Microsoft" name="SurfacePro10with5GforBusiness_Win11_22631_26.093.32355.0.msi" version="1" fileName="SurfacePro10with5GforBusiness_Win11_22631_26.093.32355.0.msi" downloadUrl="https://download.microsoft.com/download/356e9788-abcd-471c-8c3c-6e8f68eef9ef/SurfacePro10with5GforBusiness_Win11_22631_26.093.32355.0.msi" sizeBytes="1161981952" format="msi" type="Win" packageRole="BaseDriverPack" releaseDate="2026-10-19">
       <Models>
         <Model name="Surface Pro 10 with 5G for Business" />
       </Models>
