@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DellCatalog schemaVersion="1" generatedAtUtc="2026-10-22T08:01:27Z" category="DriverPack">
-  <Source name="Dell Driver Pack Catalog" catalogXmlFile="DriverPackCatalog.xml" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" catalogXmlSha256="d310e54d4eb6f7d136fd037d7702230189646655e7ca7e9a3185a7ba13735eb5" catalogCabSha256="9e9ee669b206aca6a1fd1c194b3eb31498887069f7533cda4d48fb2bb060bbdb" />
-  <CatalogMetadata baseLocation="downloads.dell.com" version="2026.10.02" dateTime="2026-10-16T13:10:39" schemaVersion="2.3" baseLocationAccessProtocols="HTTP FTP" />
+<DellCatalog schemaVersion="1" generatedAtUtc="2026-10-23T08:00:21Z" category="DriverPack">
+  <Source catalogXmlSha256="581ca5dbd1d4be25dfeb4d6d0c1f7301d7fd8853a9751c24b0a66eb773d277c0" catalogXmlFile="DriverPackCatalog.xml" catalogCabUri="https://downloads.dell.com/catalog/DriverPackCatalog.cab" catalogCabSha256="e9b37ca6067aaab4c89649765f043c2da432be4df62f32a528d7cb28ea734bca" name="Dell Driver Pack Catalog" />
+  <CatalogMetadata baseLocation="downloads.dell.com" schemaVersion="2.3" baseLocationAccessProtocols="HTTP FTP" version="2026.10.04" dateTime="2026-10-22T14:24:04" />
   <Items>
     <Item>
       <releaseId>001T5</releaseId>
@@ -13266,6 +13266,33 @@
       </SupportedSystems>
       <SupportedOperatingSystems>
         <OperatingSystem osCode="Windows10" osVendor="Microsoft" osArch="x64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
+      </SupportedOperatingSystems>
+    </Item>
+    <Item>
+      <releaseId>CY5J6</releaseId>
+      <type>Win</type>
+      <name>DX16263-CY5J6_Win11_1.0_A01.cab</name>
+      <description>With the Dell Command Deploy Driver Packs, an I/T Administrator can perform the following tasks:
+1) Use Microsoft Windows OS-based PnP enumeration capabilities to install drivers for applicable devices
+2) Create a system-level optimized deployment sequence
+3) Setup an appropriate boot control sequence.
+4) Optimize the deployment of targeted system-specific driver packages.</description>
+      <importantInfo>Please visit http://Dell.com/Command for additional help on using CABs for OS Deployment.</importantInfo>
+      <format>cab</format>
+      <vendorVersion>1.0</vendorVersion>
+      <dellVersion>A01</dellVersion>
+      <dateTime>2026-10-14T02:18:04</dateTime>
+      <hashMD5>2AB038C135BA77C297A2F645CF74010B</hashMD5>
+      <hashSHA1>6EAB204FE49256C3353385E23A9F281AA9C8479D</hashSHA1>
+      <hashSHA256>AE2D0D63A2288C1800BE2B1E329F45C6311FE0CE167D61F9CFD6ABF27395BB0A</hashSHA256>
+      <sizeBytes>1410596530</sizeBytes>
+      <path>FOLDER15155325M/1/DX16263-CY5J6_Win11_1.0_A01.cab</path>
+      <downloadUrl>https://downloads.dell.com/FOLDER15155325M/1/DX16263-CY5J6_Win11_1.0_A01.cab</downloadUrl>
+      <SupportedSystems>
+        <System brandKey="72" brandPrefix="XPSNOTEBOOK" systemId="0D8E" systemName="XPS 16 DX16263" generation="-" rtsDate="2026-09-21T16:00:00" />
+      </SupportedSystems>
+      <SupportedOperatingSystems>
+        <OperatingSystem osCode="Windows11" osVendor="Microsoft" osArch="ARM64" osType="client" majorVersion="10" minorVersion="0" spMajorVersion="0" spMinorVersion="0" />
       </SupportedOperatingSystems>
     </Item>
     <Item>
