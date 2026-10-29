@@ -2,10 +2,10 @@
 
 | Metric | Value |
 | --- | --- |
-| Executed At (UTC) | 2026-10-28 09:03:20 UTC |
+| Executed At (UTC) | 2026-10-29 09:00:54 UTC |
 | Category | WinPE |
 | Status | SUCCESS |
 | Items | 5 |
 | Catalog Version | 2026.10.04 |
-| Duration (Seconds) | 13 |
-| SHA256 XML | 061b565f17b4977f85f8f3ddecb64da8bfd9d55e8292cb09c6f83b946f74d502 |
+| Duration (Seconds) | 8 |
+| SHA256 XML | dc182ddd063ba9bfe10dde21705de07ca487c8b3c738e40d51bdfedf32018b60 |
