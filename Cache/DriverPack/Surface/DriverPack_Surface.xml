@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-10-30T09:08:17Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" catalogSha256="4f0e4a0f5f6fb0618796f035c3780a5da8e5e1740cac9876e46786ea2413fa0d" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-10-31T08:59:38Z" category="DriverPack">
+  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" name="Microsoft Surface Drivers and Firmware" catalogSha256="e71c2d77ae01d512c8720ed6e1cf8103282b9f9f693e2009665efd843650fab5" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -767,18 +767,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>106119|SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi</id>
+      <id>106119|SurfacePro11_ARM_Win11_26100_26.094.41119.0.msi</id>
       <model>Surface Pro 11th Edition with Snapdragon</model>
       <downloadTitle>Surface Pro 11th Edition with Snapdragon</downloadTitle>
       <packageId>106119</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=106119</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/92821b24-203a-4ce5-9a3a-5df3160a2fe3/SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/92821b24-203a-4ce5-9a3a-5df3160a2fe3/SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi</msiUrl>
-      <fileName>SurfacePro11_ARM_Win11_26100_26.041.12746.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/92821b24-203a-4ce5-9a3a-5df3160a2fe3/SurfacePro11_ARM_Win11_26100_26.094.41119.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/92821b24-203a-4ce5-9a3a-5df3160a2fe3/SurfacePro11_ARM_Win11_26100_26.094.41119.0.msi</msiUrl>
+      <fileName>SurfacePro11_ARM_Win11_26100_26.094.41119.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>646807552</sizeBytes>
-      <datePublished>2026-09-21</datePublished>
+      <sizeBytes>647004160</sizeBytes>
+      <datePublished>2026-10-30</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
