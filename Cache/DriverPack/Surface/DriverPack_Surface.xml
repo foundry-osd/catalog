@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-11-04T10:00:55Z" category="DriverPack">
-  <Source catalogSha256="e9ace2076b88f3b14c6925592b1420c7a8752628f66231fbc9d32dc3a42b975a" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-11-05T09:57:59Z" category="DriverPack">
+  <Source catalogSha256="3c359547804da7f45ede77b7dda0aa6ce7a32e8c3cf4d180e216e5ccd047f93d" catalogType="SupportArticle" name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -304,18 +304,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>105609|SurfaceGo4_Win11_22631_26.101.11223.0.msi</id>
+      <id>105609|SurfaceGo4_Win11_22631_26.101.11718.0.msi</id>
       <model>Surface Go 4</model>
       <downloadTitle>Surface Go 4</downloadTitle>
       <packageId>105609</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=105609</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_26.101.11223.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_26.101.11223.0.msi</msiUrl>
-      <fileName>SurfaceGo4_Win11_22631_26.101.11223.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_26.101.11718.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/92ba4c24-544a-4be5-9b07-f261ffc5a58b/SurfaceGo4_Win11_22631_26.101.11718.0.msi</msiUrl>
+      <fileName>SurfaceGo4_Win11_22631_26.101.11718.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>929857536</sizeBytes>
-      <datePublished>2026-10-26</datePublished>
+      <sizeBytes>926654464</sizeBytes>
+      <datePublished>2026-11-04</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -498,18 +498,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>104679|SurfaceLaptop5_Win11_22631_26.091.11848.0.msi</id>
+      <id>104679|SurfaceLaptop5_Win11_22631_26.101.10907.0.msi</id>
       <model>Surface Laptop 5</model>
       <downloadTitle>Surface Laptop 5</downloadTitle>
       <packageId>104679</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=104679</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.091.11848.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.091.11848.0.msi</msiUrl>
-      <fileName>SurfaceLaptop5_Win11_22631_26.091.11848.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.101.10907.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/68992368-8d70-4231-a9e4-23dfaede832b/SurfaceLaptop5_Win11_22631_26.101.10907.0.msi</msiUrl>
+      <fileName>SurfaceLaptop5_Win11_22631_26.101.10907.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>815280128</sizeBytes>
-      <datePublished>2026-10-08</datePublished>
+      <sizeBytes>815017984</sizeBytes>
+      <datePublished>2026-11-04</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -678,18 +678,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>103505|SurfaceLaptopStudio_Win11_22631_26.091.12326.0.msi</id>
+      <id>103505|SurfaceLaptopStudio_Win11_22631_26.094.42534.0.msi</id>
       <model>Surface Laptop Studio</model>
       <downloadTitle>Surface Laptop Studio</downloadTitle>
       <packageId>103505</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=103505</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.091.12326.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.091.12326.0.msi</msiUrl>
-      <fileName>SurfaceLaptopStudio_Win11_22631_26.091.12326.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.094.42534.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/8f0976ca-44ec-4f34-a7ed-49cfb3a8ddbd/SurfaceLaptopStudio_Win11_22631_26.094.42534.0.msi</msiUrl>
+      <fileName>SurfaceLaptopStudio_Win11_22631_26.094.42534.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1982648320</sizeBytes>
-      <datePublished>2026-10-08</datePublished>
+      <sizeBytes>2017165312</sizeBytes>
+      <datePublished>2026-11-04</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
