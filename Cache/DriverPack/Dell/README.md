@@ -2,10 +2,10 @@
 
 | Metric | Value |
 | --- | --- |
-| Executed At (UTC) | 2026-11-10 10:32:14 UTC |
+| Executed At (UTC) | 2026-11-11 09:55:46 UTC |
 | Category | DriverPack |
 | Status | SUCCESS |
-| Items | 1166 |
-| Catalog Version | 2026.10.04 |
-| Duration (Seconds) | 9 |
-| SHA256 XML | 8f232639224b629d6180ec9a77a7ebee0edb4b8ffc0b16b8705107416e8c9e05 |
+| Items | 1131 |
+| Catalog Version | 2026.11.02 |
+| Duration (Seconds) | 7 |
+| SHA256 XML | f57ca6eb0bd8d3186eb7b2e319f9355a8e54feb41824d8c267117db5aae52249 |
