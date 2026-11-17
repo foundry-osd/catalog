@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-11-16T10:14:18Z" category="DriverPack">
-  <Source uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="302dc9f8392f7ba709593e9770f643b03c5900882644ca2c700a19c826361dfc" name="Microsoft Surface Drivers and Firmware" catalogType="SupportArticle" />
+<SurfaceCatalog schemaVersion="1" generatedAtUtc="2026-11-17T11:16:06Z" category="DriverPack">
+  <Source name="Microsoft Surface Drivers and Firmware" uri="https://support.microsoft.com/en-us/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120" catalogSha256="76b757cd5af54058e8dc960d1251e8328d9847be92101aa771d874126ae9cbd1" catalogType="SupportArticle" />
   <CatalogMetadata articleGuid="09bb2e09-2a4b-cb69-0951-078a7739e120" />
   <Items>
     <Item>
@@ -554,7 +554,7 @@
       <format>msi</format>
       <version>1</version>
       <sizeBytes>530989056</sizeBytes>
-      <datePublished>2026-11-14</datePublished>
+      <datePublished>2026-11-16</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
@@ -723,18 +723,18 @@
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>
-      <id>108884|SurfaceLaptopUltra_Win11_28000_26.102.22576.0.msi</id>
+      <id>108884|SurfaceLaptopUltra_Win11_28000_26.111.13066.0.msi</id>
       <model>Surface Laptop Ultra</model>
       <downloadTitle>Surface Laptop Ultra</downloadTitle>
       <packageId>108884</packageId>
       <downloadCenterUrl>https://www.microsoft.com/download/details.aspx?id=108884</downloadCenterUrl>
-      <downloadUrl>https://download.microsoft.com/download/5e21dd14-4db3-4dbc-8512-ecc0052d6a2f/SurfaceLaptopUltra_Win11_28000_26.102.22576.0.msi</downloadUrl>
-      <msiUrl>https://download.microsoft.com/download/5e21dd14-4db3-4dbc-8512-ecc0052d6a2f/SurfaceLaptopUltra_Win11_28000_26.102.22576.0.msi</msiUrl>
-      <fileName>SurfaceLaptopUltra_Win11_28000_26.102.22576.0.msi</fileName>
+      <downloadUrl>https://download.microsoft.com/download/5e21dd14-4db3-4dbc-8512-ecc0052d6a2f/SurfaceLaptopUltra_Win11_28000_26.111.13066.0.msi</downloadUrl>
+      <msiUrl>https://download.microsoft.com/download/5e21dd14-4db3-4dbc-8512-ecc0052d6a2f/SurfaceLaptopUltra_Win11_28000_26.111.13066.0.msi</msiUrl>
+      <fileName>SurfaceLaptopUltra_Win11_28000_26.111.13066.0.msi</fileName>
       <format>msi</format>
       <version>1</version>
-      <sizeBytes>1334767616</sizeBytes>
-      <datePublished>2026-11-09</datePublished>
+      <sizeBytes>1847021568</sizeBytes>
+      <datePublished>2026-11-16</datePublished>
       <supportedOperatingSystems>Windows 11</supportedOperatingSystems>
     </Item>
     <Item>

@@ -2,11 +2,11 @@
 
 | Metric | Value |
 | --- | --- |
-| Executed At (UTC) | 2026-11-16 10:14:17 UTC |
+| Executed At (UTC) | 2026-11-17 11:16:03 UTC |
 | Status | SUCCESS |
 | Source Directory | Microsoft |
 | Source Files | 12 |
 | Sources Processed | 12 |
 | Items | 1836 |
-| Duration (Seconds) | 16 |
-| SHA256 XML | 8c1ba715b9b7b35e4f119a480ea594e58101312b6db35d46c045670c8ad55489 |
+| Duration (Seconds) | 30 |
+| SHA256 XML | efe38b18ef6306c6089d6691f9fd2dac4086899c44fd3aae929909c4cab05939 |
