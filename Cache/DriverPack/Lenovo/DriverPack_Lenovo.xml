@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-11-18T10:48:22Z" category="DriverPack">
-  <Source name="Lenovo DriverPack Catalog V2" catalogSha256="2911dc4bb7e9d2d2bac430f8794780a80a45848a8e1c9393491de876666391a2" catalogType="DriverPackCatalogXml" uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" />
-  <CatalogMetadata modelCount="510" catalogVersion="1.0" />
+<LenovoCatalog schemaVersion="1" generatedAtUtc="2026-11-19T10:49:06Z" category="DriverPack">
+  <Source name="Lenovo DriverPack Catalog V2" uri="https://download.lenovo.com/cdrt/td/catalogv2.xml" catalogSha256="2911dc4bb7e9d2d2bac430f8794780a80a45848a8e1c9393491de876666391a2" catalogType="DriverPackCatalogXml" />
+  <CatalogMetadata catalogVersion="1.0" modelCount="510" />
   <Items>
     <Item>
       <id>ThinkCentre M625Q|win10|1809|tc_m625q_w1064_1809_20190305.exe</id>
